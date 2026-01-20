@@ -8,7 +8,7 @@ This project provides a streamlined workflow for summarizing technical documents
 
 ## Disclaimer
 
-This project utilized Generative AI (specifically Claude Sonnet 4.5 within Cursor IDE) to assist with code generation. All generated code has been thoroughly reviewed and edited by the authors to ensure it meets the specific requirements and standards of this project.
+This project utilized Generative AI (specifically Claude Sonnet 4.5 within Cursor IDE) to assist with code generation. The system prompt we used to instruct Cursor's AI agents has been shared in the [.cursor/skills/SKILL.md](.cursor/skills/SKILL.md) file. All generated code has been thoroughly reviewed and edited by the authors to ensure it meets the specific requirements and standards of this project.
 
 ## Repository Structure
 
