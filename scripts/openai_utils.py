@@ -118,7 +118,7 @@ def summarize_file(
                 ],
             }
         ],
-        max_tokens=max_tokens,
+        max_output_tokens=max_tokens,
         temperature=temperature,
     )
 
