@@ -17,7 +17,7 @@ from general_utils import summarize_pdfs_by_index
     "--folder", default="input_docs", help="Path to folder containing PDF files"
 )
 @click.option(
-    "--start", default=0, type=int, help="Starting index (0-based) of files to process"
+    "--start", default=1, type=int, help="Starting index (0-based) of files to process"
 )
 @click.option(
     "--end",

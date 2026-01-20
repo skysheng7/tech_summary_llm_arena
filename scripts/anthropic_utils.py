@@ -81,7 +81,7 @@ def summarize_file_anthropic(
     temperature: float = 1.0,
 ) -> str:
     """
-    Summarize a file using Anthropic API.
+    Summarize a file using Anthropic API with streaming support.
 
     Parameters
     ----------
@@ -103,7 +103,8 @@ def summarize_file_anthropic(
     str
         Generated summary text
     """
-    response = client.beta.messages.create(
+    # Use streaming for long-running operations
+    with client.beta.messages.stream(
         model=model,
         max_tokens=max_tokens,
         temperature=temperature,
@@ -126,6 +127,10 @@ def summarize_file_anthropic(
             }
         ],
         betas=["files-api-2025-04-14"],
-    )
+    ) as stream:
+        # Collect the full response text
+        full_text = ""
+        for text in stream.text_stream:
+            full_text += text
 
-    return response.content[0].text
+    return full_text

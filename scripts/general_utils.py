@@ -279,15 +279,3 @@ def summarize_pdfs_by_index(
 
     return summaries
 
-if __name__ == "__main__":
-    summarize_pdfs_by_index(
-        provider="anthropic",
-        folder_path="input_docs",
-        start_index=0,
-        end_index=None,
-        prompt="Can you provide a summary of this article in 5 sentences?",
-        model="claude-sonnet-4-5-20250929",
-        max_tokens=50000,
-        temperature=1.0,
-        output_folder="results/results_anthropic_short",
-    )   
