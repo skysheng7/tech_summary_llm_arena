@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary effectively captures the core research question by highlighting the exploration of digital technologies in stroke rehabilitation, their effectiveness, and the barriers to adoption."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the main findings regarding the promise of digital technologies, the range of interventions, and the identified barriers. The number of studies (61) is mentioned, which appears to be a misinterpretation of the original paper's scope which included 14 studies. This is a significant factual error."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear and coherent language. Terms like 'telerehabilitation,' 'virtual reality,' and 'gaming' are presented in context without needing further explanation within the summary itself."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consistently adheres to the 5-sentence limit requested in the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "The summary covers the main themes but misses crucial details such as the specific focus on Canada and the types of barriers identified in the original paper. The erroneous mention of '61 studies' also detracts from completeness."
+  },
+  "hallucination": {
+    "score": 5,
+    "reasoning": "The number '61 studies' appears to be a hallucination as the original paper clearly states it reviewed 14 studies. This is a factual inaccuracy that misrepresents the scope of the research."
+  },
+  "total_score": 47,
+  "overall_assessment": "The summary effectively conveys the general promise and challenges of digital technologies in stroke rehabilitation within the requested sentence limit. However, it contains a significant factual error regarding the number of studies reviewed and lacks the specificity found in the original paper, particularly concerning the Canadian context and detailed barriers."
+}

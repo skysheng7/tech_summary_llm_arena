@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the central research question of the study: to evaluate the effectiveness and safety of VR-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reports the study design, participant numbers, intervention details, key findings (including specific numerical results for FMA-LE), and the conclusion. All figures and statistical significances mentioned align with the original text."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary effectively uses and implicitly explains key technical terms like 'hemiplegia', 'virtual reality (VR)', 'rehabilitation robot', and specific outcome measures (FMA-LE, BBS, FAC, Barthel Index, SS-QoL-12, MoCA) in a coherent flow that is understandable to someone familiar with the general domain."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly fulfilling the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most crucial aspects of the paper: the study's objective, methodology (design, participants, intervention), main findings (both positive and null), safety assessment, and the overall conclusion and future directions. It is highly relevant and comprehensive for a 5-sentence summary."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any unsupported claims or information not present in the original article."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, perfectly adhering to the 5-sentence constraint while comprehensively covering the study's purpose, methods, key findings, and conclusions. It demonstrates high factual accuracy and clear coherence, making it an ideal response to the prompt."
+}

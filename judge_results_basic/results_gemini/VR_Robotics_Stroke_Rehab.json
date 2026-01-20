@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research question: the effectiveness of VR-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the study, including the significant improvements in motor function, balance, walking, ADLs, and quality of life, as well as the lack of significant change in cognitive function. It also correctly states the study's conclusion regarding the promise and feasibility of the intervention."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (e.g., VR-based robotic training, hemiplegia, motor function) without requiring extensive explanation within the concise format. The sentences are coherent and logically flow from one to the next."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important aspects of the study: the intervention, the main positive outcomes, a key negative finding (cognitive function), and the overall conclusion and future directions. It remains highly relevant to the paper's core message."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the text of the original research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It precisely adheres to the 5-sentence limit while effectively capturing the study's research question, key findings, and conclusion. The factual accuracy and coherence are outstanding, making it a highly informative and relevant summary."
+}

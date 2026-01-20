@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the central research question of the paper, which is to evaluate the therapeutic effects of wearable robotic gloves on hand function in stroke patients and assess the quality of evidence."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key factual information from the paper, including the number of studies found (5 out of 2674), the quality assessment scores (7-10 out of 12), the types of devices studied, and the main findings regarding improvements in hand function."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses relevant technical terms accurately (e.g., 'wearable robotic gloves,' 'stroke,' 'hand function,' 'systematic review,' 'RCTs,' 'spasticity') and explains them coherently within the context of the paper. It also breaks down complex sections like 'Methods' and 'Results' into easily understandable bullet points."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a summary in 5 sentences. The provided summary is significantly longer, presented in a detailed format with multiple sections and bullet points, not a 5-sentence paragraph."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the essential aspects of the paper, including the purpose, background, methods, results, quality assessment, discussion points, and conclusion. It accurately identifies the key findings and limitations, providing a comprehensive overview."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary is well-grounded in the provided paper. It does not introduce any external information or make unsupported claims. All points are directly supported by the text of the original document."
+  },
+  "total_score": 50,
+  "overall_assessment": "This summary is excellent in its factual accuracy, completeness, and coherence, providing a detailed and insightful overview of the research paper. However, it completely fails to adhere to the prompt's constraint of a 5-sentence limit, presenting a much longer, sectioned summary instead."
+}

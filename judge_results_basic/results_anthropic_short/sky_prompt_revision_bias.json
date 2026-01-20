@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the central research question: how AI, specifically DALL-E 3, represents intensive livestock farming and how prompt revision influences this representation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the default pastoral bias of DALL-E 3, the impact of prompt revision, the shift to realistic depictions when revision is disabled, regional variations, and the implications for misinformation and public discourse."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear and coherent language, effectively explaining concepts like 'prompt revision,' 'pastoral scenes,' and 'intensive farming' within the context of the study. The flow of information is logical and easy to follow."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, precisely fulfilling the prompt's length requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most crucial aspects of the paper, including the problem, methodology (implicitly, through the findings), key results, and the broader implications. It prioritizes the core arguments and findings."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary sticks to the information presented in the article and does not introduce any unsupported claims or external information."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, accurately capturing the core findings and implications of the research paper within the requested sentence limit. It demonstrates a strong understanding of the study's main arguments and presents them coherently."
+}

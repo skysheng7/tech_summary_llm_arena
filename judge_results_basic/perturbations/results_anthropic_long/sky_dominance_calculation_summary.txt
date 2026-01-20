@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary clearly articulates the study's objective: to investigate how dominance hierarchy changes in response to escalating competition, specifically measured by feeder occupancy."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the main findings, including the inverse relationship between feeder occupancy and hierarchy steepness, the increase in 2-way dyads, and the proposed explanation involving resource valuation. The specific numerical values for the decrease in steepness (2.41 x 10⁻³) and the increase in 2-way dyads (0.13%) are also correctly stated."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Key terms like 'dominance hierarchies,' 'feeder occupancy,' 'agonistic interactions,' and 'two-way dyads' are used and implicitly explained through context. The language is coherent and flows well, though some sentences are quite long and could be broken down for improved readability."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. This summary is significantly longer, spanning multiple paragraphs and containing many more sentences. While it provides a more detailed overview, it does not adhere to the strict sentence limit. I have counted 16 distinct sentences in the provided summary."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the essential aspects of the research: the objective, methodology (briefly), key findings regarding hierarchy steepness, dyadic interactions, the proposed explanation (resource valuation), and the practical recommendations. It is highly relevant to the original paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the original paper and does not introduce any unsupported or fabricated information."
+  },
+  "total_score": 41,
+  "overall_assessment": "This summary provides a comprehensive and factually accurate overview of the research paper, effectively capturing the main findings and their implications. However, it significantly deviates from the prompt's requirement of a 5-sentence summary, providing a much more extensive explanation."
+}

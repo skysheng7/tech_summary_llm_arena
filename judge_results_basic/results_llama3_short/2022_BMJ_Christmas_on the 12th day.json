@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary captures the overarching goal of the article, which is to improve the quality of research and reporting in clinical trials, particularly in prognosis research and prediction models. However, it doesn't explicitly state a single, narrow research question that the authors set out to answer."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key themes and topics discussed in the article, including research methods, reporting guidelines, prognosis research, prediction models, common pitfalls, and the role of TRIPOD."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology such as 'prognosis research,' 'prediction models,' 'reporting guidelines,' and 'TRIPOD.' The terms are used coherently within the context of the article's focus. It doesn't explicitly define these terms but assumes the reader has some context, which is reasonable for a summary of this nature."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary covers the most important aspects of the article, including its focus on prognosis research and prediction models, the importance of reporting guidelines, and common pitfalls. It could have been slightly more comprehensive by mentioning the '12 days of Christmas' theme which is central to the article's structure, but it remains highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary only contains information directly supported by the article. There are no unsupported claims or fabricated content."
+  },
+  "total_score": 53,
+  "overall_assessment": "This is a well-written and accurate summary that effectively captures the main points of the article within the requested sentence limit. It is coherent and uses appropriate terminology, although it could have further improved by incorporating the article's unique Christmas theme into its framing."
+}

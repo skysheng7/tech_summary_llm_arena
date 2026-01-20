@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 0,
+    "reasoning": "The summary is a placeholder and does not address any research question from the provided paper."
+  },
+  "factual_accuracy": {
+    "score": 0,
+    "reasoning": "The summary is a placeholder and contains no factual claims about the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 0,
+    "reasoning": "The summary is a placeholder and does not use or explain any terminology."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary is a placeholder and does not follow the prompt to provide a 5-sentence summary."
+  },
+  "completeness_and_relevance": {
+    "score": 0,
+    "reasoning": "The summary is a placeholder and is neither complete nor relevant to the paper."
+  },
+  "hallucination": {
+    "score": 0,
+    "reasoning": "The summary is a placeholder and contains no hallucinations."
+  },
+  "total_score": 0,
+  "overall_assessment": "The provided summary is a placeholder indicating that the necessary content was not supplied. It cannot be evaluated as a summary of the research paper."
+}

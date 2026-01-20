@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately identifies the core research question of the paper: to develop and validate a novel method for lameness assessment in dairy cows using crowd-sourced pairwise comparisons to construct a lameness hierarchy, and to assess its reliability and efficiency compared to traditional methods."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reports the key findings and numerical data presented in the paper, including ICC values for expert and crowd worker reliability, the reduction in comparisons, and the number of crowd workers needed. All figures and statements align with the source material."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary effectively uses and implicitly explains key terms like 'lameness hierarchy,' 'pairwise comparison,' 'EloSteepness,' and 'ICC' within the context of the study. The flow is logical and the language is coherent, making the complex methodology understandable."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the most critical aspects of the research, including the problem statement, the proposed solution, key findings on reliability and efficiency, and the implications for future lameness detection models. It prioritizes the most relevant information for a concise overview."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by information present in the original research paper. There are no unsupported or fabricated statements."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, perfectly fulfilling all aspects of the prompt. It accurately and concisely captures the research question, methodology, key findings, and implications of the paper, while strictly adhering to the sentence limit and demonstrating a strong understanding of the technical terminology."
+}

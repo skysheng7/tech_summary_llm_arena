@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary clearly articulates the central research question: investigating the therapeutic effects of wearable robotic gloves on hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the key findings, including the limited number of studies (5), the positive effects noted in these studies, and the significant limitations such as small sample sizes, lack of RCTs, and focus on chronic stroke patients with mild to moderate spasticity. The quality scores (7-10 out of 12) are also correctly mentioned."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses appropriate terminology and maintains coherence. While terms like 'systematic review,' 'RCTs,' and 'spasticity' are used, a brief explanation for the lay reader would enhance it further, but they are generally understandable in context."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The original prompt asked for a 5-sentence summary. This summary is significantly longer, comprising 7 paragraphs and many more sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the crucial aspects of the original paper: the research question, methodology (search databases, selection criteria), results (positive findings, limitations), quality assessment, devices studied, intervention duration, and the final conclusion calling for more comprehensive studies. It prioritizes the most relevant information."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the original paper and does not introduce any unsupported claims or fabricated information."
+  },
+  "total_score": 44,
+  "overall_assessment": "This summary is excellent in its content, accuracy, and completeness, effectively conveying the core findings and limitations of the research. However, it drastically fails to adhere to the prompt's constraint of providing a 5-sentence summary, making it overly verbose for the requested format."
+}

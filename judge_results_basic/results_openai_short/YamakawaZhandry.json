@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately identifies the core research question: exploring quantum advantage for NP search problems under weaker assumptions and with less structure."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary correctly states the main findings, including the existence of NP search problems with quantum speedups, proofs of quantumness, cryptographic counterexamples, and the role of Minicrypt assumptions and random oracles."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses relevant technical terms like 'NP search problems,' 'quantum polynomial-time,' 'classical probabilistic polynomial-time,' 'random oracle,' 'proof of quantumness,' 'Minicrypt,' 'collision-resistant hash functions,' and 'certifiable randomness,' and explains their relevance coherently within the context of the paper's findings."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most significant results of the paper, including the main theorems and their immediate consequences. It highlights the novelty of achieving quantum advantage without heavy algebraic structure and the use of Minicrypt assumptions."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are supported by the provided text. There are no unsupported or fabricated statements."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent. It accurately captures the main contributions of the paper, including the discovery of quantum advantage for NP search problems, the construction of proofs of quantumness and cryptographic counterexamples, and the implications for Minicrypt assumptions, all within the requested sentence limit."
+}

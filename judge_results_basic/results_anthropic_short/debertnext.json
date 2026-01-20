@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies and communicates the central research question of developing a multimodal framework for fake news detection and highlights its key contributions."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical values and claims regarding dataset sizes, performance improvements, and accuracy metrics are accurately reflected from the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary effectively introduces and explains the core technologies (DeBERTNeXT, DeBERTa V3, ConvNeXT) and clearly articulates their role in the framework, maintaining a coherent flow."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary is structured into three paragraphs and contains approximately 16 sentences, significantly exceeding the requested 5-sentence limit."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most crucial aspects of the paper: the proposed model, its methodology, the datasets used, the performance results, and the key advantages over prior work. It is highly relevant to the core contributions of the research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the information presented in the paper and does not introduce any fabricated claims or unsupported statements."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary is excellent in terms of content, accurately capturing the research question, methodology, results, and significance of the DeBERTNeXT framework. However, it significantly fails to adhere to the prompt's constraint of providing a 5-sentence summary, instead offering a much more detailed, multi-paragraph response."
+}

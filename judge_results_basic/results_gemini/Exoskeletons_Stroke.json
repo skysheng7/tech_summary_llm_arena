@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of the paper, which is to review the effectiveness of exoskeletons combined with VR, AR, or gamification for stroke rehabilitation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the promise of combined technologies, the focus on upper limb rehabilitation, the gap in lower limb and home-based research, and the need for customizable games and AR exploration."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses technical terms like VR, AR, and gamification appropriately and explains their context within the rehabilitation field. The language is coherent and easy to understand."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important aspects of the paper, including the technologies reviewed, the main findings, identified gaps, and future directions, all of which are highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any claims not supported by the original paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It accurately and concisely captures the essence of the research paper within the specified sentence limit, demonstrating a strong understanding of the content and fulfilling all aspects of the prompt."
+}

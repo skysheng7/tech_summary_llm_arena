@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary accurately captures the core focus of the article, which is to highlight common statistical issues in research reporting and provide guidance to improve them, particularly in the context of prognosis research and prediction models."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the article, mentioning key themes like reporting guidelines, prognosis research, prediction models, statistical errors, and the TRIPOD group."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology from the article such as 'prognosis research,' 'prediction models,' 'transparent reporting,' and 'statistical practices.' It coherently explains the article's purpose and main points."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly five sentences, adhering strictly to the prompt's length constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary covers the main themes of the article, including statistical reporting, prognosis research, and common errors. However, it could have been more specific about the '12 days of Christmas' theme which frames the article's structure and the specific statistical issues discussed."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any unsupported claims or information not present in the original article."
+  },
+  "total_score": 55,
+  "overall_assessment": "This summary effectively captures the main points of the article regarding statistical reporting and prognosis research within the specified sentence limit. It is factually accurate and coherent, though it omits the unique framing of the article's content within the '12 days of Christmas' theme."
+}

@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core research questions of the paper, focusing on the use of DHTs in Canada, identified gaps, and implications for practice and policy."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the numerical data presented in the paper, such as the number of studies included (14 out of 163), the percentage distribution of study designs, stroke phases, and rehabilitation targets, as well as the types of technologies studied."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'Digital Health Technologies (DHTs),' 'scoping review,' 'stroke rehabilitation,' and specific technologies (VR, telerehabilitation, robotics) are used appropriately and coherently. The summary is well-structured and easy to follow."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary is significantly longer than the requested 5 sentences. It is presented in a detailed, multi-section format rather than a concise summary. This is an 'executive summary' or detailed synopsis rather than a 5-sentence summary."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary is comprehensive, covering the purpose, methods, key findings, facilitators/barriers, identified gaps, and author recommendations. All aspects are highly relevant to the paper's content."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the information presented in the paper without introducing any unsupported claims or fabricated details."
+  },
+  "total_score": 49,
+  "overall_assessment": "This summary is exceptionally comprehensive and factually accurate, providing a thorough overview of the research paper's key findings, methods, and implications. However, it completely fails to adhere to the prompt's request for a 5-sentence summary, presenting a much more detailed breakdown instead."
+}

@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: how DALL-E 3's prompt revision affects the representation of livestock farming, specifically focusing on the erasure of intensive agriculture."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings, methodologies, and interpretations presented in the original paper, including specific percentages and categorizations."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "Key terms like 'prompt revision', 'intensive animal agriculture', 'pastoral imagery', and 'coded gaze' are used correctly and in context, contributing to a coherent understanding of the research."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary provided is a detailed breakdown of the article and does not adhere to the requested 5-sentence limit. It is structured more like an extended abstract or a report on the findings."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary is comprehensive, covering the methodology, core findings, authors' interpretations, and policy recommendations, all of which are highly relevant to the research paper's contribution."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any unsupported claims or information not present in the original paper."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary provides an excellent and detailed overview of the research paper's content, accurately capturing the methodology, findings, and implications. However, it significantly fails to adhere to the prompt's constraint of a 5-sentence summary."
+}

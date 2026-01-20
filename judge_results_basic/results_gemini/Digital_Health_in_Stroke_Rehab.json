@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core research question of the paper, which is to explore the use of DHTs for stroke rehabilitation in Canada, identify gaps, and inform future directions."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical and categorical data mentioned in the summary (e.g., number of studies, focus on UE, common technologies, chronic phase) are accurately reflected from the provided text."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology like DHTs, VR, and RCTs, and explains them implicitly through context. It's coherent and easy to understand for someone familiar with the topic."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary contains 5 sentences, adhering to the sentence count constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most crucial aspects of the paper: the scope, key findings (feasibility, effectiveness, barriers), and future directions, making it highly complete and relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the information presented in the paper and does not introduce any unsupported claims or external information."
+  },
+  "total_score": 59,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the essence of the research paper. It adheres to the prompt's constraints and provides a comprehensive overview of the study's findings and implications."
+}

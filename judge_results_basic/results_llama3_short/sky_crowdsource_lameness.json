@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary accurately captures the core research question of assessing dairy cattle lameness using crowdsourcing, but it doesn't explicitly mention the 'comparative assessment' aspect or the investigation into the number of workers needed."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "The summary correctly states that crowdsourcing was used and that aggregated ratings led to high accuracy. However, it incorrectly states that the study involved 'machine learning algorithms' directly in the assessment process; machine learning was mentioned as a potential future application for training algorithms, not as part of the current assessment method. It also oversimplifies the rating process by saying 'predefined criteria' when it was a comparative scale (-3 to +3)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary uses terms like 'crowdsourcing' and 'lameness' appropriately. However, it doesn't explain 'comparative assessment' or the scale used, which is a key methodology. The mention of 'machine learning algorithms' without proper context is also a point of confusion."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences, adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 7,
+    "reasoning": "The summary covers the main methodology (crowdsourcing video assessments) and the key finding (aggregated ratings are accurate). However, it misses the crucial aspect of comparative scoring and the investigation into the optimal number of workers, which were central to the study's aims. The mention of machine learning is relevant but misplaced as a current assessment method."
+  },
+  "hallucination": {
+    "score": 5,
+    "reasoning": "The claim that the study 'investigates the use of crowdsourcing and machine learning algorithms to assess lameness' is a hallucination, as the study primarily used crowdsourcing for assessment and only discussed machine learning as a potential future application for training algorithms based on the crowdsourced data. The summary also inaccurately states 'predefined criteria' and implies direct machine learning assessment."
+  },
+  "total_score": 45,
+  "overall_assessment": "The summary successfully adheres to the sentence limit and captures the general idea of using crowdsourcing for lameness assessment. However, it contains factual inaccuracies regarding the role of machine learning and oversimplifies the assessment methodology, missing key details about the comparative nature of the scoring and the investigation into the number of workers."
+}
