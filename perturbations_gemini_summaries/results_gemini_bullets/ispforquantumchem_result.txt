@@ -1,0 +1,11 @@
+Here is the summary converted into bullet points:
+
+*   Introduces a comprehensive approach to preparing high-quality initial states for quantum chemistry simulations on quantum computers.
+*   Aims to improve the efficiency and accuracy of quantum energy estimation algorithms.
+*   Proposes a new metric, the energy distribution, to assess the quality of these states.
+*   Presents an end-to-end algorithm that includes state preparation, quality assessment, and refinement.
+*   Introduces an efficient quantum algorithm for preparing states as sums of Slater determinants.
+*   Introduces a novel methodology for approximating energy distributions.
+*   Highlights the potential of this approach to identify "Goldilocks problems" where quantum advantage is most likely.
+*   Demonstrates effectiveness through numerical examples on various molecules.
+*   Addresses a critical bottleneck in quantum chemistry by providing tools and methods to obtain reliable initial states for quantum computing applications.

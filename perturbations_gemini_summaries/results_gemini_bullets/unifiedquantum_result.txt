@@ -1,0 +1,13 @@
+Here are the bullet points from the summary:
+
+*   Introduces new "no-go" theorems in quantum mechanics.
+*   These theorems unify existing principles such as no-cloning and no-deleting theorems.
+*   Proposes a "no-encoding" theorem.
+*   The "no-encoding" theorem states that it's impossible to linearly superpose an unknown pure state and a fixed state in a finite-dimensional Hilbert space using a universal quantum transformation.
+*   Presents unified schemes for perfect and imperfect quantum tasks.
+*   These tasks include cloning and deleting.
+*   The quantum tasks are characterized by the linear independence of input states.
+*   Develops new superposing schemes for unknown pure states in finite sets.
+*   Develops new superposing schemes for cases where multiple copies of input states are available.
+*   Aims to provide a deeper understanding of quantum transformations and their limitations.
+*   This understanding is based on the superposition principle.
