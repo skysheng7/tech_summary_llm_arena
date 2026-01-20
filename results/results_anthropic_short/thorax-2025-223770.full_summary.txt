@@ -1,0 +1,7 @@
+# Summary of PRECISE-X Model for Predicting First Severe COPD Exacerbation
+
+This study developed and validated PRECISE-X, a clinical prediction model for estimating the risk of first severe exacerbation requiring hospitalization in newly diagnosed COPD patients. Using data from 219,015 UK patients, the model incorporates four mandatory predictors (sex, age, MRC dyspnoea score, and FEV₁) plus 28 optional clinical variables commonly available in primary care settings.
+
+The model demonstrated excellent predictive performance, with a pooled c-statistic of 0.836 for 5-year predictions and 0.756 for 1-year predictions, along with robust calibration across nine UK health regions. The observed risk of first severe exacerbation was 29.5% at 5 years and 4.2% at 12 months, and the model showed positive clinical utility (net benefit) across a wide range of risk thresholds.
+
+PRECISE-X addresses a critical gap in COPD management by enabling early risk stratification at diagnosis—before exacerbation history is available—potentially supporting proactive interventions, improving trial design, and transforming reactive care into preventive, personalized disease management.
