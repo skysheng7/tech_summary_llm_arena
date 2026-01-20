@@ -14,3 +14,6 @@ dependencies:
   - requests
   - conda-lock
   - anthropic
+  - pip
+  - pip:
+    - ollama

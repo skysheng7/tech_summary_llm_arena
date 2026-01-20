@@ -40,6 +40,7 @@ tech_summary_llm_arena/
 
 - Conda (recommended)
 - conda-lock (for reproducible environments)
+- OLLAMA (for local model inference)
 
 </details>
 

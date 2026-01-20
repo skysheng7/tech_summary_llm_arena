@@ -18,6 +18,10 @@ from openai_utils import (
     upload_file_openai,
     summarize_file_openai,
 )
+from ollama_utils import (
+    load_ollama_client,
+    summarize_file_ollama,
+)
 
 
 def summarize_pdfs_in_folder(
@@ -36,7 +40,7 @@ def summarize_pdfs_in_folder(
     Parameters
     ----------
     provider : str
-        AI provider to use ('openai', 'anthropic', or 'google')
+        AI provider to use ('openai', 'anthropic', 'ollama', or 'google')
     folder_path : str, optional
         Path to folder containing PDF files (default: "input_docs")
     prompt : str, optional
@@ -81,12 +85,17 @@ def summarize_pdfs_in_folder(
         upload_func = upload_file_anthropic
         summarize_func = summarize_file_anthropic
         default_model = "claude-sonnet-4-5-20250929"
+    elif provider == "ollama":
+        client = load_ollama_client()
+        upload_func = None  # OLLAMA doesn't use file upload
+        summarize_func = summarize_file_ollama
+        default_model = "llama3"
     elif provider == "google":
         raise NotImplementedError("Google provider is not yet implemented")
     else:
         raise ValueError(
             f"Unsupported provider: {provider}. "
-            "Supported providers are: 'openai', 'anthropic', 'google'"
+            "Supported providers are: 'openai', 'anthropic', 'ollama', 'google'"
         )
 
     # Use default model if not specified
@@ -111,18 +120,28 @@ def summarize_pdfs_in_folder(
         pdf_name = pdf_path.name
 
         try:
-            # Upload file
-            file_id = upload_func(client, str(pdf_path))
+            # For OLLAMA, skip file upload and pass file path directly
+            if provider == "ollama":
+                summary = summarize_func(
+                    client=client,
+                    file_path=str(pdf_path),
+                    prompt=prompt,
+                    model=model,
+                    temperature=temperature,
+                )
+            else:
+                # Upload file
+                file_id = upload_func(client, str(pdf_path))
 
-            # Generate summary
-            summary = summarize_func(
-                client=client,
-                file_id=file_id,
-                prompt=prompt,
-                model=model,
-                max_tokens=max_tokens,
-                temperature=temperature,
-            )
+                # Generate summary
+                summary = summarize_func(
+                    client=client,
+                    file_id=file_id,
+                    prompt=prompt,
+                    model=model,
+                    max_tokens=max_tokens,
+                    temperature=temperature,
+                )
 
             # Store summary
             summaries[pdf_name] = summary
@@ -166,7 +185,7 @@ def summarize_pdfs_by_index(
     Parameters
     ----------
     provider : str
-        AI provider to use ('openai', 'anthropic', or 'google')
+        AI provider to use ('openai', 'anthropic', 'ollama', or 'google')
     folder_path : str, optional
         Path to folder containing PDF files (default: "input_docs")
     start_index : int, optional
@@ -216,12 +235,17 @@ def summarize_pdfs_by_index(
         upload_func = upload_file_anthropic
         summarize_func = summarize_file_anthropic
         default_model = "claude-sonnet-4-5-20250929"
+    elif provider == "ollama":
+        client = load_ollama_client()
+        upload_func = None  # OLLAMA doesn't use file upload
+        summarize_func = summarize_file_ollama
+        default_model = "llama3"
     elif provider == "google":
         raise NotImplementedError("Google provider is not yet implemented")
     else:
         raise ValueError(
             f"Unsupported provider: {provider}. "
-            "Supported providers are: 'openai', 'anthropic', 'google'"
+            "Supported providers are: 'openai', 'anthropic', 'ollama', 'google'"
         )
 
     # Use default model if not specified
@@ -264,18 +288,28 @@ def summarize_pdfs_by_index(
         pdf_name = pdf_path.name
 
         try:
-            # Upload file
-            file_id = upload_func(client, str(pdf_path))
+            # For OLLAMA, skip file upload and pass file path directly
+            if provider == "ollama":
+                summary = summarize_func(
+                    client=client,
+                    file_path=str(pdf_path),
+                    prompt=prompt,
+                    model=model,
+                    temperature=temperature,
+                )
+            else:
+                # Upload file
+                file_id = upload_func(client, str(pdf_path))
 
-            # Generate summary
-            summary = summarize_func(
-                client=client,
-                file_id=file_id,
-                prompt=prompt,
-                model=model,
-                max_tokens=max_tokens,
-                temperature=temperature,
-            )
+                # Generate summary
+                summary = summarize_func(
+                    client=client,
+                    file_id=file_id,
+                    prompt=prompt,
+                    model=model,
+                    max_tokens=max_tokens,
+                    temperature=temperature,
+                )
 
             # Store summary
             summaries[pdf_name] = summary
