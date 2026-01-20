@@ -3,6 +3,7 @@ Utility functions for connecting to OpenAI API and processing PDF files.
 """
 
 import os
+import click
 from pathlib import Path
 from typing import Optional, Dict, List
 from dotenv import load_dotenv
@@ -214,3 +215,32 @@ def summarize_pdfs_in_folder(
             summaries[pdf_name] = f"Error: {e}"
 
     return summaries
+
+
+@click.command()
+@click.option(
+    "--folder", default="input_docs", help="Path to folder containing PDF files"
+)
+@click.option(
+    "--prompt",
+    default="Please summarize this document.",
+    help="Prompt to guide the summarization",
+)
+@click.option("--output", default="results", help="Folder to save summary text files")
+@click.option("--model", default="gpt-5.2-2025-12-11", help="OpenAI model to use")
+@click.option("--max-tokens", default=50000, help="Maximum tokens in response")
+@click.option("--temperature", default=1.0, help="Sampling temperature")
+def main(folder, prompt, output, model, max_tokens, temperature):
+    """Summarize all PDF files in a folder using OpenAI API."""
+    summarize_pdfs_in_folder(
+        folder_path=folder,
+        prompt=prompt,
+        model=model,
+        max_tokens=max_tokens,
+        temperature=temperature,
+        output_folder=output,
+    )
+
+
+if __name__ == "__main__":
+    main()
