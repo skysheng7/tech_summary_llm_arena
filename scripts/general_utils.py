@@ -4,6 +4,7 @@ Provides unified interface that calls provider-specific low-level functions.
 """
 
 import os
+import time
 from pathlib import Path
 from typing import Optional, Dict, Callable, Any
 
@@ -27,6 +28,7 @@ def summarize_pdfs_in_folder(
     max_tokens: int = 50000,
     temperature: float = 1.0,
     output_folder: Optional[str] = "results",
+    delay_seconds: int = 30,
 ) -> Dict[str, str]:
     """
     Iterate through all PDF files in a folder and summarize them using specified provider.
@@ -48,6 +50,8 @@ def summarize_pdfs_in_folder(
     output_folder : str or None, optional
         Folder to save summary text files (default: "results").
         If None, summaries are not saved to disk.
+    delay_seconds : int, optional
+        Number of seconds to wait after each API call to avoid rate limits (default: 30)
 
     Returns
     -------
@@ -103,7 +107,7 @@ def summarize_pdfs_in_folder(
     # Process each PDF
     summaries = {}
 
-    for pdf_path in pdf_files:
+    for idx, pdf_path in enumerate(pdf_files):
         pdf_name = pdf_path.name
 
         try:
@@ -131,8 +135,15 @@ def summarize_pdfs_in_folder(
                 with open(output_path, "w", encoding="utf-8") as f:
                     f.write(summary)
 
+            # Wait before next API call (except for the last file)
+            if delay_seconds > 0 and idx < len(pdf_files) - 1:
+                time.sleep(delay_seconds)
+
         except Exception as e:
             summaries[pdf_name] = f"Error: {e}"
+            # Still wait after an error to avoid rate limiting
+            if delay_seconds > 0 and idx < len(pdf_files) - 1:
+                time.sleep(delay_seconds)
 
     return summaries
 
@@ -147,6 +158,7 @@ def summarize_pdfs_by_index(
     max_tokens: int = 50000,
     temperature: float = 1.0,
     output_folder: Optional[str] = "results",
+    delay_seconds: int = 30,
 ) -> Dict[str, str]:
     """
     Summarize PDF files in a folder by index range using specified provider.
@@ -173,6 +185,8 @@ def summarize_pdfs_by_index(
     output_folder : str or None, optional
         Folder to save summary text files (default: "results").
         If None, summaries are not saved to disk.
+    delay_seconds : int, optional
+        Number of seconds to wait after each API call to avoid rate limits (default: 30)
 
     Returns
     -------
@@ -246,7 +260,7 @@ def summarize_pdfs_by_index(
     # Process selected PDFs
     summaries = {}
 
-    for pdf_path in selected_files:
+    for idx, pdf_path in enumerate(selected_files):
         pdf_name = pdf_path.name
 
         try:
@@ -274,8 +288,14 @@ def summarize_pdfs_by_index(
                 with open(output_path, "w", encoding="utf-8") as f:
                     f.write(summary)
 
+            # Wait before next API call (except for the last file)
+            if delay_seconds > 0 and idx < len(selected_files) - 1:
+                time.sleep(delay_seconds)
+
         except Exception as e:
             summaries[pdf_name] = f"Error: {e}"
+            # Still wait after an error to avoid rate limiting
+            if delay_seconds > 0 and idx < len(selected_files) - 1:
+                time.sleep(delay_seconds)
 
     return summaries
-
