@@ -1,0 +1,22 @@
+Here are the bullet points, preserving all information from the summary:
+
+*   The BMJ article "On the 12th Day of Christmas, a Statistician Sent to Me..." presents 12 common statistical errors encountered by The BMJ's statistical editors during peer review.
+*   The errors are framed as a Christmas-themed guide for researchers.
+*   The 12 key recommendations are:
+    *   Clarify research questions and estimands.
+    *   Focus on estimates and confidence intervals rather than just p-values.
+    *   Properly account for missing data.
+    *   Avoid dichotomizing continuous variables.
+    *   Consider non-linear relationships.
+    *   Quantify differences in subgroup results.
+    *   Account for data clustering.
+    *   Interpret I² and meta-regression appropriately.
+    *   Assess calibration in prediction models.
+    *   Carefully consider variable selection approaches.
+    *   Assess the impact of statistical assumptions.
+    *   Use reporting guidelines and avoid overinterpretation.
+*   The authors emphasize that statistical significance does not equal clinical significance.
+*   They also stress that "absence of evidence is not evidence of absence."
+*   The importance of complete reporting using established guidelines like CONSORT, STROBE, PRISMA, and TRIPOD is highlighted.
+*   The article's aim is to help researchers avoid common pitfalls.
+*   It also aims to reduce the burden on statistical reviewers during the Christmas period when submission volumes surge.

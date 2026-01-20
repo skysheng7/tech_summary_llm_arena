@@ -1,0 +1,24 @@
+Here's the summary converted into bullet points, preserving all information:
+
+*   **Study Design:** Pilot, assessor-blinded, randomized controlled trial.
+*   **Objective:** To test if fully immersive virtual reality (VR) combined with a lower-limb rehabilitation robot could improve recovery in stroke patients with hemiplegia.
+*   **Participants:** 42 stroke patients with hemiplegia.
+*   **Randomization:** Patients were randomized into two groups.
+*   **Intervention Groups:**
+    *   VR-based robotic training plus conventional rehabilitation.
+    *   Conventional rehabilitation alone.
+*   **Intervention Duration:** 4 weeks.
+*   **Intervention Frequency and Duration:** 30 minutes per day, 5 days per week.
+*   **Study Completion:** 40 patients completed the study.
+*   **Key Findings (VR-robot group vs. conventional alone):**
+    *   **Lower-limb motor function:** Significantly greater improvement (FMA-LE change 6.5 vs 3.3; p<0.001).
+    *   **Balance:** Better improvement (p<0.05).
+    *   **Walking ability:** Better improvement (p<0.05).
+    *   **Activities of daily living:** Better improvement (p<0.05).
+    *   **Stroke-specific quality of life:** Better improvement (p<0.05).
+*   **Cognitive Function:**
+    *   Global cognitive function (MoCA) improved within both groups.
+    *   No significant difference in MoCA improvement between groups (p=0.873).
+*   **Adverse Events:** No adverse events were reported.
+*   **Authors' Conclusion:** The approach is feasible and promising.
+*   **Recommendations:** Larger, longer-term trials are needed to confirm effectiveness and practicality.

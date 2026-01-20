@@ -1,0 +1,12 @@
+    "paraphrase": (
+        "Paraphrase the following summary using different wording and sentence "
+        "structure. Do NOT add, remove, or change any information.\n\nSummary:\n{summary}"
+    ),
+    "long": (
+        "Rewrite the following summary to be longer by restating ideas and adding "
+        "redundant explanations. Do NOT introduce new facts.\n\nSummary:\n{summary}"
+    ),
+    "bullets": (
+        "Convert the following summary into bullet points. Preserve all information "
+        "and do not add anything new.\n\nSummary:\n{summary}"
+    ),

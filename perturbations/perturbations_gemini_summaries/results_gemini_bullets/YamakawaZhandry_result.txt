@@ -1,0 +1,9 @@
+Here's the summary converted into bullet points:
+
+*   Presents new theoretical results demonstrating quantum advantage for problems that are not NP-complete, using a weaker assumption for quantum speedups.
+*   Shows how random oracles can provide unconditional proofs of quantumness.
+*   Constructs counterexamples of cryptographic primitives secure against classical algorithms but insecure against quantum ones.
+*   Achieves these constructions using error-correcting codes and quantum Fourier transforms, with some results conditional on the Aaronson-Ambainis conjecture.
+*   Instantiates these theoretical models with standard cryptographic hash functions like SHA2, suggesting practical implications for new cryptographic constructions.
+*   Challenges the notion that significant "structure" is always required for quantum advantage.
+*   Explores the separation between classical and quantum random oracle models.

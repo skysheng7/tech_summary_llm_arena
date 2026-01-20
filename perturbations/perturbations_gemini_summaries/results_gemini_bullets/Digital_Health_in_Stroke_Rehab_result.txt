@@ -1,0 +1,20 @@
+Here's the summary converted into bullet points:
+
+*   This scoping review explored the use of digital health technologies (DHTs) for stroke rehabilitation in Canada.
+*   The review covered the period between 2010 and 2022.
+*   14 studies were identified.
+*   The studies primarily focused on upper extremity function.
+*   The chronic phase of stroke was the main focus.
+*   Common technologies included virtual reality, gaming systems, and mobile/sensor-based training.
+*   Key findings indicate that DHTs are feasible.
+*   Key findings indicate that DHTs are effective.
+*   DHTs improve patient outcomes.
+*   DHTs offer potential to overcome access barriers.
+*   This is especially relevant in rural areas.
+*   Challenges for widespread adoption include technical limitations.
+*   Challenges for widespread adoption include user inexperience.
+*   Challenges for widespread adoption include a lack of clinician involvement.
+*   Future Canadian research should prioritize high-quality RCTs.
+*   Future Canadian research should broaden outcome targets beyond UE function.
+*   Future Canadian research should investigate DHT use in earlier stroke phases.
+*   Future Canadian research should consider diverse populations.

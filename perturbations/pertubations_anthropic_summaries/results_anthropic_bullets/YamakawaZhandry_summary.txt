@@ -1,0 +1,23 @@
+Here's the summary converted into bullet points:
+
+*   Yamakawa and Zhandry demonstrate unconditional quantum advantages using random oracles.
+*   This work does not require highly structured oracles or strong cryptographic assumptions.
+*   **NP Search Problems**:
+    *   They construct NP search problems solvable efficiently by quantum computers.
+    *   These problems are not solvable efficiently by classical computers, relative to a random oracle.
+*   **Cryptographic Separations**:
+    *   They show functions that are one-way or collision-resistant against classical adversaries.
+    *   These functions are easily broken quantumly, serving as counterexamples for various cryptographic primitives.
+*   **Proofs of Quantumness**:
+    *   They construct unconditional, publicly verifiable proofs of quantumness.
+    *   These proofs have minimal interaction:
+        *   Non-interactive for uniform adversaries.
+        *   Two-message for non-uniform adversaries.
+*   **Certifiable Randomness**:
+    *   Assuming the Aaronson-Ambainis conjecture, they construct protocols for certifiable randomness.
+    *   These protocols require minimal rounds of interaction.
+*   **Technical Approach**:
+    *   The construction uses folded Reed-Solomon codes.
+    *   These codes possess specific list-recoverability properties.
+    *   Quantum algorithms can efficiently find preimages using quantum Fourier transforms.
+    *   Classical algorithms cannot efficiently find preimages due to information-theoretic list-recovery bounds.

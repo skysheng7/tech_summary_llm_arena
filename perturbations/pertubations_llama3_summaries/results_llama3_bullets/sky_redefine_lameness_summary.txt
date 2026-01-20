@@ -1,0 +1,12 @@
+Here is a summary of the article converted into bullet points:
+
+*   The original papers presented in this article discuss various aspects of lameness detection and measurement in dairy cattle.
+*   One paper proposes a novel approach to detecting lameness using radar sensing.
+*   Another paper uses camera-based technology for lameness detection.
+*   The articles also cover topics such as the prevalence of lameness in dairy cows.
+*   They also cover the influence of lesion type on hyperalgesia.
+*   Additionally, they cover benchmarking cow comfort on North American freestall dairies.
+*   Some papers discuss methods for measuring inter-rater reliability.
+*   Other papers discuss dominance hierarchies.
+*   Some papers discuss animal lameness detection using various sensors and algorithms.
+*   Overall, these studies demonstrate a range of approaches to addressing the issue of lameness in dairy cattle.
