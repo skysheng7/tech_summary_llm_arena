@@ -9,9 +9,9 @@ from general_utils import summarize_pdfs_by_index
 @click.command()
 @click.option(
     "--provider",
-    default="openai",
+    default="anthropic",
     type=click.Choice(["openai", "anthropic", "google"], case_sensitive=False),
-    help="AI provider to use for summarization (default: openai)",
+    help="AI provider to use for summarization (default: anthropic)",
 )
 @click.option(
     "--folder", default="input_docs", help="Path to folder containing PDF files"
@@ -27,13 +27,13 @@ from general_utils import summarize_pdfs_by_index
 )
 @click.option(
     "--prompt",
-    default="Please summarize this document.",
+    default="Can you provide a summary of this article in 5 sentences?",
     help="Prompt to guide the summarization",
 )
-@click.option("--output", default="results", help="Folder to save summary text files")
+@click.option("--output", default="results/results_anthropic_short", help="Folder to save summary text files")
 @click.option(
     "--model",
-    default=None,
+    default="claude-sonnet-4-5-20250929",
     help="Model to use. If not specified, uses provider's default model",
 )
 @click.option("--max-tokens", default=50000, help="Maximum tokens in response")
