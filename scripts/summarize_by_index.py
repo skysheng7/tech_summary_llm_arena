@@ -44,7 +44,7 @@ from general_utils import summarize_pdfs_by_index
 @click.option("--temperature", default=1.0, help="Sampling temperature")
 @click.option(
     "--delay",
-    default=30,
+    default=0,
     type=int,
     help="Delay in seconds after each API call to avoid rate limits (default: 30)",
 )
