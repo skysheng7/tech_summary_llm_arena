@@ -1,0 +1,44 @@
+Here is the JSON output:
+
+```
+[
+  {
+    "title": "On the 12th Day of Christmas, a Statistician Sent to Me..."
+  },
+  {
+    "recommendation1": "Clarify research questions and estimands"
+  },
+  {
+    "recommendation2": "Focus on estimates and confidence intervals rather than just p-values"
+  },
+  {
+    "recommendation3": "Properly account for missing data"
+  },
+  {
+    "recommendation4": "Avoid dichotomizing continuous variables"
+  },
+  {
+    "recommendation5": "Consider non-linear relationships"
+  },
+  {
+    "recommendation6": "Quantify differences in subgroup results"
+  },
+  {
+    "recommendation7": "Account for data clustering"
+  },
+  {
+    "recommendation8": "Interpret I² and meta-regression appropriately"
+  },
+  {
+    "recommendation9": "Assess calibration in prediction models"
+  },
+  {
+    "recommendation10": "Carefully consider variable selection approaches"
+  },
+  {
+    "recommendation11": "Assess the impact of statistical assumptions"
+  },
+  {
+    "recommendation12": "Use reporting guidelines and avoid overinterpretation"
+  }
+]
