@@ -3,7 +3,7 @@ Script to summarize PDF files by index range.
 """
 
 import click
-from openai_utils import summarize_pdfs_by_index
+from openai_utils import summarize_pdfs_by_index_openai
 
 
 @click.command()
@@ -30,7 +30,7 @@ from openai_utils import summarize_pdfs_by_index
 @click.option("--temperature", default=1.0, help="Sampling temperature")
 def main(folder, start, end, prompt, output, model, max_tokens, temperature):
     """Summarize PDF files in a folder by index range."""
-    summarize_pdfs_by_index(
+    summarize_pdfs_by_index_openai(
         folder_path=folder,
         start_index=start,
         end_index=end,

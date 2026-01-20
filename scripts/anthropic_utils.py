@@ -39,7 +39,7 @@ def load_anthropic_client() -> anthropic.Anthropic:
     return client
 
 
-def upload_file(client: anthropic.Anthropic, file_path: str) -> str:
+def upload_file_anthropic(client: anthropic.Anthropic, file_path: str) -> str:
     """
     Upload a file to Anthropic for processing.
 
@@ -75,7 +75,7 @@ def upload_file(client: anthropic.Anthropic, file_path: str) -> str:
     return file.id
 
 
-def summarize_file(
+def summarize_file_anthropic(
     client: anthropic.Anthropic,
     file_id: str,
     prompt: str = "Please summarize this document.",
@@ -134,13 +134,13 @@ def summarize_file(
     return response.content[0].text
 
 
-def summarize_pdfs_in_folder(
+def summarize_pdfs_in_folder_anthropic(
     folder_path: str = "input_docs",
     prompt: str = "Please summarize this document.",
-    model: str = "claude-sonnet-4-5",
-    max_tokens: int = 4096,
+    model: str = "claude-sonnet-4-5-20250929",
+    max_tokens: int = 50000,
     temperature: float = 1.0,
-    output_folder: Optional[str] = "results",
+    output_folder: Optional[str] = "results_anthropic_short",
 ) -> Dict[str, str]:
     """
     Iterate through all PDF files in a folder and summarize them.
@@ -152,9 +152,9 @@ def summarize_pdfs_in_folder(
     prompt : str, optional
         Prompt to guide the summarization (default: "Please summarize this document.")
     model : str, optional
-        Model to use for summarization (default: "claude-sonnet-4-5")
+        Model to use for summarization (default: "claude-sonnet-4-5-20250929")
     max_tokens : int, optional
-        Maximum tokens in response (default: 4096)
+        Maximum tokens in response (default: 50000)
     temperature : float, optional
         Sampling temperature (default: 1.0)
     output_folder : str or None, optional
@@ -197,10 +197,10 @@ def summarize_pdfs_in_folder(
 
         try:
             # Upload file
-            file_id = upload_file(client, str(pdf_path))
+            file_id = upload_file_anthropic(client, str(pdf_path))
 
             # Generate summary
-            summary = summarize_file(
+            summary = summarize_file_anthropic(
                 client=client,
                 file_id=file_id,
                 prompt=prompt,
@@ -226,13 +226,13 @@ def summarize_pdfs_in_folder(
     return summaries
 
 
-def summarize_pdfs_by_index(
+def summarize_pdfs_by_index_anthropic(
     folder_path: str = "input_docs",
     start_index: int = 0,
     end_index: Optional[int] = None,
     prompt: str = "Please summarize this document.",
-    model: str = "claude-sonnet-4-5",
-    max_tokens: int = 4096,
+    model: str = "claude-sonnet-4-5-20250929",
+    max_tokens: int = 50000,
     temperature: float = 1.0,
     output_folder: Optional[str] = "results",
 ) -> Dict[str, str]:
@@ -251,9 +251,9 @@ def summarize_pdfs_by_index(
     prompt : str, optional
         Prompt to guide the summarization (default: "Please summarize this document.")
     model : str, optional
-        Model to use for summarization (default: "claude-sonnet-4-5")
+        Model to use for summarization (default: "claude-sonnet-4-5-20250929")
     max_tokens : int, optional
-        Maximum tokens in response (default: 4096)
+        Maximum tokens in response (default: 50000)
     temperature : float, optional
         Sampling temperature (default: 1.0)
     output_folder : str or None, optional
@@ -316,10 +316,10 @@ def summarize_pdfs_by_index(
 
         try:
             # Upload file
-            file_id = upload_file(client, str(pdf_path))
+            file_id = upload_file_anthropic(client, str(pdf_path))
 
             # Generate summary
-            summary = summarize_file(
+            summary = summarize_file_anthropic(
                 client=client,
                 file_id=file_id,
                 prompt=prompt,
@@ -355,12 +355,12 @@ def summarize_pdfs_by_index(
     help="Prompt to guide the summarization",
 )
 @click.option("--output", default="results", help="Folder to save summary text files")
-@click.option("--model", default="claude-sonnet-4-5", help="Anthropic model to use")
-@click.option("--max-tokens", default=4096, help="Maximum tokens in response")
+@click.option("--model", default="claude-sonnet-4-5-20250929", help="Anthropic model to use")
+@click.option("--max-tokens", default=50000, help="Maximum tokens in response")
 @click.option("--temperature", default=1.0, help="Sampling temperature")
 def main(folder, prompt, output, model, max_tokens, temperature):
     """Summarize all PDF files in a folder using Anthropic API."""
-    summarize_pdfs_in_folder(
+    summarize_pdfs_in_folder_anthropic(
         folder_path=folder,
         prompt=prompt,
         model=model,

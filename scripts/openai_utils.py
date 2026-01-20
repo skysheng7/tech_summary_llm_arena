@@ -39,7 +39,7 @@ def load_openai_client() -> OpenAI:
     return client
 
 
-def upload_file(client: OpenAI, file_path: str) -> str:
+def upload_file_openai(client: OpenAI, file_path: str) -> str:
     """
     Upload a file to OpenAI for processing.
 
@@ -70,7 +70,7 @@ def upload_file(client: OpenAI, file_path: str) -> str:
     return file.id
 
 
-def summarize_file(
+def summarize_file_openai(
     client: OpenAI,
     file_id: str,
     prompt: str = "Please summarize this document.",
@@ -125,7 +125,7 @@ def summarize_file(
     return response.output_text
 
 
-def summarize_pdfs_in_folder(
+def summarize_pdfs_in_folder_openai(
     folder_path: str = "input_docs",
     prompt: str = "Please summarize this document.",
     model: str = "gpt-5.2-2025-12-11",
@@ -188,10 +188,10 @@ def summarize_pdfs_in_folder(
 
         try:
             # Upload file
-            file_id = upload_file(client, str(pdf_path))
+            file_id = upload_file_openai(client, str(pdf_path))
 
             # Generate summary
-            summary = summarize_file(
+            summary = summarize_file_openai(
                 client=client,
                 file_id=file_id,
                 prompt=prompt,
@@ -217,7 +217,7 @@ def summarize_pdfs_in_folder(
     return summaries
 
 
-def summarize_pdfs_by_index(
+def summarize_pdfs_by_index_openai(
     folder_path: str = "input_docs",
     start_index: int = 0,
     end_index: Optional[int] = None,
@@ -307,10 +307,10 @@ def summarize_pdfs_by_index(
 
         try:
             # Upload file
-            file_id = upload_file(client, str(pdf_path))
+            file_id = upload_file_openai(client, str(pdf_path))
 
             # Generate summary
-            summary = summarize_file(
+            summary = summarize_file_openai(
                 client=client,
                 file_id=file_id,
                 prompt=prompt,
@@ -351,7 +351,7 @@ def summarize_pdfs_by_index(
 @click.option("--temperature", default=1.0, help="Sampling temperature")
 def main(folder, prompt, output, model, max_tokens, temperature):
     """Summarize all PDF files in a folder using OpenAI API."""
-    summarize_pdfs_in_folder(
+    summarize_pdfs_in_folder_openai(
         folder_path=folder,
         prompt=prompt,
         model=model,
