@@ -1,9 +1,0 @@
-Here's the summary converted into bullet points:
-
-*   This systematic review investigated the therapeutic effects of wearable robotic gloves on improving hand function in stroke patients.
-*   2674 articles were screened.
-*   Only 5 studies met the inclusion criteria.
-*   These 5 studies concluded that wearable robotic gloves have a positive therapeutic effect on hand function.
-*   The studies were of moderate methodological quality.
-*   Limitations identified include small sample sizes, lack of control groups, and varying intervention protocols.
-*   The review emphasizes the need for more comprehensive studies with larger sample sizes and standardized methodologies.
