@@ -1,0 +1,70 @@
+## Summary: *Towards Efficient Training of Graph Neural Networks: A Multiscale Approach* (TMLR, 11/2025)
+
+### Problem
+Training Graph Neural Networks (GNNs) on large graphs is expensive in time and memory because message passing repeatedly multiplies (sparse) adjacency structure with node features. Per layer, the compute scales with the number of nodes and (especially) edges, so large/dense graphs make standard full-graph training hard to scale.
+
+### Core idea
+The paper proposes **multiscale training**: train the same GNN (same parameter shapes) on a sequence of **smaller surrogate graphs** derived from the original graph, then transfer the learned weights toward the full graph. Because GNN weights do not depend on the number of nodes, the same network parameters can be trained across resolutions.
+
+Surrogate graphs are built via:
+- **Graph coarsening/pooling** (e.g., random node selection, Top-k degree nodes), with coarse adjacency
+  \[
+  A_r = P_r^\top A^p P_r
+  \]
+  where \(P_r\) selects a subset of nodes and \(p\) can increase connectivity before pooling.
+- **Subgraph extraction** (e.g., ego-nets / k-hop neighborhoods, nearest neighbors when geometry exists).
+
+### Three proposed training strategies
+1. **Coarse-to-Fine training**
+   - Train on very coarse graphs first (cheap), then progressively on finer graphs, using the previous level’s weights as initialization.
+   - Goal: reach a good region of parameter space cheaply so fine-level convergence needs fewer expensive steps.
+
+2. **Sub-to-Full training**
+   - Similar schedule, but each level is a **subgraph** of the original (instead of a pooled abstraction).
+   - Uses progressively larger subgraphs (e.g., increasing k-hop radius), culminating in the full graph.
+
+3. **Multiscale Gradient Computation (multilevel / telescoping estimator)**
+   - Inspired by multilevel Monte Carlo.
+   - Approximates the **fine-scale expected loss/gradient** using a telescoping sum across levels:
+     \[
+     \mathbb{E}L^{(1)} = \mathbb{E}L^{(R)} + \sum_{r=2}^R \mathbb{E}\big(L^{(r-1)} - L^{(r)}\big)
+     \]
+   - Uses **many samples on cheap coarse levels** and **few samples on the expensive fine level**, reducing total compute while keeping a good gradient estimate.
+   - Especially suited to **inductive settings** with multiple graphs.
+
+### Why coarsening can work (intuition + evidence)
+- If losses (or gradients) on adjacent levels are close—formalized via a bound like
+  \[
+  |L^{(r-1)}(\theta) - L^{(r)}(\theta)| \le \gamma_r L^{(r-1)}(\theta)
+  \]
+  —then coarse training provides a useful approximation.
+- A synthetic “Q-tips/rods” task shows that **increasing connectivity before pooling** (using \(A^p\) with \(p>1\)) can drastically reduce the mismatch between coarse and fine losses.
+
+### Theory (limited)
+- Provides a sketching-style result for a **linearized setting** (identity activation): solving the reduced problem approximately preserves the objective up to an \(\epsilon\) factor plus a residual term that depends on omitted cross-edges. The paper notes extending theory to nonlinear GNNs as future work.
+
+### Computational benefit
+- For GCNs, per-layer FLOPs are analyzed as:
+  \[
+  2|E|c_{in} + |V|c_{in}c_{out}
+  \]
+  so reducing nodes/edges at coarse levels yields direct savings. Similar arguments apply to GIN/GAT.
+
+### Experimental findings
+Across many datasets and architectures (GCN, GIN, GAT, DGCNN, GCNII), multiscale training typically:
+- **Reduces runtime per epoch and memory usage** (sometimes substantially),
+- Maintains **comparable accuracy**, and often **improves performance**.
+
+Highlights:
+- **OGBN-Arxiv (169k nodes, 1.17M edges):** multiscale methods reduce FLOPs/time while matching or slightly improving accuracy; random pooling often best.
+- **OGBN-MAG (736k nodes, 5.4M edges):** multiscale GCN improves over the baseline accuracy in several settings.
+- **ShapeNet point clouds (DGCNN, inductive segmentation):** multiscale training and multiscale gradient computation improve Mean IoU while reducing cost; combining random + subgraph pooling often performs best.
+- Additional datasets (Cora/CiteSeer/PubMed, Flickr, PPI variants, DBLP, WikiCS, etc.) show consistent efficiency gains with broadly similar accuracy.
+
+### Limitations noted by the authors
+- Still requires some fine-graph steps (fine graph must fit in memory at least briefly).
+- No deterministic rule to choose the best variant/coarsening for a given dataset; variance can appear.
+- Theory only covers the linear case (nonlinear analysis remains open).
+
+### Main takeaway
+The paper introduces a general **multiscale training framework** for GNNs—coarse-to-fine, subgraph-to-full, and multiscale gradient estimation—that can **significantly accelerate training and reduce memory** for large graphs while usually **preserving or improving predictive performance**, and is largely **architecture-agnostic**.

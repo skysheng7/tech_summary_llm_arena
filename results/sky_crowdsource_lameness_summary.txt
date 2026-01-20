@@ -1,0 +1,18 @@
+This paper tests whether **untrained online crowd workers** can reliably assess **dairy cow lameness** using **relative (pairwise) comparisons** rather than traditional absolute locomotion scores.
+
+- **Why this matters:** Lameness is common and costly, but routine on-farm scoring is rare and often underestimates prevalence. Absolute scoring requires training and is time-consuming. Research from psychophysics suggests **comparisons are easier and more accurate than absolute judgments**.
+
+- **What they did:** Using 50 side-view videos of cows walking, the authors created **90 unique video pairs**. They built an interface where two videos played side-by-side and workers chose **which cow was more lame and by how much** on a **−3 to +3** scale.  
+  - They created **11 tasks (HITs)** with **10 video pairs each** (including **positive and negative control pairs**) and recruited **50 Amazon Mechanical Turk workers per task**.  
+  - **Five experienced lameness assessors** also completed all tasks for comparison.  
+  - They tested different data-processing approaches: basic cleaning, **weak/strong filtering** using control questions, and **clustering** to remove outliers.
+
+- **Key results:**
+  - **Experienced assessors** agreed strongly with each other (**ICC = 0.87**).
+  - **Individual crowd workers** showed **moderate to good agreement** with each other (**ICC ≈ 0.46–0.77**, depending on filtering/clustering).
+  - Crucially, **the average crowd response closely matched expert averages**, with **excellent agreement** across methods (**ICC ≈ 0.89–0.91** on the 88 test pairs).
+  - Agreement was best when lameness differences between cows were large; it dropped when differences were subtle.
+  - A subsampling analysis showed that averaging about **10 workers per task** was enough to maintain strong agreement with experts (**ICC > 0.80**), with little improvement beyond that.
+  - Workers completed each 10-pair task in about **10 minutes**, and tasks were finished quickly after posting.
+
+- **Conclusions/implications:** A **crowdsourced, video-based pairwise comparison** approach can produce lameness assessments that align well with expert judgment at low cost and high speed. The method could support **practical herd monitoring** (where good video is available) and generate **large labeled datasets** to train **computer vision systems** for automated lameness detection.
