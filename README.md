@@ -6,6 +6,10 @@ Authors (listed in alphabetical order): Eshed Gal, Jeenat, Marvin, Mitali, Sky S
 
 This project provides a streamlined workflow for summarizing technical documents (i.e., research papers) using LLM from various providers (e.g., OpenAI, Gemini, etc.). The tool supports batch processing of PDF files with customizable prompts and flexible index-based selection for large document collections.
 
+## Disclaimer
+
+This project utilized Generative AI (specifically Claude Sonnet 4.5 within Cursor IDE) to assist with code generation. All generated code has been thoroughly reviewed and edited by the authors to ensure it meets the specific requirements and standards of this project.
+
 ## Repository Structure
 
 <details>
