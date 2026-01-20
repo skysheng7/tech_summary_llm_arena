@@ -1,0 +1,5 @@
+This systematic review examined studies from 2010–2017 on poststroke rehabilitation that combined exoskeleton/robotic devices with virtual reality (VR), augmented reality (AR), or gamification to improve motor function and participation.  
+Using PRISMA-guided searches across MEDLINE, EMBASE, ScienceDirect, and the Cochrane Library, the authors included 30 studies (about 385 participants) spanning randomized trials and exploratory designs.  
+Most interventions targeted the upper limb (28/30), were conducted in clinical settings (25/30), and split evenly between VR-based and game-based interfaces, with no AR-based stroke-exoskeleton studies identified in the included sample.  
+Across the heterogeneous studies and outcome measures (eg, Fugl-Meyer, WMFT, MAS), the review found generally positive improvements in motor function and engagement when VR or game elements were paired with exoskeleton therapy.  
+The authors conclude that these technologies could help bridge clinic-to-home rehabilitation, but emphasize the need for more home-based studies and better-designed customizable “serious games” to sustain motivation and usability outside the clinic.
