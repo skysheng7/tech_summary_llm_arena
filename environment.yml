@@ -1,10 +1,6 @@
 name: llm_judge
 channels:
   - conda-forge
-platforms:
-  - linux-64
-  - osx-arm64
-  - win-64
 dependencies:
   - openai
   - pypdf2
@@ -14,6 +10,5 @@ dependencies:
   - requests
   - conda-lock
   - anthropic
-  - pip
-  - pip:
-    - ollama
+  - ollama
+  - pypdf
