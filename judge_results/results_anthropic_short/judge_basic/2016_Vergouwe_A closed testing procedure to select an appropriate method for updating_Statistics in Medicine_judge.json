@@ -1,0 +1,14 @@
+{
+  "quality": "Excellent",
+  "summary": "The article proposes a closed testing procedure for updating clinical prediction models when applying them to new populations. The procedure selects the best method from three update methods of increasing complexity: recalibration in the large, recalibration, and model revision.",
+  "strengths": [
+    "A systematic approach to selecting the best method for updating prediction models",
+    "The procedure prevents overfitting in small samples by selecting simpler methods unless strong evidence supports more complex updates",
+    "Three clinical examples demonstrate the effectiveness of the procedure"
+  ],
+  "weaknesses": [
+    "No discussion on how to handle missing values or outliers in the data",
+    "Lack of consideration for potential biases in the data or update methods",
+    "The procedure assumes that the underlying model is correct, which may not always be the case"
+  ]
+}

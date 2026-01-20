@@ -1,0 +1,14 @@
+Here is the summary in JSON format:
+
+```
+{
+  "summary": {
+    "title": "DeBERTNeXT: A Multimodal Fake News Detection Framework",
+    "text": "This paper introduces DeBERTNeXT, a multimodal fake news detection framework that combines textual and visual information from news articles. The model uses DeBERTa V3 for processing text and ConvNeXT for processing images, with their outputs concatenated for binary classification of news as real or fake.",
+    "accuracy": {
+      "Fakeddit": 91.2,
+      "Politifact": 91.3,
+      "Gossipcop": 90.2
+    }
+  }
+}

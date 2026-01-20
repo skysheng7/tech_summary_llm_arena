@@ -1,0 +1,11 @@
+Here is the JSON output:
+
+{
+  "summary": {
+    "quality": 9,
+    "clarity": 8.5,
+    "conciseness": 8,
+    "relevance": 9.5,
+    "overall_quality": 8.75
+  }
+}

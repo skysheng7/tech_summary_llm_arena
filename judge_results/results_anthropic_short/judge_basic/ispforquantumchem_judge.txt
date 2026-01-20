@@ -1,0 +1,18 @@
+Here is the JSON output:
+
+```
+{
+  "summary": {
+    "title": "Initial State Preparation for Quantum Chemistry on Quantum Computers",
+    "authors": ["Multiple authors"],
+    "abstract": "This paper addresses the critical problem of preparing high-quality initial states for quantum algorithms that estimate ground-state energies in quantum chemistry.",
+    "workflow": [
+      {"step": 1, "description": "A novel quantum algorithm for implementing sum-of-Slater-determinants (SOS) states with O(D log D) Toffoli cost"},
+      {"step": 2, "description": "The energy distribution framework - a new metric for assessing initial state quality without requiring knowledge of the true ground state"},
+      {"step": 3, "description": "Quantum refining methods, particularly coarse QPE with post-selection, to improve initial state quality before final energy estimation"},
+      {"step": 4, "description": "The concept of 'Goldilocks problems' - systems where initial state quality is neither too good nor too poor, representing optimal candidates for quantum advantage"},
+      {"step": 5, "description": "Numerical demonstrations on molecules including stretched H₂ chains, N₂, Cr₂, and Fe₄S₄ cores"}
+    ],
+    "concepts": ["quantum chemistry", "quantum algorithms", "ground-state energies", "sum-of-Slater-determinants (SOS) states", "energy distribution framework", "coarse QPE with post-selection"]
+  }
+}
