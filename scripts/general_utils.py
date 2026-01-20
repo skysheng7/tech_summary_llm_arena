@@ -23,6 +23,18 @@ from ollama_utils import (
     summarize_file_ollama,
 )
 
+def extract_text_from_txt(file_path: str) -> str:
+    """
+    Extract text content from a txt file.
+    """
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"File not found: {file_path}")
+
+    # Reading a txt file
+    with open(file_path, 'r', encoding='utf-8') as f:
+        text = f.read()
+        
+    return text
 
 def summarize_pdfs_in_folder(
     provider: str,

@@ -9,9 +9,9 @@ from typing import Optional, Dict
 import ollama
 from ollama_utils import (
     extract_text_from_pdf,
-    extract_text_from_txt,
     load_ollama_client,
 )
+from general_utils import extract_text_from_txt
 
 
 def judge_single_summary(
