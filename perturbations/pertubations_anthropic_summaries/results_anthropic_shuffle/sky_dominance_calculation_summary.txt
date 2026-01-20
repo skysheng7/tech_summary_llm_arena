@@ -1,0 +1,13 @@
+Here is the reordered summary, with sentences only changed in their order:
+
+# Summary of the Article in 5 Sentences
+
+1. **Research Objective**: This study investigated how dominance hierarchies in dairy cows change with varying levels of competition at feeding areas, measured by feeder occupancy, over a 10-month period with 159 cows.
+
+2. **Key Findings**: As feeder occupancy increased (indicating higher competition), the dominance hierarchy became flatter, with hierarchy steepness decreasing by 2.41 × 10⁻³ for each 1% rise in feeder occupancy.
+
+3. **Behavioral Changes**: During high competition, there was a 0.13% increase in two-way dyads (where both cows replaced each other) per 1% feeder occupancy increase, and 7.57% more dyads showed previously dominant individuals losing proportionally more interactions.
+
+4. **Interpretation**: The authors suggest that during heightened competition, cows' high valuation of fresh feed can override intrinsic dominance attributes, leading subordinate animals to be more successful in challenging dominant individuals.
+
+5. **Recommendations**: The researchers advise against calculating dominance hierarchies based solely on agonistic interactions during high competition periods and emphasize the importance of considering context when constructing dominance hierarchies.

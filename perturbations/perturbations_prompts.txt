@@ -10,3 +10,8 @@
         "Convert the following summary into bullet points. Preserve all information "
         "and do not add anything new.\n\nSummary:\n{summary}"
     ),
+    "shuffle": (
+        "Reorder the sentences in the following summary. "
+        "Do NOT change, rephrase, add, or remove any sentence content. "
+        "Only change the order of sentences.\n\nSummary:\n{summary}"
+    ),
