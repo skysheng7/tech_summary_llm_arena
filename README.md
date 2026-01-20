@@ -1,6 +1,6 @@
 # Technical Document Summarization with LLM
 
-Authors (listed in alphabetical order): Eshed Gal, Jeenat, Marvin, Mitali, Sky Sheng
+Authors (listed in alphabetical order): Eshed Gal, Jeenat Mehareen, Marvin, Mitali, Sky Sheng
 
 ## About
 
