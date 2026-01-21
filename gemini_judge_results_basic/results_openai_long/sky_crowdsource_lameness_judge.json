@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question of developing and testing a remote, comparison-based lameness assessment method using crowd workers and evaluating its agreement with expert assessments."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings, including the number of workers, the ICC values, and the number of video pairs. There are no factual inaccuracies."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary explains key terms like 'comparison-based system' and 'crowd workers' in context. The structure is coherent and easy to follow, although the term 'ICC' is mentioned but not explicitly defined within the summary itself, which could be improved."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is significantly longer than 5 sentences, spanning multiple paragraphs."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the essential aspects of the paper, including the method, participants, key results (agreement with experts, number of workers needed), and implications. It omits minor details in favor of central findings."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary is based entirely on the provided text and does not introduce any unsupported claims or information not present in the original article."
+  },
+  "total_score": 48,
+  "overall_assessment": "This summary is highly informative and factually accurate, providing a comprehensive overview of the research. However, it significantly fails to adhere to the requested sentence limit, making it unsuitable as a concise summary."
+}
