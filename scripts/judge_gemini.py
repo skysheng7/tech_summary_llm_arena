@@ -159,6 +159,13 @@ def judge_all_summaries(
         parts = summary_filename.rsplit("_", 1)
         original_pdf_name = parts[0] + ".pdf"
 
+        # Check if judge file already exists
+        judge_json_path = os.path.join(output_folder, parts[0] + "_judge.json")
+        judge_txt_path = os.path.join(output_folder, parts[0] + "_judge.txt")
+
+        if os.path.exists(judge_json_path) or os.path.exists(judge_txt_path):
+            continue
+
         original_pdf_path = os.path.join(input_docs_folder, original_pdf_name)
 
         if not os.path.exists(original_pdf_path):
