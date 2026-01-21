@@ -1,0 +1,41 @@
+## Summary
+
+### Purpose
+This pilot randomized controlled trial evaluated whether **fully immersive virtual reality (VR) combined with a lower-limb rehabilitation robot** can safely and feasibly improve recovery in **stroke patients with hemiplegia**, beyond conventional rehabilitation alone.
+
+### Design and Participants
+- **Design:** Assessor-blinded, two-arm, open-label pilot RCT
+- **Setting:** Tertiary teaching hospital in Shanghai (Nov 2022–Jun 2023)
+- **Participants:** 42 enrolled; **40 completed** (20 intervention, 20 control)
+- **Eligibility:** First-ever stroke, stable after 48–72 hours, within **≤6 months**, hemiplegia with **Brunnstrom stage ≥ III** (lower limb)
+
+### Interventions
+- **Control:** Conventional rehab therapy + nursing care, **5 days/week for 4 weeks**
+- **Intervention:** Same conventional rehab **plus** VR-based robotic lower-limb training:
+  - **30 minutes/day**, **5 days/week**, for **4 weeks**
+  - Training modules: **weight-supported walking**, **balance**, **sit-to-stand**, **VR scene training and games**
+  - Equipment: **IREGO** lower-limb rehab robot + **HTC Vive Pro 2** fully immersive VR headset
+
+### Outcomes Measured (Baseline and Week 4)
+- **Primary:** Lower-limb motor function (**FMA-LE**)
+- **Secondary:** Balance (**BBS**), walking ability (**FAC**), cognition (**MoCA**), activities of daily living (**Barthel Index**), quality of life (**SS-QoL-12**)
+- **Safety:** Adverse events (e.g., dizziness, falls, distress)
+
+### Key Results
+- **Motor function (FMA-LE):** Improved in both groups, but **significantly more in the VR-robot group**
+  - Mean improvement: **6.5 vs 3.3** (intervention vs control), **p < 0.001**
+- **Balance, walking ability, daily living, quality of life:** **Greater improvements** in the intervention group at week 4 (**p < 0.05**)
+- **Cognition (MoCA):** Improved in both groups, but **no significant between-group difference**
+  - Mean improvement: **3.8 vs 3.7**, **p = 0.873**
+- **Safety:** **No adverse events** reported in either group
+
+### Conclusions
+Fully immersive **VR-based robotic lower-limb training** appears **feasible and safe** and shows **promising short-term benefits** for **lower-limb motor function, balance, walking ability, activities of daily living, and quality of life** in stroke patients with hemiplegia. Effects on **global cognition** were not superior to conventional rehab in this small, short-duration trial.
+
+### Noted Limitations
+- Single center, **small sample size**
+- **Short intervention period (4 weeks)** and **no follow-up**
+- Not double-blinded (practical constraints)
+- **Unequal rehab “dose”** (intervention group received extra training time), which may bias results
+
+If you want, I can also produce a one-paragraph abstract-style summary or extract the key numbers into a results table.

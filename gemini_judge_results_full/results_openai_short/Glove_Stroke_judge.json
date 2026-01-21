@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the main research question: 'whether wearable robotic gloves improve hand function in people after stroke'."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the number of studies included (5), the range of participants (3-13), the types of stroke patients (chronic or subacute), the devices reviewed, the intervention approaches, duration, quality assessment scores, and the main conclusions about the need for further research."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is coherent and easy to understand. Technical terms like 'systematic review,' 'RCTs,' 'Downs and Black checklist,' 'spasticity,' and the names of the devices are used appropriately within the context, and their relevance is clear from the overall discussion."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly following the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most important aspects of the paper: the research aim, methodology (database search, number of studies found), key findings (reported improvements, devices, interventions), limitations (study quality, sample size, lack of RCTs), and the overarching conclusion and recommendation for future research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the text of the original paper. No unsupported or fabricated information is present."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, accurately capturing the core elements of the research paper within the strict sentence limit. It is factually precise, well-written, and directly addresses the research question and conclusions, making it a highly relevant and useful synopsis."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research question concerning how AI models depict intensive livestock farming, specifically focusing on DALL-E 3's prompt revision and its impact on representation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the default romanticized depictions, the effect of disabling prompt revision, the emergence of regional variations, and the authors' arguments and recommendations."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear and coherent language, effectively integrating key terms like 'prompt revision', 'pastoral imagery', 'intensive livestock farming', and 'indoor confinement' to explain the research."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, fulfilling the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most critical aspects of the paper, including the problem statement, methodology (implied by 'when prompt revision suppressed'), main findings, and the authors' conclusions and recommendations, all of which are highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary is factually grounded in the provided text and does not contain any unsupported or fabricated information."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the essence of the research paper. It effectively communicates the core problem, methodology, findings, and recommendations within the requested sentence limit."
+}

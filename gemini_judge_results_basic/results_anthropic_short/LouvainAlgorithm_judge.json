@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of the paper: developing an efficient and effective algorithm for community detection in large networks."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual claims in the summary, including the computational time, network sizes, and the nature of the algorithm, are well-supported by the original text."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses technical terms like 'modularity optimization,' 'heuristic algorithm,' and 'meta-networks' coherently. While 'modularity' is central, it's not explicitly explained beyond its optimization purpose, which is acceptable for a concise summary."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary is exactly 5 sentences long, directly fulfilling the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most critical aspects: the algorithm's novelty, its two-phase approach, its efficiency, its hierarchical nature, its validation on a real-world network, and its performance relative to existing methods. All points are highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabricated information in the summary."
+  },
+  "total_score": 54,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the essence of the research paper within the strict sentence limit. It effectively highlights the algorithm's innovative approach, its significant performance gains, and its validation on real-world data, making it highly relevant and factually sound."
+}

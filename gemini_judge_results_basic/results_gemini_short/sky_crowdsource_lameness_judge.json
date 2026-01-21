@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research question: exploring the scalability and reliability of a crowdsourced method for lameness assessment in dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual claims in the summary are directly supported by the paper. For instance, the mention of Amazon Mechanical Turk, the use of video clips, the comparison with experienced assessors, and the finding that 10 workers are sufficient are all accurate."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear and coherent language. It avoids overly technical jargon or explains implied concepts (like 'crowdsourcing' through context) sufficiently for a general understanding."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most critical aspects of the research: the method used (crowdsourcing, video comparison), the key findings (agreement with experts, cost-effectiveness, number of workers needed), and the implications (data generation for AI, earlier detection)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any unsupported claims or information not present in the original article."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It accurately and concisely captures the essence of the research paper, effectively addresses the prompt, and presents the information in a clear and coherent manner."
+}

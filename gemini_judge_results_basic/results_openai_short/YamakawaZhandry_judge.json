@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of the paper: exploring quantum advantage for NP search problems under weaker assumptions and in less structured settings, particularly relative to random oracles and using Minicrypt-style primitives."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary is factually accurate, correctly stating the key results regarding NP search problems, proofs of quantumness, cryptographic separations, the role of random oracles and error-correcting codes, and the connection to the Aaronson-Ambainis conjecture. The mention of Minicrypt-style instantiations is also accurate."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses technical terms like 'random oracle', 'quantum polynomial-time', 'classical probabilistic polynomial-time', 'publicly verifiable proof of quantumness', 'one-way functions', 'collision-resistant hash functions', 'CPA-secure public key encryption', 'certifiable randomness', and 'Minicrypt-style'. While these terms are essential, they are presented without explicit definition. However, the context provided makes the overall meaning reasonably coherent for someone familiar with the field. The explanation of how the constructions work (combining random-oracle outputs with error-correcting codes and quantum Fourier transform) is clear."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a summary in 5 sentences. The provided summary consists of 5 sentences, but the sentences are very long and dense with technical information, making it challenging to digest as a concise 5-sentence summary. The spirit of a short summary is somewhat lost due to the length and complexity of each sentence."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary is highly complete and relevant, covering all the main contributions of the paper: quantum advantage for NP search, proofs of quantumness, cryptographic separations, the underlying techniques (random oracle, error-correcting codes, QFT), and the connection to existing conjectures. It effectively distills the core findings."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the provided paper and does not contain any fabricated or unsupported claims."
+  },
+  "total_score": 49,
+  "overall_assessment": "The summary is exceptionally informative and factually accurate, covering all the key technical contributions of the paper. Its main weakness is that it adheres to the sentence count but packs an immense amount of technical detail into each sentence, making it dense and potentially hard to fully grasp for a reader not deeply familiar with the field, thus somewhat undermining the goal of a brief summary."
+}

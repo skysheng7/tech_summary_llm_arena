@@ -1,0 +1,49 @@
+## Summary
+
+This paper examines how **OpenAI’s DALL·E 3** represents **livestock farming** and shows that the model’s **automatic prompt revision** can systematically **romanticize** and effectively **erase** the realities of **intensive animal agriculture**, even when users explicitly ask for realistic depictions.
+
+### What the authors studied
+- They tested DALL·E 3 image generation for **dairy farms** and **pig farms** using:
+  - “Basic” prompts (e.g., *“A dairy farm”*)
+  - “Typical” prompts (e.g., *“A typical pig farm”*)
+  - “Reality” prompts (e.g., *“Please create an image that accurately represents the reality of what most pig farms look like”*)
+- They also tested country-specific prompts across major livestock regions:
+  - Dairy: **U.S., Germany, New Zealand**
+  - Pigs: **U.S., Spain, Australia**
+- For each prompt, they compared default behavior (prompt revision on) vs. attempts to **inhibit prompt revision** (“DO NOT add any detail, just use it AS-IS”).
+- They generated **4,800 images total** (100 per prompt), then categorized images as:
+  - **Outdoor/pasture/mud**
+  - **Exclusively indoor**
+  - **Other/unclear** (excluded from the main indoor/outdoor comparison)
+
+### Core findings
+1. **Default DALL·E 3 heavily favors pastoral imagery**
+   - With prompt revision enabled, DALL·E 3 overwhelmingly generated **cows grazing on green pastures** and **pigs outdoors in mud**, even for plain prompts like “A dairy farm.”
+   - For basic prompts, outdoor depictions were essentially universal (near **100%**).
+
+2. **Even explicit requests for “typical” or “reality” images still produced idealized scenes**
+   - Asking for “typical” farms or the “reality” of most farms still yielded **mostly outdoor, idyllic depictions**, contradicting real-world norms (especially for pigs, which are predominantly raised indoors in industrial systems in these regions).
+
+3. **Disabling prompt revision revealed more intensive, indoor housing—closer to modern practice**
+   - When prompt revision was successfully inhibited, images shifted markedly toward **indoor confinement scenes**:
+     - Dairy: many images showed **barn interiors**, **feed barriers/headlocks**, and indoor housing.
+     - Pigs: images largely showed **metal railings**, **concrete floors**, and indoor pens.
+   - This suggests the underlying model can depict intensive systems, but **prompt revision pushes outputs toward romanticized narratives**.
+
+4. **Regional differences only appeared once prompt revision was disabled**
+   - With revision on, outputs looked pastoral regardless of country.
+   - With revision inhibited (especially for “basic” and “typical” prompts), **country-level variation emerged** and partially mirrored real-world patterns (e.g., more indoor depictions in the U.S. than New Zealand for dairy), though the match was imperfect and depended on prompt type.
+
+### Authors’ interpretation and concerns
+- The authors argue the main source of bias is **prompt revision**, not merely training data.
+- They frame this as a “**coded gaze**” problem: system designers’ assumptions and safety/aesthetic choices can **silence controversial realities**.
+- They warn this creates risks of **mis- and disinformation**, especially as AI images become widely shared and may “pollute” the broader online information ecosystem.
+- They also highlight a transparency issue: most everyday users don’t realize their prompts may be rewritten in ways that change meaning and intent.
+
+### Policy recommendations
+- Require disclosure of **when and how prompt revision occurs** and allow users to **view the revised prompt**.
+- Include **system prompt auditing** in AI accountability frameworks.
+- Add warnings or pathways to more accurate information when models are likely to misrepresent real-world controversial domains (like industrial farming).
+- Broaden AI ethics to consider impacts on **non-human animals** and other sentient beings.
+
+If you want, I can also produce a one-paragraph abstract-style summary, or extract the “main contribution” and “limitations” in bullet points suitable for a peer review.

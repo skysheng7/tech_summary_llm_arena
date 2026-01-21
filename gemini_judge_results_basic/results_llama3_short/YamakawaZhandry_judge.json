@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 0,
+    "reasoning": "The summary did not address any research question as it did not summarize the provided paper."
+  },
+  "factual_accuracy": {
+    "score": 0,
+    "reasoning": "The summary did not contain any information from the original paper, therefore factual accuracy cannot be assessed."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 0,
+    "reasoning": "The summary did not explain or use any terminology from the original paper."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary did not follow the prompt to summarize the article. It instead stated that the article was not provided."
+  },
+  "completeness_and_relevance": {
+    "score": 0,
+    "reasoning": "The summary did not address the content of the article, making it neither complete nor relevant."
+  },
+  "hallucination": {
+    "score": 0,
+    "reasoning": "The summary did not contain any unsupported claims as it did not summarize the original paper."
+  },
+  "total_score": 0,
+  "overall_assessment": "The summary failed to provide a summary of the article, instead stating that the article was not provided. It did not engage with the content of the paper at all."
+}

@@ -1,0 +1,71 @@
+## Summary: PRECISE-X model for predicting first severe COPD exacerbation (Thorax, 2025)
+
+### Purpose
+Severe COPD exacerbations requiring hospitalisation cause major morbidity and mortality. Existing prediction tools mostly depend on prior exacerbation history, which is often unavailable at the time of initial COPD diagnosis. This study developed and validated **PRECISE-X**, a model to predict the **first severe exacerbation** after diagnosis.
+
+### Data source and population
+- **Dataset:** UK Clinical Practice Research Datalink (CPRD) Aurum, **2004–2022** (1491 general practices).
+- **Participants:** **219,015** newly diagnosed COPD patients, age **≥40**, current/former smokers.
+- **Key exclusions:** prior COPD hospitalisation before/within 1 week of diagnosis; spirometry incompatible with COPD (FEV₁/FVC ≥0.7) around diagnosis.
+
+### Outcomes
+- **Primary:** first **severe COPD exacerbation** (hospital admission; ICD-10 J44.0/J44.1/J44.9 with specified criteria) within **5 years** of diagnosis.
+- **Secondary:** same outcome within **12 months**.
+
+Observed risks:
+- **29.5%** had a first severe exacerbation within **5 years**
+- **4.2%** within **1 year**
+
+### Predictors and model design
+- Built to work with routine clinical data and tolerate missingness.
+- **4 mandatory predictors (required):**
+  - **Age**
+  - **Sex**
+  - **MRC dyspnoea score**
+  - **FEV₁** (raw or % predicted; preference for raw)
+- **28 optional predictors** (used if available), including:
+  - Smoking status, BMI, FVC, deprivation (Townsend), blood eosinophils
+  - Prior all-cause hospital admissions/ED visits
+  - Comorbidities (e.g., asthma, anxiety, heart failure, IHD, stroke, CKD, bronchiectasis, osteoporosis, pneumonia, etc.)
+  - Baseline respiratory medications (e.g., ICS, LABA, LAMA, SABA/SAMA, mucolytics)
+
+### Methods
+- **Time-to-event modelling:** Cox proportional hazards with **LASSO** shrinkage/selection.
+- **Missing data:** multiple imputation for mandatory predictors; regression-based imputation approach for optional predictors; also included “missingness indicators.”
+- **Treatment changes over time:** adjusted using **marginal structural models** (inverse probability of treatment weighting) so predicted risk reflects risk under **no future treatment escalation** (“current treatment” risk).
+- **Validation:** **internal–external cross-validation** across **9 UK regions** (train on 8, test on 1, repeated).
+
+### Performance
+**5-year prediction (primary):**
+- Out-of-sample **c-statistic: 0.836** (95% CI 0.827–0.846)
+- Calibration strong:
+  - Mean calibration error ~ **0.021** (not significantly different from 0)
+  - Calibration slope ~ **1.009** (near ideal)
+
+**1-year prediction (secondary):**
+- Out-of-sample **c-statistic: 0.756** (95% CI 0.746–0.766)
+- Calibration also near ideal (mean error ~0.001; slope ~1.009)
+
+**Using only the 4 mandatory predictors:**
+- c-statistic **0.792** (5-year) and **0.705** (1-year)
+
+**Clinical utility (decision curve / net benefit):**
+- Net benefit was positive across most thresholds and regions; negative in only **1 of 81** region–threshold combinations.
+
+### Secondary validation
+Among patients with spirometry-confirmed airflow obstruction (FEV₁/FVC <0.7):
+- Calibration remained very good
+- Discrimination slightly lower:
+  - **0.817** (5-year), **0.721** (1-year)
+
+### Key implications
+- **PRECISE-X can stratify risk at/near diagnosis**, before patients have an exacerbation history.
+- Could support earlier preventive actions (pharmacotherapy optimisation, smoking cessation, pulmonary rehab, vaccination, closer monitoring).
+- May help **enrich clinical trials** by identifying newly diagnosed patients at higher risk for first severe exacerbation.
+
+### Main limitations noted
+- High missingness for some routinely recorded variables (especially spirometry), though addressed using recommended imputation practices and validated out-of-sample.
+- Developed/validated within UK primary care; **external validation in other countries/health systems is needed**.
+- Did not explicitly model competing risk of death.
+
+If you tell me your intended use (e.g., clinician-friendly one-paragraph summary, journal club critique, or extracting the predictors list), I can tailor the summary further.

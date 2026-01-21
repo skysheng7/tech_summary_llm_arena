@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the central research question, which is to explore the feasibility and reliability of a crowdsourced, comparison-based lameness assessment method for dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual statements in the summary are directly supported by the paper. For example, it correctly states the use of crowd workers via MTurk, the side-by-side video comparison, high agreement with experienced assessors, and the sufficiency of around 10 workers. The potential for data generation for AI is also mentioned."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear language and explains terms like 'crowdsourced method' and 'relative lameness' through context. It avoids overly technical jargon, making it easily understandable to a broad audience."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences, fulfilling the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important aspects of the paper: the method used, its reliability, cost-effectiveness, the required number of workers, and its implications for future lameness detection and management. It highlights the key findings and potential applications."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper. There are no unsupported statements or fabrications."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the essence of the research paper. It adheres perfectly to the prompt's length constraint and effectively communicates the study's methodology, key findings, and significance."
+}

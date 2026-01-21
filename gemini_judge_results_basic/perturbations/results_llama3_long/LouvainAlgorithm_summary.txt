@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the main research question, which is about developing a fast and effective algorithm for community detection in large networks."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary is factually accurate. It correctly describes the two-phase approach, the objective of modularity optimization, and the types of networks used for validation. It does not introduce any incorrect information."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Key terms like 'modularity' are mentioned and their purpose is explained. The description of the two-phase process and refinement is coherent. However, the summary uses the acronym 'CNM' which is not explicitly defined in the paper as the name of their algorithm, which could be confusing. The paper refers to it as a 'fast unfolding of communities' algorithm, not a specific acronym like CNM."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, containing 8 sentences and multiple paragraphs. It also elaborates by restating ideas and adding redundant explanations, which was explicitly stated in the prompt as something to avoid."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important aspects of the paper: the problem, the proposed algorithm's methodology, its validation, and its advantages (speed, scalability, hierarchical structure detection). All points are relevant to the core contribution of the paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not introduce any unsupported claims or facts not present in the paper. The only minor issue is the attribution of the acronym 'CNM' to the algorithm, which is not directly stated in the paper as such."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary is factually accurate and covers all relevant aspects of the paper, explaining key concepts well. However, it critically fails to follow the prompt's constraint of a 5-sentence summary, being significantly longer and more verbose than requested."
+}

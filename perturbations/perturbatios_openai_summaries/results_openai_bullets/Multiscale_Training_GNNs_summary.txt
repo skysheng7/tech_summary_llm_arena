@@ -1,0 +1,17 @@
+Here's the summary converted into bullet points:
+
+*   The paper introduces a multiscale framework to improve the efficiency of training Graph Neural Networks (GNNs) on large, highly connected graphs.
+*   This framework avoids full-graph computation for most of the training process.
+*   It constructs a hierarchy of less expensive surrogate problems using graph coarsening and/or subgraph extraction.
+*   Learned weights are transferred across scales because GNN parameters are independent of the number of nodes.
+*   Three training strategies are proposed:
+    *   Coarse-to-fine optimization: Uses coarse solutions to initialize finer training.
+    *   Subgraph-to-full training: Progresses from training on small subgraphs to the full graph.
+    *   Multiscale gradient computation: Combines gradients/losses across scales using a telescoping-sum approach to decrease expensive fine-scale updates.
+*   Limited theoretical analysis is provided in a linearized setting.
+*   This theory links subgraph training to sketching/subspace embeddings.
+*   The analysis also explains how reduced node/edge counts lead to lower FLOPs and memory usage.
+*   Experiments were conducted on transductive and inductive benchmarks, including OGBN-Arxiv, OGBN-MAG, ShapeNet, and PPI.
+*   These experiments demonstrated significant reductions in runtime and memory.
+*   The predictive performance was matched or sometimes improved compared to baseline methods.
+*   The optimal coarsening strategy was found to be dataset-dependent.

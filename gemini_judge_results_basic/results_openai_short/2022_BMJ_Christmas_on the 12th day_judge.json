@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately identifies the core purpose of the article, which is to highlight common statistical and reporting issues encountered by statistical editors during peer review."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All points mentioned in the summary are directly supported by the text, including the '12 days of Christmas' theme, specific statistical issues (missing data, dichotomization, non-linear relationships, clustering, meta-analysis interpretation, prediction models, variable selection, assumption checking, reporting guidelines), and the overall tone of the article."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology and explains it implicitly through context (e.g., 'effect estimates, confidence intervals, and clinical relevance rather than just P values'). Terms like 'dichotomising continuous variables,' 'non-linear relationships,' 'clustering,' and 'overfitting' are standard in this context and well-integrated. It maintains good coherence throughout."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, precisely fulfilling the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most critical aspects of the article, including the framing device ('12 days of Christmas'), the key statistical pitfalls, and the concluding advice on reporting and avoiding overinterpretation. It remains highly relevant to the article's main message."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabricated information in the summary. All statements are derived directly from the provided text."
+  },
+  "total_score": 59,
+  "overall_assessment": "This is an excellent summary that perfectly adheres to the prompt's constraints. It accurately captures the essence of the article, its humorous tone, and the key statistical and reporting issues discussed, while maintaining factual accuracy and coherence."
+}

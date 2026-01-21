@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question of the paper: exploring the use of DHT for stroke rehabilitation in Canada, including implementation, gaps, and future directions."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "The summary accurately reflects the paper's findings regarding the focus on upper extremity function, chronic phase, and home-based settings. However, it overstates the percentage of studies focusing on upper extremity to 85.71% which is mentioned in the abstract but the table shows 12 out of 14, so it is 85.71%. It correctly notes the types of technologies. The summary correctly identifies facilitators and barriers to adoption."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses appropriate terminology related to digital health and stroke rehabilitation. It defines or implicitly explains terms like DHT, upper extremity, and chronic phase. The language is generally coherent, although some sentences are quite long and could be more concise."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a summary in 5 sentences. This summary is significantly longer than 5 sentences, making it not follow the prompt instructions."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the main aspects of the review, including the study's objective, methodology (number of studies), key findings on technology types, focus areas (UE, chronic phase), settings, effectiveness, and identified facilitators/barriers. It remains highly relevant to the original paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any claims that are unsupported by the provided text. All information appears to be directly derived from the article."
+  },
+  "total_score": 40,
+  "overall_assessment": "This summary effectively captures the core findings and implications of the scoping review on digital health technologies for stroke rehabilitation in Canada. It accurately details the focus on upper extremity rehabilitation, the types of technologies used, and the identified facilitators and barriers to adoption. However, it significantly deviates from the prompt's request for a 5-sentence summary, providing a much longer and more detailed account."
+}

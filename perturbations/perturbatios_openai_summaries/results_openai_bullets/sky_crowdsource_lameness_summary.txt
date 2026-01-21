@@ -1,0 +1,14 @@
+Here's the summary converted into bullet points:
+
+*   The article describes a remote, comparison-based method to assess dairy cow lameness.
+*   The method involves showing two walking-cow videos side-by-side.
+*   Online crowd workers are asked to judge which cow is more lame and by how much, using a scale from -3 to +3.
+*   Fifty crowd workers completed each of 11 short tasks, with each task consisting of 10 video pairs.
+*   The results from crowd workers were compared with ratings from five highly experienced lameness assessors.
+*   Individual crowd workers showed moderate agreement with each other.
+*   The average crowd rating agreed very closely with the average expert rating across 88 test comparisons (intraclass correlation ≈ 0.89–0.91).
+*   Extra data filtering/clustering did not meaningfully improve the crowd-vs-expert agreement.
+*   Averaging about 10 crowd workers per task was sufficient to achieve strong agreement with experts (ICC > 0.80).
+*   There was little improvement in agreement beyond 10 crowd workers per task.
+*   The authors conclude that crowdsourced pairwise video comparisons offer a fast, low-cost method for estimating lameness in herds.
+*   This method can also generate large labeled datasets for training automated computer-vision lameness detection systems.

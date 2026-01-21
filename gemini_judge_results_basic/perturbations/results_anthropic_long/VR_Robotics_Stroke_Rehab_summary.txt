@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the research question as evaluating the effectiveness and safety of VR-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the study's design, participant numbers, interventions, and key findings, including the specific mean differences in motor function scores and the lack of significant difference in cognitive function. It also correctly states the absence of adverse events."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses relevant technical terms like 'hemiplegia,' 'virtual reality (VR)-based robotic training,' and 'cognitive function' appropriately. While these terms are not explicitly explained, they are used in a context that makes their meaning generally understandable within the scope of the research paper. The coherence of the summary is good."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a summary in 5 sentences. The provided summary is significantly longer, consisting of multiple paragraphs and far exceeding the requested sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the essential aspects of the paper: the research question, methodology (design, participants, interventions, control group), primary and secondary outcomes, limitations, and conclusions. It is highly relevant to the source material."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the information presented in the research paper and does not introduce any unsupported claims or external information."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary is comprehensive, factually accurate, and well-written, effectively capturing the essence of the research. However, it completely fails to adhere to the strict sentence limit requested in the prompt."
+}

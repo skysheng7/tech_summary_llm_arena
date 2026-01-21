@@ -1,0 +1,16 @@
+Here's the summary converted into bullet points:
+
+*   OpenAI’s DALL‑E 3 depicts intensive livestock farming by automatically revising prompts.
+*   This automatic prompt revision tends to "romanticize" dairy and pig farms.
+*   The romanticization adds pastoral details, resulting in outdoor, idyllic imagery.
+*   Even with explicit requests for "typical" or "accurate" depictions of dairy and pig farms, DALL-E 3 produced mostly pasture/mud scenes.
+*   These pasture/mud scenes conflict with common modern practices in industrialized countries, where animals are largely housed indoors.
+*   When a workaround to inhibit prompt revision was used, generated images shifted significantly towards indoor confinement scenes.
+*   Examples of indoor confinement scenes include cows at feed barriers/headlocks and pigs behind metal railings on concrete.
+*   Regional prompts (North America, Europe, Oceania) produced pastoral outputs by default.
+*   With prompt revision suppressed, some country-level differences emerged in generated images.
+*   These country-level differences partially tracked real-world housing patterns.
+*   The authors argue that hidden prompt rewriting can systematically erase controversial realities.
+*   They also state that this rewriting can reinforce mis- or disinformation.
+*   The authors recommend greater transparency and auditability of prompt revision.
+*   They also recommend providing users with options to see or disable prompt revision.

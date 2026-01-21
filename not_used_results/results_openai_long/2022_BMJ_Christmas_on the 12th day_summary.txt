@@ -1,0 +1,42 @@
+This BMJ Christmas 2022 feature (“On the 12th Day of Christmas, a Statistician Sent to Me…”) summarizes the most common statistical problems The BMJ’s statistical editors encounter in submitted medical research papers. It presents 12 “stocking fillers”—one for each day of Christmas—intended to improve methodological rigor, interpretation, and reporting.
+
+### The 12 recurring statistical issues (and what authors should do instead)
+
+1. **Clarify the research question (and estimand)**  
+   Be explicit about the study aim (descriptive vs causal, prediction vs prognostic factor, exploratory vs confirmatory) and define the target quantity being estimated (population, outcome, comparison, effect measure, time frame).
+
+2. **Emphasize effect estimates, uncertainty, and clinical relevance—not just P values**  
+   Report and interpret estimates with **95% confidence intervals** (or Bayesian probabilities) and discuss **clinical importance**; avoid “significant/non-significant” as the main conclusion.
+
+3. **Handle and report missing data carefully**  
+   Quantify missingness, explain why it occurred when possible, and avoid default **complete-case analysis**. Use appropriate imputation (often multiple imputation) and describe the imputation model.
+
+4. **Don’t dichotomize continuous variables**  
+   Avoid arbitrary cut points for predictors/outcomes (e.g., “high vs low blood pressure”): it wastes information, reduces power, increases bias, and harms comparability across studies.
+
+5. **Consider non-linear relationships**  
+   Don’t assume linear effects for continuous predictors without checking. Use methods such as **restricted cubic splines** or **fractional polynomials** when appropriate.
+
+6. **Quantify subgroup differences properly**  
+   Don’t claim subgroup differences because one subgroup’s result is “significant” and the other isn’t. Use **formal interaction tests/estimates** with uncertainty.
+
+7. **Account for clustering when present**  
+   Recognize correlated data (multicenter studies, cluster trials, EHR across practices, IPD meta-analyses) and use suitable approaches (e.g., mixed-effects models/GEEs) to avoid misleading inferences.
+
+8. **Interpret I² and meta-regression appropriately**  
+   I² is a *relative* measure and shouldn’t be used mechanically to decide fixed vs random effects; report **τ²** as well. Interpret meta-regression cautiously due to low power, confounding, and ecological (aggregation) bias.
+
+9. **Assess calibration of prediction models (not only discrimination)**  
+   Model evaluation should include **calibration** (e.g., calibration plots/slope/intercept) and ideally clinical utility (e.g., decision curve analysis), not just AUC/C-statistic.
+
+10. **Be cautious with variable selection**  
+   Avoid automatic P-value–driven selection (especially univariable screening). Choose covariates based on purpose: confounding structures for causal work (e.g., DAGs), pre-specified factors for prognostic factor studies, and principled shrinkage methods for prediction.
+
+11. **Assess the impact of key assumptions (sensitivity analyses)**  
+   Check assumptions like proportional hazards for hazard ratios, or sensitivity to Bayesian priors; show how conclusions change under reasonable alternatives.
+
+12. **Use reporting guidelines and avoid overinterpretation (“spin”)**  
+   Follow EQUATOR reporting checklists (CONSORT, STROBE, PRISMA, STARD, TRIPOD, etc.). Report methods transparently, use correct terminology, and avoid unjustified causal or generalizable claims.
+
+### Overall message
+The article encourages researchers to improve clarity, modeling choices, handling of missing data, subgroup and meta-analysis interpretation, prediction model evaluation, and transparent reporting—so submitted work is more reliable, clinically meaningful, and easier to review.

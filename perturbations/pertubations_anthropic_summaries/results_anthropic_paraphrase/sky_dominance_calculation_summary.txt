@@ -1,0 +1,11 @@
+Here's a paraphrased version of the summary, maintaining the original information and structure:
+
+1.  Over a 10-month duration involving 159 dairy cows, this research aimed to understand how the social pecking order shifts in response to different levels of competition at feeding sites, as quantified by feeder usage.
+
+2.  The primary outcome revealed that a rise in feeder occupancy, signifying increased competition, resulted in a less pronounced dominance structure, with a decrease in the hierarchy's steepness by 2.41 × 10⁻³ for every 1% surge in feeder occupancy.
+
+3.  In scenarios of intense competition, bidirectional exchanges, where both cows in a pair displaced each other, saw a 0.13% increase for every 1% rise in feeder occupancy, and previously dominant individuals experienced a proportional loss of more interactions in 7.57% of pairings.
+
+4.  The study's authors propose that when competition intensifies, the strong desire for fresh feed may supersede inherent dominance traits, enabling subordinate animals to more effectively contest dominant individuals.
+
+5.  Consequently, the researchers recommend against relying exclusively on aggressive encounters when establishing dominance hierarchies during periods of high competition, stressing the necessity of factoring in the surrounding circumstances when developing such hierarchies.

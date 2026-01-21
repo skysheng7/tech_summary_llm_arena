@@ -1,0 +1,10 @@
+{
+"summary": [
+{
+"study_objective": "Researchers developed and validated prediction algorithms using British Columbia's administrative health databases (1997-2016) to identify COPD patients at high risk of severe exacerbations requiring hospitalization within 2 months.",
+"methods": "The study compared multiple prediction approaches (logistic regression, random forest, neural network, and gradient boosting) using 6 months of health data to predict hospitalizations, with separate development (108,433 patients) and validation (113,786 patients) datasets.",
+"key_results": "The gradient boosting algorithm achieved the best performance with an AUC of 0.82 (95% CI: 0.80-0.83), significantly outperforming the current standard of care based solely on exacerbation history (AUC: 0.68).",
+"clinical_utility": "The model demonstrated practical value for population surveillance—for example, flagging 10,000 high-risk individuals would identify 539 patients who will actually experience severe exacerbations (5.4% yield, number-needed-to-contact of 19).",
+"implications": "This proof-of-concept study demonstrates that routinely collected administrative data can accurately predict imminent COPD hospitalizations, potentially enabling health systems to proactively target high-risk patients for preventive interventions."
+]
+}

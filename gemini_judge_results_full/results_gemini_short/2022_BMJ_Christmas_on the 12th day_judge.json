@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core purpose of the article, which is to highlight common statistical issues for researchers submitting to The BMJ."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual claims made in the summary, such as the framing as 'stocking fillers,' the origin from an internal survey, and the types of issues discussed, are directly supported by the content of the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear language and explains the purpose of the statistical issues without delving into overly technical jargon that would require extensive explanation. It maintains coherence and flow."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences, adhering precisely to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary accurately identifies the most important takeaways from the article, including the framing, the source of the list, several key statistical issues, and the overall goal of improving research quality and reviewer efficiency."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the original article. No unsupported claims or fabricated information are present."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that accurately captures the essence of the article within the requested sentence limit. It successfully identifies the key statistical issues and the article's purpose with clarity and conciseness."
+}

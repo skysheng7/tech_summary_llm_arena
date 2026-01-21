@@ -1,0 +1,22 @@
+Here's the summary converted into bullet points:
+
+*   Proposes a *closed testing procedure* to determine the extent of updates for an existing logistic-regression prediction model when it performs poorly in a new population.
+*   Considers a hierarchy of updating options with increasing complexity:
+    *   Keep the original model.
+    *   Update only the intercept (recalibration-in-the-large).
+    *   Update intercept plus a global slope (recalibration/logistic calibration).
+    *   Re-estimate all coefficients (model revision).
+*   The method uses a sequence of likelihood ratio tests.
+*   It starts with the most complex model (revision).
+*   If justified by the data, it moves toward selecting simpler updates.
+*   This approach limits unnecessary overfitting.
+*   It approximately controls the overall Type I error.
+*   In three clinical case studies, the procedure often selected parsimonious updates.
+    *   An example is intercept-only adjustment for the prostate cancer model.
+    *   This occurred even when separate tests might have suggested full revision.
+    *   Full revision then showed signs of overfitting on internal validation.
+*   A simulation study found the procedure’s Type I error was close to nominal.
+    *   It was slightly high in very small samples.
+*   The simulation study also found the procedure tended to yield lower mean squared error in coefficient estimates.
+    *   This was compared to always doing full model revision.
+    *   This benefit was especially noted at low events-per-variable ratios.

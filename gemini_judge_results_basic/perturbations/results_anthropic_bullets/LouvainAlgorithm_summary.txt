@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the central research question: developing a fast and effective algorithm for community detection in large networks, focusing on modularity optimization and hierarchical structure."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual claims made in the summary, such as the algorithm's two-phase process, its efficiency (118 million nodes in 152 minutes), and its application to the Belgian mobile phone network, are accurately reflected in the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'modularity optimization', 'heuristic algorithm', 'hierarchical community structure', and 'meta-networks' are present and used coherently. While 'modularity' itself isn't explicitly defined, its role as an optimization objective is clear from context. The flow between points is good."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary, when converted to bullet points, contains 13 distinct points, significantly exceeding the requested sentence limit. Even if these were combined, it would likely exceed 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the most important aspects of the paper: the algorithm's novelty, its methodology, its performance (speed and accuracy), and its application/validation. It is highly relevant to the core contributions of the paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabrications in the summary. All information is directly derived from the provided paper."
+  },
+  "total_score": 54,
+  "overall_assessment": "This summary is excellent in terms of factual accuracy, completeness, and relevance, effectively capturing the essence of the research. However, it fails to adhere to the strict 5-sentence limit requested in the prompt, presenting the information as a much longer list of points."
+}

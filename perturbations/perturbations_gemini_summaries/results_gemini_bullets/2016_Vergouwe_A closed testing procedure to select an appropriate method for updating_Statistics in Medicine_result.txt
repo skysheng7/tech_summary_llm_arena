@@ -1,0 +1,13 @@
+Here's the summary converted into bullet points, preserving all information:
+
+*   Proposes a closed testing procedure to select the most appropriate method for updating previously developed prediction models when applied to new populations.
+*   The procedure systematically tests increasingly complex updating methods.
+*   It starts from minimal adjustments, such as recalibration in the large.
+*   It progresses to full model revision.
+*   The procedure controls for Type I error.
+*   This approach balances the need for updating with the risk of overfitting.
+*   This balance is particularly important in smaller sample sizes.
+*   The authors illustrate the procedure with three clinical examples.
+*   The procedure's effectiveness is demonstrated in selecting parsimonious update methods when evidence for revision is limited.
+*   The closed testing procedure aims to prevent overfitting.
+*   It aims to ensure more reliable predictions when adapting existing models to new data.

@@ -1,0 +1,42 @@
+{
+  "summary": "Towards Efficient Training of Graph Neural Networks: A Multiscale Approach",
+  "evaluation": {
+    "quality": 5,
+    "clarity": 4.8,
+    "organization": 4.9,
+    "relevance": 5,
+    "impact": 4.7
+  },
+  "dataset": [
+    {
+      "name": "OGBN-Arxiv",
+      "type": "transductive"
+    },
+    {
+      "name": "OGBN-MAG",
+      "type": "transductive"
+    },
+    {
+      "name": "ShapeNet",
+      "type": "inductive"
+    },
+    {
+      "name": "PPI",
+      "type": "inductive"
+    }
+  ],
+  "architecture": [
+    {
+      "name": "GCN",
+      "type": "Graph Convolutional Network"
+    },
+    {
+      "name": "GIN",
+      "type": "Graph Isomorphism Network"
+    },
+    {
+      "name": "GAT",
+      "type": "Graph Attention Network"
+    }
+  ]
+}

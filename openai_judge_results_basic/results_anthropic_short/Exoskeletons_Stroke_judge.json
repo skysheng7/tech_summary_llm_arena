@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states the paper’s aim: evaluating exoskeleton robotics combined with VR/AR/gamification for post-stroke rehabilitation, including effectiveness and trends (clinic vs home). It could more explicitly mention the stated objective of improving activity/participation, not only motor function."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key quantitative details match the paper: 30 studies, ~385 participants, 2010-2017 window, 28/30 upper limb, interaction split 15 VR and 15 games, settings 25 clinic/4 home/1 both, and no AR-based systems in the sample. Minor nuance: engagement/motivation claims are generally supported but not uniformly measured across all studies."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and well-structured; terms (VR, AR, gamification, exoskeleton) are used correctly. However, it does not briefly explain what gamification entails in this context or clarify that ‘VR’ in the review sometimes includes game-like VR and nongamified VR, which the paper discusses."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the prompt: exactly 5 sentences (presented as 5 numbered sentences) and stays within a concise summary format."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers objectives, methods scope, study distribution (upper vs lower limb; VR vs games; clinic vs home), key findings, and future directions. Slightly underrepresents methodological aspects like databases searched/PRISMA and the heterogeneity/qualitative synthesis limitation."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "No clear fabricated devices, numbers, or conclusions. The statement that patients showed increased motivation/engagement compared to traditional methods is broadly consistent with the introduction/discussion but is somewhat generalized beyond what all included studies directly measured."
+  },
+  "total_score": 54,
+  "overall_assessment": "The summary is highly aligned with the paper’s scope and main findings, accurately reporting key counts (studies, participants, limb focus, settings) and the notable absence of AR-based systems. Its main weakness is slight overgeneralization about motivation/engagement improvements and limited mention of the review’s methodological constraints and qualitative nature."
+}

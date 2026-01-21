@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question: how to efficiently detect communities in large networks and the proposed solution."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings and claims made in the paper regarding the algorithm's speed, effectiveness, and application."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'modularity optimization,' 'meta-network,' and 'hierarchy of communities' are used appropriately and contribute to the coherence of the summary. The explanation of the two phases is clear."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is precisely 5 sentences long, adhering strictly to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important aspects of the paper: the problem, the proposed solution (algorithm phases), its advantages (speed, scalability), experimental validation, and a key application example. No irrelevant information is included."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "This is an excellent summary that perfectly adheres to the prompt's length constraint while comprehensively and accurately capturing the essence of the research paper. It clearly articulates the problem, the proposed solution, its benefits, and a validating application."
+}

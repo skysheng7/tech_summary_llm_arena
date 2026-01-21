@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states the study goal: developing and testing a crowdsourced, comparison-based method to assess which cow is more lame from paired walking videos, and benchmarking against experienced assessors."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "Accurately reports core design and results: 11 tasks (HITs) with 10 video pairs each, 50 workers per task, 5 expert assessors; worker ICC range 0.46–0.77, expert ICC 0.87, worker-vs-expert average ICC 0.89–0.91; performance plateau around 10 workers with ICC > 0.80."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and well-structured. However, key terms like ICC and “comparative assessments” are not briefly defined, which slightly reduces accessibility for nontechnical readers."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Provides exactly 5 sentences (excluding the prefatory line 'Here is a 5-sentence summary of the article:'), matching the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the main objective, method, sample sizes, key reliability findings, and implications. Minor omissions include the presence of positive/negative controls, filtering/clustering evaluation, and typical completion time/cost details, but these are not essential for a 5-sentence summary."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "No unsupported claims detected; all major statements align with the provided abstract and results."
+  },
+  "total_score": 56,
+  "overall_assessment": "The summary is accurate, on-prompt, and captures the study’s design, key reliability statistics, and practical implications. Its main weakness is limited explanation of technical terms (e.g., ICC) and omission of some secondary methodological details, but it remains highly effective for a five-sentence overview."
+}

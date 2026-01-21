@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the central research question: the therapeutic effects of wearable robotic gloves on hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings from the paper, including the number of studies included (5), the range of participant numbers (3-13), the quality assessment scores (7-10/12), the specific devices mentioned, and the conclusions about the need for further research."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (e.g., 'systematic review', 'therapeutic effects', 'randomized controlled trials', 'methodological rigor') and explains them implicitly through context. The flow of information is coherent."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary is 6 sentences long, exceeding the requested 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the crucial aspects of the paper: the objective, methodology overview, key findings (positive effects but with limitations), specific devices, limitations of the included studies, and the final recommendation for future research. All points are highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary is well-supported by the content of the original paper and does not introduce any unsupported claims or information."
+  },
+  "total_score": 55,
+  "overall_assessment": "This summary effectively captures the essence of the research paper, highlighting its main findings, limitations, and future directions. While it accurately reflects the content, it slightly exceeds the requested sentence count."
+}

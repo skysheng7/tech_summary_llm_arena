@@ -1,0 +1,29 @@
+
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research question: evaluating the effectiveness of VR-based robotic training for lower limb rehabilitation in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the study's findings, including the improvements in balance, gait, and daily activities, and the comparison with conventional therapy."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses appropriate terminology like 'virtual reality,' 'robotic training,' and 'stroke survivors.' While it doesn't explicitly explain terms like 'FMA-LE' or 'BBS,' the context and described outcomes (balance, walking ability) make the meaning generally understandable."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. This summary is 6 sentences long."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the key aspects of the study: the intervention, the objectives, the main findings, and the conclusion, all of which are highly relevant to the research paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "This summary effectively captures the essence of the research paper, accurately presenting the study's objectives, methods, and findings. Its main weakness is its length, exceeding the requested sentence count."
+}

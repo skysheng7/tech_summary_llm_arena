@@ -1,0 +1,12 @@
+Here's the summary converted into bullet points:
+
+*   A crowdsourced method for assessing lameness in dairy cattle using short video clips was explored.
+*   Non-experienced crowd workers were recruited via Amazon Mechanical Turk.
+*   Crowd workers compared videos of cows walking side-by-side.
+*   Crowd workers rated the relative lameness of the cows.
+*   When responses were averaged, the crowdsourcing approach achieved high agreement with experienced assessors.
+*   This suggests the method is reliable and cost-effective for assessing lameness.
+*   As few as 10 crowd workers per task are sufficient to obtain reliable assessments.
+*   The method has the potential to generate large datasets for training automated lameness detection algorithms.
+*   The method could lead to earlier detection of lameness in commercial herds.
+*   The method could lead to improved management of lameness in commercial herds.

@@ -1,0 +1,14 @@
+name: llm_judge
+channels:
+  - conda-forge
+dependencies:
+  - openai
+  - pypdf2
+  - python-dotenv
+  - python=3.11
+  - google-genai
+  - requests
+  - conda-lock
+  - anthropic
+  - ollama
+  - pypdf

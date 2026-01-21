@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 7,
+    "reasoning": "The summary identifies the core research question of selecting an optimal predictive model using a 'closed testing procedure'. However, it mentions 'AUC-ROC' as a performance metric, which is not the primary metric used in the paper (they use likelihood ratio tests and discuss calibration intercept/slope and c-statistic). It also inaccurately states the paper develops a model for TBI outcomes using a combination of logistic regression, decision trees, and random forests, when the paper focuses on *updating* existing logistic regression models, not developing new ones with diverse methods."
+  },
+  "factual_accuracy": {
+    "score": 3,
+    "reasoning": "The summary contains several factual inaccuracies. It mentions 'AUC-ROC' as a performance metric, while the paper primarily uses likelihood ratio tests for updating. It incorrectly states the paper uses decision trees and random forests and develops a model for TBI outcomes; the paper focuses on updating pre-existing logistic regression models, not developing new ones with these methods. It also oversimplifies the 'closed testing procedure' as merely selecting the 'best-performing model' without mentioning the hierarchical and sequential nature of the tests or the goal of balancing updating evidence with overfitting risk."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 6,
+    "reasoning": "The summary uses terms like 'closed testing procedure' and 'predictive model' which are central to the paper, but doesn't explain them. It introduces 'AUC-ROC' without context and incorrectly links it to the paper's methods. The explanation of the procedure as selecting the 'best-performing model' is too simplistic and lacks the nuance of the paper's approach. The mention of decision trees and random forests is a hallucination and detracts from coherence."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, as requested by the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 4,
+    "reasoning": "The summary captures the general idea of selecting a model update method but misses crucial details. It fails to mention the core problem addressed (performance degradation in new populations), the specific update methods considered (recalibration in the large, recalibration, model revision), the rationale behind the closed testing procedure (balancing evidence vs. overfitting), or the key takeaway that parsimonious methods are preferred when evidence is weak. The inclusion of unrelated methods (decision trees, random forests) and metrics (AUC-ROC) makes it less relevant."
+  },
+  "hallucination": {
+    "score": 3,
+    "reasoning": "The summary hallucinates by stating the paper uses decision trees and random forests, and develops a TBI model using these methods. The paper's focus is on updating existing logistic regression models, not developing new models with diverse techniques. It also hallucinates the use of AUC-ROC as a primary metric in the paper."
+  },
+  "total_score": 33,
+  "overall_assessment": "The summary correctly identifies the paper's general topic of model selection via a 'closed testing procedure' and adheres to the sentence limit. However, it contains significant factual inaccuracies regarding the methods used, performance metrics, and the core problem addressed, including introducing unrelated techniques and metrics."
+}

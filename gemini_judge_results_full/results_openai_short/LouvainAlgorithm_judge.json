@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: developing a fast and effective method for detecting communities in large networks by optimizing modularity."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the paper, including the description of the algorithm, its performance, and the results from the Belgian mobile-phone network."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses key terms like 'modularity optimization,' 'heuristic,' 'meta-network,' and 'hierarchy' appropriately and in a coherent manner. While 'modularity' is a technical term, its role in optimizing the community detection is implicitly explained by the context of the algorithm's goal."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, perfectly matching the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most important aspects of the paper: the proposed method, its efficiency, its performance comparison, and its application to a real-world network, highlighting its ability to reveal hierarchical and language-based communities."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the information presented in the research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It perfectly follows the prompt's sentence count, clearly explains the research question and methodology, accurately reflects the paper's findings, and is highly comprehensive and relevant. It effectively distills the core contributions of the paper into a concise and coherent five-sentence summary."
+}
