@@ -204,12 +204,18 @@ def judge_all_summaries(
 
 
 if __name__ == "__main__":
-    # Example usage: Judge all summaries in results_anthropic_short using judge_basic.txt
-    results_basic = judge_all_summaries(
-        judge_prompt_path="llm_judge_prompts/judge_full.txt",
-        summary_folder="summary_short/results_anthropic_short",
-        input_docs_folder="input_docs",
-        model="gpt-5.2-2025-12-11",
-        max_tokens=4096,
-        temperature=1,
-    )
+    # Iterate through all folders in summary_short except results_anthropic_short
+    summary_short_path = Path("summary_short")
+
+    for folder in summary_short_path.iterdir():
+        if folder.is_dir() and folder.name != "results_anthropic_short":
+            summary_folder = str(folder)
+
+            results = judge_all_summaries(
+                judge_prompt_path="llm_judge_prompts/judge_full.txt",
+                summary_folder=summary_folder,
+                input_docs_folder="input_docs",
+                model="gpt-5.2-2025-12-11",
+                max_tokens=4096,
+                temperature=1,
+            )

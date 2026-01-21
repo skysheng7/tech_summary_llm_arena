@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The paper’s purpose is to showcase the most common statistical issues seen in BMJ submissions and provide guidance to authors; the summary captures this goal clearly. However, it frames it as “statistical errors” rather than the article’s stated intent of describing common issues/faux pas identified via an internal survey, and it doesn’t explicitly mention the internal survey process that motivated the list."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately states the article presents 12 common statistical issues and lists them in a way consistent with the paper’s 12 ‘days’ (research question/estimand; estimates/CIs vs p-values; missing data; avoid dichotomisation; non-linearity; subgroup differences; clustering; I²/meta-regression; calibration; variable selection; assumptions/sensitivity; reporting guidelines/overinterpretation). It correctly mentions key phrases (clinical vs statistical significance; ‘absence of evidence…’) and the example reporting guidelines. Minor imprecision: the paper also stresses focusing on clinical relevance/impact, and the internal-survey framing is not mentioned."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 6,
+    "reasoning": "Overall coherent and readable, but it uses several technical terms without explanation (e.g., estimand, I², meta-regression, calibration, clustering, variable selection, non-linear relationships). Given the paper is methodological, some jargon is expected, but the rubric asks for explanations when terms are used, and the summary provides little of that."
+  },
+  "prompt_following": {
+    "score": 2,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is 4 sentences (one per paragraph), not 5, and it also includes extra formatting (header and numbered list) beyond a straightforward 5-sentence response."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "It covers the main take-home message (12 recurring statistical issues encountered in peer review) and includes all 12 items. It also captures key overarching themes: emphasizing estimates/CIs/clinical relevance over p-values, careful interpretation, and use of reporting guidelines to avoid overinterpretation, plus the practical intent to help authors and reduce reviewer burden."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims are supported by the article: the 12-item list, the Christmas framing, the emphasis on clinical vs statistical significance and ‘absence of evidence…,’ the named reporting guidelines, and the stated intent to help authors and reduce reviewer burden during the Christmas submission surge. No fabricated results or unsupported conclusions are introduced."
+  },
+  "total_score": 45,
+  "overall_assessment": "The summary is strong on relevance and coverage: it correctly identifies the article’s purpose and accurately includes all 12 key statistical issues, along with major themes about interpretation and reporting. Its main weaknesses are prompt adherence (not 5 sentences) and limited explanation of technical terms such as estimand, I², calibration, and meta-regression."
+}
