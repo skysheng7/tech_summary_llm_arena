@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 7,
+    "reasoning": "It captures the central theme—whether unstructured (random-oracle / hash-like) settings can yield provable quantum advantage and related cryptographic separations—though it does not explicitly emphasize the paper’s key focus on *NP search* problems and *publicly verifiable/minimal-round* proofs of quantumness, which are central framing questions in the paper."
+  },
+  "factual_accuracy": {
+    "score": 7,
+    "reasoning": "Most claims align with the paper (random-oracle-based publicly verifiable proofs of quantumness, classical-secure/quantum-insecure cryptographic counterexamples, code+QFT techniques, and conditional randomness results under Aaronson–Ambainis). However, it inaccurately states the quantum advantage is for 'problems that are not NP-complete'—the paper’s main separation is about an NP *search* problem solvable by QPT but not PPT relative to a random oracle, without claiming the problem is not NP-complete."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The five sentences are coherent and readable, and most technical terms are used in context. Still, several specialized terms (e.g., 'random oracle', 'proof of quantumness', 'Aaronson–Ambainis conjecture') are not explained; given the short format, this is acceptable but limits accessibility."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences, matching the prompt requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "It hits several main contributions: unstructured/random-oracle quantum advantage, publicly verifiable proofs of quantumness, cryptographic separations, and conditional randomness results, plus mention of SHA2-style instantiation. It misses some key nuances emphasized in the abstract/introduction: NP *search* vs decision distinction, uniform vs non-uniform adversary round complexity (non-interactive vs 2-message public coin), and the specific claim about collision-resistant yet quantum-invertible functions."
+  },
+  "hallucination": {
+    "score": 7,
+    "reasoning": "Most statements are supported, but the claim about 'quantum advantage for problems that are not NP-complete' is not supported by the paper and could mislead readers about the problem’s status. The 'practical implications for new cryptographic constructions' is somewhat speculative but still consistent with the authors’ discussion of plausible Minicrypt instantiations via SHA2."
+  },
+  "total_score": 47,
+  "overall_assessment": "The summary is concise, coherent, and correctly conveys the paper’s headline message: provable quantum advantage and cryptographic separations can arise in a random-oracle/structureless setting using coding-theoretic and QFT techniques, with additional conditional randomness results. Its main weakness is a notable factual overreach about the problems being 'not NP-complete' and omission of several important nuances (NP search vs decision, uniform vs non-uniform/minimal-round distinctions) that are central to the paper’s positioning."
+}

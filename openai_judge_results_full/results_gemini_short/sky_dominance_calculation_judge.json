@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Correctly states the main research question: how varying competition levels (via feeder occupancy) affect the structure of dairy-cow dominance hierarchies inferred from agonistic interactions. It does not explicitly mention the dynamic-group context or the authors' additional hypotheses about unknown/new dyads, but the central question is captured."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "All qualitative claims align with the paper’s findings (higher feeder occupancy associated with reduced steepness and more 2-way dyads; subordinates more successful). The summary omits quantitative results (e.g., steepness decrease of 2.41×10^-3 per 1% occupancy; 0.13% rise in 2-way dyads per 1%; 7.57% increase in dyads where the low-occupancy dominant loses more at high occupancy) but does not misstate numbers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Clear and coherent overall. It gives a brief inline explanation of “2-way dyads.” However, it uses terms like “intrinsic dominance attributes” and “resource valuation” without much explanation, though they remain understandable in context."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the prompt exactly: the summary is written in 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "Covers the key take-home messages: competition-dependent flattening of hierarchy, mechanism (subordinates win more), and methodological implication (context matters). It misses some important methodological specifics (dynamic group over 10 months; replacements detected via validated algorithm; Elo/EloSteepness approach) and does not mention secondary findings (unknown dyads increased slightly; unique dyads stayed low)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "No unsupported claims detected. All statements are consistent with and supported by the paper’s abstract/discussion and reported results."
+  },
+  "total_score": 54,
+  "overall_assessment": "The summary accurately captures the paper’s central question and main conclusions in a coherent 5-sentence format, including the key mechanism (greater subordinate success and more 2-way dyads) and the authors’ recommendation about context. Its main weakness is limited completeness: it omits key methodological details and all of the headline quantitative effect sizes that substantiate the conclusions."
+}

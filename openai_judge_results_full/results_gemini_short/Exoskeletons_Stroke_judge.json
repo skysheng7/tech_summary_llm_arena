@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary states that the paper reviews exoskeletons used with VR/AR/gamification for stroke rehabilitation and implies an effectiveness focus, aligning with the paper’s objective to assess effectiveness in improving activity/participation and motor function. It does not explicitly mention the paper’s three specific aims (positive outcomes, trends/configurations, and future challenges), but captures the main research question."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "No specific numerical claims are made (e.g., 30 studies, ~385 participants, 2010-2017), so there are no numerical errors, but it misses key factual details that could strengthen accuracy. Qualitatively, the claims (promise for motor function/engagement; upper-limb dominance; home-based gap; lack of AR systems in included sample; need for customizable games) are consistent with the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary is coherent and readable, and only uses a few terms (VR, AR, gamification) with abbreviations expanded. It does not explain what 'gamification' entails in this context or what 'exoskeletons' mean, but given the brevity constraint, terminology use is generally clear."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "It provides exactly 5 sentences as requested."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "It covers the key takeaways: combination of exoskeletons with VR/AR/games, improvements in motor function/engagement, imbalance toward upper limb studies, and the clinic-to-home transition gap, plus future need for customizable games and AR exploration. However, it omits central review specifics such as the systematic search scope (databases, years 2010-2017), inclusion size (30 studies, ~385 participants), and the paper’s categorization finding that studies split roughly between VR and games and that AR was essentially absent in the included set."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are broadly supported by the paper. The claim that combined technologies increase engagement is consistent with the paper’s discussion of motivation/engagement, though engagement was not uniformly quantified across all included studies; still, it is a reasonable synthesis rather than a fabricated result."
+  },
+  "total_score": 53,
+  "overall_assessment": "The summary accurately captures the paper’s main purpose and high-level conclusions, including the clinic-to-home transition gap and the dominance of upper-limb studies. Its main weakness is lack of key methodological and quantitative specifics (search years, number of studies/participants) that are central to a systematic review, though it does not introduce major unsupported claims."
+}

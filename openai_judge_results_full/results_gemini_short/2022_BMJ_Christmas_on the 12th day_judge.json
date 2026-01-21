@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary conveys the paper’s main purpose: to present twelve common statistical problems seen in BMJ submissions and provide guidance to authors (a practical/educational aim rather than a formal hypothesis). It does not explicitly state the paper’s stated objective of eliciting issues via an internal survey of statistical editors and describing each as a ‘12 days of Christmas’ item, though this is mostly implied."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The key factual elements are correct: the paper is a BMJ Christmas feature listing 12 recurring statistical/review issues, derived from an internal survey of BMJ statistical editors, framed around the 12 days of Christmas. No specific numerical results are summarized (so no numerical errors to check), and the examples of issues mentioned are consistent with the article."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary is coherent and readable, but it uses technical terms such as 'dichotomizing,' 'non-linear relationships,' 'subgroup analyses,' and 'meta-regression statistics' without explanation. Given the broad audience implied by the prompt, brief clarifications (e.g., splitting a continuous variable at a cut-point) would improve accessibility."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "It follows the instruction to provide a 5-sentence summary; the provided summary is exactly 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "It captures the central take-home message (a 12-item list of common statistical faux pas and advice to improve rigor and reporting). However, it omits several major items that are prominent in the article (e.g., focus on estimates/CIs and clinical relevance over P values, accounting for clustering, interpreting I² appropriately, assessing calibration of prediction models, variable selection cautions, sensitivity analyses/assumption checking, and use of reporting guidelines/avoiding spin), making the coverage somewhat selective."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are supported by the paper’s content and framing. Minor potential overstatement: calling it purely an 'internal survey' product is broadly true but the paper also describes subsequent email collation/discussion and theme-driven selection; still, this is not a substantive fabrication."
+  },
+  "total_score": 51,
+  "overall_assessment": "The summary accurately captures the article’s intent and its Christmas-themed structure, and it follows the 5-sentence constraint perfectly. It is generally faithful and clear, but it under-covers several of the most important listed items and uses some technical terms without explanation, limiting completeness and accessibility."
+}

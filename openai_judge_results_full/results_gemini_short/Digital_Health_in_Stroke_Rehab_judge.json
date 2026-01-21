@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary conveys the central aim (explore how DHTs are used for stroke rehabilitation in Canada and identify gaps), but it does not explicitly reflect all three research questions listed in the paper (use across Canada, gaps, and how findings inform funding/resource allocation/clinical improvements)."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key facts match the paper: scoping review, Canada, 2010–2022, 14 included studies, predominant focus on upper extremity and chronic phase, and major technology categories (VR, gaming, mobile/sensors). Minor imprecision: the paper also highlights sensors (50%) and telerehabilitation explicitly, and clinician perceptions were a major goal in several studies, not merely a 'lack of clinician involvement.'"
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and easy to read with minimal jargon; DHT is defined once. Some terms are left unexplained (e.g., RCTs, upper extremity/UE), but overall terminology load is low and the narrative flows logically."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The prompt asked for a 5-sentence summary, and the provided summary is exactly 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "Covers the main takeaways: scope, number of studies, main focus areas, types of technologies, overall conclusions about feasibility/effectiveness, barriers, and future directions. It underemphasizes some key descriptive results (study design breakdown; settings home vs institutional; specific adoption facilitators like motivation/family support; the prominence of sensors and telerehab) and does not mention the review framework (Arksey & O’Malley/PRISMA-ScR), though these are less essential for a 5-sentence summary."
+  },
+  "hallucination": {
+    "score": 8,
+    "reasoning": "Most claims are supported by the paper. The statement about 'lack of clinician involvement' is somewhat overstated/ambiguous: the paper reports clinician-related barriers (training/support, role uncertainty) and low adoption in other cited work, but included studies often involved clinicians and examined their perceptions; the barrier is more about limited capacity/support and usability/privacy concerns than outright lack of involvement."
+  },
+  "total_score": 51,
+  "overall_assessment": "The summary is concise, well-structured, and largely faithful to the scoping review’s core findings (14 Canadian studies, mostly chronic/upper-extremity, with VR/gaming/sensors and generally positive feasibility/effectiveness). Its main weaknesses are mild oversimplifications of adoption barriers (especially clinician-related issues) and omission of several salient descriptive details (e.g., proportions by technology/setting and key facilitators such as motivation/family support)."
+}
