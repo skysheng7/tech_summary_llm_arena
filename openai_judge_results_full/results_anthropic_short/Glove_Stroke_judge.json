@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "Clearly states the paper’s main question: evaluating the therapeutic effects of wearable robotic gloves on improving hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key facts match the paper: five databases searched through Sept 2021; 5 included studies; sample sizes roughly 3–13; no RCTs; quality scores 7–10/12; intervention duration 4–6 weeks; and the five named devices are correct. Minor imprecision: the paper reports participant counts ranging from 3 to 13, but also notes one study had 2 participants in the discussion; also spasticity criteria were not uniformly reported (one study did not specify), which is slightly simplified in the summary."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Coherent and easy to follow, with limited jargon. Terms like “randomized controlled trials” and “spasticity” are used without explicit definitions, but they are standard and do not hinder understanding in a short summary."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Provides exactly 5 sentences, matching the prompt’s requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "Covers the central elements: purpose, search scope, number of included studies, overall positive findings, major limitations (evidence level, small samples, chronic skew), device types, intervention duration, and the main conclusion calling for stronger, standardized comparative studies."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are supported by the article, including the call for standardized approaches and comparisons with conventional therapy (explicitly suggested in the conclusion). Slightly stronger phrasing like “significant limitations” is interpretive but consistent with the paper’s discussion."
+  },
+  "total_score": 57,
+  "overall_assessment": "The summary accurately captures the research aim, methods, included devices, core findings, and key limitations in the evidence base, while adhering to the requested five-sentence format. Minor oversimplifications occur around participant/spasticity reporting, but there are no major inaccuracies or unsupported claims."
+}
