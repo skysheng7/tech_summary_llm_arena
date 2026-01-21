@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 6,
+    "reasoning": "It indicates the paper is a review of digital technologies for stroke rehabilitation, but it does not clearly reflect the Canada-specific scoping review focus or the paper’s explicit research questions (how DHTs are used across Canada, what gaps exist, and how findings can inform funding/resource/clinical decisions)."
+  },
+  "factual_accuracy": {
+    "score": 2,
+    "reasoning": "Major numerical error: the paper included 14 Canadian studies (from 163 records), not 61. It also mischaracterizes scope by implying a broad multi-country review rather than a Canada-focused scoping review (2010–2022)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary is coherent and readable, with limited jargon. However, it does not clarify what “digital technologies” encompasses in this paper (DHT categories like sensors, VR, telerehab, games, robots), though this is a minor issue given the 5-sentence constraint."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "It provides exactly 5 sentences of summary content (the prefatory line is separate), matching the prompt request."
+  },
+  "completeness_and_relevance": {
+    "score": 4,
+    "reasoning": "It captures a generic take-home message (promise + adoption challenges) but misses central, paper-specific findings: Canada-only scope, study design breakdown (qualitative/RCTs), dominant focus on upper extremity (≈85.7%), chronic phase emphasis (≈64.3%), settings (home vs institutional), and the specific technology distribution (sensors, VR, games, telerehab, robots)."
+  },
+  "hallucination": {
+    "score": 3,
+    "reasoning": "The claim that the article reviews 61 studies is unsupported and contradicts the paper (14 included studies). Other claims are broadly plausible (e.g., adoption challenges), but the key fabricated/incorrect study count is a substantial hallucination."
+  },
+  "total_score": 33,
+  "overall_assessment": "The summary is clear, coherent, and adheres to the 5-sentence requirement. However, it contains a major factual error about the number of studies reviewed and fails to reflect the paper’s Canada-specific research questions and key quantitative characteristics, making it overly generic and partially misleading."
+}
