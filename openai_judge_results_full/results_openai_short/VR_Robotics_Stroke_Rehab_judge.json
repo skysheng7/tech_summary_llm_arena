@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states the main question: whether fully immersive VR combined with a lower-limb rehabilitation robot improves recovery (motor and related functional outcomes) in stroke patients with hemiplegia versus conventional rehab alone. It could be slightly clearer that feasibility/safety were also explicit aims."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key design details and main numerical result are correct (42 randomized; 40 completed; 4 weeks; 30 min/day; 5 days/week; FMA-LE change 6.5 vs 3.3 with p<0.001; MoCA between-group p=0.873; no adverse events). Minor issue: it summarizes secondary outcomes as 'all p<0.05' without specifying that some were p<0.001 and FAC was p=0.042, but this is not incorrect."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Well-written and coherent, with abbreviations (FMA-LE, BBS, FAC, MoCA) used appropriately. However, the summary does not explain what these scales measure (e.g., FMA-LE, BBS, FAC) beyond brief labels, which may reduce accessibility for non-specialists."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the instruction to provide a 5-sentence summary: the provided summary is exactly 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "Covers the core elements: study type, population, intervention/control, duration/dose, primary and key secondary outcomes, cognitive null between-group finding, safety, and authors' conclusion about feasibility and need for larger trials."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are supported by the paper (assessor-blinded RCT; immersive VR; intervention dosage; outcomes; no adverse events; call for larger/longer trials). Slight potential overreach: 'confirm effectiveness and practicality'—the paper emphasizes validation and notes scalability/cost concerns, but 'practicality' is still broadly consistent with their feasibility/scalability discussion."
+  },
+  "total_score": 55,
+  "overall_assessment": "The summary is highly faithful to the paper’s aims, design, and main findings, including correct key numbers and the cognitive null between-group result. Its main weakness is limited explanation of outcome measure abbreviations and some loss of specificity in secondary-outcome p-values/effect sizes, but it remains accurate, complete, and clearly written."
+}

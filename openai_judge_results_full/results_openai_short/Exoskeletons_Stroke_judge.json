@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states the paper’s aim: reviewing exoskeleton/robot-assisted stroke rehabilitation studies that incorporate VR/AR/gamification and assessing whether these combinations improve motor function/participation and support clinic-to-home transition. It could be slightly clearer that the paper also sought to identify trends/configurations and future challenges, but the core research question is captured."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "Key factual details align with the paper: years 2010–2017, databases (MEDLINE, EMBASE, Science Direct, Cochrane), 30 included studies, ~385 participants, upper limb 28/30 and clinic setting 25/30, and the noted absence of AR-based systems in the included sample. The ‘split evenly’ statement (15 VR, 15 games) matches Table 1."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and easy to follow; defines VR/AR and contextualizes ‘PRISMA’ by describing PRISMA-guided searches. Some terms (eg, gamification, WMFT, MAS, “serious games”) are not explained, though they are standard in rehabilitation research and used sparingly."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the prompt exactly: the summary is written in 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the most important takeaways: scope and methods, included study count/participants, dominant focus on upper limb and clinic settings, overall positive trends despite heterogeneity, and the main conclusion about bridging clinic-to-home plus need for more home-based/customizable game work. Minor omissions include explicit mention that only 2 studies addressed lower limbs and that synthesis was qualitative due to heterogeneity."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "Statements are supported by the paper (methods, counts, settings, AR absence, general improvements, and the clinic-to-home gap). No fabricated results, devices, or claims beyond what the authors reported."
+  },
+  "total_score": 56,
+  "overall_assessment": "The summary accurately captures the review’s purpose, methods, dataset size, major descriptive findings (upper-limb/clinic dominance; VR vs games split), and the key conclusion about addressing the clinic-to-home gap with better game design and more home-based research. It is coherent and faithful to the source, with only minor opportunities to add a couple of high-salience descriptive details (eg, explicitly noting the very small lower-limb evidence base) without sacrificing the 5-sentence constraint."
+}
