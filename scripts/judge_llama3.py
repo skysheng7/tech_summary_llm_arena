@@ -195,6 +195,17 @@ def judge_all_summaries(
 
 
 if __name__ == "__main__":
+    # Example usage: Judge all summaries in results_anthropic_short using judge_full.txt
+    results_full = judge_all_summaries(
+        judge_prompt_path="llm_judge_prompts/judge_full.txt",
+        summary_folder="results/results_anthropic_short",
+        input_docs_folder="input_docs",
+        model="llama3",
+        temperature=0.2,
+    )
+
+
+"""
     # Example usage: Judge all summaries in results_anthropic_short using judge_basic.txt
     results_basic = judge_all_summaries(
         judge_prompt_path="llm_judge_prompts/judge_basic.txt",
@@ -204,12 +215,4 @@ if __name__ == "__main__":
         temperature=0.2,
     )
 """
-    # Example usage: Judge all summaries in results_anthropic_short using judge_full.txt
-    results_full = judge_all_summaries(
-        judge_prompt_path="llm_judge_prompts/judge_full.txt",
-        summary_folder="results/results_anthropic_short",
-        input_docs_folder="input_docs",
-        model="llama3",
-        temperature=0.5,
-    )
-"""
+    
