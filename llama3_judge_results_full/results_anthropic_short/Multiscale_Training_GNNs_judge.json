@@ -1,0 +1,52 @@
+{
+  "summary": "Towards Efficient Training of Graph Neural Networks: A Multiscale Approach",
+  "evaluation": {
+    "quality": 9,
+    "clarity": 8,
+    "organization": 9,
+    "relevance": 10,
+    "accuracy": 9
+  },
+  "sections": [
+    {
+      "section": "Introduction",
+      "evaluation": {
+        "quality": 8,
+        "clarity": 7,
+        "organization": 8,
+        "relevance": 9,
+        "accuracy": 8
+      }
+    },
+    {
+      "section": "Multiscale Training Methods",
+      "evaluation": {
+        "quality": 9,
+        "clarity": 9,
+        "organization": 9,
+        "relevance": 10,
+        "accuracy": 9
+      }
+    },
+    {
+      "section": "Experimental Results",
+      "evaluation": {
+        "quality": 8,
+        "clarity": 7,
+        "organization": 8,
+        "relevance": 9,
+        "accuracy": 8
+      }
+    },
+    {
+      "section": "Ablation Study",
+      "evaluation": {
+        "quality": 8,
+        "clarity": 7,
+        "organization": 8,
+        "relevance": 9,
+        "accuracy": 8
+      }
+    }
+  ]
+}
