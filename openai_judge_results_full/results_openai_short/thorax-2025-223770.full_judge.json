@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "Clearly states the paper’s central question: developing and validating a model (PRECISE-X) to predict the first severe (hospitalised) COPD exacerbation at/near diagnosis when prior exacerbation history is unavailable, with 5-year and 12-month horizons."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "Key design and results match the paper: CPRD Aurum 2004–2022; N=219,015; outcomes at 5 years and 12 months; 4 mandatory + 28 optional predictors; internal-external CV across 9 regions; c-statistics 0.836 (5-year) and 0.756 (1-year); calibration described as robust; net benefit generally positive."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and readable, with brief clarifications (eg, severe exacerbation requiring hospitalisation). However, some technical terms are used without explanation (eg, 'internal-external cross-validation', 'c-statistic', 'net benefit', 'calibration'), which may reduce accessibility for non-technical readers."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the prompt precisely by providing exactly 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the main contributions: clinical gap, dataset/population, prediction horizons, predictor structure (mandatory/optional), validation approach, performance (discrimination/calibration), and conclusion/need for external validation. Minor omissions include observed event rates (29.5% at 5 years; 4.2% at 1 year) and the treatment drop-in adjustment method, but these are not essential for a 5-sentence summary."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "No unsupported claims detected. The note about needing independent validation outside the UK is consistent with the paper’s stated limitation about uncertain generalisability and the need for external validation."
+  },
+  "total_score": 57,
+  "overall_assessment": "The summary accurately captures the research aim, cohort, model structure, validation strategy, and headline performance metrics in exactly five sentences. Its main weakness is limited explanation of technical performance terms (c-statistic, calibration, net benefit), which slightly reduces clarity for readers without prediction-modeling background."
+}

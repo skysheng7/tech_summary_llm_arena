@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states the paper’s aims: how DHTs are used for stroke rehabilitation in Canada and what gaps remain to inform clinical/research/policy decisions. It does not explicitly enumerate all three research questions verbatim (use, gaps, and informing funding/resource allocation), but it captures them accurately in substance."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key facts align with the paper: scoping review; database + grey literature; 14 included studies; timeframe 2010–2022; mix of qualitative and RCTs; chronic phase emphasis; predominant upper-extremity focus; home/institution settings; technologies including sensors/mobile, VR/telerehab/exergames, gaming, and less frequent robotics. Minor imprecision: it groups 'sensors/mobile tools' as 'studied most often' without reflecting exact proportions (sensors 50%, VR 42.9%, games 28.6%, telerehab 28.6%, robots 14.3%), but no incorrect numbers are asserted."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Well-written and coherent, with only light jargon. Terms like 'DHTs', 'scoping review', 'grey literature', 'randomized controlled trials', 'telerehabilitation', and 'ADLs' are not explicitly defined (ADLs is at least expanded), but the summary remains understandable for a general academic audience."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the instruction exactly: the summary is written in 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the most important takeaways: purpose/questions, methods (broad search + grey literature), core descriptive results (number of studies, time window, designs, phase, outcomes focus, settings), main technology categories, and the paper’s overall conclusion about promise plus gaps/future directions. It omits some specific nuances (e.g., small vs medium vs large sample distribution; specific non-UE outcomes like sitting balance and walking speed proportions), but those are not essential for a 5-sentence summary."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are supported by the paper’s abstract/results/discussion (feasibility/engagement/improvements; barriers like technical/usability/access/training; need for more rigorous trials and broader outcomes including cognition/LE/ADLs/mental health and earlier phases). Slight overgeneralization ('many studies reporting functional improvements') but still consistent with the reported findings across multiple included interventions."
+  },
+  "total_score": 54,
+  "overall_assessment": "The summary accurately captures the study’s purpose, methods, major descriptive findings, and key conclusions within the required five sentences. It is coherent and appropriately emphasizes the Canadian context and identified gaps. Minor weaknesses are limited terminology explanation and some broad wording about which technologies were most common and the extent of functional improvements without citing the exact proportions reported in the review."
+}
