@@ -141,18 +141,7 @@ def judge_all_summaries(
 
     client = load_ollama_client()
 
-    # specific files to process
-    target_files = [
-        "sky_crowdsource_lameness_summary.txt",
-        "Exoskeletons_Stroke_summary.txt",
-    ]
-
-    # Build paths for target files only
-    summary_files = [
-        Path(summary_folder) / filename
-        for filename in target_files
-        if (Path(summary_folder) / filename).exists()
-    ]
+    summary_files = list(Path(summary_folder).glob("*.txt"))
 
     if len(summary_files) == 0:
         return {}
@@ -162,7 +151,9 @@ def judge_all_summaries(
     for summary_path in summary_files:
         summary_filename = summary_path.name
 
-        original_pdf_name = summary_filename.replace("_summary.txt", ".pdf")
+        # split by underscore, then remove last part
+        parts = summary_filename.rsplit("_", 1)  # Split from right, max 1 split
+        original_pdf_name = parts[0] + ".pdf"
 
         original_pdf_path = os.path.join(input_docs_folder, original_pdf_name)
 
@@ -185,14 +176,14 @@ def judge_all_summaries(
             results[original_pdf_name] = judge_result
 
             if judge_result.get("_save_as_text", False):
-                output_filename = summary_filename.replace("_summary.txt", "_judge.txt")
+                parts = summary_filename.rsplit("_", 1)
+                output_filename = parts[0] + "_judge.txt"
                 output_path = os.path.join(output_folder, output_filename)
                 with open(output_path, "w", encoding="utf-8") as f:
                     f.write(judge_result["raw_response"])
             else:
-                output_filename = summary_filename.replace(
-                    "_summary.txt", "_judge.json"
-                )
+                parts = summary_filename.rsplit("_", 1)
+                output_filename = parts[0] + "_judge.json"
                 output_path = os.path.join(output_folder, output_filename)
                 with open(output_path, "w", encoding="utf-8") as f:
                     json.dump(judge_result, f, indent=2, ensure_ascii=False)
