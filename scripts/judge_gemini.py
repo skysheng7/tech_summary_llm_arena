@@ -50,7 +50,7 @@ def judge_single_summary(
 
     full_prompt = judge_prompt_template.replace(
         "{file_id}", f"[PDF file attached]"
-    ).replace("{summary}", summary_text)
+    ).replace("{summary}", f"{{{summary_text}}}")
 
     if not os.path.exists(paper_pdf_path):
         raise FileNotFoundError(f"File not found: {paper_pdf_path}")
@@ -207,5 +207,5 @@ if __name__ == "__main__":
         input_docs_folder="input_docs",
         model="gemini-2.5-flash-lite",
         max_tokens=4096,
-        temperature=0.2,
+        temperature=1,
     )

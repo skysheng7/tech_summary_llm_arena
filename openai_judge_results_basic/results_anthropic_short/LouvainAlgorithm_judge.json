@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states the paper’s goal: a fast heuristic for community detection in large networks via modularity optimization, with emphasis on scalability and quality of partitions."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "Key facts are accurate (two-phase Louvain-style procedure; 118M nodes in ~152 minutes; Belgian phone network of 2.6M customers; comparison via modularity). The claim about prior methods being limited to “under 5 million nodes” is somewhat oversimplified given the paper’s discussion (e.g., ~5.5M in one cited approach) and depends on method/tricks rather than a strict limit."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and readable; explains the two phases and what modularity optimization entails at a high level. However, it doesn’t briefly define modularity itself (density inside vs. expected under null model), which would strengthen terminology clarity."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the prompt: exactly 5 sentences (excluding the title line), and provides a concise summary."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "Covers the main contributions (algorithmic idea, hierarchical passes, scalability, and a key real-world validation). It omits some notable elements: explicit modularity definition/formula, mention of benchmark/synthetic tests and comparative table details, and that intermediate passes correspond to local maxima at different scales."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "No clear fabricated claims. Minor overgeneralization in framing prior methods as strictly limited below 5M nodes, but it is directionally consistent with the paper’s scalability critique."
+  },
+  "total_score": 52,
+  "overall_assessment": "The summary accurately captures the core algorithm (two-phase local moves plus aggregation), its hierarchical nature, and its strong scalability claims with the headline 118M-node result. It is coherent and prompt-compliant, but slightly overstates prior size limitations and could improve by briefly defining modularity and mentioning the synthetic/benchmark validations used in the paper."
+}

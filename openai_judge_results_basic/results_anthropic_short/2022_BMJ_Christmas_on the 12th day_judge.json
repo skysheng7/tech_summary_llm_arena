@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary correctly conveys the article’s purpose: to highlight common statistical issues encountered in BMJ peer review and offer guidance to authors. It could more explicitly state the meta-level “research question” of the piece (an internal survey of editors identifying the most frequent issues)."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Accurately identifies the Christmas framing and the 12 items, and describes them in line with the paper (estimands; CIs vs p-values; missing data; avoiding dichotomisation; non-linearity; subgroup comparisons; clustering; I²/meta-regression; calibration; variable selection; sensitivity to assumptions; reporting guidelines/overinterpretation). Minor loss of nuance: the paper’s first item is broader than just “clarify research questions and estimands,” and the summary slightly overstates guideline emphasis as a primary focus rather than one of the later items."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "Coherent and readable, but it uses several technical terms (estimand, I², meta-regression, calibration, clustering) with little explanation, which reduces accessibility. Within the constraints of five sentences, brief parenthetical glosses could improve clarity."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested 5 sentences; the provided summary is 4 sentences (excluding the title/header)."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "Covers the core structure (12 common issues) and the key messaging about effect sizes/clinical relevance and reporting guidelines. It omits some notable nuances (e.g., advice on penalisation/shrinkage for prediction models; cautions about variable selection in causal/prognostic contexts; the internal survey/procrastination narrative), but remains relevant to the article’s main intent."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "No clear unsupported claims. All major statements are consistent with the article’s content and framing."
+  },
+  "total_score": 47,
+  "overall_assessment": "The summary is largely accurate and captures the article’s central contribution: a Christmas-themed checklist of 12 frequent statistical and reporting problems flagged in BMJ reviews. Its main weaknesses are not meeting the exact 5-sentence requirement and offering limited explanation of technical terms, which reduces accessibility and slightly compresses nuance."
+}

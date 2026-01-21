@@ -211,5 +211,5 @@ if __name__ == "__main__":
         input_docs_folder="input_docs",
         model="gpt-5.2-2025-12-11",
         max_tokens=4096,
-        temperature=0.2,
+        temperature=1,
     )
