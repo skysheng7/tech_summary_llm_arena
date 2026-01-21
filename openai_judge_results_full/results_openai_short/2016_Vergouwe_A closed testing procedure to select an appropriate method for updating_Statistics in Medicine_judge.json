@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "Clearly states the paper’s central aim: selecting an appropriate degree of prediction-model updating (from intercept-only to full revision) in a new population while balancing evidence for change against overfitting/type I error."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Accurately reflects the ordered update methods (original, intercept-only, intercept+slope, full revision) and that likelihood ratio tests are used in a sequential procedure starting from model revision. It correctly reports the qualitative findings from the examples (e.g., prostate cancer driven by intercept shift and closed testing choosing intercept-only) and the simulation conclusions (type I error slightly high in small samples; lower MSE than always revising). It does not cite specific numbers (e.g., intercept adjustment 2.58, type I error ~0.07–0.08 at EPV=5), but what it states is consistent with the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and readable; it briefly explains key updating options and what the testing sequence is meant to achieve. However, some technical terms (e.g., likelihood ratio test, Type I error, events-per-variable, calibration slope) are used with minimal explanation, which may be challenging for non-technical readers."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Produces exactly 5 sentences, matching the prompt’s request for a 5-sentence summary."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "Covers the main contributions: motivation (external transport issues), the proposed closed testing procedure and its ordered tests, the three applied examples highlighting overfitting risk with full revision, and the simulation results on type I error and MSE. It focuses on the paper’s key takeaways without major omissions for a 5-sentence constraint."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims are supported by the paper’s content: the specific hierarchy of updating methods, LRT-based sequential testing, the prostate cancer case selecting intercept-only despite separate-significance for revision and overfitting signs, and simulations showing slightly inflated type I error in small samples with lower MSE than always revising."
+  },
+  "total_score": 57,
+  "overall_assessment": "The summary is faithful, well-structured, and captures the paper’s main methodological proposal and empirical evidence from case studies and simulations. Its only notable limitation is that it remains fairly technical and does not include key illustrative numerical results (e.g., the 2.58 intercept shift or the reported type I error rates), though it remains accurate within the 5-sentence constraint."
+}
