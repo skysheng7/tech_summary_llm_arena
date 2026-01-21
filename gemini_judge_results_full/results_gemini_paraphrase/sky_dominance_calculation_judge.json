@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summaries clearly articulate the research question, which is to investigate how competition intensity affects dominance hierarchies in dairy cows. The specific focus on feeder occupancy as a measure of competition is also well-captured."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results and key findings, such as the flattening of the hierarchy, the increase in 2-way dyads, and the influence of resource valuation, are accurately reflected in the summaries."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'dominance hierarchy,' 'feeder occupancy,' and '2-way dyads' are used appropriately. While '2-way dyads' is explained, 'dominance hierarchy' and 'feeder occupancy' are contextually clear enough. The language is coherent and the flow is logical."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Each paraphrase is exactly 5 sentences long, precisely adhering to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summaries effectively capture the most important findings: the inverse relationship between competition and hierarchy steepness, the mechanism (increased success of subordinates, more 2-way dyads), the proposed explanation (resource valuation over intrinsic attributes), and the main recommendation (consider context)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summaries are directly supported by the information presented in the original paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "The summaries effectively and accurately capture the core research question, findings, and conclusions of the paper within the requested sentence limit. They are coherent, well-written, and directly address the prompt without any factual inaccuracies or hallucinations."
+}
