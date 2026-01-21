@@ -1,0 +1,20 @@
+## A Unified Framework for Quantum "No-Go" Results
+
+This research aims to provide a single, cohesive perspective on various quantum "no-go" theorems—including **no-cloning**, **no-superposing**, and **no-deleting**—all of which arise from the fundamental principles of superposition and linearity.
+
+### The No-Encoding Theorem
+
+Central to this work is the introduction of a **"no-encoding" theorem**. This theorem establishes that, within finite dimensions, there is no universal completely positive map capable of creating a nontrivial linear superposition between a fixed state and an arbitrary, unknown pure state. The authors demonstrate that this theorem serves as a generalization, allowing the standard no-deleting and no-cloning results to be recovered as specific instances.
+
+### Feasibility and One-Shot Frameworks
+
+The paper moves beyond simple impossibility statements by offering a **one-shot framework** that combines both perfect and imperfect versions of deleting and cloning.
+
+* **Restriction:** This applies when input states are limited to a finite set.
+* **Characterization:** The authors prove that the feasibility of these operations is determined exactly by the **linear independence** of the candidate input states.
+
+### Success Probabilities and Protocols
+
+To quantify the limits of these processes, the study derives general upper bounds on achievable success probabilities. These are calculated using **matrix-norm and metric inequalities**, extending existing bounds previously established for state discrimination and probabilistic cloning.
+
+Finally, the authors present **constructive protocols** for the superposition of unknown states, provided they are drawn from restricted sets (such as those defined by "fixed-overlap" conditions or finite sets). They further expand these superposition methods to accommodate scenarios where multiple copies of the input states are accessible.

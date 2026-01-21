@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question of unifying quantum no-go theorems and presenting new frameworks for quantum transformations."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the main points of the paper, including the introduction of the no-encoding theorem, the one-shot framework, the role of linear independence, and the proposed protocols."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'no-go theorems,' 'no-cloning,' 'no-superposing,' 'no-deleting,' 'no-encoding,' 'linear independence,' and 'one-shot framework' are mentioned and contextually coherent. The flow is logical."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is structured into distinct sections and uses bullet points, exceeding the 5-sentence limit. However, the content within each section is concise."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the most relevant aspects of the paper, from the theoretical framework of no-go theorems to the practical aspects of protocols and bounds."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the provided text. No unsupported or fabricated information is present."
+  },
+  "total_score": 53,
+  "overall_assessment": "This summary provides an excellent and accurate overview of the research paper's key contributions, highlighting the no-encoding theorem, the one-shot framework, and the importance of linear independence. While it effectively conveys the core ideas, it fails to adhere to the requested 5-sentence constraint due to its structured format and use of subheadings."
+}
