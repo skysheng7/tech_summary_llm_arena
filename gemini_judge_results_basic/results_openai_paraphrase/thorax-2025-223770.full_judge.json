@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the primary research question, which is the development and validation of the PRECISE-X model for predicting the first severe COPD exacerbation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key factual details presented in the paper, including the model's purpose, data source, sample size, prediction timeframes, essential and optional predictors, validation method, performance metrics (c-statistics), and conclusions."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology and explains it through context. Terms like 'PRECISE-X', 'COPD exacerbation', 'FEV₁', and 'c-statistic' are either implicitly understood or clear from the overall description. The narrative flows coherently."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary contains exactly 5 sentences, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most crucial aspects of the paper, including the problem addressed, the methodology, the key findings (performance metrics), and the implications/limitations, making it highly complete and relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the original research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, perfectly fulfilling all aspects of the prompt. It accurately and concisely presents the core findings and implications of the research paper within the requested sentence limit."
+}

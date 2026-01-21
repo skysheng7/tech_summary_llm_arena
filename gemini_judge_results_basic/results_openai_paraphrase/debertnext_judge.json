@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research problem: detecting fake news using multimodal (text and image) data, and the proposed solution, DeBERTNeXT."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the model architecture (DeBERTa V3, ConvNeXT), the datasets used (Fakeddit, Politifact, Gossipcop), the methodology (transfer learning, preprocessing), and the reported performance gains (3.8% on Fakeddit, 2.1% on Politifact, 1.0% on Gossipcop)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "Key terms like 'multimodal', 'DeBERTa V3', 'ConvNeXT Large', 'transformer', and 'sigmoid classifier' are used appropriately within the context of the summary. The flow of information is logical and easy to follow."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. Paraphrase 1 has 6 sentences, Paraphrase 2 has 6 sentences, and Paraphrase 3 has 6 sentences. Therefore, it missed the sentence count requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the essential aspects of the paper: the problem, the proposed solution (model architecture and components), the experimental setup (datasets, methodology), and the key results and future directions. All information is highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary is based entirely on the provided text and does not introduce any unsupported claims or information not present in the paper."
+  },
+  "total_score": 55,
+  "overall_assessment": "The summary effectively captures the core contributions and findings of the research paper, accurately describing the DeBERTNeXT framework, its performance, and future directions. However, it fails to adhere to the requested sentence count, exceeding it by one sentence in all provided paraphrases."
+}

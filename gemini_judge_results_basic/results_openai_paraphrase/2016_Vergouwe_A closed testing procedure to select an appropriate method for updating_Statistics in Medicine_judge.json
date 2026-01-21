@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the main goal of the paper, which is to present and validate a new 'closed testing procedure' for selecting the appropriate method to update existing prediction models."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately describes the proposed procedure, the different update methods considered (original, recalibration-in-the-large, recalibration, model revision), the testing strategy (likelihood ratio tests, starting with the most complex), and the findings from the clinical examples and simulation study. Numerical values like the Type I error rate and findings from clinical examples are correctly represented."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "Key terms like 'closed testing procedure,' 'recalibration-in-the-large,' 'recalibration,' and 'model revision' are introduced and briefly explained in the context of the paper's methodology. The explanation of the procedure's logic (progressing from complex to simple updates) and its aim (managing Type I error, avoiding overfitting) is coherent."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences as requested by the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the core aspects of the paper: the problem addressed, the proposed solution (closed testing procedure), the methods evaluated, the evidence from clinical examples, and the results of the simulation study. It is highly relevant to the paper's content."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the provided paper. There are no unsupported or fabricated statements."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It accurately captures the research question, methodology, and key findings of the paper within the strict five-sentence limit. The explanation of the proposed 'closed testing procedure' and its benefits, such as managing Type I error and preventing overfitting, is clear and well-integrated."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: to evaluate the effectiveness of a crowdsourced, comparison-based lameness assessment method for dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings, including the scoring scale (-3 to +3), the number of workers and tasks, the comparison with expert assessors, the ICC values for agreement, and the conclusion regarding the utility of the method."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (e.g., 'crowd workers', 'expert assessors', 'comparison-based', 'intraclass correlation') and explains the core concept of the assessment method clearly. The coherence is excellent."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary is 5 sentences long, directly fulfilling the prompt's requirement. However, the prompt asked for a summary in 5 sentences, and this summary is exactly 5 sentences. The reordering mention in the provided text for the summary is not relevant to the evaluation of the summary itself against the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the most important aspects of the paper, including the methodology, the key results regarding agreement and the number of workers needed, and the practical implications. No irrelevant information is included."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the provided text of the research paper. There are no unsupported or fabricated statements."
+  },
+  "total_score": 55,
+  "overall_assessment": "This is an excellent summary that accurately captures the essence of the research paper and directly follows the prompt's instructions. It clearly explains the methodology, findings, and conclusions in a coherent and concise manner."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question: developing a fast and efficient method for community detection in large networks."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the methodology, process, and outcomes described in the paper, including the iterative two-phase approach, modularity optimization, and application to the Belgian mobile phone network."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'modularity optimization,' 'meta-network,' and 'layered community structure' are integrated well. The explanation of the two-phase process is clear and coherent."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary contains exactly 7 sentences, exceeding the requested 5 sentences. While it provides a good overview, it does not adhere strictly to the sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most crucial aspects of the paper: the problem, the proposed solution (algorithm), its advantages (speed, modularity), and an example of its application and validation. All points are highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately represents the content of the paper and does not introduce any unsupported or fabricated information."
+  },
+  "total_score": 48,
+  "overall_assessment": "This is a strong summary that accurately captures the essence of the research paper. It excels in detailing the methodology, its advantages, and validation, but slightly misses the prompt's sentence count constraint."
+}

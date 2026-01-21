@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the main research question: developing a procedure to select the appropriate method for updating prediction models to balance evidence for updating and the risk of overfitting."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the methods discussed (closed testing procedure, recalibration in the large, recalibration, model revision), the case study findings (prostate cancer example selection), and the simulation results (Type I error, MSE)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "Key terms like 'closed testing procedure,' 'recalibration-in-the-large,' 'recalibration,' and 'model revision' are implicitly explained through context and their hierarchical relationship. The explanation of the testing sequence and its purpose is coherent."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering strictly to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the core elements of the paper: the proposed method, the hierarchy of updates, how the method works, the findings from the case studies, and the results of the simulation study, all of which are highly relevant to the paper's contribution."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the text of the research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It accurately and concisely captures the essence of the research paper, including its methodology, key findings, and supporting evidence, while strictly adhering to the 5-sentence limit requested by the prompt."
+}
