@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary clearly articulates the core research question about the effectiveness of VR-based robotic training for lower limb rehabilitation in stroke patients and its impact on specific functional outcomes like balance, walking ability, and daily activities."
+  },
+  "factual_accuracy": {
+    "score": 7,
+    "reasoning": "The summary accurately reflects the findings that VR-robotic training improved balance, gait, and daily activities. However, it misses the nuance that while motor function improved significantly in both groups, the intervention group showed greater improvement. It also omits the finding that cognitive function did not significantly improve."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology (e.g., virtual reality, lower limb impairments, stroke survivors, balance, walking ability, daily activities) without over-reliance on highly technical jargon. The flow is coherent and easy to understand."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary consists of 5 sentences. However, the prompt also stated 'provide a summary of this article in 5 sentences'. The summary provided is presented as a paraphrased summary using different wording and sentence structure, while retaining all the original information. The additional text provided by the user outside of the actual summary text affects the scoring of this criterion."
+  },
+  "completeness_and_relevance": {
+    "score": 7,
+    "reasoning": "The summary covers the main aspects of the study's purpose, methodology (implicitly through the outcomes measured), and findings regarding motor function and daily activities. However, it omits the specific mention of cognitive function not improving and the details about the control group's improvements, which are important comparative points."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are supported by the information presented in the original research paper."
+  },
+  "total_score": 46,
+  "overall_assessment": "The summary effectively captures the essence of the study, highlighting the positive impact of VR-based robotic training on functional recovery in stroke patients. It is coherent and factually accurate regarding the primary findings, though it could be more complete by including details about the lack of cognitive improvement and the comparative improvements in the control group."
+}

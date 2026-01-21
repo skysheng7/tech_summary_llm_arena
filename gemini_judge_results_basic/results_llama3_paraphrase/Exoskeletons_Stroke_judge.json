@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of the paper, which is to review the integration of exoskeletons with VR, AR, and gamification for stroke rehabilitation and assess its effectiveness."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the general improvements in motor function, the noted advancements in cognitive function and engagement, and the identified shortcomings in the reviewed studies. It correctly mentions the limitations such as participant numbers and measurement inconsistencies."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses key terminology like VR, AR, and gamification appropriately and explains their role in rehabilitation coherently. While it doesn't explicitly define these terms, their context within the summary makes their meaning clear to someone familiar with the topic."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly five sentences, directly addressing the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively covers the main aspects of the paper, including the objective, key findings, identified limitations, and the overall conclusion. It prioritizes the most relevant information from the research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the original paper. There are no unsupported or fabricated statements."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary effectively captures the essence of the research paper, accurately reporting its objective, key findings, and conclusions within the requested sentence limit. It demonstrates strong factual accuracy and relevance, providing a clear and concise overview of the study's contribution to stroke rehabilitation research."
+}

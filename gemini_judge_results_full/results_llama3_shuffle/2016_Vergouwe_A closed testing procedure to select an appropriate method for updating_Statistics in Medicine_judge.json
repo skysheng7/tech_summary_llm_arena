@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 0,
+    "reasoning": "The summary misinterprets the core research question. The paper is about selecting an appropriate *update method* for *existing* prediction models, not about developing a new model using multiple techniques (logistic regression, decision trees, random forests) for a specific outcome (TBI)."
+  },
+  "factual_accuracy": {
+    "score": 0,
+    "reasoning": "The summary contains significant factual inaccuracies. The paper does not mention using decision trees or random forests for model development or validation. It focuses on updating existing logistic regression models using recalibration or revision methods. The claim about improving predictive accuracy for TBI outcomes is also misattributed; while TBI is used as an example, the paper's focus is on the general method for updating any logistic regression model."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 0,
+    "reasoning": "The summary introduces terminology ('decision trees', 'random forests', 'AUC-ROC') not present in the original paper and uses them incorrectly in the context of the paper's methods. The coherence is severely impacted by these fabrications and the misrepresentation of the paper's core methodology. Terms like 'closed testing procedure' are mentioned but not explained in the context of the paper's actual application."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences, adhering to the prompt's length constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 0,
+    "reasoning": "The summary completely misses the main points of the paper. The paper's key contribution is the *closed testing procedure for selecting an appropriate update method* (recalibration, revision, etc.) for existing models, not developing new models with diverse techniques. The summary focuses on non-existent methods and a specific application (TBI) as if it were the primary focus, rather than an illustrative example."
+  },
+  "hallucination": {
+    "score": 0,
+    "reasoning": "The summary hallucinates major aspects of the methodology, claiming the use of decision trees and random forests, which are not mentioned in the paper. It also misrepresents the purpose of the closed testing procedure as selecting the 'best-performing model from a set of pre-specified models' rather than the best *update method* for an existing model. The claims about improving predictive accuracy for TBI outcomes using these non-existent methods are also fabrications."
+  },
+  "total_score": 10,
+  "overall_assessment": "This summary fails to accurately reflect the content of the original paper. It fabricates methodologies, misinterprets the research question and the core contribution, and presents factually inaccurate information about the paper's methods and findings."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research question by stating the review's aim to examine how DHTs are used in stroke rehabilitation in Canada and identifies key gaps and future directions."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key numerical findings from the paper, such as the percentage of studies focusing on upper extremity function (85.71%), chronic phase (64.3%), and home settings (50%). It also correctly identifies the types of technologies used and the facilitators and barriers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses key terms like 'Digital Health Technologies (DHTs)' and 'scoping review' appropriately and provides context without needing explicit definitions within the summary itself. The flow is logical and easy to understand."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is one long paragraph containing multiple sentences. Even after reordering, it is a single paragraph with multiple complex sentences that do not adhere to the 5-sentence limit."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important aspects of the paper: the scope of DHT use in Canada, the focus of existing research, the demonstrated feasibility and effectiveness, identified facilitators and barriers, significant gaps in research, and recommendations for future directions. It covers the key take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the information presented in the original paper, including the numerical data, identified themes, and recommendations."
+  },
+  "total_score": 50,
+  "overall_assessment": "This summary is excellent in its content, accurately reflecting the key findings, gaps, and recommendations of the research paper. However, it fails to adhere to the prompt's specific instruction regarding the number of sentences, presenting a single, multi-sentence paragraph instead of five distinct sentences."
+}

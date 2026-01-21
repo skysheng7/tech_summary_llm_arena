@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question of demonstrating quantum advantage in NP search problems and creating cryptographic separations under weaker assumptions and less structured oracles."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings presented in the paper, including the nature of NP search problems, proofs of quantumness, cryptographic counterexamples, the role of error-correcting codes and quantum Fourier transform, and the relation to the Aaronson-Ambainis conjecture."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses appropriate technical terms like 'NP search problems', 'quantum polynomial-time', 'random oracle', 'proof of quantumness', 'Minicrypt-style', and 'certifiable randomness'. While these terms are essential, a brief explanation for a general audience might have improved coherence further, but the terms are used in a context that allows for understanding."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt explicitly asked for a summary in 5 sentences. The provided summary is presented as a list of bullet points, not sentences, and contains far more information than would fit into 5 sentences. The information is presented as detailed findings rather than a concise overview."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the main results and contributions of the paper, from the theoretical demonstrations in the random oracle model to practical implications with concrete hash functions. It highlights the novelty of achieving quantum advantage with less structured oracles and milder assumptions."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the provided paper sections. There are no claims made that are not supported by the text."
+  },
+  "total_score": 47,
+  "overall_assessment": "The summary is highly informative and factually accurate, covering all the key findings and their significance. However, it completely fails to adhere to the prompt's requirement of a 5-sentence summary, presenting the information as a detailed list instead."
+}

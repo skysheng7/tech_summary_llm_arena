@@ -1,0 +1,16 @@
+Here is the summary converted into bullet points:
+
+*   The paper presents an end-to-end workflow for preparing high-quality initial states for quantum energy estimation algorithms in quantum chemistry.
+*   The quality of the initial state strongly affects the total runtime of quantum energy estimation algorithms.
+*   A new, practical quality metric is introduced: the state's **energy distribution** over the Hamiltonian spectrum.
+*   Classical and quantum methods are provided to approximate this energy distribution without knowing the true ground state.
+*   These methods include series expansions, a resolvent/Green's-function approach, and coarse QPE sampling.
+*   For implementation, an efficient fault-tolerant algorithm is developed to load **sums of Slater determinants**.
+*   This new algorithm has a Toffoli cost scaling as \(O(D\log D)\), improving over prior \(O(ND)\)-type approaches.
+*   Costs for preparing **matrix product states** are also analyzed.
+*   **Low-precision (coarse) QPE with postselection** is proposed as a cheap "refinement" step.
+*   This refinement step filters out high-energy components.
+*   It also diagnoses and mitigates QPE "leakage" (spurious low-energy outcomes caused by kernel tails).
+*   Numerical studies were conducted on hydrogen chains, stretched N\(_2\), Cr\(_2\), and Fe\(_4\)S\(_4\).
+*   These studies show that better initial states, often from DMRG/SHCI and sometimes compressed, can reduce the overall cost of energy estimation by orders of magnitude.
+*   Better initial states also help identify "Goldilocks" instances where quantum advantage is most plausible.

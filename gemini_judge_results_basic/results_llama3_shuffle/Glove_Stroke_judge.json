@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of the paper: investigating the therapeutic effects of wearable robotic gloves on hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the findings and limitations discussed in the paper. It correctly notes the positive effects observed, the lack of extensive long-term data, and the need for standardization. The only minor inaccuracy is the claim that spasticity reduction was consistently observed across all studies; the paper indicates that studies often focused on patients with low spasticity and that it's unknown for higher levels. However, this is a nuanced point and the summary's overall factual accuracy is high."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear and understandable language, avoiding overly technical jargon. The flow between sentences is logical and coherent, making the summary easy to read and understand."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences, directly fulfilling the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively covers the most critical aspects of the paper, including the research focus, key findings, identified limitations, and future research recommendations. It prioritizes the most relevant information for a concise overview."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or information fabricated in the summary. All points made are directly derivable from the provided text."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent, accurately reflecting the paper's core findings and limitations within the strict constraint of 5 sentences. Its strengths lie in its factual accuracy, coherence, and adherence to the prompt, with only a minor point regarding the nuance of spasticity reduction preventing a perfect score."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the central research question regarding the impact of competition intensity on dominance hierarchies in dairy cows."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the flattening of the hierarchy with increased competition, the rise in 2-way dyads, and the proposed role of resource valuation."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "Key terms like 'feeder utilization,' 'dominance hierarchy,' and '2-way dyads' are used appropriately and contribute to the overall coherence of the summary."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summaries are each 5 sentences long, demonstrating adherence to the sentence count constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most critical findings and conclusions of the study, including the methodology's basis (feeder occupancy as a proxy for competition) and the main implication (considering context in hierarchy assessment). No irrelevant information is included."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All information presented in the summary is directly supported by the content of the original research paper."
+  },
+  "total_score": 55,
+  "overall_assessment": "The summaries effectively capture the core findings and implications of the research. They accurately present the relationship between competition, hierarchy structure, and the role of resource valuation, while adhering to the sentence limit."
+}

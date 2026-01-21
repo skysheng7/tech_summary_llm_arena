@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary implicitly addresses the research questions by describing the use of DHTs in Canadian stroke rehabilitation, identifying gaps (e.g., focus on UE, need for more RCTs, broader outcomes), and hinting at implications for future directions."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings, including the number of studies, publication dates, methodologies, focus areas (chronic phase, UE), settings, types of technologies, and identified facilitators/barriers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses relevant terminology but explains or contextualizes them sufficiently (e.g., DHTs, qualitative research, RCTs, upper extremities, virtual reality, telerehabilitation). The flow is logical and easy to understand."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is significantly longer than 5 sentences (it is 8 sentences long)."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main points of the paper, including the background, methods (scoping review), key findings (types of DHTs, focus areas, facilitators/barriers), and conclusions/future directions (need for more RCTs, broader outcomes)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All information presented in the summary is directly supported by the content of the original research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary provides a comprehensive and accurate overview of the research paper's findings, effectively covering the key aspects of the study. However, it fails to adhere to the sentence limit specified in the prompt."
+}

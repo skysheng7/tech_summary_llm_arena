@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 6,
+    "reasoning": "The summary attempts to address the research question by describing the general topic of lameness detection in dairy cattle. However, it fails to identify the specific novel contribution or primary research question of the paper it claims to summarize."
+  },
+  "factual_accuracy": {
+    "score": 5,
+    "reasoning": "The summary lists topics covered in papers within the journal 'Computers and Electronics in Agriculture 234 (2025) 110206' but does not accurately reflect the content of the provided paper. For instance, the provided paper is about a specific method ('Redefining lameness assessment: Constructing lameness hierarchy using crowd-sourced data') and does not primarily focus on radar sensing or camera-based technology as presented in the summary."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary uses terms like 'hyperalgesia,' 'dominance hierarchies,' and 'inter-rater reliability' without explanation. While these might be understandable to a specialized audience, they lack clarity for a general reader. The overall coherence is affected by the inaccurate representation of the paper's content."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary provides 5 sentences, adhering to the sentence count constraint. However, it fails to accurately summarize the *specific* article provided, instead giving a general overview of the journal issue."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "The summary is not complete or relevant to the provided paper. It lists several general topics related to dairy cattle lameness that are present in the journal but misses the core contribution of the paper, which is the novel crowd-sourced lameness hierarchy using pairwise assessments and the Elo-rating method. It overemphasizes unrelated aspects like radar sensing."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary claims that 'The original papers presented in this article' discuss radar sensing and camera-based technology as primary points, which is not true for the specific article provided. The article provided focuses on crowd-sourcing pairwise comparisons for lameness hierarchy construction."
+  },
+  "total_score": 38,
+  "overall_assessment": "The summary fails to accurately represent the content of the provided research paper. It misidentifies the core research question and methodology, instead offering a generic overview of topics found within the journal issue. While it adheres to the sentence count, its factual inaccuracies and lack of relevance to the specific paper make it a poor summary."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: how OpenAI's DALL-E 3 model, through its prompt revision process, erases the reality of intensive livestock farming and replaces it with idealized pastoral scenes."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the study's main findings, including the default pastoral bias, the effect of prompt revision, the results when prompt revision was disabled, and the regional variations. It correctly states that most farmed animals are housed indoors."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is coherent and easy to understand. Key terms like 'prompt revision,' 'pastoral scenes,' and 'intensive conditions' are used appropriately within the context of the article and are understandable without explicit definition."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, as requested by the original prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most important aspects of the paper: the bias in DALL-E 3, the mechanism of prompt revision, the contrast with reality when revision is disabled, the regional alignment, and the broader implications for public discourse and misinformation."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the provided research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that perfectly follows the prompt's constraints. It accurately captures the research question, key findings, and implications of the study in a clear and concise manner, demonstrating a strong understanding of the source material."
+}

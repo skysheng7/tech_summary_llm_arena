@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the research question in the fourth sentence: 'This systematic review investigates the therapeutic effects of wearable robotic gloves on improving hand function in stroke patients.'"
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key numerical findings from the paper, such as 'Out of 2674 articles screened, only 5 studies met the inclusion criteria.' It also correctly mentions the moderate methodological quality and the identified limitations."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is written in clear, accessible language. While it uses terms like 'methodological quality' and 'intervention protocols', these are used in context and do not require explicit explanation for a general audience understanding the core findings of a research paper."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary provided consists of exactly 5 sentences, adhering perfectly to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most crucial aspects of the paper: the scope of the review (number of articles and included studies), the main finding (positive therapeutic effect), the significant limitations (sample size, control groups, protocols), and the conclusion regarding the need for further research. It's highly relevant and comprehensive within the sentence limit."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, precisely following the prompt's length constraint while accurately and comprehensively conveying the paper's core findings, limitations, and conclusions. It demonstrates a strong understanding of the research and effectively communicates its essence."
+}

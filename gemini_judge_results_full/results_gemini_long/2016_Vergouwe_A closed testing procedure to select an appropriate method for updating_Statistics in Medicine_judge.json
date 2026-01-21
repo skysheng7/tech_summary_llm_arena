@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the primary research question: to define a strategy (closed testing procedure) for selecting an appropriate method for updating prediction models."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the methods discussed (recalibration in the large, recalibration, model revision), the purpose of the closed testing procedure, and the balance it aims to achieve between updating and overfitting. It correctly mentions the use of clinical examples to demonstrate the procedure."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary effectively explains key terms like 'closed testing procedure', 'recalibration in the large', 'full model revision', 'Type I error', 'overfitting', and 'parsimonious'. The flow of information is logical and easy to follow."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The generated summary is significantly longer than 5 sentences, appearing to be a comprehensive summary rather than a concise one. The summary text provided is 5 paragraphs long and contains significantly more than 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important aspects of the paper: the proposed methodology (closed testing procedure), its purpose (selecting update methods), the balance it strikes (updating vs. overfitting), the methods considered, and its demonstration through clinical examples, highlighting its effectiveness in selecting parsimonious updates."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements and concepts presented in the summary are directly supported by the content of the research paper. No unsupported or fabricated information is present."
+  },
+  "total_score": 49,
+  "overall_assessment": "The summary effectively explains the core concepts and goals of the paper, demonstrating a strong understanding of its content and relevance. However, it failed to adhere to the sentence limit specified in the prompt, providing a much more extensive summary than requested."
+}

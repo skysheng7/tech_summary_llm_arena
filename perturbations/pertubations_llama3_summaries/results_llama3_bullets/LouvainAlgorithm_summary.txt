@@ -1,0 +1,11 @@
+Here is the summary converted into bullet points:
+
+*   The paper discusses a new algorithm for community detection in large networks.
+*   This algorithm is able to unfold hierarchical community structures.
+*   The algorithm is called the "CNM" (Community Detection Algorithm).
+*   It uses a two-phase approach:
+    *   First, it aggregates nodes into communities based on their connections.
+    *   Then, it refines these communities by iteratively merging or splitting them to maximize modularity.
+*   The authors demonstrate the effectiveness of the algorithm by applying it to several networks, including a social network and an Erdős-Rényi random graph.
+*   They also show that the algorithm is able to identify hierarchical community structures, which are common in many complex networks.
+*   Overall, the CNM algorithm provides a fast and efficient way to detect communities in large networks, with good accuracy and scalability.

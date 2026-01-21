@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question: developing a new, reliable method for lameness assessment in dairy cows using crowd-sourced data."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary correctly reports the key numerical findings, including ICC values for different methods and the percentage reduction in comparisons, as well as the number of workers required."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary effectively uses and explains key terms like 'lameness hierarchy,' 'pairwise comparison,' and 'EloSteepness,' and maintains coherence throughout. 'Bayesian Elo-based method' is a bit technical but contextually understandable."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is precisely 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the main aspects of the paper: the proposed method, its validation with experts and crowd workers, efficiency improvements through subsampling, and the overarching conclusion regarding its utility for automated lameness detection."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the provided text."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent, effectively condensing the complex research into the requested 5 sentences. It accurately reflects the paper's core contributions, findings, and implications, making it highly informative and coherent."
+}

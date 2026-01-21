@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the central research question: investigating the therapeutic effects of wearable robotic gloves on improving hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key numerical findings, such as the number of studies included (5), the quality score range (7-10 out of 12), and the participant range (3-13)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'systematic review', 'wearable robotic gloves', 'stroke', 'hand function', 'therapeutic effects', 'randomized controlled trials (RCTs)', and 'spasticity'. While these are central to the paper, their meaning is generally inferable from context. Some terms, like 'methodological quality' or 'spasticity', could have been briefly elaborated for wider audience understanding. However, the overall coherence is good."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, consisting of multiple paragraphs and far exceeding the requested sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main points: the objective, methodology (database search, inclusion criteria), limited number of studies, positive findings, significant limitations (small sample size, lack of RCTs, focus on chronic stroke/mild spasticity), quality assessment, devices used, intervention duration, and the call for more comprehensive future research. It covers the most important take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the original paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary provides a comprehensive and factually accurate overview of the article's objectives, findings, and limitations, effectively capturing the core message. However, it critically fails to adhere to the prompt's specific instruction of a 5-sentence limit, providing a much longer text instead."
+}

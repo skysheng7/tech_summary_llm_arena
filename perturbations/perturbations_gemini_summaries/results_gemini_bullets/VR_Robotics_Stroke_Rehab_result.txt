@@ -1,0 +1,12 @@
+Here's the summary converted into bullet points:
+
+*   This pilot study investigated the effectiveness of virtual reality (VR)-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia.
+*   The intervention group, which received VR-based robotic training alongside conventional rehabilitation, showed statistically significant improvements in lower limb motor function compared to the control group.
+*   Participants in the intervention group also demonstrated enhanced balancing function.
+*   Participants in the intervention group also demonstrated enhanced walking ability.
+*   Participants in the intervention group also demonstrated enhanced activities of daily living.
+*   Participants in the intervention group also demonstrated enhanced quality of life.
+*   Global cognitive function did not show significant improvement between the groups.
+*   The study concluded that VR-based robotic training is a promising approach for stroke rehabilitation.
+*   The study concluded that VR-based robotic training is a feasible approach for stroke rehabilitation.
+*   The study supports the need for larger-scale studies to validate its effectiveness.

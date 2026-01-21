@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the primary purpose of the article, which is to present 12 common statistical errors identified by BMJ's statistical editors."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All points mentioned in the summary are accurately reflected in the original article. The list of 12 recommendations is correctly summarized, and the emphasis on reporting guidelines is also accurate."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary uses some statistical terms like 'estimands,' 'dichotomizing continuous variables,' 'I² and meta-regression,' 'calibration in prediction models,' and 'variable selection approaches.' While these are central to the article's topic, they are not explicitly explained within the summary itself, assuming a reader familiar with statistical concepts. However, the overall coherence is good."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is presented in exactly 5 sentences, adhering perfectly to the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main points of the article: the Christmas theme, the 12 statistical issues, the importance of reporting guidelines, and the overall aim of improving research quality. The list of the 12 issues is comprehensive within the summary's constraints."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the original article."
+  },
+  "total_score": 57,
+  "overall_assessment": "This summary effectively captures the essence of the article, adhering strictly to the sentence limit. It accurately presents the 12 statistical issues and the article's overarching goal, though it assumes some prior statistical knowledge from the reader due to a lack of explicit terminology explanation."
+}

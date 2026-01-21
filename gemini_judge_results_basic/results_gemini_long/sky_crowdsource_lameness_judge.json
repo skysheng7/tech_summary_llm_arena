@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question of investigating crowdsourcing as a method for assessing dairy cattle lameness and its reliability compared to expert assessments."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the methods, findings, and implications presented in the paper, including the use of MTurk, side-by-side video comparisons, the agreement with expert scores, and the requirement of approximately 10 workers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary explains concepts like 'crowdsourcing' and 'Amazon Mechanical Turk' in a coherent manner. The explanation of the assessment process is clear. The term 'lameness' is central and understood in context."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary is significantly longer than the requested 5 sentences, containing multiple paragraphs and many more than 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important aspects of the paper: the method (crowdsourcing video assessments), the participants (non-experts from MTurk), the findings (high agreement with experts, low worker requirement), and the implications (generating data for automated systems). It is highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary sticks to the information presented in the paper and does not introduce any unsupported claims or fabrications."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary is highly informative and factually accurate, detailing the research methodology, key findings, and implications of using crowdsourcing for lameness assessment in dairy cattle. However, it fails significantly on the prompt's sentence limit, being vastly longer than the requested five sentences."
+}

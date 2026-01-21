@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the objective of the study as evaluating the effectiveness of VR-based robotic training for lower limb rehabilitation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results, participant numbers, and comparative outcomes are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is presented in a clear, bulleted format, making it easy to understand. While technical terms like 'hemiplegia' are used, they are in the context of the study's focus and are standard in this field, not requiring explicit explanation for a research summary."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is a bulleted list, not formatted into sentences, and far exceeds the requested sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the key aspects of the study, including the methodology, participant numbers, interventions, key findings for both primary and secondary outcomes, safety, feasibility, and future directions."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the content of the original paper."
+  },
+  "total_score": 50,
+  "overall_assessment": "This summary is highly comprehensive and factually accurate, covering all essential elements of the research paper. However, it completely fails to adhere to the prompt's requirement of a 5-sentence summary, presenting instead a detailed bulleted list."
+}

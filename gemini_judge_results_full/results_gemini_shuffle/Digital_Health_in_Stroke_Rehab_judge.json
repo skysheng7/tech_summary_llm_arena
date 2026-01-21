@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the review's objective: to explore the use of digital health technologies (DHTs) for stroke rehabilitation in Canada between 2010 and 2022, which aligns with the paper's stated aims."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the number of studies (14), the focus on upper extremity function and chronic phase, the types of technologies used (VR, gaming, mobile/sensor), the findings on feasibility and effectiveness, the identified barriers, and the recommendations for future research, all of which are well-supported by the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (DHTs, RCTs, UE function, chronic phase, VR) and presents them in a coherent and understandable manner. The context provided by the sentences makes the terms clear without requiring explicit definitions."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences, perfectly matching the prompt's request."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important aspects of the paper: the scope and timeframe, key findings on study characteristics and technologies, the dual nature of feasibility/effectiveness and barriers, and the crucial recommendations for future research, including expanding scope and considering diverse populations."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that perfectly follows the prompt's length constraint. It accurately captures the core findings, identifies key technologies and challenges, and highlights the important recommendations for future research, making it a highly relevant and comprehensive overview of the paper."
+}

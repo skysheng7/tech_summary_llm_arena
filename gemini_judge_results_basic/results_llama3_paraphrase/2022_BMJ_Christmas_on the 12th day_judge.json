@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary accurately captures the core research question which is about improving the reporting and statistical practices in clinical research, particularly concerning prognostic models and prediction. However, it could be slightly more explicit about the 'why' behind this focus, which is to reduce errors and improve the quality of published research."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual claims made in the summary are directly supported by the article's content. It correctly identifies the focus on prognosis research, prediction models, reporting guidelines, and common errors."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary effectively uses and implicitly explains key terms like 'prognosis research,' 'prediction models,' and 'transparent reporting.' The mention of TRIPOD is relevant and contextualized. The coherence is high, with smooth transitions between points."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly five sentences as requested by the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "The summary covers the main themes of the article, including the focus on prognosis research, prediction models, reporting guidelines, and common errors. It also highlights the objective of improving research quality. It could have slightly more explicitly mentioned the '12 days of Christmas' framing as a unique approach to presenting these issues."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabricated information in the summary. All points are derived directly from the provided text."
+  },
+  "total_score": 55,
+  "overall_assessment": "This is a strong summary that accurately reflects the article's content and adheres perfectly to the prompt's constraints. Its main strength lies in its factual accuracy and coherent presentation of complex information. A minor improvement could be made by more directly referencing the unique 'Christmas' theme used to present the statistical issues."
+}

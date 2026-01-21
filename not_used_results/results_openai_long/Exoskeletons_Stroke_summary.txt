@@ -1,0 +1,38 @@
+## Summary of the paper
+
+**Citation:** Mubin O, Alnajjar F, Jishtu N, Alsinglawi B, Al Mahmud A. *Exoskeletons With Virtual Reality, Augmented Reality, and Gamification for Stroke Patients’ Rehabilitation: Systematic Review.* JMIR Rehabil Assist Technol. 2019;6(2):e12010. doi:10.2196/12010.
+
+### Purpose
+The review examines how **robotic exoskeleton-assisted stroke rehabilitation** is being combined with **virtual reality (VR), augmented reality (AR), and/or gamification** to improve **motor function, activity, and participation**, with special attention to the emerging need to move from **clinic-based** therapy toward **home-based** rehabilitation.
+
+### Methods
+- Conducted according to **PRISMA** guidelines.
+- Databases searched: **MEDLINE, EMBASE, ScienceDirect, Cochrane Library**.
+- Time window: **2010–2017**.
+- Included studies: post-stroke participants using an **exoskeleton/robotic device** plus **VR, AR, or game elements**.
+- Excluded: robotics-only studies without VR/AR/gamification, non-English papers, non-virtual/non-game interventions.
+
+### Included evidence
+- **30 studies** met criteria (mix of RCTs and exploratory/feasibility work).
+- Total participants across studies: **~385**.
+- **Upper limb focus dominated**: **28/30** upper-limb studies; **2/30** lower-limb.
+- Many studies were small: **13** had **<10** participants.
+- Settings: mostly **clinic-based** (**25** clinic; **4** home; **1** both).
+- Interaction types: split evenly—**15 VR** and **15 game-based** (some overlap conceptually).
+- Common outcome measures included **Fugl-Meyer (FMA), WMFT, MAS, CMSA**, etc.
+
+### Key findings
+- Across studies, using **VR/games with exoskeletons** generally led to **improvements in motor outcomes** (eg, movement quality, kinematics, clinical scale scores) and often improved **engagement/motivation** through feedback and adjustable difficulty.
+- A few exoskeleton systems appeared more than once (e.g., **ARMin**, **Armeo Spring**, **Bi-Manu-Track**), but most studies used **unique devices**, highlighting high variability in hardware and protocols.
+- **Lower-limb evidence was scarce**, though the limited studies suggested potential benefits (e.g., improved gait/ankle control when robotics were paired with VR/game training).
+
+### Notable gaps and conclusions
+- **No AR-based stroke rehabilitation exoskeleton systems** were found in the included sample (authors suggest hardware/tracking complexity may be a barrier, though newer AR platforms may change this).
+- A major gap is the **limited translation to home-based rehabilitation**, despite the promise that VR/gamified interfaces could support independent training at home.
+- The authors recommend future work emphasizing:
+  - **Customizable, rehabilitation-specific games** (not just off-the-shelf games),
+  - Better design for **motivation, usability, feedback, adaptive difficulty**, and
+  - More research into **home deployment** and **lower-limb rehabilitation**.
+
+### Overall takeaway
+The review concludes that **pairing exoskeleton/robotic rehabilitation with VR or gamification** is promising and often associated with **motor improvements and higher engagement**, but the field (as of 2010–2017) is limited by **small heterogeneous studies**, **few home-based trials**, and **very little lower-limb and AR-focused research**.

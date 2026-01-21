@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: developing and evaluating a closed testing procedure for selecting the appropriate extent of updating a prediction model."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the methods, case studies, and simulation findings of the paper, including the specific update methods discussed and the outcomes of the simulations regarding Type I error and mean squared error."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'closed testing procedure', 'recalibration-in-the-large', 'recalibration/logistic calibration', and 'model revision' are mentioned and their hierarchical relationship is explained. The concept of overfitting is also implicitly addressed. The explanation is cohesive and easy to follow."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary has 5 sentences, but the ordering was described as 'reordered' in the prompt, suggesting it might have been generated from a longer text and then reordered. However, the final output is indeed 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main contributions: the proposed procedure, the rationale behind it (balancing evidence and overfitting), its application in case studies showing preference for parsimonious updates, and validation through simulations."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 54,
+  "overall_assessment": "This summary accurately and coherently captures the essence of the research paper, including its methodology, findings, and implications. It clearly explains the proposed closed testing procedure and its benefits, making it a strong and relevant summary. It adheres to the sentence count requirement of the prompt."
+}

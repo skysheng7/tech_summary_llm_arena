@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 0,
+    "reasoning": "The article is not presenting a research question in the traditional sense of a study being evaluated. Instead, it's a review of common statistical issues encountered in submitted manuscripts. Therefore, assessing a 'research question' for the summary is not applicable to the source material."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the article, listing the 12 statistical issues and the other key recommendations (e.g., checking assumptions, reporting guidelines) without introducing any factual errors."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate statistical terminology (e.g., estimand, P values, dichotomizing, meta-analysis, calibration, overfitting, CONSORT, STROBE) which are directly from the source article. While these terms are not explicitly defined within the summary, the article itself is aimed at a knowledgeable audience (researchers submitting to The BMJ), and the summary accurately represents the technical nature of these terms as presented. The overall coherence is excellent."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main themes of the article: the '12 days of Christmas' framework, the identified statistical pitfalls, the importance of addressing assumptions and reporting, and the overall aim of improving research quality. It covers the most critical points made by the authors."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the content of the original article. No fabricated information or unsupported claims are present."
+  },
+  "total_score": 49,
+  "overall_assessment": "This summary effectively captures the essence of the article within the requested sentence limit, accurately reflecting the key statistical issues and recommendations. While it doesn't explicitly define all technical terms, it accurately uses them as presented in the original context and is therefore highly relevant and complete."
+}

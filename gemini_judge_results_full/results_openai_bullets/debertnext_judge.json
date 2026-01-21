@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research question, which is to develop a multimodal framework for detecting fake news using text and image."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results cited in the summary (e.g., accuracy improvements on datasets) are accurately reflected from the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses technical terms like DeBERTa V3, ConvNeXT, transfer learning, and multimodal. While these are core to the paper, they are not explicitly explained, assuming prior knowledge. However, the overall flow and the description of how they are used (e.g., for text/image representation) provide some context."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is presented as a list of bullet points and contains significantly more than 5 distinct points, failing to adhere to the sentence count constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the key aspects of the paper, including the proposed model architecture (DeBERTNeXT, DeBERTa V3, ConvNeXT), its method (concatenation, sigmoid classifier), the datasets used, the use of transfer learning, and the superior performance results with specific accuracy improvements."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary accurately captures the core contributions, methodology, and results of the paper, including specific performance metrics. However, it completely failed to follow the prompt's instruction for a 5-sentence summary, instead providing a detailed list of bullet points."
+}

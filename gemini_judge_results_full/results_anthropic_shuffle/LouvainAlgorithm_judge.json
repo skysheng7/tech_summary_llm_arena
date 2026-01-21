@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary clearly states the paper's primary goal: to introduce a fast algorithm for detecting community structure in large networks using modularity optimization."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All stated facts, such as the two-phase iterative method, linear complexity, comparison to other methods, application to the Belgian mobile phone network, and computational efficiency with specific time/node counts, are accurate based on the paper's content."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Key terms like 'community structure', 'modularity optimization', and 'hierarchical community structure' are used in context. While 'modularity optimization' is central, a deep explanation isn't provided, which is acceptable for a short summary. The flow is logical."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, precisely following the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core contributions: the novel algorithm, its speed and accuracy benefits, its hierarchical nature, and its validation on a large real-world network. It touches upon the most important aspects."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the information present in the original paper."
+  },
+  "total_score": 56,
+  "overall_assessment": "This summary is excellent, accurately capturing the paper's main contributions, including the novel algorithm, its performance benefits (speed and accuracy), and its application to large networks. It adheres perfectly to the sentence limit and uses terminology appropriately within the context of the paper."
+}

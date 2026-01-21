@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the central research question: whether dairy-cow dominance hierarchies change with competition intensity, as measured by feeder occupancy."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings, including the decrease in hierarchy steepness with increased occupancy, the increase in two-way dyads, and the shift in dominance at high occupancy. It also correctly mentions the total number of cows and the method of analysis (Elo-based hierarchies)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses terms like 'feeder replacement events,' 'feeder occupancy,' 'Elo-based hierarchies,' and 'two-way dyads' but explains their context (e.g., competition intensity, outcome of interactions, reversals in dominance). The term 'desperado effect' is not used, which is good for conciseness. 'Intrinsic dominance attributes' is used in context. The summary is coherent and easy to follow."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The prompt asked for a 5-sentence summary, and the provided summary contains exactly 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important findings and the overarching conclusion: that competition level significantly impacts dominance hierarchies, potentially overriding intrinsic attributes, and that hierarchies measured only during high competition might be misleading. It covers the main results and the implications."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the text of the research paper. No unsupported claims or fabrications are present."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent, accurately capturing the research question, methodology, key findings, and conclusions of the paper within the requested sentence limit. It uses appropriate terminology and is highly coherent, demonstrating a strong understanding of the paper's core contributions."
+}

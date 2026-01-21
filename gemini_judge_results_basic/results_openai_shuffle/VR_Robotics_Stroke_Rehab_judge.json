@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of the paper: evaluating the effectiveness and feasibility of VR-based robotic training for stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical data (sample size, FMA-LE change, p-values) and findings mentioned in the summary are consistent with the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (VR, hemiplegia, FMA-LE, BBS, FAC, Barthel Index, MoCA) and presents them in a coherent and easily understandable manner, assuming basic familiarity with research study designs."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most critical aspects: the study design, participants, key findings for motor function, balance, walking, ADLs, quality of life, cognitive function, safety, and the overall conclusion and future recommendations. It is highly relevant to the paper's content."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the information presented in the original research paper. No unsupported information is included."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that perfectly adheres to the prompt's constraints. It accurately and concisely captures the essential findings, methodology, and conclusions of the research paper, making it highly informative and well-written."
+}

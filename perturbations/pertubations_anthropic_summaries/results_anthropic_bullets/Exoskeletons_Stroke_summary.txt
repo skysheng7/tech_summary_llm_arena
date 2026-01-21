@@ -1,0 +1,15 @@
+Here is the summary converted into bullet points, preserving all information and adding nothing new:
+
+*   This systematic review examines the use of exoskeletons combined with virtual reality (VR), augmented reality (AR), or gamification for stroke patient rehabilitation.
+*   The review covered 30 studies published between 2010-2017 with approximately 385 participants in total.
+*   Most studies (28 of 30) focused on upper limb rehabilitation rather than lower limb.
+*   The most popular exoskeleton devices were ARMin, Bi-Manu Track, and ArmeoSpring.
+*   Fifteen studies used VR, and 15 studies used gamification approaches.
+*   Results showed general improvements in motor function across studies using these novel interfacing techniques.
+*   Patients demonstrated increased motivation and engagement compared to traditional rehabilitation methods.
+*   A significant gap exists in transitioning rehabilitation from clinical to home-based settings, with 25 of 30 studies conducted in clinics versus only 4 in home environments.
+*   This highlights the need for more accessible at-home rehabilitation solutions.
+*   The review found no AR-based systems in their sample.
+*   Future research is called for to develop customizable games that maintain patient motivation.
+*   Future research should also explore various interfacing technologies.
+*   Future research should aim to facilitate successful home-based rehabilitation therapies.

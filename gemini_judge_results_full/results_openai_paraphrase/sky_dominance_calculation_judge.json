@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the study's objective: to investigate how dominance hierarchies are affected by varying levels of competition, using feeder replacement occurrences and feeder occupancy as measures."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the study's duration, participant numbers, methodology (sensor data, feeder occupancy, Elo ratings), and key findings, including the decrease in hierarchy steepness and increase in two-way dyads with higher occupancy. It also accurately captures the statistical trend of dominant individuals losing more at higher occupancy. Minor deduction as it does not mention the exact numerical value of the decrease in steepness (2.41 × 10⁻³), but it captures the direction and significance of the finding."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Key terms like 'dominance hierarchies,' 'feeder replacement,' 'feeder occupancy,' and 'Elo-based hierarchies' are used. The concept of 'hierarchy steepness' is explained as becoming 'less pronounced or flatter,' and 'two-way interactions' are described as where 'either cow could displace the other,' signifying less stable relationships. The term 'dyads' is used without explicit definition but is understandable in context. The summary is generally coherent."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary has 6 sentences. This indicates a failure to follow the explicit sentence count instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most critical aspects of the study: the research question, methodology, main results (flattened hierarchy, increased two-way dyads, reduced dominant success under competition), and the overarching conclusion about the influence of competition and resource valuation on dominance. It also highlights the practical implications for dominance hierarchy studies."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the information presented in the research paper. No unsupported claims are made."
+  },
+  "total_score": 55,
+  "overall_assessment": "This summary effectively captures the core findings and implications of the research paper, accurately describing the methodology and the relationship between competition and dominance hierarchies. However, it slightly deviates from the prompt's specific sentence count requirement by providing six sentences instead of the requested five."
+}

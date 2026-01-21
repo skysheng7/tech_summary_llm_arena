@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "Clearly states the study’s main question: whether and how dairy-cow dominance hierarchy structure changes with competition level (proxied by feeder occupancy)."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Accurately reports key quantitative results: steepness decrease of 2.41×10^-3 per 1% occupancy and 0.13% increase in two-way dyads per 1% occupancy, as well as the 7.57% increase in dyads where the initially dominant cow loses more at high occupancy. Minor omission: it does not include the reported SE values or the additional finding about amplified decrease in dominant win rate (1.06×10^-3% per 1% occupancy)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Coherent and well-structured. It briefly explains key terms (feeder occupancy as competition; two-way dyads as mutual replacement). It mentions 'agonistic interactions' and 'intrinsic dominance attributes' without defining them, but context makes meaning reasonably clear for a summary."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Follows the prompt by providing exactly 5 sentences (items 1–5 each constitute one sentence) and stays in summary form."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "Covers objective, methods framing (10 months, 159 cows, feeder occupancy), principal results, interpretation, and recommendation—appropriate coverage for a 5-sentence limit without irrelevant details."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "No apparent unsupported claims; all stated findings and interpretations align with the provided abstract and results."
+  },
+  "total_score": 58,
+  "overall_assessment": "The summary is highly accurate, clearly states the research question, and captures the central results and implications within the 5-sentence constraint. The only notable limitation is minor incompleteness in not mentioning some reported uncertainty/SEs and an additional quantitative effect size on dominant win-rate decline, but nothing is misleading or hallucinated."
+}

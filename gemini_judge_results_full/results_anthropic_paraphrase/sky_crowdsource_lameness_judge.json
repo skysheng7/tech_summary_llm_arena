@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research question by stating the establishment of a novel approach for evaluating lameness in dairy cows using crowdsourced comparative judgments."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results and findings mentioned in the summary, such as the ICC values for crowd workers and experienced assessors, the number of tasks and video pairs, the number of workers per task, and the time taken, are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'crowdsourced comparative judgments,' 'Amazon Mechanical Turk,' and 'Intraclass Correlation Coefficients (ICC)' which are central to the paper. While ICC is explained through its resulting values, a brief explanation of what it represents (agreement) would improve coherence. However, the context provided by the paper makes it understandable."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The prompt requested a 5-sentence summary, and the provided summary is exactly 5 sentences long."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core contributions: the development of a crowdsourced method, the methodology (video comparison, MTurk), the comparison with experts, the key finding about the number of workers needed, and the implications for lameness assessment and AI training. These are the most important takeaways."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the information presented in the research paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "This is an excellent summary that accurately captures the essence of the research paper. It clearly presents the novel methodology, key findings regarding worker agreement and the number of workers needed, and the broader implications for lameness detection and AI development. The summary adheres strictly to the prompt's length requirement and is factually sound."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question of the paper: developing and validating a model to predict the first severe COPD exacerbation, particularly when prior history is unavailable."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical data and key findings presented in the summary (e.g., number of patients, prediction times, c-statistics, number of predictors) are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (e.g., PRECISE-X, COPD, FEV₁, MRC dyspnoea score, c-statistic, net benefit) and explains their context within the research clearly and coherently, making the information understandable to someone familiar with medical research."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the most crucial aspects of the research: the model's purpose, data source, predictors, performance metrics, and conclusion, while also noting a limitation. All points are highly relevant to the core research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects information present in the provided research paper and does not introduce any unsupported claims or fabricated details."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that perfectly follows the prompt's constraints. It accurately captures the essence of the research, including the model's development, performance, and implications, while maintaining clarity and conciseness."
+}

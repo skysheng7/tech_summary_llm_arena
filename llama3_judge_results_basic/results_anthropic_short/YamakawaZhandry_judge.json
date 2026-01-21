@@ -1,0 +1,51 @@
+{
+  "references": [
+    {
+      "title": "Verifiable Quantum Advantage without Structure"
+    },
+    {
+      "author": "Takashi Yamakawa and Mark Zhandry"
+    },
+    {
+      "year": 2021
+    },
+    {
+      "journal": "EUROCRYPT"
+    },
+    {
+      "volume": 12697
+    },
+    {
+      "pages": "568–597"
+    }
+  ],
+  "results": [
+    {
+      "key_results": [
+        {
+          "title": "NP Search Problems"
+        },
+        {
+          "title": "Cryptographic Separations"
+        },
+        {
+          "title": "Proofs of Quantumness"
+        },
+        {
+          "title": "Certifiable Randomness"
+        }
+      ]
+    },
+    {
+      "technical_approach": {
+        "type": "folded Reed-Solomon codes",
+        "properties": [
+          "list-recoverability"
+        ]
+      }
+    }
+  ],
+  "conjecture": {
+    "name": "Aaronson-Ambainis conjecture"
+  }
+}

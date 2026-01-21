@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately identifies the core research question of the article, which is to present and explain twelve common statistical issues found in research submissions to The BMJ."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the text of the original article, including the framing as 'stocking fillers,' the origin of the list from an internal survey, and the specific examples of statistical issues."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses clear language and explains the purpose of the statistical issues in a coherent manner. While it mentions specific statistical concepts (e.g., dichotomizing continuous variables, meta-regression), it doesn't delve into their explanation, which is appropriate for a brief summary. The overall coherence is high."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering precisely to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main purpose and key takeaways of the article. It highlights the framing, the origin of the list, provides examples of the statistical issues, and mentions the ultimate goal of improving research quality and reducing reviewer workload. All points are highly relevant to the article's content."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any unsupported claims or fabricated information. All statements are directly derived from the provided text."
+  },
+  "total_score": 59,
+  "overall_assessment": "This is an excellent summary that perfectly follows the prompt's constraints while accurately and comprehensively capturing the essence of the original article. Its only minor limitation is the lack of detailed explanation for the statistical terms, which is understandable given the sentence limit."
+}

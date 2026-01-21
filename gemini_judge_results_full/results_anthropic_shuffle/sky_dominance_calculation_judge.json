@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research objective, which is to investigate how dominance hierarchies change with competition levels."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results cited in the summary, such as the decrease in hierarchy steepness (2.41 × 10⁻³) and the increase in two-way dyads (0.13%), are accurately presented from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses terms like 'feeder occupancy,' 'hierarchy steepness,' and 'two-way dyads' in a context that makes their meaning clear without requiring explicit definitions. The flow is logical and easy to understand."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is structured into exactly 5 distinct points/sentences, adhering precisely to the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the core aspects: the research question, the main quantitative findings, the behavioral implications, the proposed interpretation, and the practical recommendations. These are the most crucial take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the information presented in the original research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, accurately capturing the research question, key findings, and implications within the requested sentence count. It is well-structured, factually accurate, and uses terminology coherently, making it a highly effective representation of the original paper."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: developing a novel, crowd-enabled method for lameness assessment in dairy cows that constructs a lameness hierarchy."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical values and findings mentioned in the summary (ICC scores, percentage reductions, number of workers) are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses technical terms like 'gait scoring,' 'lameness hierarchy,' 'EloSteepness,' 'ICC,' and 'pairwise comparison,' but contextualizes them well within the summary. 'EloSteepness' is explained as a Bayesian Elo-based method, and 'lameness hierarchy' is described as a ranking system. The explanation is coherent and understandable for someone with some background knowledge of the field."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is precisely 5 sentences long, directly adhering to the prompt's request."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most critical aspects: the proposed method, its comparison to traditional methods, the feasibility with crowd workers, the efficiency gains through subsampling, and the overall conclusion regarding its utility for automated detection models."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the information presented in the original research paper."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent, accurately capturing the research question, methods, key findings, and conclusions within the specified sentence limit. It effectively explains technical terms and presents the information coherently, making it a highly relevant and accurate representation of the original paper."
+}

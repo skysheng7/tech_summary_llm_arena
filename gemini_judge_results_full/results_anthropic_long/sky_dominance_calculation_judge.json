@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the central research question: to examine how dominance hierarchies in dairy cows change in response to varying levels of competition at feeding areas, specifically measured by feeder occupancy."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately presents the key numerical findings, including the reduction in hierarchy steepness (2.41 × 10⁻³ per 1% increase in feeder occupancy) and the increase in two-way dyads (0.13% per 1% increase). It also correctly states that dominant individuals started to lose proportionally more interactions during high competition."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary generally uses clear language. It explains 'feeder occupancy' as a measure of competition and 'two-way dyads' as interactions where both animals replace each other. However, it could be slightly more explicit about what 'hierarchy steepness' refers to beyond 'less sharply defined'."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, consisting of five paragraphs and many more sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main findings: the flattening of the hierarchy with increased competition, the shift in dyadic interactions (more 2-way dyads, dominant animals losing more), the explanation based on resource valuation, and the key recommendation against using only high-competition data for hierarchy assessment."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the text of the research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "This summary is comprehensive and accurately reflects the study's findings and conclusions, providing excellent coverage of the research question and relevant details. However, it completely failed to adhere to the prompt's constraint of a 5-sentence limit, making it unsuitable as a direct response to that specific instruction."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research's core question: to investigate the reliability and scalability of a crowdsourced comparative lameness assessment method for dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings and numerical data presented in the paper, including the ICC values for crowd worker agreement (0.46-0.77), expert agreement (0.87), and crowd worker vs. expert agreement (0.89-0.91). It also correctly states that only 10 workers were needed for reliable results."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is highly coherent and easy to understand. It explains the core concept of crowdsourced comparative assessment by describing the video-pairing method and the task assigned to workers without overusing technical jargon. The ICC is mentioned, but its meaning is implicitly understood through the context of agreement."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary has 5 paragraphs and is significantly longer than the requested sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important aspects of the paper, including the problem statement (lameness assessment), the novel method (crowdsourced comparative assessment via videos), the methodology (MTurk workers, expert comparison), the key results (high agreement, need for few workers), and the conclusion (fast, cost-effective, data generation for AI)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary provides an excellent overview of the research, its methods, and its findings, covering all key aspects with high factual accuracy and clarity. However, it completely missed the prompt's constraint on sentence count, resulting in a significantly longer output than requested."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the primary research question of the paper, which is to explore the use of DHTs for stroke rehabilitation in Canada, identify gaps, and inform future decisions."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key numerical data and findings from the paper, such as the number of studies included (14), the timeframe (2010-2022), the primary focus on UE function and the chronic phase, and the identified facilitators and barriers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear language and explains the key acronyms implicitly by their context (e.g., DHTs, UE function). The points are logically organized and easy to understand."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is presented as a list of bullet points, not a paragraph of 5 sentences. The bullet points are also far more than 5 separate statements."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most critical aspects of the paper, including the scope, methodology (implied by 'scoping review'), key findings on feasibility and effectiveness, specific technologies, identified barriers, and recommendations for future research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All points made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary is comprehensive and factually accurate, covering the main findings and recommendations of the paper. However, it completely fails to follow the prompt's instruction to provide a 5-sentence summary, instead presenting the information as a list of bullet points."
+}

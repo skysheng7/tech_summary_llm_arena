@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research question by stating the study's objective: to assess the effectiveness of VR-based robotic training in enhancing balance, gait, and daily living activities in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the study's findings, noting significant advancements in balance, gait, and daily living activities for the VR-based robotic training group compared to conventional therapy."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "While terms like 'virtual reality (VR)-based robotic training' and 'conventional physical therapy' are used, they are understood within the context. The summary is generally coherent, but the phrasing 'just how effective' and 'demonstrably led to significant advancements' could be slightly more concise. No specific terms are explicitly explained, but the context makes them understandable."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary has 6 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core findings: the effectiveness of VR-based robotic training for balance, gait, and daily living, its superiority over conventional therapy, and its promise as a supplementary rehabilitation approach. It highlights the key takeaways from the study."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the information presented in the research paper."
+  },
+  "total_score": 46,
+  "overall_assessment": "The summary effectively captures the research question and the key findings of the study, presenting them accurately and coherently. However, it slightly deviates from the requested sentence count, which impacts the prompt following score. The language is a bit verbose in places, but the overall message is clear."
+}

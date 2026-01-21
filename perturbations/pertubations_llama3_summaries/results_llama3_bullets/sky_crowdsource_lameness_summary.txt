@@ -1,0 +1,7 @@
+Here is the summary converted into bullet points:
+
+*   The study investigates the use of crowdsourcing and machine learning algorithms to assess lameness in dairy cattle.
+*   Researchers developed a web-based platform for participants to watch cow videos and rate lameness based on predefined criteria.
+*   Individual rater accuracy was low, but aggregating ratings from many people resulted in high accuracy.
+*   This approach can develop a robust and scalable system for detecting lameness in dairy cattle, an important welfare issue.
+*   The study highlights potential applications of crowdsourcing and machine learning in animal welfare assessments.

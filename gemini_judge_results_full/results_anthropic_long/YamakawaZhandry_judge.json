@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary clearly identifies the core contributions of the paper, which are demonstrating unconditional quantum advantages for NP search problems and cryptographic primitives, as well as constructing proofs of quantumness and certifiable randomness. While it doesn't explicitly state a single research question, it covers the main findings that address the overarching research goals implied by the paper's title and abstract."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key results presented in the paper, including the unconditional quantum advantage, the use of random oracles, the bypassing of structured oracles and strong cryptographic assumptions, and the four main areas of contribution (NP search problems, cryptographic separations, proofs of quantumness, and certifiable randomness)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary uses some technical terms like 'random oracles', 'NP search problems', 'one-way', 'collision-resistant', 'proofs of quantumness', and 'certifiable randomness'. While it attempts to explain some of these in context (e.g., one-wayness and collision-resistance), terms like 'random oracles' and 'NP search problems' are assumed to be understood or are not deeply explained. The coherence is good overall, but some explanations could be clearer for a reader less familiar with the field."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt explicitly asked for a 5-sentence summary. The provided summary is significantly longer, presented as an 'Extended Summary' with multiple paragraphs and detailed explanations. It does not adhere to the sentence limit requested."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary covers the four main contributions of the paper quite comprehensively and highlights their significance. It touches upon the technical approach (folded Reed-Solomon codes and list-recoverability) which is relevant. However, it is structured as an extension rather than a concise summary, which dilutes the impact of the key takeaways."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All the claims made in the summary are directly supported by the content of the provided paper. There are no unsupported or fabricated statements."
+  },
+  "total_score": 43,
+  "overall_assessment": "This extended summary provides a detailed and factually accurate overview of the paper's contributions across four key areas: NP search problems, cryptographic separations, proofs of quantumness, and certifiable randomness. It explains the significance of these findings and the technical approach employed. However, it completely fails to adhere to the prompt's request for a 5-sentence summary, presenting a much longer, multi-paragraph explanation instead."
+}

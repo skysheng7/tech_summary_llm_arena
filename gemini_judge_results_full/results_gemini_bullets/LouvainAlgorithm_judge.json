@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary implicitly addresses the research question of how to efficiently and accurately detect communities in large networks by presenting a novel algorithm that achieves this. While not explicitly stated as a question, the core problem the paper solves is clear."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All points in the summary accurately reflect the content of the paper. For example, the focus on modularity optimization, the iterative nature of the algorithm, the aggregation into meta-communities, the speed advantage, and validation on large datasets are all core aspects of the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary uses terms like 'modularity optimization', 'meta-communities', and 'multi-resolution' which are central to the paper. While these terms are understandable in context, a brief explanation of modularity or meta-communities could enhance coherence for a reader less familiar with network science. However, given the brevity of the summary, it is reasonably coherent."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a summary in 5 sentences. The provided summary is presented as a list of bullet points, with 12 distinct points, and does not adhere to the sentence constraint at all."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "The summary covers the most important contributions of the paper: the proposed algorithm, its method (modularity optimization, iterative passes, community aggregation), its key advantages (speed, accuracy, hierarchical structure), and its validation. It effectively captures the essence of the paper's findings."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the content of the research paper. No claims are made that are not present in the text."
+  },
+  "total_score": 45,
+  "overall_assessment": "The summary effectively captures the core contributions and findings of the research paper, highlighting the algorithm's speed, accuracy, and hierarchical nature. However, it completely fails to adhere to the prompt's requirement of a 5-sentence summary, instead providing a list of 12 bullet points."
+}

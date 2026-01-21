@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research question by stating the study aimed to test if VR combined with a lower-limb rehabilitation robot could improve recovery in stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results and p-values mentioned in the summary (e.g., FMA-LE change 6.5 vs 3.3; p<0.001, p<0.05, p=0.873) are accurately extracted from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses standard medical terminology (e.g., hemiplegia, FMA-LE, BBS, FAC, Barthel Index, MoCA) which are largely understandable in the context of a research summary. While not explicitly explained, these are common acronyms in the field."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the key aspects of the study: the research question, methodology (participants, intervention, duration), primary and secondary outcomes with significant results, non-significant findings (cognitive function), safety, and the overall conclusion with future directions. It captures the most important take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the content of the original paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the essence of the research paper. It follows all instructions from the prompt, including sentence count and factual accuracy, and effectively communicates the study's findings and conclusions."
+}

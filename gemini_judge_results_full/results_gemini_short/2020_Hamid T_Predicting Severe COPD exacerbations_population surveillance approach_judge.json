@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the research question in the first sentence: 'This study explored the use of administrative health data to predict severe Chronic Obstructive Pulmonary Disease (COPD) exacerbations.'"
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical data presented (AUC of 0.82, prediction within two months, outperforming current standard) are accurate according to the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses common terms like 'COPD exacerbations' and 'machine-learning algorithms' without requiring extensive explanation within the limited sentence count. Key terms like 'gradient boosting' and 'AUC' are used in context and are standard in the field. The overall coherence is excellent."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, precisely matching the prompt's request."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core elements: the problem (predicting COPD exacerbations), the method (administrative data, machine learning), the best performing model (gradient boosting with AUC), the comparison to current standards, and the implications (targeted interventions, cost savings)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent, accurately reflecting the research question, methods, key findings, and implications of the study within the requested sentence limit. It is factually accurate, coherent, and adheres strictly to the prompt's instructions."
+}

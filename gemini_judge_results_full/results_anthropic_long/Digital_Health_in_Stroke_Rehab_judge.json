@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 0,
+    "reasoning": "The provided summary is an 'extended summary' and does not clearly articulate the original research questions of the scoping review. It focuses on the findings rather than the questions that drove the research."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "The summary accurately reflects many of the key findings, such as the focus on UE, chronic phase, and home-based settings. However, it uses descriptive language rather than precise numerical data, and the sentence count is not adhered to. The numerical percentages are omitted, which would have been crucial for factual accuracy in a numerical context."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary generally explains DHTs and lists types of technologies. However, terms like 'scoping review', 'qualitative', 'RCTs', 'mixed methods', 'UE function', 'chronic phase', and specific technology names (VirTele, H-GRASP) are used without explicit definition, which might hinder understanding for a lay reader. The language is also more verbose than a typical summary."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The original prompt requested a 5-sentence summary. The provided text is an 'extended summary' which is significantly longer than 5 sentences and does not adhere to the requested sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 7,
+    "reasoning": "The summary covers the main areas of focus (UE, chronic phase, home setting), types of technologies, and the general findings on feasibility and effectiveness. It also touches upon facilitators and barriers. However, it misses some nuances, such as the specific breakdown of study designs and the comparative lack of research on non-UE outcomes, which are key takeaways from the paper. The 'extended' nature also dilutes the conciseness expected for a summary."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary appear to be directly supported by the content of the original research paper."
+  },
+  "total_score": 32,
+  "overall_assessment": "This summary fails to adhere to the prompt's instruction for a 5-sentence summary, instead providing a much longer, 'extended' version. While it captures some key findings and is factually accurate, it lacks conciseness and does not clearly articulate the original research questions, missing the opportunity for a truly effective summary."
+}

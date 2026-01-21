@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary directly addresses the core research questions of the paper by describing the use of DHTs in Canada, highlighting key findings, identifying gaps, and outlining recommendations for future research and practice."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key statistics and findings presented in the paper, such as the percentage of studies focusing on upper extremity function and the chronic phase, as well as the identified facilitators and barriers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary effectively uses and coherently integrates technical terms like 'Digital Health Technologies (DHTs)', 'upper extremity rehabilitation', 'chronic phase', 'telerehabilitation', and 'randomized controlled trials' without requiring explicit explanation within the summary itself. The flow is logical and easy to follow."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary contains 5 sentences, which adheres to the sentence count requested in the prompt. However, the provided summary is presented as a reordered text with a title and introductory sentence, which deviates slightly from a direct, unformatted 5-sentence response."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary is comprehensive within the constraints of its length, covering the main aspects of the review: the scope, key findings on technology use, effectiveness, facilitators/barriers, identified gaps, and future recommendations. All points are highly relevant to the paper's objectives."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the information presented in the original paper and does not introduce any unsupported claims or information not found in the text."
+  },
+  "total_score": 55,
+  "overall_assessment": "This summary is excellent, accurately capturing the essence of the research paper and its findings within the requested sentence limit. It effectively communicates the scope, main results, identified gaps, and future directions of the study."
+}

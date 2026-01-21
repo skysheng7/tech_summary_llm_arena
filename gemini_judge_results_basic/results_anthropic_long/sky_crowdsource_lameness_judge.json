@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core research question of developing and validating a crowdsourced, comparative lameness assessment method for dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings regarding the methodology, participant numbers, ICC values, and the conclusion about the efficiency of the method."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary maintains coherence and uses appropriate terminology. While ICC is mentioned, it's a technical term that is central to the paper and explained by its context and the high agreement it signifies."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary is significantly longer than the requested 5 sentences. It contains multiple paragraphs and numerous sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the essential aspects of the paper, including the problem, methodology, results (agreement levels, number of workers needed), and the practical implications (cost-effectiveness, data for AI training). It is highly relevant to the original paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary is well-supported by the content of the original paper and does not introduce any unsubstantiated claims."
+  },
+  "total_score": 50,
+  "overall_assessment": "This summary provides a comprehensive and accurate overview of the research. However, it fails to adhere to the sentence limit specified in the prompt, making it an inadequate response to the prompt's constraints."
+}

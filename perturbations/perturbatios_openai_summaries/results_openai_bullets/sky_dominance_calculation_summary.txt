@@ -1,0 +1,12 @@
+Here's the summary converted into bullet points, preserving all information:
+
+*   The study tested if dairy-cow dominance hierarchies, inferred from feeder "replacement" events, change with competition intensity.
+*   10 months of continuous sensor data from a dynamic group (48 cows at a time; 159 total) was used.
+*   Competition was quantified as real-time feeder occupancy.
+*   Separate Elo-based hierarchies were built for 25 occupancy levels.
+*   As occupancy increased, hierarchy steepness consistently decreased (i.e., the hierarchy flattened).
+*   More dyads became two-way (both cows sometimes displaced the other) as occupancy increased, indicating more reversals and less consistent dominance.
+*   At the highest occupancy, more dyads showed the initially dominant cow (defined at low occupancy) losing proportionally more.
+*   The dominant cow's win rate declined further as occupancy rose.
+*   The authors conclude that high competition (and high feed value) can override intrinsic dominance attributes.
+*   Therefore, hierarchies built only during peak competition periods (e.g., right after fresh feed delivery) may be misleading and should be contextualized.

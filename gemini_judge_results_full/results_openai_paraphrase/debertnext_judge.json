@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: to develop a multimodal framework for fake news detection that utilizes both text and image content."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reports the models used (DeBERTa V3, ConvNeXT Large), the datasets (Fakeddit, Politifact, Gossipcop), the performance gains (3.8%, 2.1%, 1.0%), and the overall conclusion about integrating advanced models and extending to other modalities."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses technical terms like 'DeBERTa V3 transformer' and 'ConvNeXT Large model' without explicit explanation, but their roles in feature extraction are contextually clear. The overall flow is coherent and easy to understand."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Each paraphrase provided is exactly 5 sentences long, adhering precisely to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the key contributions: the proposed model (DeBERTNeXT), its architecture (text and image fusion), the datasets used, the quantitative results demonstrating superiority, and future work directions. This covers the most important take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary, including the model names, datasets, performance metrics, and future work, are directly supported by the content of the research paper."
+  },
+  "total_score": 59,
+  "overall_assessment": "The summary is excellent, accurately capturing the research question, methodology, key findings, and future directions. It precisely follows the prompt's length constraint and uses clear, coherent language, making it highly informative and relevant."
+}

@@ -1,0 +1,11 @@
+Here is the reordered summary, maintaining the original sentence content:
+
+This BMJ article presents 12 common statistical errors frequently encountered by The BMJ's statistical editors during peer review, framed as a Christmas-themed guide for researchers.
+
+The authors emphasize that statistical significance doesn't equal clinical significance, and that "absence of evidence is not evidence of absence."
+
+The 12 key recommendations are: (1) clarify research questions and estimands, (2) focus on estimates and confidence intervals rather than just p-values, (3) properly account for missing data, (4) avoid dichotomizing continuous variables, (5) consider non-linear relationships, (6) quantify differences in subgroup results, (7) account for data clustering, (8) interpret I² and meta-regression appropriately, (9) assess calibration in prediction models, (10) carefully consider variable selection approaches, (11) assess the impact of statistical assumptions, and (12) use reporting guidelines and avoid overinterpretation.
+
+They stress the importance of complete reporting using established guidelines like CONSORT, STROBE, PRISMA, and TRIPOD.
+
+The article aims to help researchers avoid common pitfalls and reduce the burden on statistical reviewers during the Christmas period when submission volumes surge.

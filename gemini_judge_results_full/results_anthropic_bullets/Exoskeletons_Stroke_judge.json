@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The first bullet point clearly and accurately states the central research question of the paper: to examine the use of exoskeletons combined with VR, AR, or gamification for stroke patient rehabilitation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All the factual points, including the number of studies, participants, publication years, focus on upper/lower limbs, popular devices, interaction types, and settings, are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses terms like VR, AR, and gamification which are common in this field and are explained in the context of the paper's objective. The points are logically ordered and easy to follow."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The original prompt asked for a 5-sentence summary. The provided summary is presented as a bulleted list containing 13 points, failing to adhere to the requested sentence count. The prompt did not ask for a bulleted list."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the key aspects of the paper, including the scope, methodology (implied by the findings), key results, limitations (gap in home-based care, lack of AR), and future directions, making it very comprehensive and relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All the information presented in the bullet points is directly supported by the content of the original research paper."
+  },
+  "total_score": 50,
+  "overall_assessment": "This summary is excellent in its factual accuracy, completeness, and relevance, effectively capturing the core findings and implications of the research. However, it fails significantly in following the prompt's instruction to provide a 5-sentence summary, instead offering a detailed bulleted list."
+}

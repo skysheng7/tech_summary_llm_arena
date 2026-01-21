@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the main research thrust of the paper: exploring quantum advantage for problems with weaker assumptions, particularly in the context of random oracles and their cryptographic implications."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key contributions, including unconditional proofs of quantumness, cryptographic counterexamples, instantiation with hash functions, and the role of error-correcting codes and the Aaronson-Ambainis conjecture. It correctly identifies the challenge to the 'structure' requirement."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'quantum advantage', 'random oracles', 'proofs of quantumness', 'cryptographic primitives', and 'Aaronson-Ambainis conjecture'. While these are central to the paper, they are not explicitly explained within the summary itself. However, the overall coherence and flow of the summary make it relatively understandable given the technical nature of the paper."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, precisely following the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important take-home messages: the move towards weaker assumptions for quantum advantage, the results on random oracles, the cryptographic implications, the construction techniques, and the challenge to the 'structure' paradigm. It provides a good overview of the paper's contributions."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the core contributions of the research paper. It adheres strictly to the sentence limit and covers the main research questions, findings, and implications with high factual accuracy."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary clearly identifies the main focus of the study: the use of VR-based robotic training for lower extremity rehabilitation in stroke patients and its effectiveness on specific outcomes like balance, gait, and daily living activities."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "The summary accurately reflects the general findings of the study, particularly the improvement in balance, gait, and daily living activities. However, it misses the nuance that cognitive function did not significantly improve and does not mention that the study was a pilot study, which is a crucial aspect."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear and accessible language. While it mentions 'virtual reality-based robotic training,' it explains its purpose and benefits without requiring specialized knowledge. The coherence is good."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, fulfilling the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 7,
+    "reasoning": "The summary captures the primary positive findings regarding motor function and daily living activities, which are highly relevant. However, it omits the finding about no significant improvement in cognitive function and the 'pilot study' nature of the research, which are important for understanding the scope and limitations of the findings."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "All statements in the summary are supported by the paper. The paper does mention improvements in balance, gait, and daily living activities. The claim about 'traditional physical therapy approaches' being the comparison is also accurate. No significant hallucinations."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary effectively captures the core positive findings of the study regarding VR-based robotic training for stroke rehabilitation, highlighting improvements in motor function and daily living activities. It adheres to the sentence limit but could be more complete by mentioning the lack of significant cognitive improvement and the pilot nature of the study."
+}

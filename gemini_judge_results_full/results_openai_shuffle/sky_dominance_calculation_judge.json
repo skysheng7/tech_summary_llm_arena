@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the study's objective: to test whether dominance hierarchies change with competition intensity."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings, including the decrease in hierarchy steepness with increased occupancy, the rise in two-way dyads, and the specific observation about dominant cows losing more at higher occupancy levels. Numerical values are not presented in the summary, so no specific numerical errors can be identified."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Terms like 'dominance hierarchy,' 'feeder occupancy,' 'Elo-based hierarchies,' and 'two-way dyads' are used. While 'replacement events' and 'hierarchy steepness' are implicitly explained by context, a brief explanation of 'Elo-based' or 'steepness' would have improved clarity. However, the summary is generally coherent and understandable."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The original prompt requested a 5-sentence summary. The provided summary consists of 4 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the core research question, methods (briefly), key results (hierarchy flattening, increased two-way dyads, effect on dominant cows), and the main conclusion regarding the influence of competition and resource valuation on dominance."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the provided research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary effectively captures the essence of the research, accurately describing the study's findings and conclusions about how competition affects dominance hierarchies in dairy cows. Its main weakness is failing to adhere to the sentence count requested in the prompt."
+}

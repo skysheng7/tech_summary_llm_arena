@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the primary research question: how dominance hierarchies in dairy cows change with varying levels of competition at feeding areas."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results and findings, such as the decrease in hierarchy steepness and the increase in two-way dyads, are accurately reflected from the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Terms like 'feeder occupancy', 'hierarchy steepness', and 'two-way dyads' are used appropriately. While not explicitly explained in the summary, their context within the sentence makes them reasonably understandable for someone familiar with the general topic. The flow of the summary is coherent."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is presented in exactly 5 sentences as requested by the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the study's objective, main findings, interpretation, and recommendations, which are the most important take-home messages from the paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the information presented in the original research paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "This is an excellent summary that perfectly follows the prompt's length constraint and accurately captures the core findings and implications of the research. It clearly outlines the study's objective, key results, interpretation, and practical recommendations."
+}

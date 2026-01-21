@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the central research question: the effectiveness of wearable robotic gloves for improving hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the positive effects on hand function, the limitations of current research (e.g., lack of long-term data, inconsistent methodologies), and the need for further studies. A minor deduction is made because 'decreasing muscle stiffness' (Option 1) is an interpretation of alleviating spasticity, which is mentioned more directly in Options 2 and 3."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology like 'robotic gloves,' 'stroke patients,' 'hand function,' 'spasticity,' and 'methodological quality.' The language is coherent and flows well, making the research accessible."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "All three provided options adhere strictly to the 5-sentence limit specified in the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summaries effectively capture the most crucial aspects of the paper: the problem, the methodology (systematic review), the key findings (positive effects, limitations), and the conclusion/future directions. No irrelevant information is included."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabricated information in any of the provided summary options. They are well-grounded in the content of the original paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "All three provided summary options are excellent, accurately capturing the essence of the research paper within the requested sentence limit. They are well-written, coherent, and factually accurate, with only minor stylistic differences that do not impact their overall quality."
+}

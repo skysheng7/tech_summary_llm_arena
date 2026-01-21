@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The paper clearly addresses the research question of how to efficiently and effectively detect community structures in large networks."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the core contributions of the paper, including the algorithm's focus on modularity optimization, its iterative two-phase approach, its speed and effectiveness on large datasets, and its ability to reveal hierarchical structures."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate technical terms like 'modularity', 'communities', 'meta-communities', and 'hierarchical structure'. While it doesn't explicitly define them, their usage within the context of the summary makes them reasonably understandable for someone familiar with the domain. The coherence between the sentences is good."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important aspects of the paper: the algorithm's novelty, its method (modularity optimization, iterative refinement, two phases), its performance (speed, quality, large datasets), and its key advantage (hierarchical structure at various resolutions)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or information not present in the original paper. All points made in the summary are directly derivable from the provided text."
+  },
+  "total_score": 59,
+  "overall_assessment": "This is an excellent summary that perfectly follows the prompt's constraints. It accurately captures the core contributions of the paper, including the algorithm's methodology, performance, and key advantages, using appropriate terminology."
+}

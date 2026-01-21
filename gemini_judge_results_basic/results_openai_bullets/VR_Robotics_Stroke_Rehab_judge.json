@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research question of the paper, which is to evaluate the effectiveness and safety of VR-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical data and findings presented in the summary, such as the FMA-LE change scores, p-values, and participant numbers, are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "While the summary uses appropriate technical terms like 'hemiplegia,' 'FMA-LE,' and 'MoCA,' it does not provide explicit explanations for these acronyms. However, the context often makes their meaning inferable. The overall coherence is good."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a summary in 5 sentences. The provided summary is presented in a bulleted list format and contains far more than 5 distinct pieces of information, effectively disregarding the sentence limit and format. This is a complete failure to follow the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the critical aspects of the research paper, including the objective, methods, key findings for both primary and secondary outcomes, safety, and conclusions. The information presented is highly relevant to understanding the study's contribution."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no claims made in the summary that are not supported by the provided text of the research paper. All information is directly extracted or accurately paraphrased."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary is highly informative and factually accurate, capturing all essential aspects of the research paper comprehensively. However, it completely fails to adhere to the prompt's specific request for a 5-sentence summary, instead presenting the information in a detailed bulleted list."
+}

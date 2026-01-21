@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the objective: 'To test if fully immersive virtual reality (VR) combined with a lower-limb rehabilitation robot could improve recovery in stroke patients with hemiplegia.'"
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical data, such as FMA-LE change (6.5 vs 3.3), p-values (p<0.001, p<0.05, p=0.873), and sample sizes (42 patients, 40 completed, 20 per group), are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses technical terms like 'hemiplegia', 'FMA-LE', 'MoCA', 'p-value', and 'adverse events'. While these are common in research papers, they are not explicitly explained within the summary itself. However, the overall structure and flow make it understandable for someone familiar with research contexts. The bullet point format aids coherence."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The original prompt asked for a 5-sentence summary. The provided output is a bulleted list containing many more points than five sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the crucial aspects of the paper: study design, objective, participants, intervention, key findings for both primary and secondary outcomes, limitations of cognitive function assessment, safety, and the authors' conclusions and recommendations. It effectively captures the main takeaways."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All information presented in the summary is directly supported by the content of the original research paper. There are no fabricated claims or interpretations."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary is highly comprehensive and factually accurate, effectively capturing the study's objective, methods, results, and conclusions. However, it completely fails to adhere to the prompt's instruction for a 5-sentence summary, instead presenting a detailed bulleted list."
+}

@@ -1,0 +1,15 @@
+Here's the summary converted into bullet points, preserving all information:
+
+*   The article proposes replacing subjective 5-point gait scoring for dairy cow lameness.
+*   The proposed approach is a crowd-enabled, pairwise comparison method.
+*   This method ranks cows into a continuous "lameness hierarchy."
+*   It utilizes a Bayesian Elo-based method called EloSteepness.
+*   In a pilot dataset of 30 cow-walking videos (435 video pairs), expert-built hierarchies showed high inter-observer reliability (ICC = 0.81).
+*   Traditional gait scoring was much less consistent, with intra-observer ICC ≈ 0.62 and inter-observer ICC ≈ 0.44.
+*   Untrained crowd workers recruited via Amazon Mechanical Turk produced a hierarchy that closely matched experts (ICC = 0.85).
+*   Agreement between crowd workers and experts was strong for clearly different pairs and weak for subtle differences.
+*   A milestone-based subsampling algorithm was developed to reduce comparisons.
+*   This algorithm reduced comparisons by at least 61%.
+*   Approximately 8 crowd workers per pair were sufficient to obtain a stable, reliable hierarchy.
+*   The authors conclude that this method can cheaply and reliably generate large, granular labeled datasets.
+*   These datasets are needed to train robust automated lameness detection models for real-farm use.

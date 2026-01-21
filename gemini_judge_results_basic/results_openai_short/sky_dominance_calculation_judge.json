@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the central research question: how dairy cow dominance hierarchies change with competition intensity."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the study, including the methodology (sensor data, feeder occupancy, Elo hierarchies), the main results (flattening hierarchy, increased two-way dyads, dominant cows losing more), and the conclusion."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "Key terms like 'dominance hierarchy', 'feeder replacement events', 'feeder occupancy', 'hierarchy steepness', 'two-way dyads', and 'Elo-based hierarchies' are used appropriately and contribute to a coherent understanding of the findings."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary has 5 sentences, but the last sentence is quite long and could arguably be split. However, it technically adheres to the sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most crucial aspects of the paper, including the problem, methods, results, and implications, all of which are highly relevant to the research question."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabricated information in the summary; all statements are directly supported by the provided text."
+  },
+  "total_score": 55,
+  "overall_assessment": "This summary effectively captures the essence of the research paper, clearly outlining the methodology, key findings, and conclusions. It adheres to the prompt's sentence count and accurately conveys the study's significance."
+}

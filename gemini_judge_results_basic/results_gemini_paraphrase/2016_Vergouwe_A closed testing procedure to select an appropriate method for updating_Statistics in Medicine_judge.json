@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the central research question of the paper: how to select an appropriate method for updating prediction models when applied to new populations."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary correctly identifies the key components of the proposed procedure: a closed testing approach, progressive evaluation of updating methods (recalibration to revision), balancing update necessity with overfitting risk, and the use of clinical examples. All mentioned aspects are factually accurate based on the provided text."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses relevant terminology like 'closed testing procedure,' 'recalibration,' 'model revision,' and 'overfitting' appropriately. The concepts are presented in a coherent and logical flow, making the summary easy to understand."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt specifically asked for a summary in 5 sentences. All provided paraphrases significantly exceed this sentence count (each is 5 sentences long, but the prompt was for the *entire* summary to be 5 sentences). The prompt was not followed."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the main aspects of the paper: the proposed method, its rationale (balancing update needs and overfitting), the examples used, and the ultimate goal. It focuses on the most relevant information without unnecessary detail."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any claims that are not supported by the provided text. All statements are directly derived from the article's content."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summaries effectively convey the core message and methodology of the research paper, accurately explaining the proposed closed testing procedure and its purpose. However, they completely disregard the prompt's explicit constraint of a 5-sentence summary, significantly impacting adherence to instructions."
+}

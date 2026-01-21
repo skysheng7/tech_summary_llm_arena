@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary accurately captures the core research question of the paper, which is to explore the use of DHTs for stroke rehabilitation in Canada and identify gaps and future directions."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual claims made in the summary are directly supported by the text. The number of studies, the period reviewed, the focus areas, and the findings regarding feasibility and effectiveness are all accurate."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses appropriate terminology like 'digital health technologies (DHTs)', 'scoping review', 'RCTs', and 'UE function'. While it doesn't explicitly explain every term, the context makes most of them understandable. The bullet points make it easy to follow, but a sentence-based summary might flow better."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The original prompt requested a 5-sentence summary. This response is presented as a list of bullet points, not sentences, and contains far more than 5 distinct points."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the key aspects of the paper: the scope, methodology (implied by 'scoping review' and number of studies), main findings (feasibility, effectiveness, outcomes, access), challenges, and future directions. It is highly relevant to the paper's content."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or information fabricated outside of the provided text."
+  },
+  "total_score": 50,
+  "overall_assessment": "This summary is comprehensive and factually accurate, covering all the essential findings and future directions of the research paper. However, it fails to adhere to the prompt's requirement of a 5-sentence summary, instead presenting a detailed list of bullet points."
+}

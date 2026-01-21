@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary implicitly addresses the core research question by highlighting how generative AI (DALL-E 3) creates idealized depictions of livestock farming due to prompt revision, and how deactivating this feature reveals a more realistic, indoor-focused reality. It captures the essence of the research's aim to investigate bias in AI depictions of livestock farming."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the default pastoral bias of DALL-E 3, the role of prompt revision in this bias, the contrast with intensive farming reality, and the proposed solutions such as transparency and more realistic imagery."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is coherent and easy to understand. Terms like 'generative AI', 'prompt refinement', and 'intensive agricultural methods' are used appropriately within context, and the explanation flows logically."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences, as requested by the original prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main findings: the problem (idealized AI imagery), the cause (prompt revision), the evidence (contrast with reality, effect of disabling revision), the implications (perpetuating inaccuracies, hindering dialogue), and proposed solutions. It hits all the most important take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper. There are no unsupported or fabricated statements."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent, adhering precisely to the sentence count and accurately and comprehensively conveying the core findings of the research paper. It clearly explains the problem of AI bias in livestock farming imagery and the proposed solutions."
+}

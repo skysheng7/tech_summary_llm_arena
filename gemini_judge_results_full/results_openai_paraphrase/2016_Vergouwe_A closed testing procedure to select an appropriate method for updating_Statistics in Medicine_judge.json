@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: developing and evaluating a closed testing procedure to select the most appropriate method for updating existing prediction models."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the methods, examples, and simulation findings presented in the paper, including the comparison of update methods, the results from the clinical examples (e.g., prostate cancer model), and the outcomes of the simulation study (Type I error rate, MSE)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'closed testing procedure', 'recalibration-in-the-large', 'recalibration', and 'model revision' are introduced and briefly explained in context, making the summary generally coherent and understandable. A minor point could be slightly more explicit definition of 'overfitting' but it's implied by the context."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt asked for a 5-sentence summary. The generated summary contains 7 sentences. While it provides a good overview, it exceeds the requested sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important aspects of the paper: the proposed procedure, the different update methods considered, the rationale behind the procedure (balancing evidence and overfitting), the illustrative examples, and the simulation study's conclusions regarding Type I error and MSE."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the information presented in the original paper. There are no unsupported claims or fabrications."
+  },
+  "total_score": 54,
+  "overall_assessment": "The summary effectively captures the essence of the research paper, clearly outlining the proposed closed testing procedure for updating prediction models and its benefits. While it provides a comprehensive overview and adheres well to the paper's content, it slightly exceeds the requested sentence limit, which is a minor deviation from the prompt."
+}

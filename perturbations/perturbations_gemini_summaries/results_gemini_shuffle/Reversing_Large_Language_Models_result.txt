@@ -1,0 +1,7 @@
+Here's the reordered summary with the original sentences:
+
+1. This paper introduces memory-efficient, reversible architectures for Large Language Models (LLMs) inspired by physics.
+2. These architectures reduce memory consumption by reconstructing intermediate activations during backpropagation, allowing for larger batch sizes and improved training throughput.
+3. The authors also propose a method to convert existing non-reversible LLMs into reversible ones through fine-tuning, making the approach practical.
+4. Experiments show that these reversible models achieve comparable or better performance than standard LLMs while significantly reducing memory requirements.
+5. This work offers a scalable path towards more efficient LLM training and fine-tuning, especially in resource-constrained environments.
