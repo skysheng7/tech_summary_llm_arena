@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 7,
+    "reasoning": "Captures the main research aim (reviewing effectiveness of exoskeleton robotics combined with VR/AR/gamification for post-stroke rehabilitation). However, it misses some of the paper’s stated goals such as assessing trends/popular configurations and the clinic-to-home transition gap."
+  },
+  "factual_accuracy": {
+    "score": 5,
+    "reasoning": "Mostly consistent at a high level (systematic review; focus on VR/AR/games with exoskeletons; generally positive motor outcomes), but introduces inaccuracies: the paper’s objective is not framed around cognitive function, and the review found an absence of AR-based stroke rehab systems in the included sample rather than reporting AR results. It also omits key correct numbers (30 studies; ~385 participants; years 2010-2017) though omission alone is not an error."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and easy to read; defines VR/AR via abbreviations. 'Gamification' is not explained, but overall terminology load is light and understandable."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Provides exactly 5 sentences (excluding the prefatory line), matching the prompt requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 6,
+    "reasoning": "Includes the general purpose and overall conclusion that motor outcomes were generally positive and that more research is needed. However, it misses major takeaways emphasized by the paper: very few home-based studies (gap in clinic-to-home transition), heavy skew toward upper-limb vs lower-limb rehab, and the notable lack of AR studies in the included set."
+  },
+  "hallucination": {
+    "score": 4,
+    "reasoning": "Adds unsupported/incorrect claims: that the review assessed effectiveness for 'cognitive function' and that results included AR and 'a few reporting improved cognitive function.' The paper mainly reports motor function improvements and explicitly notes the absence of AR-based systems among included studies."
+  },
+  "total_score": 40,
+  "overall_assessment": "The summary is clear, well-structured, and correctly identifies the paper as a systematic review on exoskeletons combined with VR/AR/gamification for stroke rehabilitation, with generally positive motor outcomes. However, it introduces unsupported claims about cognitive outcomes and implicitly suggests AR evidence exists in the included studies, while omitting key core findings such as the lack of AR studies and the clinic-to-home rehabilitation gap."
+}

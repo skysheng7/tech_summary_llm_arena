@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "Identifies the main question as evaluating effectiveness of VR-based robotic lower-limb rehabilitation after stroke, but it narrows/frames the population as “subacute stroke” rather than the paper’s broader inclusion (≤6 months post first-ever stroke) and does not mention feasibility/safety as explicit aims."
+  },
+  "factual_accuracy": {
+    "score": 6,
+    "reasoning": "Direction of findings is generally correct (improved motor/balance/walking/ADL/QoL vs control; no clear cognitive between-group benefit), but the summary makes an inaccurate comparison by stating benefits are vs “traditional physical therapy approaches” rather than vs conventional rehabilitation (PT+OT+nursing) and omits key numerical results (e.g., FMA-LE change 6.5 vs 3.3, p<0.001; MoCA between-group p=0.873)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and readable with limited jargon; however, terms like 'gait' and 'lower extremity rehabilitation' are not explained (though they are common), and it does not clarify what the intervention entails (robot + fully immersive VR) beyond a generic description."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Produces exactly 5 sentences matching the requested 5-sentence summary (the introductory line is separate but the summary itself is five sentences)."
+  },
+  "completeness_and_relevance": {
+    "score": 7,
+    "reasoning": "Covers the main takeaways (VR+robot training improves functional outcomes and may add value), but misses important aspects: pilot assessor-blinded RCT design, sample size/completion (40 analyzed), duration (4 weeks, 5x/week), lack of between-group cognitive benefit, and explicit safety finding (no adverse events)."
+  },
+  "hallucination": {
+    "score": 7,
+    "reasoning": "Most claims are supported, but it introduces unsupported/overstated phrasing by contrasting with 'traditional physical therapy approaches' (the control was broader conventional rehab) and implies a general enhancement without noting the null between-group cognitive result; otherwise no major fabricated outcomes."
+  },
+  "total_score": 46,
+  "overall_assessment": "The summary is clear, concise, and captures the general conclusion that VR-based robotic lower-limb training improves functional outcomes after stroke. However, it lacks key methodological details and specific results, and it slightly mischaracterizes the comparator as traditional physical therapy rather than conventional multidisciplinary rehabilitation, while omitting the cognitive null finding and safety/feasibility emphasis."
+}

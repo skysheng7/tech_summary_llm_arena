@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "Correctly identifies the main question as evaluating whether wearable robotic gloves improve hand function in stroke patients, but it does not convey that this is a systematic review focused on “therapeutic effects” and does not reflect the paper’s emphasis on lack of standard intervention timing/approach."
+  },
+  "factual_accuracy": {
+    "score": 4,
+    "reasoning": "Several claims are not supported by the review as written: the paper does not report that gloves reduce spasticity, nor does it explicitly conclude increases in “strength” across studies; two devices focused on grip strength/task performance, but the included outcomes and reported improvements are mainly functional test scores (e.g., UE-FM, ARAT, WMFT, JTHFT, BBT, MAL). The summary also omits key quantitative facts (2674 records, 5 included studies, Downs & Black adapted scores 7–10/12) that are central to the review’s results."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "Generally coherent and readable, but uses technical terms like “spasticity,” “outcome measures,” and “methodological quality” without explanation; still, terminology load is moderate and the narrative is easy to follow."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Provides exactly 5 sentences, matching the prompt request."
+  },
+  "completeness_and_relevance": {
+    "score": 6,
+    "reasoning": "Captures the high-level takeaway (promising effects but limited evidence and need for more research), and mentions standardization/methodological issues. However, it misses key review specifics: only 5 eligible studies, small sample sizes (3–13), no RCTs/control groups, heterogeneity of protocols (4–6 weeks; varying frequency), and the key limitation that there is no standard intervention timing/approach."
+  },
+  "hallucination": {
+    "score": 4,
+    "reasoning": "Includes plausible but unsupported claims, especially that robotic gloves reduce spasticity and broadly increase strength. The paper discusses spasticity mainly as a patient-selection/knowledge-gap issue (effects unknown for higher spasticity), not as an outcome improved by the interventions."
+  },
+  "total_score": 39,
+  "overall_assessment": "The summary is clear, concise, and follows the 5-sentence constraint while reflecting the general conclusion that wearable robotic gloves appear promising but evidence is limited. However, it introduces unsupported claims (notably spasticity reduction/strength gains) and omits several central methodological findings of the review (only 5 studies, no RCTs/control groups, small samples, and quality scores), reducing reliability as a technical summary."
+}

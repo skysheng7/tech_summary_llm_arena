@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 2,
+    "reasoning": "The summary completely misrepresents the research question. The actual paper proposes a novel lameness hierarchy method using crowd-sourced pairwise comparisons and the Elo-rating algorithm. The summary incorrectly describes it as discussing 'various aspects' and mentions radar sensing and camera-based technology, which are only cited references, not the main focus of this paper."
+  },
+  "factual_accuracy": {
+    "score": 1,
+    "reasoning": "The summary contains major factual errors. It does not mention any of the actual numerical results from the paper (ICC=0.81 for expert hierarchy, ICC=0.85 for crowd worker agreement, 61% reduction in comparisons, etc.). Instead, it vaguely references other papers in the reference list rather than the actual study conducted."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 3,
+    "reasoning": "While the summary is readable, it fails to explain or even mention key terminologies central to the paper such as 'lameness hierarchy,' 'Elo-rating,' 'pairwise comparisons,' 'ICC,' or 'crowd-sourcing.' The summary reads as a generic overview of lameness research rather than this specific study."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary does provide exactly 5 sentences as requested in the prompt, meeting this basic requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 1,
+    "reasoning": "The summary completely misses the main contributions of the paper: (1) development of a lameness hierarchy method using pairwise comparisons, (2) demonstration of higher reliability (ICC=0.81) compared to traditional gait scoring (ICC=0.44-0.62), (3) successful use of crowd workers from MTurk, (4) development of a subsampling algorithm reducing comparisons by 61%. Instead, it provides a vague overview that could apply to any lameness research collection."
+  },
+  "hallucination": {
+    "score": 2,
+    "reasoning": "The summary contains major hallucinations. It describes the paper as discussing 'various aspects' and mentions radar sensing and camera-based technology as if they were main topics, when these are only cited references. The summary appears to be describing the reference list rather than the actual study, which is a fundamental misrepresentation of the paper's content."
+  },
+  "total_score": 19,
+  "overall_assessment": "This summary fundamentally misrepresents the paper by describing it as a collection of various lameness studies rather than a single focused study on developing a novel lameness hierarchy method using crowd-sourced pairwise comparisons. While it meets the 5-sentence requirement, it fails to capture any of the paper's actual research questions, methods, or key findings, and instead appears to summarize the reference list rather than the study itself."
+}
