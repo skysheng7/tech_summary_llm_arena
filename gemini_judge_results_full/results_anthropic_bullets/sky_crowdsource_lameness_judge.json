@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question of developing and testing a crowdsourced, comparative lameness assessment method for dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical results and key findings mentioned in the summary, such as ICC values and the number of workers needed, are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'crowdsourced comparative assessments' and 'ICC' without explicit explanation. While 'ICC' is a common abbreviation in research, it would be beneficial for a broader audience if it were defined. However, the overall flow and language are coherent."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The original prompt asked for a summary in 5 sentences. The provided summary is presented as a list of bullet points, not in sentence format, and contains 11 bullet points, exceeding the requested sentence count significantly. This indicates a failure to follow the sentence constraint of the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively covers the most important aspects of the paper, including the methodology, key findings on agreement levels, the reduced number of workers needed, and the implications for cost-effectiveness and training automated systems."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the content of the original research paper."
+  },
+  "total_score": 53,
+  "overall_assessment": "The summary accurately captures the key findings and implications of the research. However, it fails to adhere to the prompt's requirement of a 5-sentence format, presenting the information as a list of bullet points instead, which lowers its overall score."
+}
