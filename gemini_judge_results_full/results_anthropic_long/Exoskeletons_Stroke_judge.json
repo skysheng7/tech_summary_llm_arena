@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 0,
+    "reasoning": "The summary does not explicitly state the research question. It describes the content of the review but fails to articulate what the authors aimed to investigate or answer."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical and factual information presented in the summary (e.g., number of studies, participant numbers, timeframe, limb focus, number of studies in clinic vs. home) appears to be accurately extracted from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses technical terms like VR, AR, and gamification, but it does so in a context that is generally understandable for someone familiar with the field. The coherence is good, explaining the purpose of the review and its findings logically."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, consisting of multiple paragraphs and many more than 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "The summary covers several key aspects of the paper, including the technologies reviewed, the number of studies, the focus on upper limbs, the popular devices, and the general findings of improvement and increased motivation. However, it misses the crucial conclusion about the lack of AR systems in the reviewed literature and the call for future work on home-based rehabilitation and customizable games. The summary is also very redundant, which detracts from its relevance as a concise summary."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by or are reasonable inferences from the provided text of the original paper. No unsupported claims were introduced."
+  },
+  "total_score": 45,
+  "overall_assessment": "The summary accurately reflects factual details from the paper and maintains good coherence. However, it completely fails to adhere to the sentence limit requested in the prompt, making it overly verbose and redundant. It also omits some of the paper's key conclusions regarding future directions and the absence of AR studies."
+}

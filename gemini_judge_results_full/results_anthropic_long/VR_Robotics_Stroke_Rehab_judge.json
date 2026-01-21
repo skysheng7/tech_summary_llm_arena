@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research question, which is to evaluate the effectiveness and safety of VR-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key numerical results, such as the mean difference in lower limb motor function (6.5 vs 3.3) and the observation that cognitive function did not show significant differences between groups. The sample size (42 participants) and duration (4 weeks) are also correctly stated."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is easy to understand, and while it uses terms like 'hemiplegia' and 'VR-based robotic training,' these are contextualized by the description of the study's purpose and methods, making them understandable without explicit definitions."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, structured into multiple paragraphs and comprising many more than 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the key aspects of the paper: the research question, methods (study design, participants, groups, intervention details), key findings (motor function, balance, walking, ADL, quality of life, cognitive function), safety, and conclusion. It highlights the most important take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the information present in the original research paper. There are no unsupported claims or fabricated results."
+  },
+  "total_score": 50,
+  "overall_assessment": "This summary is highly comprehensive and factually accurate, effectively capturing the essence and findings of the research paper. However, it significantly deviates from the prompt's specific instruction for a 5-sentence summary, making it a lengthy explanation rather than a concise overview."
+}
