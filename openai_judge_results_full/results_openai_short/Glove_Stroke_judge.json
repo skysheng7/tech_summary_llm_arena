@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "Clearly states the central question of the review: whether wearable robotic gloves improve hand function after stroke, consistent with the paper’s stated aim to evaluate therapeutic effects on hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key figures and descriptors match the paper: search up to Sept 2021, 2674 records, 5 included studies, intervention length 4–6 weeks, and Downs & Black adapted scores 7–10/12. Minor imprecision: the review notes some studies used weekly minutes rather than a uniform '4–6 weeks of training' framing, though overall duration is correct."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Coherent, readable, and uses limited technical terms appropriately. Terms like 'Downs and Black checklist' and 'spasticity' are mentioned without definition, but they are few and the summary remains understandable for a technical audience."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Produces exactly 5 sentences as requested."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "Covers the main takeaways: scope and search, number and size of included studies, devices and intervention types/durations, methodological quality/limitations (lack of RCTs/control groups, small samples), and the conclusion calling for standardized protocols and higher-quality studies."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are well supported by the paper (device list, study counts, methodological limitations, and overall conclusion). Slight potential overgeneralization in saying 'all reported improvements' since not all studies report complete pre/post quantitative details in the table (e.g., some NR), though the paper does state all concluded good therapeutic effects."
+  },
+  "total_score": 57,
+  "overall_assessment": "The summary is highly faithful to the review’s objectives, methods, included evidence base, and conclusions, and it follows the 5-sentence constraint precisely. Its main weakness is minor overgeneralization about reported improvements and limited explanation of a couple technical terms, but it accurately captures the study’s key findings and limitations."
+}

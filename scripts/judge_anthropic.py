@@ -156,24 +156,38 @@ def judge_all_summaries(
 
     summary_files = list(Path(summary_folder).glob("*.txt"))
 
+    print(f"Found {len(summary_files)} summary files")
+
     if len(summary_files) == 0:
+        print("No .txt files found, skipping...")
         return {}
 
     results = {}
 
     for summary_path in summary_files:
         summary_filename = summary_path.name
+        print(f"\nProcessing: {summary_filename}")
 
         parts = summary_filename.rsplit("_", 1)
         original_pdf_name = parts[0] + ".pdf"
 
+        # Check if already processed
+        output_json = os.path.join(output_folder, parts[0] + "_judge.json")
+        output_txt = os.path.join(output_folder, parts[0] + "_judge.txt")
+        if os.path.exists(output_json) or os.path.exists(output_txt):
+            print(f"  ⏭️  Already processed, skipping...")
+            continue
+
         original_pdf_path = os.path.join(input_docs_folder, original_pdf_name)
 
         if not os.path.exists(original_pdf_path):
+            print(f"  ❌ PDF not found: {original_pdf_name}")
             results[original_pdf_name] = {
                 "error": f"Original PDF not found: {original_pdf_path}"
             }
             continue
+
+        print(f"  ✓ Found PDF: {original_pdf_name}")
 
         try:
             judge_result = judge_single_summary(
@@ -194,14 +208,17 @@ def judge_all_summaries(
                 output_path = os.path.join(output_folder, output_filename)
                 with open(output_path, "w", encoding="utf-8") as f:
                     f.write(judge_result["raw_response"])
+                print(f"  ✓ Saved as text: {output_filename}")
             else:
                 parts = summary_filename.rsplit("_", 1)
                 output_filename = parts[0] + "_judge.json"
                 output_path = os.path.join(output_folder, output_filename)
                 with open(output_path, "w", encoding="utf-8") as f:
                     json.dump(judge_result, f, indent=2, ensure_ascii=False)
+                print(f"  ✓ Saved as JSON: {output_filename}")
 
         except Exception as e:
+            print(f"  ❌ Error: {str(e)}")
             results[original_pdf_name] = {"error": str(e)}
 
     return results
@@ -214,6 +231,9 @@ if __name__ == "__main__":
     for folder in summary_short_path.iterdir():
         if folder.is_dir():
             summary_folder = str(folder)
+            print(f"\n{'='*60}")
+            print(f"Processing folder: {summary_folder}")
+            print(f"{'='*60}")
 
             results = judge_all_summaries(
                 judge_prompt_path="llm_judge_prompts/judge_full.txt",
@@ -223,3 +243,5 @@ if __name__ == "__main__":
                 max_tokens=4096,
                 temperature=0.2,
             )
+
+            print(f"\nCompleted {summary_folder}: {len(results)} results")

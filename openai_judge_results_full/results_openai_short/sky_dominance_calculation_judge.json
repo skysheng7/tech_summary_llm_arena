@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the central research question: whether dominance hierarchies inferred from feeder replacement events change as competition intensity (feeder occupancy) increases."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key design details are correct (10 months, dynamic group of 48, 159 cows total; replacements; feeder occupancy; Elo-based hierarchies for 25 occupancy levels) and the qualitative direction of effects matches the paper (steepness decreases; two-way dyads increase; dominants lose relatively more at high occupancy). However, it omits the reported effect sizes (e.g., steepness change per 1% occupancy and % two-way dyads increase) and slightly overinterprets “more reversals” (the paper emphasizes more 2-way dyads and reduced dominant win rates; full reversals occur in some cases but are not quantified as an overall increase in 'reversals')."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary is coherent and explains specialized terms sufficiently for a short summary (e.g., defining two-way dyads and clarifying 'replacement' events). It uses 'Elo-based' without explaining Elo ratings, but this is reasonable given the 5-sentence constraint."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "It follows the prompt by providing exactly 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "It captures the most important elements: objective, core method (sensor-detected replacements, occupancy as competition), main findings (flattening hierarchy, more two-way dyads, dominants lose relatively more), and the key implication/recommendation (avoid building hierarchies only during high-competition periods; context matters)."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are largely supported by the paper. The only potential overreach is phrasing that implies a general increase in 'reversals' as a primary measured outcome; the paper reports increased two-way dyads and decreased dominant win rates, with some dyads flipping, but does not present a dedicated reversals metric across occupancy levels."
+  },
+  "total_score": 57,
+  "overall_assessment": "The summary is highly faithful to the paper’s research question, design, and main conclusions, and it cleanly explains the central behavioral and hierarchy changes with increasing feeder occupancy. Its main weaknesses are minor: it does not include key numerical effect sizes and slightly overstates the emphasis on “reversals” rather than the paper’s quantified increases in two-way dyads and dominant win-rate erosion."
+}
