@@ -1,5 +1,0 @@
-The article humorously describes how The BMJ’s statistical editors, especially during the Christmas submission rush, repeatedly encounter the same avoidable statistical and reporting problems in manuscripts.  
-It presents “12 days of Christmas” as 12 common issues, starting with clearly defining the research question and estimand and emphasizing effect estimates, confidence intervals, and clinical relevance rather than just P values.  
-It highlights frequent methodological pitfalls such as mishandling missing data, dichotomising continuous variables, assuming linear relationships when they may be non-linear, and making untested claims about subgroup differences.  
-It also warns about failing to account for clustering, misinterpreting meta-analysis heterogeneity statistics (like I²) and overusing meta-regression, and inadequately evaluating prediction models—especially calibration and overfitting.  
-Finally, it urges authors to check assumptions with sensitivity analyses, avoid questionable variable selection practices, follow appropriate reporting guidelines (e.g., CONSORT, STROBE, PRISMA, TRIPOD), and avoid overinterpretation or “spin.”

@@ -1,6 +1,0 @@
-{
-  "summary": {
-    "title": "Reversing Large Language Models for Efficient Training and Fine-Tuning",
-    "text": "This paper introduces memory-efficient, reversible architectures for Large Language Models (LLMs) inspired by differential equations from physics. The key innovation is that these architectures use time-reversible dynamics to reconstruct hidden states during backpropagation instead of storing all intermediate activations, reducing memory consumption by up to 10× and enabling significantly larger batch sizes. The authors propose three reversible architectures—Midpoint, Leapfrog, and Hamiltonian—and demonstrate they achieve comparable or better performance than standard transformers on various benchmarks while using far less memory. Additionally, they present a method to convert existing pre-trained models into reversible architectures through minimal fine-tuning, making the approach practical for existing LLMs. Experiments on GPT-2, TinyLlama, and SmolLM2 models show that reversible architectures not only reduce memory footprint but can also improve training throughput by up to 101% for deeper models, ultimately reducing wall-clock training time despite modest increases in computational operations."
-  }
-}

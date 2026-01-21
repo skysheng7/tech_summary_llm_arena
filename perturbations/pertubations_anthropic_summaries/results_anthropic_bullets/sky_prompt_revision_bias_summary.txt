@@ -1,8 +1,0 @@
-Here is the summary converted into bullet points, preserving all information and adding nothing new:
-
-*   OpenAI's DALL-E 3 text-to-image AI model systematically erases the reality of intensive livestock farming through automatic prompt revision.
-*   Instead of depicting intensive farming, DALL-E 3 generates idealized pastoral scenes of cows grazing on pasture and pigs in mud.
-*   Even when users request "realistic" images of dairy or pig farms, the model's prompt revision process adds pastoral details, contradicting the reality of most farmed animals being housed indoors in intensive conditions in industrialized countries.
-*   When researchers disabled prompt revision, the generated images shifted to show animals in indoor confinement systems with metal barriers and concrete floors, more accurately reflecting modern farming practices.
-*   Regional comparisons demonstrated that disabling prompt revision led to AI-generated images of outdoor versus indoor housing that partially aligned with actual statistics from the United States, Germany, New Zealand, Spain, and Australia.
-*   The authors contend this "coded gaze" bias conceals controversial realities, spreads misinformation about animal agriculture, and hinders informed public dialogue on farm animal welfare and the social sustainability of food production systems.

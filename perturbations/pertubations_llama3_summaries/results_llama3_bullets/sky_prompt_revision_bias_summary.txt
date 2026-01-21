@@ -1,7 +1,0 @@
-Here is the summary converted into bullet points:
-
-*   AI can be used to silence controversial realities and perpetuate misinformation.
-*   AI systems are trained on vast amounts of data that can reflect societal biases and values.
-*   This training can lead to the amplification of bias and the suppression of diverse perspectives.
-*   The use of AI in decision-making processes can reinforce existing power structures.
-*   AI's use in decision-making can also marginalize certain groups.

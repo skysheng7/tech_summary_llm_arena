@@ -1,7 +1,0 @@
-Here's the reordered summary with the sentences in a logical flow:
-
-1. This study investigated how competition levels affect dominance hierarchies in dairy cows.
-2. Researchers found that as competition for feed increased (indicated by higher feeder occupancy), the dominance hierarchy became flatter.
-3. This flattening occurred because subordinate cows became more successful in challenging dominant cows, leading to more "2-way dyads" where both animals won interactions against each other.
-4. The study suggests that during high competition, resource valuation can override intrinsic dominance attributes, influencing competitive success.
-5. Therefore, it is recommended to consider the context of competition when assessing dominance hierarchies in dairy cows.
