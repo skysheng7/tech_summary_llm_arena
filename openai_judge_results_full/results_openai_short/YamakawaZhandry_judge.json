@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "It correctly frames the central question as whether one can obtain verifiable quantum advantage for NP search (and related cryptographic separations) relative to a structureless oracle (random oracle) and with minimal interaction/public verifiability. It could be slightly clearer that a key motivation is avoiding “structure”/Cryptomania assumptions, but this is mostly conveyed."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key claims align with the paper: NP search separation relative to a random oracle; publicly verifiable proofs of quantumness with minimal rounds (non-interactive for uniform, 2-message public coin for non-uniform); OWF/CRHF and public-key primitive counterexamples (CPA-PKE counterexample requiring assumption of classically CPA-secure PKE); QFT + code/list-recoverability structure; and certifiable randomness under the Aaronson–Ambainis conjecture. Minor imprecision: it says AA conjecture 'concerns decision problems' (the paper emphasizes Boolean-output algorithms, which includes decision but is more general), but this doesn’t materially change correctness."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Clear and coherent in five sentences, and it briefly clarifies several terms (NP search, public coin, uniform vs non-uniform adversaries, QFT-based sampling). Some specialized terms (list recoverability, Minicrypt, query-bounded unbounded adversaries) are used with minimal explanation, but still understandable for a technically literate audience."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences, matching the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the main takeaways: (i) NP search quantum advantage relative to random oracle, (ii) minimal-round publicly verifiable proofs of quantumness, (iii) cryptographic counterexamples including CR and public-key primitives, (iv) core technical approach using list-recoverable codes + QFT sampling, and (v) certifiable randomness under AA conjecture plus plausible instantiation with SHA-2. It omits some nuances (e.g., worst-case completeness tweak via k-wise independence; the collision-resistance construction is generic from PoQ), but those are secondary for a 5-sentence summary."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are supported by the paper’s abstract/introduction/overview. The only potential overreach is phrasing 'replacing the random oracle with SHA-2 yields plausible Minicrypt-style instantiations'—the paper indeed suggests this as a plausible instantiation, not a proven one, and the summary uses 'plausible,' which is appropriately cautious."
+  },
+  "total_score": 54,
+  "overall_assessment": "This is a strong, faithful 5-sentence summary that captures the paper’s core contributions, threat models (classical query-bounded vs quantum), and the key technical mechanism (list-recoverable codes plus QFT-based preimage sampling). Minor issues are slight imprecision about the scope of the Aaronson–Ambainis conjecture and limited explanation of a few specialized terms, but there are no major factual errors or unsupported claims."
+}
