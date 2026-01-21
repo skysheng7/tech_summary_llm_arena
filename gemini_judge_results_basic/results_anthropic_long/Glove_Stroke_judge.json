@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: the therapeutic effects of wearable robotic gloves on improving hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key factual points from the paper, including the number of studies included (5), the range of participants (3-13), the range of quality scores (7-10/12), and the names of the devices mentioned. It correctly notes the limitations such as small sample sizes and lack of RCTs."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology and explains concepts like 'systematic review', 'randomized controlled trials (RCTs)', and 'spasticity' implicitly through context. The flow is generally coherent, although the phrasing 'Here's a rewritten summary that is longer by restating ideas and adding redundant explanations, without introducing new facts' is meta-commentary and not part of the summary itself, which is unusual."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, consisting of multiple paragraphs and far exceeding the requested sentence count. The introductory sentence is also a meta-commentary rather than part of the summary."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the main aspects of the paper: the research question, methodology (search databases, inclusion criteria), results (positive effects, limitations), quality assessment, specific devices, intervention duration, and the final conclusion advocating for more comprehensive studies. All points are highly relevant to the original paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not introduce any information or claims not present in the original research paper."
+  },
+  "total_score": 49,
+  "overall_assessment": "The summary is factually accurate and comprehensive, effectively capturing the essence of the research paper and its findings. However, it completely fails to adhere to the prompt's constraint of a 5-sentence summary, making it significantly too long. The introductory meta-commentary is also an unusual inclusion for a summary."
+}

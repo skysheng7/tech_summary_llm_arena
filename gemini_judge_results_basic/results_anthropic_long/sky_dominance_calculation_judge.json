@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: how dominance hierarchies in dairy cows change with varying levels of competition, specifically at the feeding area."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the numerical findings presented in the paper, such as the decrease in hierarchy steepness by 2.41 × 10⁻³ for every 1% increase in feeder occupancy and the 0.13% rise in two-way dyads. It also correctly captures the overall trend described in the results."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary explains key terms like 'feeder occupancy' as an indicator of competition and 'two-way dyads'. However, it uses the phrase 'extensive investigation delved deeply' and 'meticulously examine' which is somewhat verbose. The explanation of the 'desperado effect' or how resource valuation overrides intrinsic attributes is well-explained."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer than 5 sentences, appearing to be an expanded version with redundant phrasing. It has multiple paragraphs and far exceeds the requested length."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "The summary covers the main aspects of the study, including the methodology (feeder occupancy, duration, number of cows), key findings (flattening hierarchy, two-way dyads), and the proposed explanation (resource valuation). However, its excessive length and redundant phrasing detract from its conciseness and relevance as a brief summary. The original prompt requested a 5-sentence summary, and this is a multi-paragraph expansion."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reports information present in the original document and does not introduce any unsupported claims or information outside the scope of the paper."
+  },
+  "total_score": 41,
+  "overall_assessment": "The summary accurately captures the core research question, methodology, key findings, and proposed explanations of the paper. However, it completely fails to adhere to the prompt's requirement of a 5-sentence summary, instead providing a lengthy, multi-paragraph explanation with redundant phrasing."
+}
