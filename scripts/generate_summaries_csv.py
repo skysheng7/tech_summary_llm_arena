@@ -7,6 +7,7 @@ from pathlib import Path
 ROOTS = [
     Path("gemini_judge_results_basic"),
     Path("gemini_judge_results_full"),
+    Path("openai_judge_results_full"),
 ]
 OUTPUT_CSV = "all_judgements_meta.csv"
 
@@ -17,6 +18,7 @@ META_COLS = [
     "generator_model",
     "summary_style",
 ]
+
 
 # -------- HELPERS --------
 def parse_judge_folder(name: str):
@@ -87,6 +89,11 @@ for judge_dir in ROOTS:
                 "generator_model": generator_model,
                 "summary_style": summary_style,
             }
+
+            # add total_score if present
+            if "total_score" in flat:
+                row["total_score"] = flat["total_score"]
+                score_keys.add("total_score")
 
             # keep only *.score fields
             for k, v in flat.items():
