@@ -1,0 +1,26 @@
+{
+"summary": {
+"score": 9,
+"evaluation": [
+{
+"type": "clarity",
+"score": 8,
+"rationale": "The summary clearly states the main idea of the paper, which is the introduction of DeBERTNeXT, a multimodal fake news detection framework. The language used is straightforward and easy to understand."
+},
+{
+"type": "completeness",
+"score": 9,
+"rationale": "The summary provides a comprehensive overview of the paper's main contributions, including the use of DeBERTa V3 for text processing and ConvNeXT for image processing, as well as the framework's performance on three datasets. The summary does not omit any crucial information."
+},
+{
+"type": "accuracy",
+"score": 8,
+"rationale": "The summary accurately reflects the content of the paper, including the use of advanced architectures (DeBERTa and ConvNeXT) compared to commonly used models like BERT/XLNet and VGG-19. The summary does not contain any significant inaccuracies or omissions."
+},
+{
+"type": "organization",
+"score": 9,
+"rationale": "The summary is well-organized, with a clear introduction, main points, and conclusion. The language used is logical and easy to follow."
+}
+]
+}

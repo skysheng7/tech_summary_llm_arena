@@ -1,0 +1,51 @@
+{
+"summary": {
+"study_title": "Pilot randomized controlled trial evaluating the effectiveness of virtual reality (VR)-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia",
+"research_question": "Does VR-based robotic training improve outcomes in stroke patients with hemiplegia?",
+"methods": {
+"type": "pilot RCT",
+"sample_size": 42,
+"intervention_group": {
+"name": "VR-based robotic training + conventional rehabilitation",
+"dose": "30 minutes daily, 5 days/week for 4 weeks"
+},
+"control_group": {
+"name": "conventional rehabilitation only"
+}
+},
+"results": {
+"primary_outcome": {
+"measure": "lower limb motor function",
+"mean_difference": 6.5,
+"p_value": ""
+},
+"secondary_outcomes": [
+{
+"measure": "balance",
+"mean_difference": 4.2
+},
+{
+"measure": "walking ability",
+"mean_difference": 3.1
+},
+{
+"measure": "activities of daily living",
+"mean_difference": 2.5
+},
+{
+"measure": "quality of life",
+"mean_difference": 1.8
+}
+],
+"cognitive_function": {
+"measure": "",
+"mean_difference": ""
+}
+},
+"adverse_events": {
+"none_occurred"
+},
+"study_conclusion": {
+"VR-based robotic training is a promising adjunct therapy for stroke rehabilitation, but larger studies with longer follow-up periods are needed to confirm these findings."
+}
+}
