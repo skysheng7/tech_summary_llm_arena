@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "Clearly states the main research question: how dairy cow dominance hierarchy structure changes with varying competition levels at the feeder (via feeder occupancy)."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key quantitative results are accurately reported (steepness decline of 2.41×10^-3 per 1% occupancy; two-way dyads +0.13% per 1%; 7.57% more dyads where previously dominant cows lose proportionally more at highest vs lowest occupancy). Minor omissions include uncertainty terms (SEs) and additional reported effects (e.g., unknown dyads +0.07% per 1%)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Well-structured and readable; briefly explains 'two-way dyads' and links feeder occupancy to competition. However, terms like 'hierarchy steepness' and 'agonistic interactions' are used without explicit definition, though context makes them mostly understandable."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Provides exactly 5 sentences/items as requested (five numbered sentences), matching the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the central takeaways: objective, main method/setting (10 months, 159 cows, feeder occupancy), core findings (flattening, more bidirectional outcomes), interpretation (resource valuation), and recommendation (avoid high-competition-only data). It omits some secondary but relevant findings (e.g., increase in unknown dyads, stability of unique dyads) and methodological detail (Elo rating approach)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims are supported by the provided paper sections; no fabricated methods, results, or conclusions are introduced."
+  },
+  "total_score": 56,
+  "overall_assessment": "The summary accurately captures the paper’s research question, core approach, main quantitative findings, interpretation, and practical recommendation in the required five-sentence format. Its main weaknesses are limited explanation of a couple technical terms and omission of some secondary reported results and uncertainty values, but it remains faithful and highly relevant."
+}

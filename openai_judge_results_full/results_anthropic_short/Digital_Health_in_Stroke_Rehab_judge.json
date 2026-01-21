@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary conveys the main research aim/questions: how DHTs are used for stroke rehabilitation in Canada and what gaps exist, and it also notes the implication-oriented intent (inform future research/implementation). It does not explicitly enumerate all three research questions as bullets (use, gaps, and how findings inform funding/resource allocation), but it captures them implicitly."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "Key numerics match the paper: 14 studies, 2010–2022, UE focus 85.71%, chronic phase 64.3%, home setting 50%. The listed technology categories are consistent with the results section (sensors, VR, games, telerehab, robots). Minor imprecision: the paper reports both home (50%) and institutional (42.9%); the summary states 'primarily in home settings (50%)' which is true but slightly underrepresents that institutional studies were also substantial."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary is coherent and readable, but it uses several domain terms with minimal explanation (e.g., 'DHTs', 'telerehabilitation', 'randomized controlled trials', 'upper extremity', 'acute/subacute/chronic phases'). It does define DHTs by expansion, but other terms are not explained; still, the density of jargon is moderate and the meaning is generally inferable."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The prompt requested a 5-sentence summary; the provided summary contains exactly 5 sentences (excluding the title/header line)."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the central takeaways: scope (Canada-focused scoping review), evidence base size and timeframe, dominant outcome focus (UE) and phase (chronic), settings, technology types, overall feasibility/effectiveness theme, barriers/facilitators, and key gaps and future directions. It does not include some secondary but notable details (e.g., distribution of study designs like % qualitative/RCTs, and specific non-UE outcomes like walking speed and sitting balance with their small percentages), but those omissions are acceptable in a 5-sentence constraint."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are generally supported by the paper, including facilitators/barriers and identified gaps. Slight risk of overgeneralization: saying technologies 'demonstrated ... improving ... quality of life' is supported in parts (e.g., some studies reported QoL/motivation changes), but not uniformly across all technologies/studies; however, it remains consistent with the review's narrative conclusions and does not fabricate specific effects or statistics."
+  },
+  "total_score": 53,
+  "overall_assessment": "The summary is strong: it accurately captures the paper’s purpose, scope, key quantitative descriptors (number of studies, phases, settings, UE focus), main technology categories, and the review’s conclusions about feasibility, barriers/facilitators, and research gaps. Minor weaknesses are light jargon without explanation and mild overgeneralization about effectiveness/QoL across all DHTs, but there are no major factual errors or unsupported claims."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states the paper’s goal: proposing a fast heuristic for community detection in large networks via modularity optimization and demonstrating it scales to very large graphs. It could be slightly more explicit that the core problem is finding high-modularity partitions efficiently (and hierarchically) for massive networks."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "Key facts match the paper: two-phase iterative method; 118M nodes analyzed in ~152 minutes; validation on Belgian phone network with language segregation; claims of very good modularity. Minor issue: it says prior methods were “limited to networks under 5 million nodes,” whereas the paper mentions prior work up to ~5.5 million users (and other datasets smaller), so the cutoff is slightly off; also “linear complexity” is stated as an achieved property, while the paper phrases it as suggested by simulations on typical sparse data."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and easy to follow, with a basic explanation of the two phases and what “meta-networks” are. However, “modularity optimization” and “modularity” are not explained (even briefly as a measure comparing within- vs between-community density), which would improve accessibility."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Delivers exactly 5 sentences, matching the prompt requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the main contributions: algorithm description, iterative aggregation (hierarchy), scalability to huge graphs, and real-world validation (Belgian phone network) plus comparative performance claims. It omits some notable details (e.g., stopping criterion of local modularity maxima; very small number of passes; comparisons to specific baselines like CNM/PL/WT and example modularity values), but these are secondary for a 5-sentence summary."
+  },
+  "hallucination": {
+    "score": 8,
+    "reasoning": "Most statements are supported by the paper. Slightly over-assertive phrasing appears in two places: 'vastly outperforming previous methods limited to networks under 5 million nodes' (paper cites ~5.5M and other limits) and 'linear complexity' stated as a firm property rather than 'suggested' on typical sparse networks."
+  },
+  "total_score": 52,
+  "overall_assessment": "The summary is concise, well-structured, and captures the paper’s central method (two-phase Louvain-style modularity optimization), scalability, hierarchical output, and key validation example. Its main weaknesses are minor overstatements about prior size limits and complexity guarantees, and it could briefly define modularity to improve clarity for non-experts."
+}

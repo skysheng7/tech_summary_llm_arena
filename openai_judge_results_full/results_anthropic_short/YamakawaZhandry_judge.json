@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "It conveys the central question/motivation: whether one can obtain verifiable (NP-search / publicly verifiable) quantum advantage without relying on structured oracles or strong algebraic assumptions, using random oracles / Minicrypt-like instantiations. It does not explicitly frame it as a precise research question (e.g., formal separations vs specific conjectures), but the intent is clear."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The major claims align with the paper: NP search separation relative to random oracle; classically OW/CR but quantumly invertible constructions; publicly verifiable minimal-round proofs of quantumness; certifiable randomness assuming Aaronson–Ambainis; and the folded Reed–Solomon/QFT/list-recovery technical backbone. Minor imprecision: it says 'unconditional quantum advantages using random oracles' without highlighting the uniform/non-uniform caveats and that some extensions (e.g., PKE CPA-secure assumption) require an extra assumption."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "Coherent and readable, with light explanations (e.g., 'relative to a random oracle' and minimal interaction). However, it uses several technical terms without explanation (random oracle model, NP search, one-way/collision-resistant, folded Reed–Solomon, list-recoverability, QFT, Aaronson–Ambainis conjecture), which may be acceptable for a technical audience but is not fully explanatory."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested exactly 5 sentences. The provided summary is not 5 sentences and is formatted as a title plus an introductory sentence and a 5-item bullet list with multiple sentence-like fragments; overall it substantially deviates from the requested format and sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the paper's main contributions: NP-search quantum advantage, proofs of quantumness (publicly verifiable, minimal rounds), cryptographic separations, certifiable randomness under Aaronson–Ambainis, and the code/QFT technique. Slightly underemphasizes some nuances (e.g., uniform vs non-uniform distinctions, collision-resistance construction details, and instantiating with SHA2 as a plausible Minicrypt path), but the chosen points are the core takeaways."
+  },
+  "hallucination": {
+    "score": 9,
+    "reasoning": "Statements are supported by the paper's abstract/introduction/overview. The only mild risk is overgeneral phrasing like 'unconditional quantum advantages' without explicitly noting the 'relative to a random oracle' and model caveats everywhere; otherwise no fabricated results or methods are introduced."
+  },
+  "total_score": 42,
+  "overall_assessment": "The summary accurately captures the paper’s main results and the high-level technical mechanism (codes + QFT + list-recovery) with good relevance. Its main weakness is failure to follow the strict '5 sentences' constraint and limited explanation of specialized terms and model caveats (uniform vs non-uniform, and which results need extra assumptions)."
+}
