@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary clearly identifies the core purpose of the article: to present and explain common statistical errors encountered in peer review, framed as a guide for researchers."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the article, including the Christmas theme, the list of 12 statistical issues, and the underlying motivations for the article."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary lists the 12 statistical issues. While it doesn't explain each term in detail, it accurately lists them as presented in the article. The overall coherence is good, presenting the information logically."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a summary in 5 sentences. The provided summary is presented as a list of bullet points, not sentences, and exceeds the requested sentence count significantly."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary is comprehensive, covering the main theme, the structure (Christmas framing), the 12 specific points, key takeaways (statistical vs. clinical significance, absence of evidence), reporting guidelines, and the article's overall goals."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the provided text. There are no unsupported or fabricated statements."
+  },
+  "total_score": 47,
+  "overall_assessment": "This summary is highly comprehensive and factually accurate, providing an excellent overview of the article's content and purpose. However, it fails to adhere to the prompt's requirement for a 5-sentence summary, instead presenting a detailed bulleted list."
+}

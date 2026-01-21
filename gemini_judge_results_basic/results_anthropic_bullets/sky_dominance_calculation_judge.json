@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the study's objective, which is to understand how dominance hierarchies change with competition levels."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical data and findings presented in the summary are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate scientific terms and explains key concepts like 'feeder occupancy' and 'dominance hierarchy steepness' in a coherent manner."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. This summary is presented as a bulleted list with multiple distinct points and is not in sentence format. The number of sentences is significantly more than 5."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "While the summary captures the main objective and key findings, it fails to present them in the requested sentence format. The detailed breakdown into bullet points, while informative, deviates from the prompt's constraint. It also doesn't fully integrate the findings into a cohesive narrative as a sentence-based summary would."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the provided paper and does not contain any unsupported or fabricated claims."
+  },
+  "total_score": 45,
+  "overall_assessment": "The summary effectively extracts and presents the core research questions, findings, and conclusions of the paper. However, it completely fails to adhere to the prompt's specific instruction of providing a 5-sentence summary, opting instead for a detailed bulleted list."
+}
