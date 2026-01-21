@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary accurately captures the core research question of the paper: exploring the use of DHTs for stroke rehabilitation in Canada, identifying gaps, and informing future directions."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary correctly states the number of studies included (14), the timeframe (2010-2022), the primary focus (UE function, chronic phase), and lists common technologies. It also accurately reflects the identified facilitators and barriers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses key terms like DHTs, RCTs, and UE appropriately within the context of the article. While terms like 'virtual reality' and 'gaming systems' are used, they are common enough not to require extensive explanation. The coherence is good, flowing logically from findings to recommendations."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary consists of exactly 5 sentences as requested by the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "The summary covers the main aspects of the paper: the scope, key findings on technologies and effectiveness, identified challenges, and future research directions, all of which are highly relevant to the original article's purpose."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the original paper."
+  },
+  "total_score": 55,
+  "overall_assessment": "This summary effectively captures the essence of the research paper, highlighting the key findings, challenges, and recommendations within the requested sentence limit. It is factually accurate and relevant, providing a concise overview of the scoping review's contribution to the field of digital health technologies in Canadian stroke rehabilitation."
+}

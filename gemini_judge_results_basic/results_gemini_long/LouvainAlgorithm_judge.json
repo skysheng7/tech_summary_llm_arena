@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core research question: developing a fast and efficient algorithm for community detection in large networks, emphasizing modularity optimization and hierarchical structure."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the algorithm's two-phase iterative process, its reliance on modularity optimization, its speed advantage, and its application to large datasets like mobile phone networks and web graphs."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'modularity optimization,' 'meta-communities,' and 'multi-resolution community structures' are used appropriately. The explanation of the iterative process is coherent. The term 'entities' for nodes and aggregated communities could be slightly more specific."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary provided is 5 paragraphs long, which is significantly more than the requested 5 sentences. While each paragraph generally addresses a distinct aspect, the overall length violates the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the crucial aspects of the paper: the algorithm's purpose, methodology, advantages (speed and quality), validation datasets, and the important feature of multi-resolution analysis. It is highly relevant to the paper's content."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any unsupported claims or information not present in the original paper."
+  },
+  "total_score": 49,
+  "overall_assessment": "This summary excels in accurately capturing the technical details and significance of the research, effectively explaining the algorithm's methodology and benefits. However, it fails to adhere to the prompt's strict sentence limit, significantly exceeding it with a multi-paragraph structure."
+}

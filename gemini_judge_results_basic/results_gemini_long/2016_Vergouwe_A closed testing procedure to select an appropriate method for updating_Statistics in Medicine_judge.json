@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary clearly identifies the core research question: developing a procedure to select the appropriate method for updating prediction models."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key concepts and methods discussed in the paper, including the closed testing procedure, different update methods (recalibration in the large, recalibration, model revision), the balance between updating need and overfitting risk, and the use of clinical examples."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "Key terms like 'closed testing procedure', 'recalibration in the large', 'model revision', 'Type I error', 'overfitting', and 'parsimonious methods' are either used correctly in context or briefly explained, contributing to coherence."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The summary is significantly longer than the requested 5 sentences. It is presented as multiple paragraphs which greatly exceeds the constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the main contributions of the paper: the proposed procedure, its rationale, its advantages, and its demonstrated utility, all of which are highly relevant."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the provided text and does not introduce any unsupported claims or information."
+  },
+  "total_score": 53,
+  "overall_assessment": "The summary effectively explains the proposed closed testing procedure for updating prediction models, its rationale, and its benefits. However, it fails to adhere to the strict sentence limit requested in the prompt, presenting a much longer and more detailed response."
+}

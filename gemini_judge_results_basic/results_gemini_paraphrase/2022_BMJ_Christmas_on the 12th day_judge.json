@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary clearly identifies the core purpose of the article, which is to highlight common statistical issues in research submissions to improve the quality of published research and assist authors. However, it doesn't explicitly state a single, overarching research question the original paper aimed to answer in a typical scientific sense."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the article, including the number of statistical issues (twelve), their presentation as 'stocking fillers,' the origin of the list (internal survey by statistical editors), and the specific examples of statistical challenges mentioned."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses technical terms like 'dichotomizing continuous variables,' 'non-linear associations,' and 'meta-regression statistics' accurately. While it doesn't deeply explain them, it places them in context, which is appropriate for a summary. The overall coherence is excellent."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a summary in *5 sentences*. All provided paraphrases contain significantly more than 5 sentences (Paraphrase 1: 6 sentences, Paraphrase 2: 6 sentences, Paraphrase 3: 6 sentences). This fails the core constraint of the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the main points of the article, including the context (Christmas theme), the purpose (improving research quality), the source of the information (statistical editors' survey), and several key examples of statistical issues. It remains highly relevant to the original article."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the article and does not introduce any unsupported or fabricated information."
+  },
+  "total_score": 47,
+  "overall_assessment": "The summary is well-written, factually accurate, and covers the main relevant points of the article. However, it fails significantly on prompt following by exceeding the requested sentence count, which is a critical criterion."
+}

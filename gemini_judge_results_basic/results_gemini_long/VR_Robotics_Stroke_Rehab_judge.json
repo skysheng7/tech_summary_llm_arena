@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the research question, which is to investigate the efficacy of VR-based robotic training for stroke patients with hemiplegia, focusing on lower limb rehabilitation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the study, including significant improvements in motor function, balance, walking ability, ADLs, and quality of life for the intervention group, as well as the lack of significant improvement in global cognitive function. It also correctly notes the pilot nature of the study and its implications."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology and explains 'hemiplegia' clearly. The flow of information is logical, moving from the study's objective to its findings, limitations, and conclusion, making it easy to understand."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a summary in 5 sentences. The provided summary contains significantly more than 5 sentences (it has 20 sentences across 5 paragraphs)."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the essential aspects of the paper: the study's objective, methodology (implied by the focus on VR-based robotic training), key findings (both positive and negative), and conclusion/recommendations. It prioritizes the most relevant information."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary is well-supported by the original text and does not introduce any unsupported claims or information not present in the paper."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary accurately and comprehensively captures the essence of the research paper, detailing the study's objectives, findings, and implications. However, it fails to adhere to the sentence limit requested in the prompt, significantly exceeding the 5-sentence requirement."
+}

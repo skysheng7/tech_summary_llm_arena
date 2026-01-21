@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the core research question of developing a fast and efficient algorithm for community detection in large networks by optimizing modularity."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All points presented in the summary are factually accurate according to the provided paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses key terms like 'modularity optimization,' 'meta-communities,' and 'hierarchical structure' which are central to the paper. While these terms are used, a brief explanation of what modularity optimization entails or how the hierarchical structure is formed would have improved coherence for a reader unfamiliar with the topic."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is in the form of bullet points, with 12 distinct points. This does not follow the sentence constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the most important aspects of the paper, including the algorithm's method, its advantages (speed, quality), validation, and key features like hierarchical structure and multi-resolution."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or hallucinations present in the summary; all points are directly derivable from the text."
+  },
+  "total_score": 47,
+  "overall_assessment": "The summary effectively captures the core contributions and findings of the research paper, highlighting the algorithm's speed, efficiency, and ability to reveal hierarchical community structures. However, it fails to adhere to the requested sentence count, presenting the information as a list of bullet points instead."
+}

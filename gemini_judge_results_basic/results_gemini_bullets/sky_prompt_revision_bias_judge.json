@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary effectively captures the central research question, which is about the bias in generative AI models concerning livestock farming and the role of prompt revision in creating this bias."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the default pastoral imagery, the effect of prompt revision, and the attribution of the bias to this process."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'generative AI', 'DALL-E 3', 'prompt revision', and 'pastoral images' coherently within the context of the research. However, it doesn't explain these terms for a general audience, assuming prior knowledge."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is presented as a list of bullet points, containing 13 distinct points, far exceeding the requested sentence limit."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary is comprehensive, covering the main aspects of the study: the observed bias, its cause (prompt revision), the implications, and the proposed solutions. All points are directly relevant to the paper's core message."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the paper and does not introduce any unsupported claims or information not present in the original text."
+  },
+  "total_score": 45,
+  "overall_assessment": "The summary is factually accurate and highly relevant, effectively capturing the core findings and implications of the research. However, it completely disregards the prompt's explicit instruction for a 5-sentence summary, presenting instead a detailed list of points."
+}

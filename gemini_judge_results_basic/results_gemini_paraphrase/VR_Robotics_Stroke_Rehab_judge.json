@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately identifies the core research question: to evaluate the effectiveness and safety of VR-based robotic training for lower limb rehabilitation in stroke patients with hemiplegia."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical and qualitative findings presented in the summary align with the information in the original paper, including statistically significant improvements in motor function, balance, walking ability, ADL, and QoL, and the lack of significant change in cognitive function. The sample size and outcome measures are also correctly represented."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate technical terminology (e.g., hemiplegia, VR-based robotic training, FMA-LE, BBS, FAC, MOCA, SS-QoL-12) in a coherent and understandable manner, assuming a reader familiar with the general field of rehabilitation research."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "All provided options adhere strictly to the 5-sentence limit requested in the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "Each summary effectively captures the main objectives, methods (pilot study, intervention vs. control), key findings (significant improvements in motor function, balance, walking, ADL, QoL, but not cognitive function), and the study's conclusion (promising and feasible, need for larger studies). All information is relevant to the core research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "No unsupported claims or fabricated information are present in any of the provided summary options."
+  },
+  "total_score": 60,
+  "overall_assessment": "All provided summary options effectively meet the prompt's requirements. They accurately convey the study's purpose, methodology, key findings, and conclusions within the strict 5-sentence limit. The factual accuracy and coherence are high across all options."
+}
