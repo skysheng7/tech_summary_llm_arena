@@ -17,16 +17,62 @@ This project utilized Generative AI (specifically Claude Sonnet 4.5 within Curso
 
 ```
 tech_summary_llm_arena/
+├── .cursor/
+│   └── skills/
+│       └── api-rules/
+│           └── SKILL.md     # System prompts for Cursor AI
 ├── input_docs/              # Place your PDF files here for summarization
-├── results/                 # Generated summary text files
-├── scripts/                 # Main Python scripts
-├── notebook/                # Jupyter notebooks for experimentation
-├── .cursor/skills/          # System prompts for Cursor
+├── results/                 # Generated outputs organized by analysis stage
+│   ├── 00_not_used_results/ # Archived/unused results
+│   ├── 01_summarize_docs/   # Initial document summaries
+│   │   ├── results_anthropic_short/
+│   │   ├── results_gemini_short/
+│   │   ├── results_llama3_short/
+│   │   └── results_openai_short/
+│   ├── 02_summary_perturbations/ # Perturbed summary variations
+│   │   ├── pertubations_anthropic_summaries/
+│   │   │   ├── results_anthropic_bullets/
+│   │   │   ├── results_anthropic_long/
+│   │   │   ├── results_anthropic_paraphrase/
+│   │   │   └── results_anthropic_shuffle/
+│   │   ├── pertubations_llama3_summaries/
+│   │   │   ├── results_llama3_bullets/
+│   │   │   ├── results_llama3_long/
+│   │   │   ├── results_llama3_paraphrase/
+│   │   │   └── results_llama3_shuffle/
+│   │   ├── perturbations_gemini_summaries/
+│   │   │   ├── results_gemini_bullets/
+│   │   │   ├── results_gemini_long/
+│   │   │   ├── results_gemini_paraphrase/
+│   │   │   └── results_gemini_shuffle/
+│   │   └── perturbatios_openai_summaries/
+│   │       ├── results_openai_bullets/
+│   │       ├── results_openai_long/
+│   │       ├── results_openai_paraphrase/
+│   │       └── results_openai_shuffle/
+│   ├── 03_llm_judges/       # LLM judge evaluation results
+│   │   ├── anthropic_judge_results_full/
+│   │   ├── gemini_judge_results_basic/
+│   │   ├── gemini_judge_results_full/
+│   │   ├── llama3_judge_results_basic/
+│   │   ├── llama3_judge_results_full/
+│   │   ├── llm_judge_prompts/
+│   │   ├── openai_judge_results_basic/
+│   │   └── openai_judge_results_full/
+│   └── 04_data_analysis/    # Analysis visualizations and data
+│       ├── all_judgements_meta.csv
+│       ├── average_scores.csv
+│       ├── model_comparison_bar_plots.png
+│       ├── prompt_comparison_scatter_plots.png
+│       ├── score_scatter_plots.png
+│       └── summary_style_comparison_scatter_plots.png
+├── scripts/                 # Python scripts for summarization and analysis
+├── notebook/
+├── .gitignore               # Git ignore rules
 ├── environment.yml          # Conda environment specifications
-├── conda-lock.yml          # Locked dependency versions for various OS including: Linux, macOS, Windows
-├── requirements.txt         # Python package dependencies
+├── conda-lock.yml           # Locked dependency versions for various OS
 ├── LICENSE                  # Project license
-└── README.md               # Usage instructions
+└── README.md                # Usage instructions
 ```
 
 </details>
@@ -89,17 +135,18 @@ conda activate llm_judge
 touch .env
 ```
 
-1. Add your OpenAI API key to the `.env` file, you can do the same for your Gemini API key:
+1. Add your API keys to the `.env` file:
 
 ```
 OPENAI_API_KEY=<your_openai_api_key_here>
+ANTHROPIC_API_KEY=<your_anthropic_api_key_here>
+GEMINI_API_KEY=<your_gemini_api_key_here>
 ```
 
-1. Obtain an API key:
-   - Visit [OpenAI Platform](https://platform.openai.com/)
-   - Sign up or log in
-   - Navigate to API Keys section
-   - Create a new secret key
+1. Obtain API keys:
+   - **OpenAI**: Visit [OpenAI Platform](https://platform.openai.com/), sign up/log in, navigate to API Keys section, and create a new secret key
+   - **Anthropic**: Visit [Anthropic Console](https://console.anthropic.com/), sign up/log in, and create an API key
+   - **Gemini**: Visit [Google AI Studio](https://aistudio.google.com/), sign in with your Google account, and generate an API key
 
 ⚠️ **Important**: The `.env` file contains sensitive information and is automatically excluded from version control via `.gitignore`.
 
