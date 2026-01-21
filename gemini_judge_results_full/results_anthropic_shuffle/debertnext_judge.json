@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research question: developing a multimodal fake news detection framework and evaluating its performance."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The numerical results for accuracy on the Fakeddit, Politifact, and Gossipcop datasets, as well as the percentage improvements, are accurately reported from the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Key terms like 'multimodal fake news detection', 'DeBERTNeXT', 'DeBERTa V3', and 'ConvNeXT' are introduced. While the architectures are named, their specific functionalities or the reasons for choosing them over others are only briefly mentioned, not deeply explained within the summary's constraints."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important aspects: the proposed framework (DeBERTNeXT), its core components (DeBERTa V3 and ConvNeXT), the key innovation (advancement over previous models), the datasets used, and the superior performance with specific metrics."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 58,
+  "overall_assessment": "This summary is excellent, precisely following the prompt's length constraint and accurately conveying the paper's main contributions and findings. It effectively highlights the novel architecture, the datasets used, and the superior performance achieved by DeBERTNeXT."
+}
