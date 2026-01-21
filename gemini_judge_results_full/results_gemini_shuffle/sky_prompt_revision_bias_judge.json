@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: how generative AI models like DALL-E 3 present a biased and romanticized view of livestock farming due to prompt revision, erasing the realities of intensive farming practices."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the default pastoral imagery produced by DALL-E 3, the role of prompt revision in introducing this bias, and the potential consequences of this misrepresentation."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is coherent and easy to understand. While it uses terms like 'generative AI,' 'DALL-E 3,' 'prompt revision,' and 'intensive farming,' these are used within a clear context and do not require extensive explanation for a general understanding of the paper's findings."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering strictly to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important take-home messages: the problem of AI bias in representing livestock farming, the mechanism (prompt revision) causing this bias, the consequences of this bias, and the proposed solutions. It covers the key contributions of the paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It precisely follows the prompt's length constraint and accurately conveys the paper's central research question, findings, and implications in a coherent and relevant manner, demonstrating strong factual accuracy and a clear understanding of the source material."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary clearly identifies the core research question: how generative AI models like DALL-E 3 depict livestock farming, specifically focusing on the bias and erasure of intensive farming realities due to prompt revision."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the default pastoral imagery, the impact of prompt revision, the role of DALL-E 3's automatic revision process, and the contrast with actual intensive farming practices."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'generative AI', 'DALL-E 3', 'prompt revision', and 'intensive farming'. While these are core to the paper, they are generally understandable in context. The bulleted format makes it coherent. It could have slightly better explained 'prompt revision' for a broader audience."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided evaluation is in a bulleted list with 13 distinct points, significantly deviating from the requested format and sentence count."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important findings and conclusions of the paper, including the problem (biased imagery), the cause (prompt revision), the evidence (pastoral vs. indoor depictions), and the recommendations (AI transparency)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All points in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 46,
+  "overall_assessment": "The summary effectively conveys the main findings and conclusions of the research paper regarding AI bias in livestock farming imagery. However, it completely fails to adhere to the prompt's request for a 5-sentence summary, instead providing a detailed bulleted list, which significantly impacts its adherence to instructions."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the main research question: to develop and validate a novel method for constructing a lameness hierarchy using crowd-sourced pairwise assessments, and to compare it to traditional methods."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "The summary accurately captures the key findings, such as the high inter-observer reliability for experienced assessors (ICC=0.81), the feasibility for untrained crowd workers, and the effectiveness of the subsampling algorithm requiring only 8 workers. However, it misses specific numerical details like the ICC for crowd workers vs. experts (0.79) and the percentage of reduced comparisons (61%). It also mentions 'five key stages or milestones' without clearly linking it to the '5-milestone subsampling algorithm' mentioned in the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary explains 'lameness hierarchy,' 'crowd-sourced data,' and 'pairwise lameness' clearly. It also defines 'inter-observer reliability' in a coherent way. The explanation of 'subsampling algorithm' is decent, though could be more precise. The overall flow is good."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, totaling 5 paragraphs and likely well over 20 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary covers the main contributions: the novel lameness hierarchy method, its validation with experts and crowd workers, the efficiency gains through subsampling, and its potential broader applications. It highlights the key advantage over traditional methods. It could be more complete by including the specific agreement scores between crowd workers and experts."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary effectively communicates the core research question, methodology, and key findings of the paper, explaining technical terms well. However, it fails to adhere to the sentence limit requested in the prompt and misses some specific quantitative results."
+}

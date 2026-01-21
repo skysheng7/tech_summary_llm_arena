@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary clearly articulates the central research question about the relationship between competition levels and dominance hierarchy structures in dairy cows. It focuses on the core investigation but doesn't explicitly state it as a question. "
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the main findings, including the flattening of dominance hierarchies with increased competition and the rise of 2-way dyads. It captures the essence of the findings without misrepresenting numerical data (which it doesn't present, thus avoiding specific errors)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary explains '2-way dyads' and the concept of hierarchy flattening. While 'intrinsic attributes' and 'resource potential valuation' are used, their meaning is generally inferable from context. The language is sophisticated but largely coherent."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. This summary consists of 3 paragraphs, which would likely equate to many more than 5 sentences. Therefore, it failed to adhere to the sentence count constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most crucial findings: the relationship between competition and hierarchy flattening, the increased success of subordinates, the role of resource valuation, and the importance of context. It covers the key takeaways of the paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the original paper."
+  },
+  "total_score": 46,
+  "overall_assessment": "The summary provides a comprehensive and accurate overview of the paper's main findings regarding the impact of competition on dominance hierarchies in dairy cows, highlighting the flattening effect and the influence of resource valuation. However, it significantly failed to adhere to the requested 5-sentence limit, providing a much longer, multi-paragraph response instead."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question of proposing and illustrating a closed testing procedure for selecting appropriate prediction model updating methods."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All points in the summary accurately reflect the methods, goals, and findings presented in the paper, without introducing any numerical or factual errors."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'closed testing procedure', 'recalibration in the large', and 'model revision'. While the paper defines these, the summary itself does not explain them, relying on the reader's prior knowledge or expectation that the paper will explain them. However, the flow is coherent."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is presented as bullet points, with 11 distinct points, which does not adhere to the sentence count instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the key contributions of the paper: the proposed procedure, its rationale (balancing update needs with overfitting risk), its application, and its benefit (preventing overfitting and ensuring reliable predictions). It touches upon the importance of sample size and the systematic nature of the procedure."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary accurately captures the essence and key contributions of the research paper, effectively outlining the proposed procedure and its benefits. However, it fails to follow the prompt's instruction for a 5-sentence summary, presenting the information as bullet points instead."
+}
