@@ -1,0 +1,799 @@
+paper_id,judge_model,judge_prompt,generator_model,summary_style,completeness_and_relevance.score,factual_accuracy.score,hallucination.score,prompt_following.score,research_question.score,terminology_explanation_and_coherence.score
+VR_Robotics_Stroke_Rehab,gemini,basic,llama3,short,10,10,10,10,10,8
+sky_prompt_revision_bias,gemini,basic,llama3,short,5,10,10,10,7,9
+LightGCN,gemini,basic,llama3,short,5,4,5,10,10,6
+LouvainAlgorithm,gemini,basic,llama3,short,7,7,5,10,9,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,llama3,short,8,8,5,10,9,8
+Reversing_Large_Language_Models,gemini,basic,llama3,short,8,9,0,10,9,8
+unifiedquantum,gemini,basic,llama3,short,0,4,10,10,3,3
+Multiscale_Training_GNNs,gemini,basic,llama3,short,7,9,10,0,7,6
+Exoskeletons_Stroke,gemini,basic,llama3,short,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,basic,llama3,short,7,6,8,10,8,7
+sky_crowdsource_lameness,gemini,basic,llama3,short,7,7,5,10,9,8
+ispforquantumchem,gemini,basic,llama3,short,0,10,0,0,0,10
+thorax-2025-223770.full,gemini,basic,llama3,short,5,3,5,10,10,7
+YamakawaZhandry,gemini,basic,llama3,short,0,0,0,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,basic,llama3,short,10,10,10,10,8,9
+sky_redefine_lameness,gemini,basic,llama3,short,5,5,10,5,6,7
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,llama3,short,3,3,10,10,8,5
+Glove_Stroke,gemini,basic,llama3,short,9,9,10,10,9,8
+debertnext,gemini,basic,llama3,short,7,8,7,10,9,8
+sky_dominance_calculation,gemini,basic,llama3,short,8,8,5,10,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,anthropic,short,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,anthropic,short,10,10,0,10,10,9
+LightGCN,gemini,basic,anthropic,short,10,10,10,5,9,9
+LouvainAlgorithm,gemini,basic,anthropic,short,10,10,10,5,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,anthropic,short,10,10,10,10,10,9
+Reversing_Large_Language_Models,gemini,basic,anthropic,short,10,10,10,5,10,9
+unifiedquantum,gemini,basic,anthropic,short,10,10,10,0,10,8
+Multiscale_Training_GNNs,gemini,basic,anthropic,short,9,10,0,5,9,9
+Exoskeletons_Stroke,gemini,basic,anthropic,short,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,basic,anthropic,short,10,10,10,5,10,10
+sky_crowdsource_lameness,gemini,basic,anthropic,short,10,10,10,10,10,9
+ispforquantumchem,gemini,basic,anthropic,short,10,9,10,0,9,8
+thorax-2025-223770.full,gemini,basic,anthropic,short,10,10,10,10,10,10
+YamakawaZhandry,gemini,basic,anthropic,short,10,9,10,0,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,anthropic,short,10,10,10,5,10,9
+sky_redefine_lameness,gemini,basic,anthropic,short,10,10,10,10,10,10
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,anthropic,short,10,10,10,10,10,9
+Glove_Stroke,gemini,basic,anthropic,short,10,10,10,10,10,10
+debertnext,gemini,basic,anthropic,short,10,10,10,5,10,10
+sky_dominance_calculation,gemini,basic,anthropic,short,10,10,10,10,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,gemini,short,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,gemini,short,9,10,10,10,9,9
+LightGCN,gemini,basic,gemini,short,10,10,10,10,10,9
+LouvainAlgorithm,gemini,basic,gemini,short,10,10,10,10,9,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,gemini,short,10,10,10,10,10,9
+Reversing_Large_Language_Models,gemini,basic,gemini,short,9,10,10,10,9,8
+unifiedquantum,gemini,basic,gemini,short,10,10,10,5,9,9
+Multiscale_Training_GNNs,gemini,basic,gemini,short,9,10,10,10,9,9
+Exoskeletons_Stroke,gemini,basic,gemini,short,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,basic,gemini,short,10,10,10,5,10,10
+sky_crowdsource_lameness,gemini,basic,gemini,short,10,10,10,10,10,10
+ispforquantumchem,gemini,basic,gemini,short,10,10,10,5,10,9
+thorax-2025-223770.full,gemini,basic,gemini,short,10,10,10,10,10,9
+YamakawaZhandry,gemini,basic,gemini,short,9,9,10,10,9,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,gemini,short,10,10,10,5,9,9
+sky_redefine_lameness,gemini,basic,gemini,short,10,10,10,10,9,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,gemini,short,10,10,10,10,10,9
+Glove_Stroke,gemini,basic,gemini,short,10,10,10,10,10,10
+debertnext,gemini,basic,gemini,short,10,10,10,10,10,10
+sky_dominance_calculation,gemini,basic,gemini,short,10,10,10,10,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,llama3,long,10,10,10,5,10,7
+sky_prompt_revision_bias,gemini,basic,llama3,long,5,9,10,0,7,8
+LightGCN,gemini,basic,llama3,long,5,8,5,0,10,9
+LouvainAlgorithm,gemini,basic,llama3,long,5,5,5,0,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,llama3,long,5,9,10,0,10,10
+Reversing_Large_Language_Models,gemini,basic,llama3,long,10,10,10,0,9,9
+unifiedquantum,gemini,basic,llama3,long,0,3,10,0,10,5
+Multiscale_Training_GNNs,gemini,basic,llama3,long,5,10,0,0,10,9
+Exoskeletons_Stroke,gemini,basic,llama3,long,5,9,10,0,8,7
+Digital_Health_in_Stroke_Rehab,gemini,basic,llama3,long,5,2,5,0,7,7
+sky_crowdsource_lameness,gemini,basic,llama3,long,5,8,5,0,9,7
+ispforquantumchem,gemini,basic,llama3,long,0,10,0,0,0,8
+thorax-2025-223770.full,gemini,basic,llama3,long,5,3,7,0,10,6
+YamakawaZhandry,gemini,basic,llama3,long,0,10,0,0,0,10
+2022_BMJ_Christmas_on the 12th day,gemini,basic,llama3,long,5,10,10,0,8,8
+sky_redefine_lameness,gemini,basic,llama3,long,5,5,10,0,7,7
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,llama3,long,3,3,10,0,7,6
+Glove_Stroke,gemini,basic,llama3,long,10,10,10,0,9,8
+debertnext,gemini,basic,llama3,long,10,10,10,0,9,7
+sky_dominance_calculation,gemini,basic,llama3,long,10,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,basic,openai,long,10,10,10,0,10,9
+sky_prompt_revision_bias,gemini,basic,openai,long,10,10,10,0,9,8
+LightGCN,gemini,basic,openai,long,10,10,10,0,10,9
+LouvainAlgorithm,gemini,basic,openai,long,5,10,10,0,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,openai,long,10,10,10,5,10,9
+Reversing_Large_Language_Models,gemini,basic,openai,long,10,10,10,0,9,9
+unifiedquantum,gemini,basic,openai,long,10,9,10,5,10,9
+Multiscale_Training_GNNs,gemini,basic,openai,long,10,10,10,7,9,9
+Exoskeletons_Stroke,gemini,basic,openai,long,5,10,10,0,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,openai,long,10,10,10,0,10,10
+sky_crowdsource_lameness,gemini,basic,openai,long,10,10,10,5,9,9
+ispforquantumchem,gemini,basic,openai,long,10,10,10,5,9,9
+thorax-2025-223770.full,gemini,basic,openai,long,10,9,10,0,10,10
+YamakawaZhandry,gemini,basic,openai,long,10,10,0,0,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,openai,long,5,10,10,5,10,9
+sky_redefine_lameness,gemini,basic,openai,long,10,10,10,0,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,openai,long,5,8,0,0,10,10
+Glove_Stroke,gemini,basic,openai,long,10,10,10,0,9,9
+debertnext,gemini,basic,openai,long,10,10,10,0,9,9
+sky_dominance_calculation,gemini,basic,openai,long,10,10,10,0,10,9
+VR_Robotics_Stroke_Rehab,gemini,basic,gemini,bullets,5,10,10,0,10,9
+sky_prompt_revision_bias,gemini,basic,gemini,bullets,10,10,10,0,9,8
+LightGCN,gemini,basic,gemini,bullets,10,10,10,0,10,8
+LouvainAlgorithm,gemini,basic,gemini,bullets,10,10,10,5,9,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,gemini,bullets,10,10,10,5,10,9
+Reversing_Large_Language_Models,gemini,basic,gemini,bullets,10,10,10,0,10,9
+unifiedquantum,gemini,basic,gemini,bullets,10,10,10,0,9,8
+Multiscale_Training_GNNs,gemini,basic,gemini,bullets,10,10,10,5,10,8
+Exoskeletons_Stroke,gemini,basic,gemini,bullets,10,10,10,5,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,gemini,bullets,10,10,10,5,9,8
+sky_crowdsource_lameness,gemini,basic,gemini,bullets,10,10,10,0,10,9
+ispforquantumchem,gemini,basic,gemini,bullets,5,10,10,0,10,7
+thorax-2025-223770.full,gemini,basic,gemini,bullets,10,10,10,0,10,8
+YamakawaZhandry,gemini,basic,gemini,bullets,10,9,10,5,9,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,gemini,bullets,10,10,10,5,9,8
+sky_redefine_lameness,gemini,basic,gemini,bullets,5,10,10,0,10,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,gemini,bullets,10,10,10,0,10,8
+Glove_Stroke,gemini,basic,gemini,bullets,10,10,10,5,10,9
+debertnext,gemini,basic,gemini,bullets,5,10,10,0,10,9
+sky_dominance_calculation,gemini,basic,gemini,bullets,10,10,10,0,10,9
+VR_Robotics_Stroke_Rehab,gemini,basic,gemini,shuffle,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,gemini,shuffle,10,10,10,8,10,9
+LightGCN,gemini,basic,gemini,shuffle,10,10,10,10,10,10
+LouvainAlgorithm,gemini,basic,gemini,shuffle,10,10,10,5,9,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,gemini,shuffle,9,10,10,10,9,8
+Reversing_Large_Language_Models,gemini,basic,gemini,shuffle,10,10,10,10,9,9
+unifiedquantum,gemini,basic,gemini,shuffle,10,10,10,10,9,8
+Multiscale_Training_GNNs,gemini,basic,gemini,shuffle,9,10,10,10,9,9
+Exoskeletons_Stroke,gemini,basic,gemini,shuffle,9,10,10,10,9,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,gemini,shuffle,9,9,10,10,9,8
+sky_crowdsource_lameness,gemini,basic,gemini,shuffle,10,10,10,10,10,9
+ispforquantumchem,gemini,basic,gemini,shuffle,10,10,10,5,9,8
+thorax-2025-223770.full,gemini,basic,gemini,shuffle,10,10,10,10,10,10
+YamakawaZhandry,gemini,basic,gemini,shuffle,9,10,10,10,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,gemini,shuffle,10,10,10,10,10,9
+sky_redefine_lameness,gemini,basic,gemini,shuffle,10,10,10,10,9,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,gemini,shuffle,10,10,10,10,10,9
+Glove_Stroke,gemini,basic,gemini,shuffle,10,10,10,10,10,10
+debertnext,gemini,basic,gemini,shuffle,9,10,10,10,9,9
+sky_dominance_calculation,gemini,basic,gemini,shuffle,10,10,10,10,10,9
+VR_Robotics_Stroke_Rehab,gemini,basic,openai,bullets,10,10,10,0,10,8
+sky_prompt_revision_bias,gemini,basic,openai,bullets,10,10,10,0,10,9
+LightGCN,gemini,basic,openai,bullets,10,10,10,0,10,9
+LouvainAlgorithm,gemini,basic,openai,bullets,10,10,10,5,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,openai,bullets,10,10,10,0,10,9
+Reversing_Large_Language_Models,gemini,basic,openai,bullets,10,10,10,0,10,9
+unifiedquantum,gemini,basic,openai,bullets,10,10,10,0,9,9
+Multiscale_Training_GNNs,gemini,basic,openai,bullets,10,9,10,0,10,8
+Exoskeletons_Stroke,gemini,basic,openai,bullets,10,10,10,0,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,openai,bullets,10,10,10,0,10,8
+sky_crowdsource_lameness,gemini,basic,openai,bullets,10,10,10,0,9,9
+ispforquantumchem,gemini,basic,openai,bullets,10,10,10,0,9,8
+thorax-2025-223770.full,gemini,basic,openai,bullets,10,10,10,0,10,9
+YamakawaZhandry,gemini,basic,openai,bullets,10,10,10,0,9,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,openai,bullets,10,10,10,0,9,8
+sky_redefine_lameness,gemini,basic,openai,bullets,10,10,10,5,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,openai,bullets,10,10,10,0,10,9
+Glove_Stroke,gemini,basic,openai,bullets,10,10,10,0,10,8
+debertnext,gemini,basic,openai,bullets,10,10,10,0,10,10
+sky_dominance_calculation,gemini,basic,openai,bullets,10,10,10,0,10,9
+VR_Robotics_Stroke_Rehab,gemini,basic,openai,shuffle,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,openai,shuffle,10,10,10,10,10,9
+LightGCN,gemini,basic,openai,shuffle,10,10,10,5,9,9
+LouvainAlgorithm,gemini,basic,openai,shuffle,10,10,10,5,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,openai,shuffle,10,10,10,5,10,10
+Reversing_Large_Language_Models,gemini,basic,openai,shuffle,10,10,10,5,10,10
+unifiedquantum,gemini,basic,openai,shuffle,10,10,10,0,9,9
+Multiscale_Training_GNNs,gemini,basic,openai,shuffle,10,10,10,5,10,9
+Exoskeletons_Stroke,gemini,basic,openai,shuffle,10,10,10,5,9,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,openai,shuffle,10,10,10,10,10,10
+sky_crowdsource_lameness,gemini,basic,openai,shuffle,10,10,10,5,10,10
+ispforquantumchem,gemini,basic,openai,shuffle,9,10,10,5,9,9
+thorax-2025-223770.full,gemini,basic,openai,shuffle,10,10,10,10,10,9
+YamakawaZhandry,gemini,basic,openai,shuffle,10,10,10,10,10,9
+2022_BMJ_Christmas_on the 12th day,gemini,basic,openai,shuffle,10,10,10,10,10,10
+sky_redefine_lameness,gemini,basic,openai,shuffle,10,10,10,10,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,openai,shuffle,10,10,10,10,10,10
+Glove_Stroke,gemini,basic,openai,shuffle,10,10,10,10,10,9
+debertnext,gemini,basic,openai,shuffle,10,10,10,10,10,9
+sky_dominance_calculation,gemini,basic,openai,shuffle,10,10,10,5,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,anthropic,paraphrase,10,10,10,0,10,10
+sky_prompt_revision_bias,gemini,basic,anthropic,paraphrase,10,10,10,5,9,10
+LightGCN,gemini,basic,anthropic,paraphrase,10,10,10,5,10,10
+LouvainAlgorithm,gemini,basic,anthropic,paraphrase,10,10,10,5,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,anthropic,paraphrase,10,10,10,5,10,9
+Reversing_Large_Language_Models,gemini,basic,anthropic,paraphrase,10,9,10,5,10,9
+unifiedquantum,gemini,basic,anthropic,paraphrase,10,10,0,0,9,8
+Multiscale_Training_GNNs,gemini,basic,anthropic,paraphrase,10,10,0,5,9,9
+Exoskeletons_Stroke,gemini,basic,anthropic,paraphrase,10,10,10,10,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,anthropic,paraphrase,10,10,10,0,10,8
+sky_crowdsource_lameness,gemini,basic,anthropic,paraphrase,10,10,10,10,10,9
+ispforquantumchem,gemini,basic,anthropic,paraphrase,10,9,10,0,10,8
+thorax-2025-223770.full,gemini,basic,anthropic,paraphrase,10,10,10,5,10,8
+YamakawaZhandry,gemini,basic,anthropic,paraphrase,10,9,0,0,9,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,anthropic,paraphrase,10,10,10,5,9,9
+sky_redefine_lameness,gemini,basic,anthropic,paraphrase,10,10,10,5,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,anthropic,paraphrase,10,10,10,0,10,10
+Glove_Stroke,gemini,basic,anthropic,paraphrase,10,10,10,5,10,9
+debertnext,gemini,basic,anthropic,paraphrase,10,10,10,0,10,9
+sky_dominance_calculation,gemini,basic,anthropic,paraphrase,10,10,10,10,10,9
+VR_Robotics_Stroke_Rehab,gemini,basic,gemini,long,10,10,10,0,10,10
+sky_prompt_revision_bias,gemini,basic,gemini,long,5,10,10,0,10,10
+LightGCN,gemini,basic,gemini,long,5,10,10,0,9,9
+LouvainAlgorithm,gemini,basic,gemini,long,10,10,10,5,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,gemini,long,10,10,10,0,10,8
+Reversing_Large_Language_Models,gemini,basic,gemini,long,10,10,10,5,10,9
+unifiedquantum,gemini,basic,gemini,long,5,9,10,0,9,8
+Multiscale_Training_GNNs,gemini,basic,gemini,long,10,10,10,5,9,9
+Exoskeletons_Stroke,gemini,basic,gemini,long,10,10,10,0,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,gemini,long,10,10,10,5,10,9
+sky_crowdsource_lameness,gemini,basic,gemini,long,10,10,10,0,9,9
+ispforquantumchem,gemini,basic,gemini,long,5,10,10,0,9,8
+thorax-2025-223770.full,gemini,basic,gemini,long,10,10,10,5,10,9
+YamakawaZhandry,gemini,basic,gemini,long,10,9,10,5,8,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,gemini,long,10,10,10,0,7,8
+sky_redefine_lameness,gemini,basic,gemini,long,10,10,10,5,9,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,gemini,long,10,10,10,5,9,9
+Glove_Stroke,gemini,basic,gemini,long,10,10,10,0,10,8
+debertnext,gemini,basic,gemini,long,5,10,10,0,10,8
+sky_dominance_calculation,gemini,basic,gemini,long,5,10,10,0,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,anthropic,shuffle,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,anthropic,shuffle,10,10,0,10,10,10
+LightGCN,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+LouvainAlgorithm,gemini,basic,anthropic,shuffle,10,10,10,5,9,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+Reversing_Large_Language_Models,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+unifiedquantum,gemini,basic,anthropic,shuffle,5,9,0,0,7,7
+Multiscale_Training_GNNs,gemini,basic,anthropic,shuffle,10,10,10,5,10,9
+Exoskeletons_Stroke,gemini,basic,anthropic,shuffle,9,10,10,10,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,anthropic,shuffle,10,10,10,5,10,10
+sky_crowdsource_lameness,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+ispforquantumchem,gemini,basic,anthropic,shuffle,10,9,10,5,9,9
+thorax-2025-223770.full,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+YamakawaZhandry,gemini,basic,anthropic,shuffle,10,9,10,0,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+sky_redefine_lameness,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,anthropic,shuffle,10,10,10,5,10,9
+Glove_Stroke,gemini,basic,anthropic,shuffle,10,10,10,10,10,9
+debertnext,gemini,basic,anthropic,shuffle,10,10,10,8,10,9
+sky_dominance_calculation,gemini,basic,anthropic,shuffle,10,10,10,10,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,anthropic,bullets,5,10,10,0,10,8
+sky_prompt_revision_bias,gemini,basic,anthropic,bullets,10,10,10,0,10,9
+LightGCN,gemini,basic,anthropic,bullets,5,10,10,0,9,9
+LouvainAlgorithm,gemini,basic,anthropic,bullets,10,10,10,5,9,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,anthropic,bullets,10,10,10,0,10,9
+Reversing_Large_Language_Models,gemini,basic,anthropic,bullets,10,10,10,0,9,8
+unifiedquantum,gemini,basic,anthropic,bullets,10,10,10,0,9,8
+Multiscale_Training_GNNs,gemini,basic,anthropic,bullets,10,10,10,0,10,9
+Exoskeletons_Stroke,gemini,basic,anthropic,bullets,5,10,10,0,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,anthropic,bullets,10,10,10,0,9,8
+sky_crowdsource_lameness,gemini,basic,anthropic,bullets,10,10,10,0,10,9
+ispforquantumchem,gemini,basic,anthropic,bullets,5,9,10,0,10,9
+thorax-2025-223770.full,gemini,basic,anthropic,bullets,10,10,10,0,10,8
+YamakawaZhandry,gemini,basic,anthropic,bullets,10,10,10,0,9,7
+2022_BMJ_Christmas_on the 12th day,gemini,basic,anthropic,bullets,10,10,10,0,9,8
+sky_redefine_lameness,gemini,basic,anthropic,bullets,10,10,10,5,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,anthropic,bullets,10,10,10,0,10,9
+Glove_Stroke,gemini,basic,anthropic,bullets,10,10,10,0,10,9
+debertnext,gemini,basic,anthropic,bullets,10,10,10,0,10,9
+sky_dominance_calculation,gemini,basic,anthropic,bullets,5,10,10,0,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,openai,short,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,openai,short,10,10,10,10,10,10
+LightGCN,gemini,basic,openai,short,10,10,10,5,10,9
+LouvainAlgorithm,gemini,basic,openai,short,10,10,10,10,9,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,openai,short,10,10,10,10,10,9
+Reversing_Large_Language_Models,gemini,basic,openai,short,10,10,10,5,10,10
+unifiedquantum,gemini,basic,openai,short,10,10,10,5,9,9
+Multiscale_Training_GNNs,gemini,basic,openai,short,10,10,10,5,10,9
+Exoskeletons_Stroke,gemini,basic,openai,short,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,basic,openai,short,10,10,10,10,9,9
+sky_crowdsource_lameness,gemini,basic,openai,short,10,10,10,10,9,9
+ispforquantumchem,gemini,basic,openai,short,10,10,10,10,10,9
+thorax-2025-223770.full,gemini,basic,openai,short,10,10,10,10,10,10
+YamakawaZhandry,gemini,basic,openai,short,10,10,10,5,10,9
+2022_BMJ_Christmas_on the 12th day,gemini,basic,openai,short,10,10,10,10,10,9
+sky_redefine_lameness,gemini,basic,openai,short,10,10,10,10,10,10
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,openai,short,10,10,10,10,10,10
+Glove_Stroke,gemini,basic,openai,short,10,10,10,10,10,9
+debertnext,gemini,basic,openai,short,10,10,10,10,10,9
+sky_dominance_calculation,gemini,basic,openai,short,10,10,10,5,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,anthropic,long,10,10,10,10,10,9
+sky_prompt_revision_bias,gemini,basic,anthropic,long,10,10,10,0,10,10
+LightGCN,gemini,basic,anthropic,long,5,10,10,0,10,10
+LouvainAlgorithm,gemini,basic,anthropic,long,10,10,10,5,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,anthropic,long,10,10,10,0,10,9
+Reversing_Large_Language_Models,gemini,basic,anthropic,long,10,10,10,0,10,8
+unifiedquantum,gemini,basic,anthropic,long,5,10,10,0,9,8
+Multiscale_Training_GNNs,gemini,basic,anthropic,long,5,9,10,0,10,9
+Exoskeletons_Stroke,gemini,basic,anthropic,long,5,8,5,0,9,7
+Digital_Health_in_Stroke_Rehab,gemini,basic,anthropic,long,7,9,10,0,8,7
+sky_crowdsource_lameness,gemini,basic,anthropic,long,10,10,10,0,10,10
+ispforquantumchem,gemini,basic,anthropic,long,5,8,10,0,10,7
+thorax-2025-223770.full,gemini,basic,anthropic,long,0,0,10,0,10,0
+YamakawaZhandry,gemini,basic,anthropic,long,5,8,10,0,10,7
+2022_BMJ_Christmas_on the 12th day,gemini,basic,anthropic,long,10,10,10,0,8,9
+sky_redefine_lameness,gemini,basic,anthropic,long,10,9,10,0,9,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,anthropic,long,10,9,10,0,9,8
+Glove_Stroke,gemini,basic,anthropic,long,10,10,10,0,10,9
+debertnext,gemini,basic,anthropic,long,5,10,10,0,10,10
+sky_dominance_calculation,gemini,basic,anthropic,long,5,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,basic,llama3,shuffle,8,10,10,10,9,8
+sky_prompt_revision_bias,gemini,basic,llama3,shuffle,5,9,10,10,8,8
+LightGCN,gemini,basic,llama3,shuffle,7,7,5,10,9,6
+LouvainAlgorithm,gemini,basic,llama3,shuffle,8,8,5,10,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,llama3,shuffle,8,8,5,10,9,7
+Reversing_Large_Language_Models,gemini,basic,llama3,shuffle,9,10,5,10,9,8
+unifiedquantum,gemini,basic,llama3,shuffle,5,2,10,5,3,3
+Multiscale_Training_GNNs,gemini,basic,llama3,shuffle,10,10,10,0,9,8
+Exoskeletons_Stroke,gemini,basic,llama3,shuffle,9,10,10,10,9,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,llama3,shuffle,7,8,6,5,9,9
+sky_crowdsource_lameness,gemini,basic,llama3,shuffle,7,9,5,5,8,8
+ispforquantumchem,gemini,basic,llama3,shuffle,0,10,0,0,0,10
+thorax-2025-223770.full,gemini,basic,llama3,shuffle,5,3,5,10,9,7
+YamakawaZhandry,gemini,basic,llama3,shuffle,0,0,0,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,basic,llama3,shuffle,7,9,10,5,8,8
+sky_redefine_lameness,gemini,basic,llama3,shuffle,5,4,10,5,9,7
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,llama3,shuffle,2,2,10,10,8,5
+Glove_Stroke,gemini,basic,llama3,shuffle,10,9,10,10,10,10
+debertnext,gemini,basic,llama3,shuffle,7,8,7,10,9,7
+sky_dominance_calculation,gemini,basic,llama3,shuffle,5,8,5,10,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,llama3,bullets,8,10,10,10,9,9
+sky_prompt_revision_bias,gemini,basic,llama3,bullets,5,10,10,0,7,8
+LightGCN,gemini,basic,llama3,bullets,7,7,7,7,9,6
+LouvainAlgorithm,gemini,basic,llama3,bullets,5,6,5,5,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,llama3,bullets,10,9,10,5,10,8
+Reversing_Large_Language_Models,gemini,basic,llama3,bullets,10,10,10,5,9,8
+unifiedquantum,gemini,basic,llama3,bullets,5,7,5,5,6,6
+Multiscale_Training_GNNs,gemini,basic,llama3,bullets,7,9,0,5,8,7
+Exoskeletons_Stroke,gemini,basic,llama3,bullets,5,10,10,0,10,10
+Digital_Health_in_Stroke_Rehab,gemini,basic,llama3,bullets,7,6,7,5,8,8
+sky_crowdsource_lameness,gemini,basic,llama3,bullets,7,7,5,0,8,7
+ispforquantumchem,gemini,basic,llama3,bullets,0,0,10,0,0,0
+thorax-2025-223770.full,gemini,basic,llama3,bullets,5,6,5,0,9,7
+YamakawaZhandry,gemini,basic,llama3,bullets,0,10,0,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,basic,llama3,bullets,10,10,10,0,8,7
+sky_redefine_lameness,gemini,basic,llama3,bullets,5,4,5,0,2,3
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,llama3,bullets,5,6,5,0,10,7
+Glove_Stroke,gemini,basic,llama3,bullets,10,9,0,5,10,8
+debertnext,gemini,basic,llama3,bullets,5,7,5,0,8,7
+sky_dominance_calculation,gemini,basic,llama3,bullets,7,8,5,10,9,8
+VR_Robotics_Stroke_Rehab,gemini,basic,openai,paraphrase,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,openai,paraphrase,10,10,10,0,9,9
+LightGCN,gemini,basic,openai,paraphrase,10,10,10,5,10,10
+LouvainAlgorithm,gemini,basic,openai,paraphrase,10,10,10,5,9,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,openai,paraphrase,10,10,10,10,10,9
+Reversing_Large_Language_Models,gemini,basic,openai,paraphrase,10,10,10,5,10,9
+Multiscale_Training_GNNs,gemini,basic,openai,paraphrase,10,10,10,5,10,9
+Exoskeletons_Stroke,gemini,basic,openai,paraphrase,10,10,10,5,9,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,openai,paraphrase,10,10,10,5,9,9
+sky_crowdsource_lameness,gemini,basic,openai,paraphrase,10,10,10,5,10,10
+ispforquantumchem,gemini,basic,openai,paraphrase,10,9,10,5,9,8
+thorax-2025-223770.full,gemini,basic,openai,paraphrase,10,10,10,10,10,10
+YamakawaZhandry,gemini,basic,openai,paraphrase,10,10,0,0,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,openai,paraphrase,10,10,10,0,8,9
+sky_redefine_lameness,gemini,basic,openai,paraphrase,10,9,10,0,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,openai,paraphrase,10,10,10,10,10,10
+Glove_Stroke,gemini,basic,openai,paraphrase,10,10,10,10,10,10
+debertnext,gemini,basic,openai,paraphrase,10,10,10,5,10,10
+sky_dominance_calculation,gemini,basic,openai,paraphrase,10,10,10,0,10,10
+VR_Robotics_Stroke_Rehab,gemini,basic,llama3,paraphrase,10,10,10,10,10,9
+sky_prompt_revision_bias,gemini,basic,llama3,paraphrase,5,9,10,0,7,8
+LightGCN,gemini,basic,llama3,paraphrase,10,10,10,10,10,10
+LouvainAlgorithm,gemini,basic,llama3,paraphrase,9,8,5,5,9,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,llama3,paraphrase,7,8,5,0,10,10
+Reversing_Large_Language_Models,gemini,basic,llama3,paraphrase,10,10,10,10,9,9
+unifiedquantum,gemini,basic,llama3,paraphrase,0,3,10,10,6,3
+Multiscale_Training_GNNs,gemini,basic,llama3,paraphrase,8,9,10,0,8,7
+Exoskeletons_Stroke,gemini,basic,llama3,paraphrase,10,10,10,10,10,9
+Digital_Health_in_Stroke_Rehab,gemini,basic,llama3,paraphrase,5,10,0,5,8,9
+sky_crowdsource_lameness,gemini,basic,llama3,paraphrase,10,10,10,5,10,8
+ispforquantumchem,gemini,basic,llama3,paraphrase,0,10,0,0,0,10
+thorax-2025-223770.full,gemini,basic,llama3,paraphrase,7,7,0,10,10,8
+YamakawaZhandry,gemini,basic,llama3,paraphrase,0,0,0,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,basic,llama3,paraphrase,9,10,10,10,8,9
+sky_redefine_lameness,gemini,basic,llama3,paraphrase,5,10,10,0,7,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,llama3,paraphrase,5,5,10,10,7,6
+Glove_Stroke,gemini,basic,llama3,paraphrase,10,9,10,10,10,9
+debertnext,gemini,basic,llama3,paraphrase,5,7,5,0,9,8
+sky_dominance_calculation,gemini,basic,llama3,paraphrase,7,7,5,5,8,8
+VR_Robotics_Stroke_Rehab,gemini,basic,gemini,paraphrase,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,basic,gemini,paraphrase,10,10,10,10,10,10
+LightGCN,gemini,basic,gemini,paraphrase,10,10,10,10,10,9
+LouvainAlgorithm,gemini,basic,gemini,paraphrase,10,10,10,10,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,basic,gemini,paraphrase,10,10,10,5,10,9
+Reversing_Large_Language_Models,gemini,basic,gemini,paraphrase,10,10,10,10,9,9
+unifiedquantum,gemini,basic,gemini,paraphrase,10,10,10,0,9,9
+Multiscale_Training_GNNs,gemini,basic,gemini,paraphrase,10,10,10,5,10,9
+Exoskeletons_Stroke,gemini,basic,gemini,paraphrase,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,basic,gemini,paraphrase,10,10,10,10,9,8
+sky_crowdsource_lameness,gemini,basic,gemini,paraphrase,10,10,10,10,10,10
+ispforquantumchem,gemini,basic,gemini,paraphrase,9,9,10,5,9,8
+thorax-2025-223770.full,gemini,basic,gemini,paraphrase,10,10,10,10,10,10
+YamakawaZhandry,gemini,basic,gemini,paraphrase,9,9,10,5,9,8
+2022_BMJ_Christmas_on the 12th day,gemini,basic,gemini,paraphrase,10,10,10,0,8,9
+sky_redefine_lameness,gemini,basic,gemini,paraphrase,10,10,10,10,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,basic,gemini,paraphrase,10,10,10,0,10,10
+Glove_Stroke,gemini,basic,gemini,paraphrase,10,10,10,10,10,10
+debertnext,gemini,basic,gemini,paraphrase,10,10,10,10,10,9
+sky_dominance_calculation,gemini,basic,gemini,paraphrase,10,10,10,5,10,10
+VR_Robotics_Stroke_Rehab,gemini,full,llama3,short,7,8,9,10,8,10
+sky_prompt_revision_bias,gemini,full,llama3,short,4,7,10,0,5,8
+LightGCN,gemini,full,llama3,short,5,6,5,10,8,6
+LouvainAlgorithm,gemini,full,llama3,short,5,3,5,10,10,7
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,llama3,short,8,8,5,10,10,10
+Reversing_Large_Language_Models,gemini,full,llama3,short,9,9,10,10,8,8
+unifiedquantum,gemini,full,llama3,short,0,1,0,10,4,3
+Multiscale_Training_GNNs,gemini,full,llama3,short,7,8,10,0,7,7
+Exoskeletons_Stroke,gemini,full,llama3,short,8,8,8,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,llama3,short,7,5,5,10,5,10
+sky_crowdsource_lameness,gemini,full,llama3,short,6,5,5,10,8,7
+ispforquantumchem,gemini,full,llama3,short,0,10,10,0,0,10
+thorax-2025-223770.full,gemini,full,llama3,short,7,5,5,10,10,8
+YamakawaZhandry,gemini,full,llama3,short,0,0,0,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,full,llama3,short,0,0,10,10,0,5
+sky_redefine_lameness,gemini,full,llama3,short,0,0,10,0,0,5
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,llama3,short,4,3,3,10,7,6
+Glove_Stroke,gemini,full,llama3,short,9,8,10,10,10,10
+debertnext,gemini,full,llama3,short,8,10,10,10,7,7
+sky_dominance_calculation,gemini,full,llama3,short,7,7,5,10,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,anthropic,short,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,full,anthropic,short,10,10,10,10,10,10
+LightGCN,gemini,full,anthropic,short,10,10,10,10,10,8
+LouvainAlgorithm,gemini,full,anthropic,short,10,10,10,10,10,10
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,anthropic,short,10,10,10,10,10,8
+Reversing_Large_Language_Models,gemini,full,anthropic,short,10,10,10,5,10,9
+unifiedquantum,gemini,full,anthropic,short,10,10,10,0,8,7
+Multiscale_Training_GNNs,gemini,full,anthropic,short,10,10,10,0,10,9
+Exoskeletons_Stroke,gemini,full,anthropic,short,10,10,10,10,10,8
+Digital_Health_in_Stroke_Rehab,gemini,full,anthropic,short,10,10,10,10,10,8
+sky_crowdsource_lameness,gemini,full,anthropic,short,10,10,10,10,10,10
+ispforquantumchem,gemini,full,anthropic,short,10,9,10,0,8,7
+thorax-2025-223770.full,gemini,full,anthropic,short,10,10,10,10,10,10
+YamakawaZhandry,gemini,full,anthropic,short,9,10,10,0,8,7
+2022_BMJ_Christmas_on the 12th day,gemini,full,anthropic,short,10,10,10,5,0,8
+sky_redefine_lameness,gemini,full,anthropic,short,10,10,10,10,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,anthropic,short,10,10,10,5,10,9
+Glove_Stroke,gemini,full,anthropic,short,10,10,10,10,10,10
+debertnext,gemini,full,anthropic,short,10,10,10,0,10,8
+sky_dominance_calculation,gemini,full,anthropic,short,10,10,10,10,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,gemini,short,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,full,gemini,short,10,10,10,10,10,10
+LightGCN,gemini,full,gemini,short,10,10,10,5,10,8
+LouvainAlgorithm,gemini,full,gemini,short,10,10,10,10,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,gemini,short,10,10,10,10,10,10
+Reversing_Large_Language_Models,gemini,full,gemini,short,10,10,10,5,10,8
+unifiedquantum,gemini,full,gemini,short,10,10,10,5,9,8
+Multiscale_Training_GNNs,gemini,full,gemini,short,10,10,10,10,10,8
+Exoskeletons_Stroke,gemini,full,gemini,short,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,gemini,short,10,10,10,10,7,10
+sky_crowdsource_lameness,gemini,full,gemini,short,10,10,10,10,10,10
+ispforquantumchem,gemini,full,gemini,short,10,10,10,10,10,8
+thorax-2025-223770.full,gemini,full,gemini,short,10,10,10,10,10,10
+YamakawaZhandry,gemini,full,gemini,short,9,9,10,10,9,8
+2022_BMJ_Christmas_on the 12th day,gemini,full,gemini,short,10,10,10,10,10,10
+sky_redefine_lameness,gemini,full,gemini,short,10,10,10,10,10,10
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,gemini,short,10,10,10,10,10,9
+Glove_Stroke,gemini,full,gemini,short,10,10,10,10,10,10
+debertnext,gemini,full,gemini,short,10,10,10,10,10,9
+sky_dominance_calculation,gemini,full,gemini,short,10,10,10,10,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,llama3,long,10,10,10,0,10,8
+sky_prompt_revision_bias,gemini,full,llama3,long,0,0,5,0,0,5
+LightGCN,gemini,full,llama3,long,6,7,10,0,8,8
+LouvainAlgorithm,gemini,full,llama3,long,5,5,0,0,10,7
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,llama3,long,8,7,10,0,10,8
+Reversing_Large_Language_Models,gemini,full,llama3,long,10,10,10,0,10,8
+unifiedquantum,gemini,full,llama3,long,0,0,10,0,0,5
+Multiscale_Training_GNNs,gemini,full,llama3,long,0,5,5,0,0,0
+Exoskeletons_Stroke,gemini,full,llama3,long,10,10,10,0,8,8
+Digital_Health_in_Stroke_Rehab,gemini,full,llama3,long,5,0,5,0,0,5
+sky_crowdsource_lameness,gemini,full,llama3,long,5,4,5,0,7,6
+ispforquantumchem,gemini,full,llama3,long,0,0,10,0,0,0
+thorax-2025-223770.full,gemini,full,llama3,long,5,3,5,0,10,5
+YamakawaZhandry,gemini,full,llama3,long,0,0,0,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,full,llama3,long,0,0,10,0,0,0
+sky_redefine_lameness,gemini,full,llama3,long,0,0,10,0,0,5
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,llama3,long,2,3,5,0,7,6
+Glove_Stroke,gemini,full,llama3,long,8,7,8,0,8,6
+debertnext,gemini,full,llama3,long,5,5,5,0,7,2
+sky_dominance_calculation,gemini,full,llama3,long,7,10,10,0,5,7
+VR_Robotics_Stroke_Rehab,gemini,full,openai,long,10,10,10,0,10,9
+sky_prompt_revision_bias,gemini,full,openai,long,10,10,10,0,8,8
+LightGCN,gemini,full,openai,long,10,10,10,0,10,8
+LouvainAlgorithm,gemini,full,openai,long,10,10,10,0,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,openai,long,10,10,10,0,10,7
+Reversing_Large_Language_Models,gemini,full,openai,long,10,10,10,0,10,9
+unifiedquantum,gemini,full,openai,long,10,10,10,0,10,8
+Multiscale_Training_GNNs,gemini,full,openai,long,10,10,10,0,10,10
+Exoskeletons_Stroke,gemini,full,openai,long,10,10,10,0,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,openai,long,10,9,10,5,8,9
+sky_crowdsource_lameness,gemini,full,openai,long,10,10,10,0,10,10
+ispforquantumchem,gemini,full,openai,long,10,10,10,0,8,8
+thorax-2025-223770.full,gemini,full,openai,long,8,9,10,0,10,9
+YamakawaZhandry,gemini,full,openai,long,10,10,10,0,10,7
+2022_BMJ_Christmas_on the 12th day,gemini,full,openai,long,10,10,10,10,10,9
+sky_redefine_lameness,gemini,full,openai,long,10,9,10,0,10,10
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,openai,long,5,5,10,0,10,8
+Glove_Stroke,gemini,full,openai,long,10,9,10,0,10,10
+debertnext,gemini,full,openai,long,10,8,10,0,10,8
+sky_dominance_calculation,gemini,full,openai,long,10,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,gemini,bullets,5,10,10,0,10,10
+sky_prompt_revision_bias,gemini,full,gemini,bullets,10,10,10,0,8,8
+LightGCN,gemini,full,gemini,bullets,10,10,10,0,10,8
+LouvainAlgorithm,gemini,full,gemini,bullets,9,10,10,0,9,7
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,gemini,bullets,10,10,10,5,10,8
+Reversing_Large_Language_Models,gemini,full,gemini,bullets,10,10,10,0,8,7
+unifiedquantum,gemini,full,gemini,bullets,10,10,10,0,8,6
+Multiscale_Training_GNNs,gemini,full,gemini,bullets,10,10,10,0,8,7
+Exoskeletons_Stroke,gemini,full,gemini,bullets,10,10,10,0,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,gemini,bullets,10,10,10,0,10,10
+sky_crowdsource_lameness,gemini,full,gemini,bullets,10,10,10,0,8,8
+ispforquantumchem,gemini,full,gemini,bullets,10,10,10,0,9,7
+thorax-2025-223770.full,gemini,full,gemini,bullets,10,10,10,5,8,7
+YamakawaZhandry,gemini,full,gemini,bullets,9,10,10,0,9,7
+2022_BMJ_Christmas_on the 12th day,gemini,full,gemini,bullets,10,10,10,5,8,8
+sky_redefine_lameness,gemini,full,gemini,bullets,10,10,10,0,9,7
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,gemini,bullets,10,10,10,0,10,8
+Glove_Stroke,gemini,full,gemini,bullets,10,10,10,0,10,10
+debertnext,gemini,full,gemini,bullets,10,10,10,0,10,8
+sky_dominance_calculation,gemini,full,gemini,bullets,10,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,gemini,shuffle,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,full,gemini,shuffle,10,10,10,10,10,10
+LightGCN,gemini,full,gemini,shuffle,10,10,10,10,10,8
+LouvainAlgorithm,gemini,full,gemini,shuffle,10,10,10,10,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,gemini,shuffle,10,10,10,10,10,10
+Reversing_Large_Language_Models,gemini,full,gemini,shuffle,10,10,10,10,9,8
+unifiedquantum,gemini,full,gemini,shuffle,9,10,10,10,9,8
+Multiscale_Training_GNNs,gemini,full,gemini,shuffle,10,10,10,0,9,8
+Exoskeletons_Stroke,gemini,full,gemini,shuffle,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,gemini,shuffle,10,10,10,10,10,10
+sky_crowdsource_lameness,gemini,full,gemini,shuffle,10,10,10,10,10,10
+ispforquantumchem,gemini,full,gemini,shuffle,10,10,10,10,10,8
+thorax-2025-223770.full,gemini,full,gemini,shuffle,10,10,10,10,10,10
+YamakawaZhandry,gemini,full,gemini,shuffle,10,10,10,10,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,full,gemini,shuffle,10,10,10,10,10,8
+sky_redefine_lameness,gemini,full,gemini,shuffle,10,10,10,10,9,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,gemini,shuffle,10,10,10,10,10,8
+Glove_Stroke,gemini,full,gemini,shuffle,10,10,10,10,10,10
+debertnext,gemini,full,gemini,shuffle,10,10,10,10,10,8
+sky_dominance_calculation,gemini,full,gemini,shuffle,10,10,10,10,10,9
+VR_Robotics_Stroke_Rehab,gemini,full,openai,bullets,10,10,10,0,10,8
+sky_prompt_revision_bias,gemini,full,openai,bullets,10,10,10,0,8,9
+LightGCN,gemini,full,openai,bullets,10,10,10,0,10,8
+LouvainAlgorithm,gemini,full,openai,bullets,10,10,10,0,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,openai,bullets,10,10,10,0,10,8
+Reversing_Large_Language_Models,gemini,full,openai,bullets,10,10,10,0,10,8
+unifiedquantum,gemini,full,openai,bullets,10,10,10,0,10,8
+Multiscale_Training_GNNs,gemini,full,openai,bullets,10,10,10,0,9,7
+Exoskeletons_Stroke,gemini,full,openai,bullets,10,10,10,0,8,7
+Digital_Health_in_Stroke_Rehab,gemini,full,openai,bullets,10,10,10,0,7,8
+sky_crowdsource_lameness,gemini,full,openai,bullets,10,10,10,0,10,10
+ispforquantumchem,gemini,full,openai,bullets,10,10,10,0,10,8
+thorax-2025-223770.full,gemini,full,openai,bullets,10,10,10,0,10,8
+YamakawaZhandry,gemini,full,openai,bullets,10,10,10,0,10,7
+2022_BMJ_Christmas_on the 12th day,gemini,full,openai,bullets,10,10,10,0,10,7
+sky_redefine_lameness,gemini,full,openai,bullets,10,10,10,0,10,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,openai,bullets,10,10,10,0,10,9
+Glove_Stroke,gemini,full,openai,bullets,10,10,10,0,10,8
+debertnext,gemini,full,openai,bullets,10,10,10,0,10,8
+sky_dominance_calculation,gemini,full,openai,bullets,10,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,openai,shuffle,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,full,openai,shuffle,10,10,10,10,10,10
+LightGCN,gemini,full,openai,shuffle,10,10,10,10,10,8
+LouvainAlgorithm,gemini,full,openai,shuffle,10,10,10,10,10,10
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,openai,shuffle,10,10,10,10,10,10
+Reversing_Large_Language_Models,gemini,full,openai,shuffle,10,10,10,10,10,9
+unifiedquantum,gemini,full,openai,shuffle,10,10,10,0,10,7
+Multiscale_Training_GNNs,gemini,full,openai,shuffle,10,10,10,5,9,9
+Exoskeletons_Stroke,gemini,full,openai,shuffle,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,openai,shuffle,10,10,10,10,10,10
+sky_crowdsource_lameness,gemini,full,openai,shuffle,10,10,10,10,10,10
+ispforquantumchem,gemini,full,openai,shuffle,10,10,10,10,10,7
+thorax-2025-223770.full,gemini,full,openai,shuffle,10,10,10,10,10,9
+YamakawaZhandry,gemini,full,openai,shuffle,10,10,10,10,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,full,openai,shuffle,10,10,10,10,10,8
+sky_redefine_lameness,gemini,full,openai,shuffle,10,10,10,10,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,openai,shuffle,10,10,10,5,10,9
+Glove_Stroke,gemini,full,openai,shuffle,10,10,10,10,10,9
+debertnext,gemini,full,openai,shuffle,10,10,10,10,10,9
+sky_dominance_calculation,gemini,full,openai,shuffle,10,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,anthropic,paraphrase,10,10,10,0,10,10
+sky_prompt_revision_bias,gemini,full,anthropic,paraphrase,10,10,10,5,10,10
+LightGCN,gemini,full,anthropic,paraphrase,10,10,10,0,10,8
+LouvainAlgorithm,gemini,full,anthropic,paraphrase,10,10,10,0,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,anthropic,paraphrase,10,10,10,0,10,8
+Reversing_Large_Language_Models,gemini,full,anthropic,paraphrase,10,10,10,0,10,8
+unifiedquantum,gemini,full,anthropic,paraphrase,9,10,10,0,9,6
+Multiscale_Training_GNNs,gemini,full,anthropic,paraphrase,10,10,10,0,10,9
+Exoskeletons_Stroke,gemini,full,anthropic,paraphrase,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,anthropic,paraphrase,9,10,10,0,7,8
+sky_crowdsource_lameness,gemini,full,anthropic,paraphrase,10,10,10,10,10,8
+ispforquantumchem,gemini,full,anthropic,paraphrase,10,10,10,0,10,7
+thorax-2025-223770.full,gemini,full,anthropic,paraphrase,10,10,10,5,10,8
+YamakawaZhandry,gemini,full,anthropic,paraphrase,10,10,10,7,10,9
+2022_BMJ_Christmas_on the 12th day,gemini,full,anthropic,paraphrase,10,10,10,10,10,8
+sky_redefine_lameness,gemini,full,anthropic,paraphrase,10,10,10,10,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,anthropic,paraphrase,10,9,10,0,10,9
+Glove_Stroke,gemini,full,anthropic,paraphrase,10,10,10,10,10,8
+debertnext,gemini,full,anthropic,paraphrase,10,10,10,0,10,8
+sky_dominance_calculation,gemini,full,anthropic,paraphrase,10,10,10,10,10,10
+VR_Robotics_Stroke_Rehab,gemini,full,gemini,long,10,10,10,0,10,10
+sky_prompt_revision_bias,gemini,full,gemini,long,8,10,10,0,10,8
+LightGCN,gemini,full,gemini,long,10,10,10,0,10,8
+LouvainAlgorithm,gemini,full,gemini,long,10,10,10,0,9,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,gemini,long,10,10,10,0,10,7
+Reversing_Large_Language_Models,gemini,full,gemini,long,10,10,10,5,10,9
+unifiedquantum,gemini,full,gemini,long,10,10,10,0,8,7
+Multiscale_Training_GNNs,gemini,full,gemini,long,10,10,10,0,10,8
+Exoskeletons_Stroke,gemini,full,gemini,long,10,10,10,0,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,gemini,long,10,10,10,0,8,9
+sky_crowdsource_lameness,gemini,full,gemini,long,8,8,10,0,10,9
+ispforquantumchem,gemini,full,gemini,long,10,10,10,0,10,7
+thorax-2025-223770.full,gemini,full,gemini,long,10,9,10,8,10,10
+YamakawaZhandry,gemini,full,gemini,long,8,9,10,0,8,6
+2022_BMJ_Christmas_on the 12th day,gemini,full,gemini,long,5,10,10,0,0,5
+sky_redefine_lameness,gemini,full,gemini,long,8,8,10,5,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,gemini,long,10,10,10,0,10,9
+Glove_Stroke,gemini,full,gemini,long,10,10,10,0,10,10
+debertnext,gemini,full,gemini,long,10,10,10,0,8,10
+sky_dominance_calculation,gemini,full,gemini,long,10,9,10,0,9,8
+VR_Robotics_Stroke_Rehab,gemini,full,anthropic,shuffle,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,full,anthropic,shuffle,10,10,10,10,10,9
+LightGCN,gemini,full,anthropic,shuffle,10,10,10,10,10,8
+LouvainAlgorithm,gemini,full,anthropic,shuffle,9,10,10,10,9,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,anthropic,shuffle,10,10,10,10,10,8
+Reversing_Large_Language_Models,gemini,full,anthropic,shuffle,10,10,10,5,10,8
+unifiedquantum,gemini,full,anthropic,shuffle,7,8,10,0,9,5
+Multiscale_Training_GNNs,gemini,full,anthropic,shuffle,10,9,10,0,9,8
+Exoskeletons_Stroke,gemini,full,anthropic,shuffle,10,10,10,10,10,9
+Digital_Health_in_Stroke_Rehab,gemini,full,anthropic,shuffle,10,10,10,0,10,10
+sky_crowdsource_lameness,gemini,full,anthropic,shuffle,10,10,10,10,10,10
+ispforquantumchem,gemini,full,anthropic,shuffle,10,10,10,0,10,7
+thorax-2025-223770.full,gemini,full,anthropic,shuffle,10,10,10,10,10,9
+YamakawaZhandry,gemini,full,anthropic,shuffle,9,9,10,0,8,6
+2022_BMJ_Christmas_on the 12th day,gemini,full,anthropic,shuffle,10,10,10,10,10,7
+sky_redefine_lameness,gemini,full,anthropic,shuffle,10,10,10,10,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,anthropic,shuffle,10,10,10,5,10,9
+Glove_Stroke,gemini,full,anthropic,shuffle,10,10,10,10,10,10
+debertnext,gemini,full,anthropic,shuffle,10,10,10,10,10,8
+sky_dominance_calculation,gemini,full,anthropic,shuffle,10,10,10,10,10,10
+VR_Robotics_Stroke_Rehab,gemini,full,anthropic,bullets,10,10,10,0,10,10
+sky_prompt_revision_bias,gemini,full,anthropic,bullets,10,10,10,0,9,9
+LightGCN,gemini,full,anthropic,bullets,10,10,10,0,10,8
+LouvainAlgorithm,gemini,full,anthropic,bullets,10,10,10,0,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,anthropic,bullets,10,10,10,0,10,8
+Reversing_Large_Language_Models,gemini,full,anthropic,bullets,10,10,10,0,5,8
+unifiedquantum,gemini,full,anthropic,bullets,7,10,10,0,7,5
+Multiscale_Training_GNNs,gemini,full,anthropic,bullets,10,10,10,0,9,7
+Exoskeletons_Stroke,gemini,full,anthropic,bullets,10,10,10,0,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,anthropic,bullets,10,10,10,0,7,8
+sky_crowdsource_lameness,gemini,full,anthropic,bullets,10,10,10,5,10,8
+ispforquantumchem,gemini,full,anthropic,bullets,10,10,10,0,10,8
+thorax-2025-223770.full,gemini,full,anthropic,bullets,10,10,10,0,10,8
+YamakawaZhandry,gemini,full,anthropic,bullets,8,10,10,0,10,5
+2022_BMJ_Christmas_on the 12th day,gemini,full,anthropic,bullets,10,10,10,0,8,7
+sky_redefine_lameness,gemini,full,anthropic,bullets,10,10,10,0,10,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,anthropic,bullets,10,9,10,0,10,9
+Glove_Stroke,gemini,full,anthropic,bullets,10,10,10,0,10,8
+debertnext,gemini,full,anthropic,bullets,10,10,10,0,10,8
+sky_dominance_calculation,gemini,full,anthropic,bullets,10,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,openai,short,10,10,10,10,10,8
+sky_prompt_revision_bias,gemini,full,openai,short,10,10,10,10,10,10
+LightGCN,gemini,full,openai,short,10,10,10,10,10,8
+LouvainAlgorithm,gemini,full,openai,short,10,10,10,10,10,10
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,openai,short,10,10,10,10,10,8
+Reversing_Large_Language_Models,gemini,full,openai,short,10,10,10,5,9,9
+unifiedquantum,gemini,full,openai,short,10,10,10,0,10,8
+Multiscale_Training_GNNs,gemini,full,openai,short,10,10,10,5,9,9
+Exoskeletons_Stroke,gemini,full,openai,short,10,10,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,openai,short,10,10,10,10,8,9
+sky_crowdsource_lameness,gemini,full,openai,short,10,10,10,10,10,9
+ispforquantumchem,gemini,full,openai,short,10,10,10,10,10,8
+thorax-2025-223770.full,gemini,full,openai,short,10,10,10,10,10,9
+YamakawaZhandry,gemini,full,openai,short,10,10,10,0,10,8
+2022_BMJ_Christmas_on the 12th day,gemini,full,openai,short,10,10,10,10,0,9
+sky_redefine_lameness,gemini,full,openai,short,10,10,10,0,10,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,openai,short,10,10,10,0,10,9
+Glove_Stroke,gemini,full,openai,short,10,10,10,10,10,10
+debertnext,gemini,full,openai,short,10,10,10,10,10,8
+sky_dominance_calculation,gemini,full,openai,short,10,10,10,10,10,9
+VR_Robotics_Stroke_Rehab,gemini,full,anthropic,long,10,10,10,0,10,10
+sky_prompt_revision_bias,gemini,full,anthropic,long,10,10,10,0,10,9
+LightGCN,gemini,full,anthropic,long,9,9,10,0,10,8
+LouvainAlgorithm,gemini,full,anthropic,long,8,8,10,0,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,anthropic,long,10,10,10,0,10,10
+Reversing_Large_Language_Models,gemini,full,anthropic,long,8,10,10,0,7,7
+unifiedquantum,gemini,full,anthropic,long,10,10,10,0,10,7
+Multiscale_Training_GNNs,gemini,full,anthropic,long,5,5,10,0,10,7
+Exoskeletons_Stroke,gemini,full,anthropic,long,5,10,10,0,0,10
+Digital_Health_in_Stroke_Rehab,gemini,full,anthropic,long,7,8,10,0,0,7
+sky_crowdsource_lameness,gemini,full,anthropic,long,10,10,10,0,10,10
+ispforquantumchem,gemini,full,anthropic,long,5,8,10,0,10,7
+thorax-2025-223770.full,gemini,full,anthropic,long,7,8,10,0,10,9
+YamakawaZhandry,gemini,full,anthropic,long,8,10,10,0,8,7
+2022_BMJ_Christmas_on the 12th day,gemini,full,anthropic,long,5,0,10,0,0,5
+sky_redefine_lameness,gemini,full,anthropic,long,10,10,10,0,9,9
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,anthropic,long,0,2,5,0,10,8
+Glove_Stroke,gemini,full,anthropic,long,10,10,10,0,10,8
+debertnext,gemini,full,anthropic,long,5,8,10,0,10,10
+sky_dominance_calculation,gemini,full,anthropic,long,10,10,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,llama3,shuffle,8,8,10,10,10,10
+sky_prompt_revision_bias,gemini,full,llama3,shuffle,0,0,0,0,0,7
+LightGCN,gemini,full,llama3,shuffle,7,8,5,10,8,7
+LouvainAlgorithm,gemini,full,llama3,shuffle,8,5,5,10,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,llama3,shuffle,8,7,5,10,10,8
+Reversing_Large_Language_Models,gemini,full,llama3,shuffle,8,10,10,10,8,7
+unifiedquantum,gemini,full,llama3,shuffle,1,2,5,10,3,4
+Multiscale_Training_GNNs,gemini,full,llama3,shuffle,7,10,10,0,8,6
+Exoskeletons_Stroke,gemini,full,llama3,shuffle,9,8,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,llama3,shuffle,5,5,0,10,5,10
+sky_crowdsource_lameness,gemini,full,llama3,shuffle,7,7,5,10,8,6
+ispforquantumchem,gemini,full,llama3,shuffle,0,10,10,0,0,10
+thorax-2025-223770.full,gemini,full,llama3,shuffle,5,4,5,10,10,8
+YamakawaZhandry,gemini,full,llama3,shuffle,0,0,0,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,full,llama3,shuffle,0,5,5,10,0,5
+sky_redefine_lameness,gemini,full,llama3,shuffle,3,5,5,5,2,4
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,llama3,shuffle,0,0,0,10,0,0
+Glove_Stroke,gemini,full,llama3,shuffle,8,8,10,10,10,10
+debertnext,gemini,full,llama3,shuffle,7,7,7,10,8,8
+sky_dominance_calculation,gemini,full,llama3,shuffle,5,7,5,10,8,9
+VR_Robotics_Stroke_Rehab,gemini,full,llama3,bullets,10,10,10,10,10,8
+sky_prompt_revision_bias,gemini,full,llama3,bullets,0,5,10,5,0,7
+LightGCN,gemini,full,llama3,bullets,8,8,5,5,10,7
+LouvainAlgorithm,gemini,full,llama3,bullets,8,6,7,0,8,7
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,llama3,bullets,8,7,5,0,8,8
+Reversing_Large_Language_Models,gemini,full,llama3,bullets,10,10,10,0,8,6
+unifiedquantum,gemini,full,llama3,bullets,0,0,0,0,2,2
+Multiscale_Training_GNNs,gemini,full,llama3,bullets,10,10,10,0,7,7
+Exoskeletons_Stroke,gemini,full,llama3,bullets,10,8,10,0,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,llama3,bullets,7,5,5,5,5,10
+sky_crowdsource_lameness,gemini,full,llama3,bullets,8,7,7,7,8,9
+ispforquantumchem,gemini,full,llama3,bullets,0,0,0,0,1,1
+thorax-2025-223770.full,gemini,full,llama3,bullets,7,3,3,0,10,8
+YamakawaZhandry,gemini,full,llama3,bullets,0,10,10,0,0,10
+2022_BMJ_Christmas_on the 12th day,gemini,full,llama3,bullets,5,10,10,0,0,5
+sky_redefine_lameness,gemini,full,llama3,bullets,0,5,10,0,0,5
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,llama3,bullets,6,5,4,5,8,7
+Glove_Stroke,gemini,full,llama3,bullets,7,8,5,0,10,10
+debertnext,gemini,full,llama3,bullets,8,10,10,0,8,7
+sky_dominance_calculation,gemini,full,llama3,bullets,7,8,5,0,8,10
+VR_Robotics_Stroke_Rehab,gemini,full,openai,paraphrase,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,full,openai,paraphrase,10,10,10,5,9,9
+LightGCN,gemini,full,openai,paraphrase,10,10,10,10,10,9
+LouvainAlgorithm,gemini,full,openai,paraphrase,10,10,10,10,10,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,openai,paraphrase,10,10,10,10,10,8
+Reversing_Large_Language_Models,gemini,full,openai,paraphrase,10,10,10,5,10,9
+Multiscale_Training_GNNs,gemini,full,openai,paraphrase,10,10,10,0,10,8
+Exoskeletons_Stroke,gemini,full,openai,paraphrase,10,10,10,0,10,9
+Digital_Health_in_Stroke_Rehab,gemini,full,openai,paraphrase,10,10,10,0,8,10
+sky_crowdsource_lameness,gemini,full,openai,paraphrase,10,10,10,10,10,9
+ispforquantumchem,gemini,full,openai,paraphrase,10,10,10,0,10,8
+thorax-2025-223770.full,gemini,full,openai,paraphrase,10,10,10,5,10,9
+YamakawaZhandry,gemini,full,openai,paraphrase,10,9,10,0,10,7
+2022_BMJ_Christmas_on the 12th day,gemini,full,openai,paraphrase,10,10,10,0,10,8
+sky_redefine_lameness,gemini,full,openai,paraphrase,10,10,10,0,10,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,openai,paraphrase,10,10,10,5,10,9
+Glove_Stroke,gemini,full,openai,paraphrase,10,10,10,5,10,10
+debertnext,gemini,full,openai,paraphrase,10,10,10,10,10,9
+sky_dominance_calculation,gemini,full,openai,paraphrase,10,9,10,0,10,8
+VR_Robotics_Stroke_Rehab,gemini,full,llama3,paraphrase,7,7,10,5,8,9
+sky_prompt_revision_bias,gemini,full,llama3,paraphrase,0,5,5,0,0,7
+LightGCN,gemini,full,llama3,paraphrase,9,9,9,10,10,8
+LouvainAlgorithm,gemini,full,llama3,paraphrase,8,7,6,9,9,9
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,llama3,paraphrase,6,6,5,0,8,8
+Reversing_Large_Language_Models,gemini,full,llama3,paraphrase,9,10,10,10,8,7
+unifiedquantum,gemini,full,llama3,paraphrase,0,0,0,10,2,0
+Multiscale_Training_GNNs,gemini,full,llama3,paraphrase,8,10,10,0,7,8
+Exoskeletons_Stroke,gemini,full,llama3,paraphrase,10,9,10,10,10,10
+Digital_Health_in_Stroke_Rehab,gemini,full,llama3,paraphrase,5,0,0,10,10,8
+sky_crowdsource_lameness,gemini,full,llama3,paraphrase,7,7,5,5,8,7
+ispforquantumchem,gemini,full,llama3,paraphrase,0,10,10,0,0,10
+thorax-2025-223770.full,gemini,full,llama3,paraphrase,7,7,5,10,10,8
+YamakawaZhandry,gemini,full,llama3,paraphrase,0,0,10,0,0,0
+2022_BMJ_Christmas_on the 12th day,gemini,full,llama3,paraphrase,7,10,10,10,0,7
+sky_redefine_lameness,gemini,full,llama3,paraphrase,0,5,5,0,0,5
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,llama3,paraphrase,3,2,2,10,8,6
+Glove_Stroke,gemini,full,llama3,paraphrase,10,10,10,10,10,10
+debertnext,gemini,full,llama3,paraphrase,8,10,10,7,8,7
+sky_dominance_calculation,gemini,full,llama3,paraphrase,7,7,5,0,8,8
+VR_Robotics_Stroke_Rehab,gemini,full,gemini,paraphrase,10,10,10,10,10,10
+sky_prompt_revision_bias,gemini,full,gemini,paraphrase,10,10,10,10,9,10
+LightGCN,gemini,full,gemini,paraphrase,10,10,10,10,10,8
+LouvainAlgorithm,gemini,full,gemini,paraphrase,10,10,10,10,10,8
+2020_Hamid T_Predicting Severe COPD exacerbations_population surveillance approach,gemini,full,gemini,paraphrase,10,10,10,10,10,8
+Reversing_Large_Language_Models,gemini,full,gemini,paraphrase,10,10,10,10,10,10
+unifiedquantum,gemini,full,gemini,paraphrase,10,10,10,0,9,8
+Multiscale_Training_GNNs,gemini,full,gemini,paraphrase,10,10,10,10,10,8
+Exoskeletons_Stroke,gemini,full,gemini,paraphrase,10,10,10,10,10,9
+Digital_Health_in_Stroke_Rehab,gemini,full,gemini,paraphrase,10,10,10,10,10,10
+sky_crowdsource_lameness,gemini,full,gemini,paraphrase,10,10,10,10,10,10
+ispforquantumchem,gemini,full,gemini,paraphrase,10,10,10,5,10,7
+thorax-2025-223770.full,gemini,full,gemini,paraphrase,9,9,10,10,10,10
+YamakawaZhandry,gemini,full,gemini,paraphrase,9,9,10,0,9,8
+2022_BMJ_Christmas_on the 12th day,gemini,full,gemini,paraphrase,10,10,10,10,10,9
+sky_redefine_lameness,gemini,full,gemini,paraphrase,10,10,10,10,10,8
+2016_Vergouwe_A closed testing procedure to select an appropriate method for updating_Statistics in Medicine,gemini,full,gemini,paraphrase,10,10,10,5,10,8
+Glove_Stroke,gemini,full,gemini,paraphrase,10,10,10,10,10,10
+debertnext,gemini,full,gemini,paraphrase,10,10,10,0,10,9
+sky_dominance_calculation,gemini,full,gemini,paraphrase,10,10,10,10,9,9
