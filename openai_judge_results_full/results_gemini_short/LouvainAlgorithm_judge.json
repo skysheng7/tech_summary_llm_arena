@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "It identifies the main research goal: proposing an algorithm to detect/uncover community structure in very large networks via modularity optimization, emphasizing speed and quality. It could be slightly more explicit that the core problem is scalable approximate modularity maximization with hierarchical output."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately describes the two-phase iterative procedure (local node moves to improve modularity, then aggregation into a meta-network), and the key claims about speed and high modularity on large networks (mobile phone and web graphs). It omits specific quantitative results (e.g., 118M nodes in ~152 minutes), but does not state incorrect numbers."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "Coherent and readable, with brief contextualization of modularity optimization and hierarchical/meta-community aggregation. However, terms like 'modularity' and 'multi-resolution' are mentioned without defining what modularity measures (intra- vs inter-community density relative to a null model), which would improve clarity for non-experts."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Produces exactly 5 sentences as requested."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "Covers the central contributions: fast modularity-based community detection, two-phase iterative design, hierarchical/multi-level output, and validation on large real networks. It misses several prominent takeaways from the paper such as the specific performance comparisons against CNM/PL/WT in Table 1, the storage-vs-computation bottleneck claim, and the Belgian language-segregation validation details, but remains focused on the main contributions."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims are supported by the paper’s described method and conclusions (speed, modularity optimization, hierarchical passes, validation on mobile phone and web graphs). No unsupported specific results or fabricated details are introduced."
+  },
+  "total_score": 54,
+  "overall_assessment": "The summary is accurate, well-structured, and follows the 5-sentence constraint while capturing the algorithm’s core mechanism (local modularity moves + aggregation) and its main claimed advantages (speed, quality, hierarchical output). Its main weakness is limited specificity: it largely omits the paper’s headline quantitative benchmarks and concrete validation findings (e.g., detailed comparisons and the Belgian language-community analysis)."
+}

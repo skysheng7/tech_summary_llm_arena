@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary clearly articulates that the research question is about developing a fast algorithm for community detection in large networks through modularity optimization. It captures the main goal well, though it could be slightly more explicit about the scale challenge being addressed."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately represents the paper's content without citing specific numerical results, which is appropriate for a high-level summary. The key claims about speed, hierarchical structure, and validation datasets (mobile phone networks, web graphs) are all factually correct based on the paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary uses technical terms like 'modularity optimization,' 'meta-communities,' and 'hierarchical structure' without explicit explanation. While these terms are central to the paper, a general audience might find them unclear. The summary is coherent but assumes some background knowledge."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The prompt requested a 5-sentence summary, and the provided summary contains exactly 5 sentences, perfectly following the instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary covers the main contributions: the algorithm's speed, hierarchical structure, validation on large datasets, and multi-resolution capability. However, it could have mentioned the specific application to the Belgian mobile phone network showing language community segregation, which was a key validation example in the paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the paper. The claims about speed, hierarchical structure, validation datasets, and multi-resolution analysis are all explicitly discussed in the original paper."
+  },
+  "total_score": 54,
+  "overall_assessment": "This is a strong summary that accurately captures the paper's main contributions in exactly 5 sentences as requested. It correctly identifies the algorithm's key features (speed, hierarchical structure, modularity optimization) and validation approach. The main weakness is the use of technical terminology without explanation, which may limit accessibility to non-expert readers, and the omission of the compelling Belgian mobile phone network language segregation example."
+}
