@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "Clearly states that the review evaluates the therapeutic effects of wearable robotic gloves on hand function in stroke patients, which matches the paper’s aim. It could be slightly more specific that the focus is on motor recovery/functional ability outcomes, but overall the research question is correctly captured."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "Key quantitative and qualitative facts are accurate: 2674 records were identified and 5 studies were included; the included studies reported positive effects; major limitations (small samples, no control groups, heterogeneous protocols) align with the paper. No incorrect numerical claims are made."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary is coherent and readable. Terms like \"systematic review,\" \"methodological quality,\" and \"control groups\" are standard and used appropriately, though not explicitly explained; given the brevity and audience implied, this is acceptable."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "Provides exactly 5 sentences as requested in the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 9,
+    "reasoning": "Covers the main takeaways: scope (wearable robotic gloves post-stroke), search yield and inclusion count, overall positive conclusions, and key limitations plus the need for better studies. It omits some notable specifics (e.g., adapted Downs & Black scoring range 7–10/12; subacute vs chronic focus; no RCTs/level I evidence; device types), but these are reasonable omissions for a strict 5-sentence constraint."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims are supported by the paper (study count, general conclusions, and limitations). No fabricated devices, outcomes, statistics, or conclusions are introduced."
+  },
+  "total_score": 56,
+  "overall_assessment": "The summary accurately captures the paper’s core objective, evidence base (5 included studies from 2674 records), overall positive findings, and the principal methodological limitations that prevent strong conclusions. Its main weakness is lack of a few specific details (e.g., quality scoring range and absence of RCTs), but these omissions are understandable given the required 5-sentence length."
+}

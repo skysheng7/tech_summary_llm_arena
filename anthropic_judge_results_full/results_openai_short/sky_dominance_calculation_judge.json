@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research question: testing whether dairy-cow dominance hierarchies change with competition intensity, as measured by feeder occupancy."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately captures key numerical details: 10 months, 48 cows at a time, 159 total cows, and 25 occupancy levels. It correctly describes the main findings about hierarchy flattening and increased two-way dyads. Minor deduction because it doesn't include specific numerical results mentioned in the abstract (e.g., steepness fell by 2.41 × 10⁻³ per 1% occupancy increase, 7.57% more dyads with reversals at highest occupancy), though these details may be beyond the scope of a 5-sentence summary."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary is generally clear and coherent. Terms like 'replacement events,' 'feeder occupancy,' 'Elo-based hierarchies,' 'hierarchy steepness,' and 'two-way dyads' are used appropriately and can be understood in context. However, 'Elo-based hierarchies' and 'hierarchy steepness' might benefit from brief explanation for readers unfamiliar with dominance hierarchy research. The summary flows logically from methods to results to conclusions."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The prompt requested a 5-sentence summary, and the output contains exactly 5 sentences, perfectly following the instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures all major components: the research question, methodology (sensor data, dynamic group, occupancy measurement, Elo ratings), key findings (hierarchy flattening, increased two-way dyads, reversals at high occupancy), and the main conclusion/recommendation (avoid building hierarchies only during peak competition). It appropriately emphasizes the central finding that competition level affects hierarchy structure."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the paper. The description of methods, results, and conclusions accurately reflects the content of the original research without adding unsupported claims or fabricating details."
+  },
+  "total_score": 57,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the study's research question, methodology, key findings, and implications. It follows the 5-sentence constraint perfectly while covering all essential aspects of the paper. The only minor weakness is that some technical terminology could benefit from brief explanation, though the terms are used appropriately and the summary remains coherent overall."
+}
