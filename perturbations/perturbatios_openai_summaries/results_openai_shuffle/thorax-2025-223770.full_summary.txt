@@ -1,7 +1,0 @@
-Here's the reordered summary, maintaining the original sentence content:
-
-1. PRECISE-X is a newly developed and validated prediction model designed to estimate the risk of a first severe COPD exacerbation requiring hospitalisation, addressing a gap where prior exacerbation history is not yet available at diagnosis.
-2. Using UK CPRD Aurum primary care data (2004–2022) from 219,015 newly diagnosed COPD patients, the model predicts risk over 5 years (primary) and 12 months (secondary) based on routine clinical variables.
-3. The model requires four core predictors (age, sex, MRC dyspnoea score and FEV₁) and can incorporate 28 additional optional predictors (eg, smoking status, comorbidities, prior admissions/ED visits, eosinophils and inhaler therapies).
-4. In internal-external cross-validation across nine UK regions, it showed strong discrimination and robust calibration (c-statistic 0.836 for 5-year prediction and 0.756 for 1-year prediction) with generally positive net benefit across a wide range of decision thresholds.
-5. The authors conclude that PRECISE-X can support earlier risk stratification and proactive COPD management, though independent validation outside the UK is still needed.

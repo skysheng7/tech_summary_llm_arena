@@ -1,3 +1,0 @@
-Here is a summary of the article in 5 sentences:
-
-DeBERTNeXT is a pre-trained language model that can be fine-tuned for various natural language processing (NLP) tasks, including fake news detection. The authors propose a multimodal approach to detect fake news by combining text and visual features using a combination of transformer-based models. The proposed DeBERTNeXT architecture consists of three main components: a textual input module, a visual input module, and a fusion module that combines the output of both modules. Experimental results show that the proposed approach outperforms state-of-the-art methods on the Fakeddit dataset.

@@ -1,3 +1,0 @@
-Here is a paraphrased version of the summary:
-
-This article introduces DeBERTNeXT, a language model that has undergone pre-training and can be adapted for diverse natural language processing applications, such as identifying fabricated news. To address the challenge of fake news detection, the researchers put forth a strategy that integrates both textual and visual data by employing several transformer-based models. The DeBERTNeXT framework is structured around three core elements: one for processing textual input, another for visual input, and a final module responsible for merging the information from the preceding two. Evidence from experiments indicates that this proposed methodology surpasses existing leading techniques when evaluated on the Fakeddit dataset.
