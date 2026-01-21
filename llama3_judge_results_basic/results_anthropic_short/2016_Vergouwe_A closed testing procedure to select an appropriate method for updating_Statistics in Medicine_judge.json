@@ -1,14 +1,3 @@
 {
-  "quality": "Excellent",
-  "summary": "The article proposes a closed testing procedure for updating clinical prediction models when applying them to new populations. The procedure selects the best method from three update methods of increasing complexity: recalibration in the large, recalibration, and model revision.",
-  "strengths": [
-    "A systematic approach to selecting the best method for updating prediction models",
-    "The procedure prevents overfitting in small samples by selecting simpler methods unless strong evidence supports more complex updates",
-    "Three clinical examples demonstrate the effectiveness of the procedure"
-  ],
-  "weaknesses": [
-    "No discussion on how to handle missing values or outliers in the data",
-    "Lack of consideration for potential biases in the data or update methods",
-    "The procedure assumes that the underlying model is correct, which may not always be the case"
-  ]
+  "summary": "This article proposes a closed testing procedure to systematically select the best method for updating clinical prediction models when applying them to new populations. The authors describe three update methods of increasing complexity: recalibration in the large (updating intercept only), recalibration (updating intercept and slope), and model revision (re-estimating all coefficients). The closed testing procedure uses sequential likelihood ratio tests while maintaining the Type I error rate, preventing overfitting in small samples by selecting simpler methods unless strong evidence supports more complex updates. Three clinical examples (prostate cancer screening, traumatic brain injury, and pediatric fever) demonstrate that the procedure selects parsimonious methods in smaller samples and prevents overfitting compared to automatic model revision. Simulation studies confirm that the procedure maintains acceptable Type I error rates (slightly above 0.05 for small samples, converging to 0.05 with larger samples) and produces lower mean squared error in coefficient estimation compared to full model revision."
 }

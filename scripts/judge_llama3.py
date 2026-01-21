@@ -133,16 +133,26 @@ def judge_all_summaries(
         summary_folder_name = Path(summary_folder).name
         judge_filename = Path(judge_prompt_path).stem
         judge_type = judge_filename.split("_")[-1]
-        summary_model = summary_folder_name.split("_")[1]
         output_folder = os.path.join(
-            f"{summary_model}_judge_results_{judge_type}", summary_folder_name
+            f"{model}_judge_results_{judge_type}", summary_folder_name
         )
 
     os.makedirs(output_folder, exist_ok=True)
 
     client = load_ollama_client()
 
-    summary_files = list(Path(summary_folder).glob("*_summary.txt"))
+    # specific files to process
+    target_files = [
+        "sky_crowdsource_lameness_summary.txt",
+        "Exoskeletons_Stroke_summary.txt",
+    ]
+
+    # Build paths for target files only
+    summary_files = [
+        Path(summary_folder) / filename
+        for filename in target_files
+        if (Path(summary_folder) / filename).exists()
+    ]
 
     if len(summary_files) == 0:
         return {}

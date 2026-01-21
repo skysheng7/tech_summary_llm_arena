@@ -9,12 +9,12 @@ from general_utils import summarize_pdfs_by_index
 @click.command()
 @click.option(
     "--provider",
-    default="ollama",
+    default="anthropic",
     type=click.Choice(["openai", "anthropic", "google", "ollama"], case_sensitive=False),
     help="AI provider to use for summarization (default: anthropic)",
 )
 @click.option(
-    "--folder", default="input_docs", help="Path to folder containing PDF files"
+    "--folder", default="missed", help="Path to folder containing PDF files"
 )
 @click.option(
     "--start", default=0, type=int, help="Starting index (0-based) of files to process"
@@ -32,12 +32,12 @@ from general_utils import summarize_pdfs_by_index
 )
 @click.option(
     "--output",
-    default="results/results_ollama_short",
+    default="results/results_anthropic_short",
     help="Folder to save summary text files",
 )
 @click.option(
     "--model",
-    default="llama3",
+    default="claude-sonnet-4-5-20250929",
     help="Model to use. If not specified, uses provider's default model",
 )
 @click.option("--max-tokens", default=50000, help="Maximum tokens in response")

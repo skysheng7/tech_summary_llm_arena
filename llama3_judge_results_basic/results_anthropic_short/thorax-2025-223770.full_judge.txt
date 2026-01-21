@@ -1,7 +1,0 @@
-Here is the JSON output for the summary:
-
-```
-{
-  "title": "# Summary of PRECISE-X Model for Predicting First Severe COPD Exacerbation",
-  "summary": "This study developed and validated **PRECISE-X**, a risk prediction model that estimates the likelihood of a first severe COPD exacerbation requiring hospitalization in newly diagnosed patients. Using data from 219,015 UK primary care patients (2004-2022), the model demonstrated excellent predictive accuracy with a c-statistic of 0.836 for 5-year prediction and 0.756 for 1-year prediction. The model requires only four mandatory predictors (age, sex, FEV₁, and MRC dyspnoea score) plus 28 optional clinical variables, making it practical for routine clinical use. Internal-external cross-validation across nine UK regions showed robust calibration and positive clinical utility across various risk thresholds. This tool addresses a critical gap in COPD care by enabling early identification of high-risk patients before they experience their first severe exacerbation, potentially supporting proactive interventions and improving patient outcomes."
-}

@@ -1,5 +1,0 @@
-{
-"summary": "This paper presents **LightGCN**, a simplified Graph Convolutional Network for collaborative filtering in recommendation systems. The authors demonstrate through ablation studies that two common GCN components—**feature transformation and nonlinear activation**—actually hurt performance in recommendation tasks and make training more difficult. 
-LightGCN uses only **neighborhood aggregation** (the essential component of GCN) and combines embeddings from multiple layers through a weighted sum to create final user/item representations. The model achieves approximately **16% improvement** over the state-of-the-art NGCF model while being simpler, easier to train, and having the same parameter complexity as matrix factorization. 
-Experiments on three datasets (Gowalla, Yelp2018, Amazon-Book) confirm that this simplified design leads to lower training loss, better generalization, and superior recommendation accuracy compared to heavier GCN-based models."
-}

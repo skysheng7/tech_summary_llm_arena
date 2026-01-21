@@ -1,8 +1,0 @@
-Here is the JSON output:
-
-{
-  "summary": {
-    "title": "Summary of the Article",
-    "text": "This systematic review examines the therapeutic effects of wearable robotic gloves on hand function improvement in stroke patients. The authors searched five databases through September 2021 and identified only 5 studies meeting their inclusion criteria. Key findings revealed that all studies showed positive therapeutic effects, but had significant limitations including small sample sizes (3-13 participants), lack of randomized controlled trials, focus primarily on chronic stroke patients with mild-moderate spasticity, and methodological quality scores ranging from 7-10 out of 12 points. The review highlights five different robotic glove devices (EPHO, PneuGlove, X-Glove, HiM system, and IronHand system) used in interventions lasting 4-6 weeks. The authors conclude that despite promising results, more comprehensive studies with larger sample sizes, higher methodological quality, standardized protocols, and comparison with conventional therapies are needed to confirm the therapeutic effectiveness of wearable robotic gloves for stroke rehabilitation."
-  }
-}

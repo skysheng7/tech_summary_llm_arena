@@ -3,31 +3,37 @@ import requests
 from google import genai
 from google.genai import types
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Initialize the Gemini client
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+
 
 def send_request(prompt, max_tokens):
     try:
         response = client.models.generate_content(
-            model='gemini-2.5-flash-lite',
+            model="gemini-2.5-flash-lite",
             contents=[prompt],
             config={
-                'max_output_tokens': max_tokens,
-                'temperature': 1.0,
-                'thinking_config': {
-                    'include_thoughts': True, 
-                    'thinking_budget': 0 
-                }
+                "max_output_tokens": max_tokens,
+                "temperature": 1.0,
+                "thinking_config": {"include_thoughts": True, "thinking_budget": 0},
             },
         )
         if response:
             print(f"Prompt tokens: {response.usage_metadata.prompt_token_count}")
             print(f"Thinking tokens: {response.usage_metadata.thoughts_token_count}")
-            print(f"Output tokens (Answer): {response.usage_metadata.candidates_token_count}")
+            print(
+                f"Output tokens (Answer): {response.usage_metadata.candidates_token_count}"
+            )
             print(f"Total tokens used: {response.usage_metadata.total_token_count}")
             return response.text
     except Exception as e:
         print(e)
-    return ''
-
+    return ""
 
 
 PERTURBATION_PROMPTS = {
@@ -50,12 +56,12 @@ PERTURBATION_PROMPTS = {
     ),
 }
 
-# folder of original summaries
-input_folder = "results/results_gemini"
+# folder of original summaries (relative to project root)
+input_folder = "results/results_anthropic_short"
 
 for perturb_name, prompt_template in PERTURBATION_PROMPTS.items():
-    # folder for perturbed summaries
-    output_folder = f"results_gemini_{perturb_name}"
+    # folder for perturbed summaries (matching existing structure with typo)
+    output_folder = f"pertubations_anthropic_summaries/results_anthropic_{perturb_name}"
     os.makedirs(output_folder, exist_ok=True)
 
     for filename in os.listdir(input_folder):
