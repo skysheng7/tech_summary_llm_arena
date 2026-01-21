@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary clearly states the central research question, which is to investigate the efficacy of robotic gloves for improving hand function in stroke patients. However, it could have been more explicit about the 'therapeutic effects' aspect."
+  },
+  "factual_accuracy": {
+    "score": 7,
+    "reasoning": "The summary generally aligns with the paper's findings, correctly identifying positive outcomes in range of motion, strength, and spasticity. However, it overstates the certainty of these findings, and the paper mentions limitations and the need for more research, which the summary also notes but perhaps with less emphasis on the nuance of 'limited evidence' rather than 'no evidence'."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 6,
+    "reasoning": "The summary uses some technical terms like 'spasticity' and 'therapeutic intervention' without explicit explanation. While 'spasticity' is common in this context, more explanation would enhance clarity. The use of phrases like 'abundantly clear' and 'absolutely necessary' makes the language less neutral and more conversational than typical research summaries."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt explicitly asked for a 5-sentence summary. The generated summary is significantly longer and more verbose, divided into three distinct paragraphs. This demonstrates a complete disregard for the sentence limit instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary covers the main points: the positive effects of robotic gloves, the limitations of current research (especially long-term effects), and the call for more standardized and high-quality studies. It could have more precisely highlighted the specific types of improvements (e.g., finger extension vs. grip) mentioned in the paper."
+  },
+  "hallucination": {
+    "score": 8,
+    "reasoning": "The summary stays largely within the bounds of the paper's content. However, the phrasing like 'definitively demonstrated' for positive outcomes might be an overstatement, as the paper itself notes limitations and the need for more evidence. The description of the call for 'standardized procedures for measuring outcomes' is present, but the emphasis on 'practical viability' and 'real-world application' is a slight interpretation rather than a direct quote or summary of a specific finding."
+  },
+  "total_score": 37,
+  "overall_assessment": "This summary fails to adhere to the core instruction of providing a 5-sentence output, instead offering a lengthy, multi-paragraph text. While it touches upon the key findings and limitations of the paper, its lack of conciseness and the slightly overstated claims detract from its quality as a summary for the given prompt."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the research question, which is to investigate the effectiveness of combining exoskeleton/robotic devices with VR, AR, or gamification for post-stroke rehabilitation, and to identify trends and challenges."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings and statistics from the paper, such as the number of studies included (30), participant numbers (385), the focus on upper limb rehabilitation (28/30 studies), and the distribution of interaction types (VR and games being prominent, AR absent)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is well-written and easy to understand. It correctly uses and contextualizes terms like 'systematic review', 'post-stroke rehabilitation', 'exoskeleton', 'VR', 'AR', 'gamification', and mentions specific assessment scales without needing further explanation within the summary context."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is significantly longer, exceeding 5 sentences and structured into multiple paragraphs, which does not adhere to the sentence count constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the most important aspects of the paper, including the methodology (PRISMA, databases searched), the key findings (positive improvements, upper limb focus, clinical setting prevalence, lack of AR studies), and the conclusions (potential for home-based rehab, need for further research)."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements in the summary are directly supported by the content of the original paper. The summary accurately reflects the methods, findings, and conclusions presented."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary is excellent in terms of content, accuracy, and clarity, effectively capturing the research question, methodology, findings, and conclusions of the paper. However, it critically fails to adhere to the prompt's requirement for a 5-sentence summary, significantly exceeding this length and presenting the information in multiple paragraphs."
+}

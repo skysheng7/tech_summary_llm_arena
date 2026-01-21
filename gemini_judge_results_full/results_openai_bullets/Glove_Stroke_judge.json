@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly and concisely states the research question in the first bullet point: 'The systematic review investigated if wearable robotic gloves improve hand function in post-stroke individuals.'"
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All factual information presented in the bullet points, including the number of records, studies included, participant numbers, device names, intervention details, and quality assessment scores, are accurately reflected from the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses some technical terms like 'systematic review,' 'RCTs,' and specific device names (EPHO, PneuGlove, etc.). While these are central to the paper, they are presented in context. The terms are generally understandable within the framework of the research topic, and the overall coherence is good. No explicit definitions are provided, which slightly lowers the score."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The original prompt asked for a 5-sentence summary. The provided summary is presented as a list of bullet points, not sentences, and contains far more than 5 distinct pieces of information. The format and length do not adhere to the prompt's instructions."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the critical aspects of the paper: the research question, methodology (search, inclusion criteria), key results (number of studies, participant characteristics, findings of improvement), limitations (quality, sample size, lack of RCTs), and the conclusion/recommendations for future research. It captures the essence of the paper's contribution."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary, including the number of records, the types of studies included, the devices discussed, the outcomes reported, and the conclusions drawn, are directly supported by the content of the original research paper."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary is highly comprehensive and factually accurate, effectively capturing the key findings, methods, and conclusions of the research paper. However, it completely failed to adhere to the prompt's instruction for a 5-sentence output, instead providing a detailed bulleted list."
+}

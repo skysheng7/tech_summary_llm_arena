@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question of the paper, which is to present a fast and efficient algorithm for community detection in large networks."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key factual information from the paper, including the algorithm's heuristic approach, its two-phase iterative process, its speed (118 million nodes in 152 minutes), its application to the Belgian mobile phone network, and its advantages over previous methods."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'modularity', 'communities', and 'meta-networks' which are central to the paper. While these terms are not explicitly defined, their context within the description of the algorithm and its goals makes them reasonably understandable for someone familiar with graph theory or network analysis concepts. The flow and coherence are good."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary is 5 sentences long. Therefore, the score is 10."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most important contributions of the paper: the introduction of a novel, fast algorithm, its methodology (modularity optimization, two-phase iterative process), its performance on large networks, and a key application example (Belgian mobile phone network) which highlights its effectiveness."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the original paper. There are no unsupported or fabricated statements."
+  },
+  "total_score": 58,
+  "overall_assessment": "This summary effectively captures the essence of the research paper, accurately detailing the algorithm's methodology, performance, and significance. It successfully adheres to the prompt's length constraint and presents the information in a coherent and factually accurate manner, making it a strong summary."
+}

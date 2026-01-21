@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question, which is to investigate the effectiveness and scalability of a remote, comparison-based method for assessing dairy cow lameness using crowd workers."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical values and key findings mentioned in the summary (e.g., scale of -3 to +3, 50 crowd workers per task, 11 tasks, 10 video pairs per task, 88 test comparisons, ICC values of 0.89-0.91, and the sufficiency of 10 crowd workers) are accurately reflected in the original paper."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is highly coherent and easy to understand. While it uses some technical terms like 'intraclass correlation coefficient' (ICC), it contextually explains its meaning and significance (agreement) and also explains the comparison scale (-3 to +3) and the overall methodology clearly."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary, but the provided summary is presented as a list of bullet points, which is significantly more than 5 sentences and does not adhere to the requested format."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively covers all the key aspects of the paper: the methodology, the participants, the results of crowd worker agreement (individually and averaged), the comparison with experts, the optimal number of workers, and the overall conclusions regarding cost-effectiveness and data generation for AI. It captures the most important take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the information presented in the research paper."
+  },
+  "total_score": 50,
+  "overall_assessment": "The summary is excellent in terms of content, factual accuracy, and clarity, providing a comprehensive overview of the research. However, it completely fails to adhere to the prompt's instruction of a 5-sentence summary, instead presenting a detailed bulleted list."
+}

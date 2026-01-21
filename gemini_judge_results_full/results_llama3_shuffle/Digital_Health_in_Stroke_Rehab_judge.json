@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 5,
+    "reasoning": "The summary touches upon the scope of the review (studies on digital technologies in stroke rehabilitation) and mentions the potential benefits and challenges, which are related to the research questions. However, it doesn't explicitly state the research questions as presented in the paper (e.g., 'How are DHTs used in stroke rehabilitation across Canada?')."
+  },
+  "factual_accuracy": {
+    "score": 5,
+    "reasoning": "The summary states that the article reviews 61 studies, but the abstract and Figure 1 clearly indicate that only 14 studies were included in the review. This is a significant numerical inaccuracy."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses terms like 'telerehabilitation', 'virtual reality', and 'gaming technologies' which are common and understandable in this context. It also mentions 'digital technologies' and 'stroke rehabilitation' which are explained by the paper's title and abstract. The coherence is good."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, as requested by the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "The summary touches on the types of technologies, potential benefits, and challenges, which are relevant. However, it misses crucial details like the specific context of Canada, the focus on upper extremity function, and the methodological approach (scoping review). The numerical inaccuracy of 61 studies instead of 14 also detracts from its completeness."
+  },
+  "hallucination": {
+    "score": 0,
+    "reasoning": "The summary states that the article reviews 61 studies. The original paper clearly states in the abstract and Figure 1 that the review included 14 studies. This is a direct contradiction and a fabrication of a key numerical detail."
+  },
+  "total_score": 35,
+  "overall_assessment": "The summary successfully adheres to the sentence limit requested in the prompt. However, it contains a significant factual inaccuracy regarding the number of studies reviewed (stating 61 instead of 14) and misses several key specific details about the paper's scope and findings, such as the Canadian context and the focus on upper extremity rehabilitation."
+}

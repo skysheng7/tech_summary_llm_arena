@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 5,
+    "reasoning": "The summary mentions the research question (how competition affects dominance hierarchies) but doesn't explicitly state it. It describes the investigation into 'precisely how increased levels of competition exert their influence on the established pecking orders'."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the findings regarding competition flattening hierarchies, the role of resource valuation, and the potential for both improved welfare and increased stress. No numerical data was presented to assess accuracy."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 7,
+    "reasoning": "The summary uses terms like 'dominance hierarchies,' 'pecking orders,' and 'resource valuation' without explicit explanation, assuming the reader's understanding. However, the overall language is relatively accessible. The phrase 'desperado effect' from the paper is missing, which would have been a key term."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary has 6 sentences and is described as 'longer, more redundant'."
+  },
+  "completeness_and_relevance": {
+    "score": 7,
+    "reasoning": "The summary covers the main finding about hierarchy flattening and the trade-offs (improved welfare vs. increased stress). However, it misses the specific quantitative findings on how steepness changed with feeder occupancy and the specific increase in 2-way dyads."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are supported by the content of the original paper."
+  },
+  "total_score": 39,
+  "overall_assessment": "The summary accurately conveys the main findings about how competition impacts dominance hierarchies, but it fails to adhere to the requested sentence count and lacks specific details on the quantitative results. While the language is generally understandable, some key technical terms are not explained."
+}

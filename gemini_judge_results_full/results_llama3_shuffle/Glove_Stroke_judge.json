@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the central research question of the article, which is to investigate the therapeutic effects of wearable robotic gloves on hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 8,
+    "reasoning": "The summary accurately reflects the general findings of the paper, stating that robotic gloves show benefits in hand movement, strength, and spasticity reduction. It also correctly mentions the limitations regarding long-term effects and the need for more research and standardization. However, it does not include specific numerical results or detailed findings from the included studies, which would have been more precise."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses clear and understandable language. It avoids overly technical jargon and explains the general concepts of robotic glove effectiveness and research limitations in a coherent manner."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is presented in exactly 5 sentences, adhering perfectly to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary captures the main takeaways: the potential benefits of robotic gloves, the limitations in current research (evidence level, sample size, standardization), and the call for further studies. It could have briefly mentioned the specific types of outcomes that were improved or the types of devices discussed for greater completeness."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the information presented in the research paper. No claims are made that are not found within the original text."
+  },
+  "total_score": 56,
+  "overall_assessment": "This summary effectively captures the essence of the research article within the requested sentence limit. It accurately reflects the study's findings, limitations, and future recommendations, demonstrating good coherence and factual accuracy. While it omits specific numerical details, it successfully conveys the core message of the paper."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the main research goal: to develop and validate a novel method for lameness assessment in dairy cows using crowd-sourced data and pairwise comparisons, aiming to create a lameness hierarchy and improve upon traditional gait scoring."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reports the key numerical findings, including the low ICC for traditional gait scoring (0.44-0.62), high ICC for the proposed expert pairwise assessment (0.81), high ICC for crowd worker agreement with experts (0.85), and the efficiency metric of 8 crowd workers and 37% of comparisons."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses terms like 'lameness hierarchy,' 'pairwise comparisons,' and 'ICC' which are central to the paper. While 'ICC' isn't explicitly defined, its context within reliability scores makes its meaning inferable. The flow is logical and easy to follow."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The provided summary (Version 1, 2, or 3) consists of exactly 5 sentences, directly fulfilling the prompt's requirement."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the core contributions: the proposed method (pairwise comparison for hierarchy), its superiority over traditional methods (lower reliability), its feasibility with crowd workers, and its efficiency (reduced workers/comparisons), all of which are key takeaways from the paper."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the information presented in the original research paper."
+  },
+  "total_score": 59,
+  "overall_assessment": "The summary is excellent, accurately capturing the research question, key findings, and implications of the study within the requested sentence limit. It effectively highlights the advantages of the proposed crowd-sourced pairwise assessment method over traditional gait scoring."
+}

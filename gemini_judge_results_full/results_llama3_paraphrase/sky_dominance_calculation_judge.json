@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary implies the research question is about how competition affects dominance hierarchies, which is accurate. However, it doesn't explicitly state the question or hypotheses tested."
+  },
+  "factual_accuracy": {
+    "score": 7,
+    "reasoning": "The summary correctly states that increased competition flattens dominance hierarchies and makes resource sharing more equitable. It also mentions potential increases in aggression and stress. However, it doesn't include specific numerical findings from the paper and the claim about 'suboptimal group management or insufficient resources' potentially triggering aggression is not directly stated as a finding in the summary."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'dominance structures,' 'competitive pressures,' and 'social rankings' which are understandable in context. It avoids overly technical jargon. The concept of a 'flattened hierarchy' is implicitly explained through the idea of 'more equitable sharing of resources.'"
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The summary is 4 sentences long, not the requested 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 7,
+    "reasoning": "The summary captures the main takeaway: competition flattens dominance hierarchies. It also touches upon the implications (more equitable sharing, potential for aggression). However, it misses the specific quantitative results (e.g., the decrease in hierarchy steepness per percentage increase in feeder occupancy) and the methodological details (Elo ratings, feeder occupancy). The claim about 'suboptimal group management' leading to aggression is an interpretation that goes slightly beyond the direct findings presented."
+  },
+  "hallucination": {
+    "score": 5,
+    "reasoning": "The summary includes the idea that 'it may also trigger elevated levels of aggression and stress, particularly in situations where group management is suboptimal or resources are insufficient.' While increased agonistic interactions (a form of aggression) are mentioned in the paper, the direct link to 'suboptimal group management' and 'stress' as a consequence described in the summary is not explicitly detailed as a finding of this specific study. It's a plausible extrapolation but not a direct paraphrase of the paper's conclusions."
+  },
+  "total_score": 35,
+  "overall_assessment": "The summary effectively conveys the main finding that increased competition flattens dominance hierarchies, leading to more equitable resource access. However, it falls short of the requested sentence count and lacks specific quantitative details or methodological insights from the paper. It also introduces a claim about suboptimal management leading to aggression and stress that is not directly supported by the presented findings."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly states the main research question of the article, which is to investigate the therapeutic effects of wearable robotic gloves on improving hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings and limitations mentioned in the paper. It correctly states that the studies found positive effects on hand function, decreased spasticity (though this is not explicitly stated in the abstract/conclusion, it is implied by 'therapeutic effects' and mentioned in the discussion), and highlighted the need for more research on long-term effects and standardized outcome measures. The specific mention of reduced muscle stiffness/spasticity is supported by the discussion section."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is coherent and easy to understand. It uses clear language and avoids overly technical jargon. Terms like 'therapeutic effects,' 'hand mobility and power,' and 'muscle stiffness' are generally understood in context or implicitly explained by their use."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The prompt specifically asked for a 5-sentence summary, and all provided options (Options 1, 2, and 3) are exactly 5 sentences long."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively captures the main points of the paper: the positive therapeutic effects of robotic gloves, the identified limitations (long-term effects, documentation, practical application), the call for standardized outcome measures, and the overall conclusion that robotic gloves show promise but require further research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the research paper. There are no claims made that are not present in the original document."
+  },
+  "total_score": 60,
+  "overall_assessment": "The provided summaries are excellent, accurately reflecting the paper's findings, limitations, and future directions within the requested sentence count. They are well-written, coherent, and demonstrate a strong understanding of the research question and conclusions."
+}

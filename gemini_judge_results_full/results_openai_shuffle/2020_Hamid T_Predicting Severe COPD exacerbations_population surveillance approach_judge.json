@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the core research question: developing a population surveillance model using administrative data to predict severe COPD exacerbations."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key numerical findings, including the AUC values (0.82 for gradient boosting and 0.68 for the reference model) and the data timeframe (1997-2016)."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (e.g., COPD, administrative data, AUC, gradient boosting) and explains the context of these terms (e.g., predicting hospitalizations, temporal validation) in a coherent manner that is easy for a reader to understand without extensive prior knowledge."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary captures the most critical aspects of the study: the data source, the objective, the methodology (comparison of models, temporal validation), the best performing model and its performance, and the main conclusion regarding the utility for population surveillance and preventive interventions."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the research paper."
+  },
+  "total_score": 60,
+  "overall_assessment": "This summary is excellent. It accurately captures the research question, methodology, key findings, and conclusions of the paper within the requested sentence limit. The use of terminology is appropriate and coherent, making it highly informative and well-written."
+}

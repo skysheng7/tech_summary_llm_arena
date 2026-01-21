@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 0,
+    "reasoning": "The summary does not identify or address any research question from the paper. Instead, it states that the provided text cannot be summarized."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately identifies that the provided text is not a coherent article suitable for a 5-sentence summary and correctly describes it as a collection of references, citations, and hyperlinks."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary is coherent and uses simple language. It correctly identifies the nature of the provided text, which consists of references and citations, and explains why it cannot be summarized in the requested format."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary of the article. The provided summary explicitly states that it cannot fulfill this request and offers a different approach. The output is also only 2 sentences, not 5."
+  },
+  "completeness_and_relevance": {
+    "score": 0,
+    "reasoning": "The summary is irrelevant because it fails to summarize the actual content of the paper. Instead, it claims the paper cannot be summarized and focuses on the format of the provided input, which was not what the user intended to provide for summarization."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary makes no claims about the paper's content that are not supported. Its claims are about the *inability* to summarize the paper due to its format, which is accurate given the input it received."
+  },
+  "total_score": 30,
+  "overall_assessment": "The summary correctly identifies that the provided input was not a summarizable article and accurately describes its format. However, it fails completely to follow the prompt by not providing a summary and instead stating that it cannot be done. This makes the summary irrelevant to the user's likely intent."
+}
