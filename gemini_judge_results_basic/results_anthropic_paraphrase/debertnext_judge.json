@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the core research problem: developing a multimodal framework for fake news detection and the proposed solution: DeBERTNeXT."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the models used (DeBERTa V3, ConvNeXT), the datasets (Fakeddit, Politifact, Gossipcop), the performance metrics (accuracy), and the reported improvements over existing models."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses key technical terms like 'multimodal', 'DeBERTa V3', and 'ConvNeXT' which are central to the paper's contribution. While it doesn't explain them in depth, their context within the fake news detection task is clear. The coherence is high."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. All provided paraphrases are significantly longer than 5 sentences."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the essential aspects: the problem, the proposed solution (model architecture), the datasets, the performance, and the key advantages over prior work. All information is highly relevant to the paper's contribution."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the information presented in the paper without introducing any unsupported claims or fabricating details."
+  },
+  "total_score": 49,
+  "overall_assessment": "The summary excels in its factual accuracy, relevance, and clarity regarding the technical contributions of the paper. However, it fails to adhere to the sentence limit specified in the prompt, significantly exceeding it in all provided paraphrases."
+}

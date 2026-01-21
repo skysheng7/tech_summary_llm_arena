@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of developing and evaluating a crowdsourced method for lameness assessment in dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary correctly reports the key findings, including the agreement levels (ICC values), the number of workers needed, and the benefits of the method."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology like 'crowdsourced comparative assessments' and 'ICC' without explicitly explaining them, assuming reader familiarity. However, the context makes the terms largely understandable. The flow is coherent."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers all the most crucial aspects: the method, the participants, the key results (agreement levels and worker numbers), and the implications/applications of the study. It is highly relevant to the paper's content."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the content of the original paper."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent, accurately reflecting the paper's core findings and methodology within the strict sentence limit. Its main strength lies in its conciseness and factual precision, effectively conveying the essence of the research."
+}

@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 9,
+    "reasoning": "The summary accurately captures the core research question: the effectiveness of VR-based robotic training for stroke rehabilitation."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the study regarding improvements in balance, gait, and daily living activities."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The terms used are standard for the field and are presented coherently. 'Lower extremity rehabilitation' is clear, and the connection between VR, robotics, and improved outcomes is well-articulated."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is presented as 5 distinct bullet points, which effectively functions as 5 sentences for the purpose of the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 8,
+    "reasoning": "The summary covers the main aspects of the study, including the intervention, outcomes, and conclusions. However, it omits specific details about the control group and statistical significance which were present in the original paper and could have added more depth."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All points in the summary are directly supported by the information presented in the original research paper."
+  },
+  "total_score": 56,
+  "overall_assessment": "This summary effectively captures the essence of the research paper, accurately reflecting the study's objective and findings regarding VR-based robotic training for stroke rehabilitation. It adheres well to the sentence limit and presents the information coherently and factually."
+}

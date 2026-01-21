@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies the central research question: how AI models, specifically DALL-E 3, erase the reality of intensive livestock farming through prompt revision and the implications of this bias."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings of the paper, including the default pastoral bias, the effect of disabling prompt revision, the regional variations observed, and the authors' conclusions about the 'coded gaze' and its consequences."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 10,
+    "reasoning": "The summary uses appropriate terminology (e.g., 'prompt revision,' 'pastoral scenes,' 'intensive conditions,' 'coded gaze') and explains them through context, making the overall narrative coherent and easy to understand."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is exactly 5 sentences long, adhering perfectly to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most critical aspects of the paper: the problem (erasure of reality), the mechanism (prompt revision), the evidence (shift in images when revision disabled, regional data), and the implications (misinformation, social sustainability). It remains highly relevant to the core research."
+  },
+  "hallucination": {
+    "score": 0,
+    "reasoning": "The summary accurately reflects the content of the provided paper and does not introduce any unsupported claims or information."
+  },
+  "total_score": 60,
+  "overall_assessment": "This is an excellent summary that perfectly adheres to the prompt's length constraint. It accurately captures the core research question, findings, and implications of the paper, using clear and coherent language. The summary effectively distills the complex findings into a concise and informative overview."
+}

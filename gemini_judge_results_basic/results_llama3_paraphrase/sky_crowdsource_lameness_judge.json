@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question, which is about using crowdsourcing for lameness assessment in dairy cattle and its effectiveness compared to traditional methods."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All information presented in the summary is factually accurate according to the provided paper. The summary correctly identifies the use of crowdsourcing, the comparison of individual vs. pooled assessments, and the potential for a reliable system."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary generally uses coherent language. While 'crowdsourcing' and 'machine learning' are core concepts, they are not explicitly explained, which is acceptable for a summary. The core idea of 'lameness assessment' is conveyed effectively. The phrasing 'pooling assessments from a substantial group of participants yielded a highly accurate outcome' is clear."
+  },
+  "prompt_following": {
+    "score": 5,
+    "reasoning": "The prompt asked for a 5-sentence summary. The provided summary has 5 sentences. The prompt also mentioned retaining all original information and paraphrasing it. The summary is 5 sentences but is presented as a single paragraph rather than 5 distinct sentences. However, since it does contain 5 sentences, the score is 5, but could be higher if sentences were explicitly separated."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most relevant aspects of the paper: the method used (crowdsourcing, online tool, video viewing), the key finding (pooled assessments are accurate), the implication (dependable system for lameness identification), and broader applications (animal welfare). It omits detailed technicalities like ICC scores or specific filtering methods, which is appropriate for a concise summary."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabricated information in the summary. All points made are directly supported by the content of the research paper."
+  },
+  "total_score": 53,
+  "overall_assessment": "This summary effectively captures the essence of the research paper by accurately describing the methodology, key findings, and implications. It adheres to the sentence count requested in the prompt and provides a concise yet comprehensive overview of the study's contribution to lameness assessment in dairy cattle."
+}

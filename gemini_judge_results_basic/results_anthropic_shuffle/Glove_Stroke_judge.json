@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly identifies and addresses the core research question: the therapeutic effects of wearable robotic gloves on hand function in stroke patients."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the number of studies included (5), the databases searched, the time frame, the specific devices mentioned, the intervention duration, the sample sizes (3-13), the methodological quality scores (7-10/12), and the limitations identified. It also correctly states that no RCTs were found."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses appropriate terminology for a research review. While terms like 'RCTs', 'spasticity', and 'methodological quality' are standard in this field, they are used in a context that is understandable to someone familiar with research literature. The flow is coherent and logical."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is presented in exactly 5 sentences, adhering strictly to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most crucial aspects of the paper: the review's objective, methodology (briefly), key findings (positive effects), significant limitations, and the authors' conclusion. All points are highly relevant to the research question."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the content of the paper and does not introduce any unsupported claims or information not present in the original text."
+  },
+  "total_score": 59,
+  "overall_assessment": "This summary is excellent, effectively distilling the core findings and limitations of the systematic review into the requested 5 sentences. It is factually accurate, well-organized, and directly addresses the research question with appropriate terminology."
+}

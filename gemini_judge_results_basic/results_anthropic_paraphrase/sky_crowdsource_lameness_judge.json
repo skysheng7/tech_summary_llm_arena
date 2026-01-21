@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary accurately captures the core research question of developing and validating a crowdsourced, comparative lameness assessment method for dairy cattle."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "All numerical values and descriptions of the methodology and findings are consistent with the original paper. For example, the range of ICC values for crowd workers and experienced assessors, the number of tasks and video pairs, and the conclusion about the required number of workers are all accurately represented."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 9,
+    "reasoning": "The summary uses relevant terminology like 'crowdsourced comparative judgments,' 'Amazon Mechanical Turk,' and 'Intraclass Correlation Coefficients (ICC)' coherently. The explanation of the comparative assessment method is clear. While ICC is mentioned, a brief explanation of what it signifies (agreement/reliability) would enhance coherence further, though it's generally understood in this context."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary is precisely 5 sentences long, directly adhering to the prompt's constraint."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the key aspects of the research: the novel method, its implementation, the comparison with experts, the statistical findings (ICC values), the efficiency in terms of worker numbers, and the potential applications. All elements are highly relevant to the paper's contribution."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "There are no unsupported claims or fabricated information in the summary. All points made are directly derived from the content of the research paper."
+  },
+  "total_score": 59,
+  "overall_assessment": "This is an excellent summary that accurately and concisely captures the essence of the research paper. It effectively conveys the novel methodology, key findings regarding agreement levels and worker efficiency, and the practical implications of the study, all while adhering strictly to the sentence limit."
+}
