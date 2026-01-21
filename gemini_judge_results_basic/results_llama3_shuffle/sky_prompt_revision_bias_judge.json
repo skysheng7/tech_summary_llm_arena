@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 8,
+    "reasoning": "The summary touches on the core research question regarding AI's role in silencing realities and perpetuating misinformation. However, it is a bit general and could have been more specific to the paper's focus on livestock farming."
+  },
+  "factual_accuracy": {
+    "score": 9,
+    "reasoning": "The summary accurately reflects the general themes of AI bias, data influence, amplification of bias, and reinforcement of power structures as discussed in the paper. There are no obvious factual inaccuracies."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary uses terms like 'controversial realities,' 'misinformation,' 'societal biases,' 'amplification of bias,' and 'reinforce existing power structures' coherently. These terms are central to the paper's argument and are used appropriately."
+  },
+  "prompt_following": {
+    "score": 10,
+    "reasoning": "The summary strictly adheres to the 5-sentence limit requested in the prompt."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "While factually accurate, the summary is too general. It fails to mention the specific domain of livestock farming, which is the central case study and a key contribution of the paper. This omission makes the summary less relevant to the specific findings of the research."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "The summary does not contain any unsupported claims or information not present in the original paper."
+  },
+  "total_score": 45,
+  "overall_assessment": "The summary is concise and adheres to the sentence limit, accurately capturing the broad themes of AI bias and misinformation. However, its main weakness is its lack of specificity; it omits the paper's central focus on livestock farming, making it less comprehensive and relevant to the specific research presented."
+}

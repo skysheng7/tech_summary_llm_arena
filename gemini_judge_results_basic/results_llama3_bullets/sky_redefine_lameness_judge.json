@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 2,
+    "reasoning": "The summary does not identify or address a specific research question. Instead, it lists a collection of topics covered by 'various aspects' of lameness detection, which is too broad and lacks focus."
+  },
+  "factual_accuracy": {
+    "score": 4,
+    "reasoning": "The summary is a very general overview and doesn't contain specific factual claims that can be directly verified or refuted. However, it misrepresents the article's focus by framing it as a collection of disparate papers rather than a single, unified study. The article *is* about lameness detection but the summary frames it as a compilation of multiple distinct papers rather than a single study detailing a specific method."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 3,
+    "reasoning": "The summary uses terms like 'radar sensing,' 'camera-based technology,' 'inter-rater reliability,' and 'dominance hierarchies' without explaining them. The bulleted format and the sheer number of unrelated topics make the summary incoherent and difficult to follow. The phrase 'various aspects of lameness detection and measurement' is vague and not explained."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt asked for a 5-sentence summary. This summary is presented as a bulleted list containing 10 points, none of which are full sentences. Therefore, it completely fails to follow the prompt's constraints."
+  },
+  "completeness_and_relevance": {
+    "score": 5,
+    "reasoning": "The summary touches on the broad topic of lameness detection in dairy cattle, which is relevant. However, it fails to capture the specific novel approach (crowd-sourced lameness hierarchy) detailed in the paper. The inclusion of topics like 'dominance hierarchies' and 'benchmarking cow comfort' without context makes the summary less relevant to the core contribution of the paper."
+  },
+  "hallucination": {
+    "score": 5,
+    "reasoning": "The summary states 'The original papers presented in this article discuss various aspects...' and 'One paper proposes...', implying the article is a collection of multiple papers. The provided document is a single research paper. While it *cites* other papers, it presents its own singular methodology and findings. This framing is a misrepresentation, though not a complete fabrication of facts presented."
+  },
+  "total_score": 19,
+  "overall_assessment": "This summary is poor due to its failure to adhere to the prompt's sentence limit and format, instead presenting a disjointed bulleted list of broadly related topics. It misrepresents the article as a collection of disparate papers and lacks coherence and specific detail about the study's actual contributions."
+}
