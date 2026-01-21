@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the paper's main research question: to find a unifying principle for quantum 'no-go' results and to present unified schemes for quantum tasks."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the paper's core contributions, including the introduction of the 'no-encoding' theorem, the one-shot framework, and the conditions for state superposition, all of which are directly supported by the text."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary effectively explains key concepts like 'no-go' results, superposition, linear independence, and the 'one-shot' framework. While some technical terms like 'completely positive' are used without explicit definition, the overall coherence is good."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is significantly longer than 5 sentences, exceeding the specified constraint by a large margin."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary covers the most important contributions of the paper: the unifying no-go theorem, the one-shot framework for cloning/deleting, conditions for feasibility (linear independence), bounds on success probability, and new superposition schemes. It prioritizes the key findings accurately."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All claims made in the summary are directly supported by the provided text of the paper. No unsupported or fabricated information is present."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary excels in understanding and conveying the core research questions and contributions of the paper, accurately explaining complex concepts and their interrelations. However, it critically fails to adhere to the prompt's strict sentence limit, rendering it unsuitable for the requested format."
+}

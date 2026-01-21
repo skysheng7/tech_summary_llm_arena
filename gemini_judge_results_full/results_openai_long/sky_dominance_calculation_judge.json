@@ -1,0 +1,28 @@
+{
+  "research_question": {
+    "score": 10,
+    "reasoning": "The summary clearly articulates the research question at the beginning, asking whether the understanding of social ranking/pecking order among dairy cows changes with varying competition intensity for resources."
+  },
+  "factual_accuracy": {
+    "score": 10,
+    "reasoning": "The summary accurately reflects the key findings, including the decrease in hierarchy steepness with increased feeder occupancy, the increase in 2-way dyads, and the observation that dominant individuals lost more often at higher competition levels. It also correctly mentions the total number of cows and the duration of the study. No specific numerical errors were found in the summary provided."
+  },
+  "terminology_explanation_and_coherence": {
+    "score": 8,
+    "reasoning": "The summary explains terms like 'replacement' events and 'feeder occupancy' within the context of the research. It also clarifies the Elo rating system's purpose and the concept of 'dyads'. However, 'steepness of the social hierarchy' could be slightly more elaborated for a lay audience, although it's generally understandable in context."
+  },
+  "prompt_following": {
+    "score": 0,
+    "reasoning": "The prompt requested a 5-sentence summary. The provided summary is significantly longer, consisting of multiple paragraphs and many more than 5 sentences. The summary also states, 'Here's a rewritten, longer summary...', directly contradicting the prompt's instruction."
+  },
+  "completeness_and_relevance": {
+    "score": 10,
+    "reasoning": "The summary effectively covers the core research question, methodology (data collection, feeder occupancy, Elo ratings), key findings (flattening hierarchy, 2-way dyads, impact on dominant individuals), and the main conclusion regarding resource valuation overpowering intrinsic attributes. It captures the most important take-home messages."
+  },
+  "hallucination": {
+    "score": 10,
+    "reasoning": "All statements made in the summary are directly supported by the content of the provided paper. There are no claims made that are not present in the original text."
+  },
+  "total_score": 48,
+  "overall_assessment": "The summary provides a comprehensive and accurate overview of the research, effectively explaining the methodology and findings. However, it significantly fails to adhere to the prompt's strict sentence limit, being substantially longer than requested, which is its main weakness."
+}
