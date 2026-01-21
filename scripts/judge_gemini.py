@@ -200,30 +200,36 @@ def judge_all_summaries(
 
 
 if __name__ == "__main__":
-    # Iterate through all result folders except results_anthropic_short
-    results_base_path = "summary_short"
+    perturbations_base_path = "perturbations"
     judge_prompts = [
         "llm_judge_prompts/judge_basic.txt",
         "llm_judge_prompts/judge_full.txt",
     ]
 
-    # Get all folders in results directory
-    result_folders = [
+    level1_folders = [
         f
-        for f in os.listdir(results_base_path)
-        if os.path.isdir(os.path.join(results_base_path, f))
-        and f != "results_anthropic_short"
+        for f in os.listdir(perturbations_base_path)
+        if os.path.isdir(os.path.join(perturbations_base_path, f))
     ]
 
     for judge_prompt in judge_prompts:
-        for folder in result_folders:
-            summary_folder = os.path.join(results_base_path, folder)
+        for level1_folder in level1_folders:
+            level1_path = os.path.join(perturbations_base_path, level1_folder)
 
-            results = judge_all_summaries(
-                judge_prompt_path=judge_prompt,
-                summary_folder=summary_folder,
-                input_docs_folder="input_docs",
-                model="gemini-2.5-flash-lite",
-                max_tokens=4096,
-                temperature=1,
-            )
+            level2_folders = [
+                f
+                for f in os.listdir(level1_path)
+                if os.path.isdir(os.path.join(level1_path, f))
+            ]
+
+            for level2_folder in level2_folders:
+                summary_folder = os.path.join(level1_path, level2_folder)
+
+                results = judge_all_summaries(
+                    judge_prompt_path=judge_prompt,
+                    summary_folder=summary_folder,
+                    input_docs_folder="input_docs",
+                    model="gemini-2.5-flash-lite",
+                    max_tokens=4096,
+                    temperature=1,
+                )
