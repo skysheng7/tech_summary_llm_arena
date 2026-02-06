@@ -67,7 +67,6 @@ tech_summary_llm_arena/
 │       ├── score_scatter_plots.png
 │       └── summary_style_comparison_scatter_plots.png
 ├── scripts/                 # Python scripts for summarization and analysis
-├── notebook/
 ├── .gitignore               # Git ignore rules
 ├── environment.yml          # Conda environment specifications
 ├── conda-lock.yml           # Locked dependency versions for various OS
